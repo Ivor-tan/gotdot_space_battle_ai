@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="AddPlayer" format=3 uid="uid://byo8jucp6brnm"]
+
+[ext_resource type="Texture2D" uid="uid://i4jmuirlogqh" path="res://icon.svg" id="1_hfucn"]
+[ext_resource type="Script" uid="uid://165cjfddj82o" path="res://Data/DataCS/Enhance/AddPlayer.cs" id="2_883oq"]
+[ext_resource type="Resource" uid="uid://cmqqvdad5atkg" path="res://Data/PlayerShips/SHP_PLY_GRD_001.tres" id="3_ship"]
+
+[resource]
+script = ExtResource("2_883oq")
+Name = "招募壁垒"
+Description = "获得基础重装护卫舰：壁垒。"
+NameKey = &"GAMEPLAY_ENHANCE_RECRUIT_BULWARK_NAME"
+DescriptionKey = &"GAMEPLAY_ENHANCE_RECRUIT_BULWARK_DESCRIPTION"
+Icon = ExtResource("1_hfucn")
+AppliesToAllShips = false
+TargetShipData = ExtResource("3_ship")
+TargetShipId = &"SHP_PLY_GRD_001"
+metadata/_custom_type_script = "uid://165cjfddj82o"

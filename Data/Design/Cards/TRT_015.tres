@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="CardBenefitData" format=3 uid="uid://mhljger84y63"]
+
+[ext_resource type="Script" uid="uid://4xau2yynf0di" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"TRT_015"
+CategoryId = &"trt"
+RarityId = &"common"
+DisplayName = "后勤标记"
+DisplayNameKey = &"CODEX_CARD_TRT_015_DISPLAYNAME"
+EffectDescription = "中排支援/控制舰相邻时，双方自动触发效果的间隔 -8%。"
+EffectDescriptionKey = &"CODEX_CARD_TRT_015_EFFECTDESCRIPTION"
+SynergyDescription = "潮汐、芽舱、磁暴。"
+SynergyDescriptionKey = &"CODEX_CARD_TRT_015_SYNERGYDESCRIPTION"
+TargetScopeId = &"run"
+IsImplementedInRuntime = true
+

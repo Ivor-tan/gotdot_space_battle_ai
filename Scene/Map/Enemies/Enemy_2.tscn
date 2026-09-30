@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cq8l1y5cuqekw"]
+
+[ext_resource type="Texture2D" path="res://Resource/Sprites/Alien/alien_02.png" id="1_3bq6x"]
+
+[node name="Enemy2" type="CharacterBody2D" unique_id=860013703]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1187656252]
+rotation = 1.5707964
+texture = ExtResource("1_3bq6x")
+
+[node name="DetectionArea" type="Area2D" parent="." unique_id=476115072]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="DetectionArea" unique_id=1968612662]
+polygon = PackedVector2Array(24, -8, 24, 7, -26, 30, -26, -30)
+
+[node name="Label" type="Label" parent="." unique_id=197119675]
+offset_right = 40.0
+offset_bottom = 23.0

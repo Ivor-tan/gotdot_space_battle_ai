@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="EnemyDesignData" format=3 uid="uid://xeyxc6bm66cc"]
+
+[ext_resource type="Texture2D" uid="uid://css4vnhq5vq4q" path="res://Resource/Sprites/Alien/alien_07.png" id="1_5suf2"]
+[ext_resource type="Script" uid="uid://u651y3gitnya" path="res://Data/DataCS/EnemyDesignData.cs" id="1_enemy"]
+[ext_resource type="PackedScene" path="res://Scene/Map/Enemies/ENM_ABR_NRM_SUP_001.tscn" id="2_scene"]
+
+[resource]
+script = ExtResource("1_enemy")
+EnemyId = &"ENM_ABR_NRM_SUP_001"
+DisplayName = "寄生孢体"
+DisplayNameKey = &"CODEX_ENEMY_ENM_ABR_NRM_SUP_001_DISPLAYNAME"
+RoleId = &"SUP"
+Icon = ExtResource("1_5suf2")
+EnemyScene = ExtResource("2_scene")
+BaseHealth = 48
+SpawnCap = 10
+ThreatWeight = 1.3
+DropTableId = &"DROP_ENM_ABR_NRM_SUP_001"
+DropSummary = "3 微粒；10% 大型经验碎片（+3）。"
+DropSummaryKey = &"CODEX_ENEMY_ENM_ABR_NRM_SUP_001_DROPSUMMARY"
+TargetAndAttack = "优先生命最低的敌人；附着距离 72 px；无直接攻击。"
+TargetAndAttackKey = &"CODEX_ENEMY_ENM_ABR_NRM_SUP_001_TARGETANDATTACK"
+MechanicAndWarning = "每秒修复 10 HP，最长 5 s；受控或目标死亡即脱离；控制抗性 0%。"
+MechanicAndWarningKey = &"CODEX_ENEMY_ENM_ABR_NRM_SUP_001_MECHANICANDWARNING"
+SpawnRule = "单波 1–5，场上 20，权重 1.3。"
+SpawnRuleKey = &"CODEX_ENEMY_ENM_ABR_NRM_SUP_001_SPAWNRULE"
+

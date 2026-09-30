@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="CardBenefitData" format=3 uid="uid://oh0nwsfn4kg2"]
+
+[ext_resource type="Script" uid="uid://4xau2yynf0di" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"WPN_019"
+CategoryId = &"wpn"
+RarityId = &"rare"
+DisplayName = "护盾光束"
+DisplayNameKey = &"CODEX_CARD_WPN_019_DISPLAYNAME"
+EffectDescription = "支援舰：每次授予护盾时同时对目标周围敌人造成 30% 主炮伤害。"
+EffectDescriptionKey = &"CODEX_CARD_WPN_019_EFFECTDESCRIPTION"
+SynergyDescription = "芽舱、生命壁垒。"
+SynergyDescriptionKey = &"CODEX_CARD_WPN_019_SYNERGYDESCRIPTION"
+TargetScopeId = &"run"
+IsImplementedInRuntime = true
+

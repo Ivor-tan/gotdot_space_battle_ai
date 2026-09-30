@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://cmu8ndsx2eph0"]
+
+[ext_resource type="Script" uid="uid://csfat4di4gp1s" path="res://Data/DataCS/EnemyStatus.cs" id="1_h3ep2"]
+
+[resource]
+script = ExtResource("1_h3ep2")
+Health = 20
+Speed = 50
+Damage = 50
+RotateSpeed = 0.8

@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="EnemyDesignData" format=3 uid="uid://b4387y5xpi3en"]
+
+[ext_resource type="Script" uid="uid://u651y3gitnya" path="res://Data/DataCS/EnemyDesignData.cs" id="1_enemy"]
+[ext_resource type="PackedScene" path="res://Scene/Map/Enemies/ENM_ABR_NRM_RAM_001.tscn" id="2_scene"]
+[ext_resource type="Texture2D" uid="uid://bkfdjlpg6oqs0" path="res://Resource/Sprites/Alien/alien_04.png" id="1_lcey1"]
+
+[resource]
+script = ExtResource("1_enemy")
+EnemyId = &"ENM_ABR_NRM_RAM_001"
+DisplayName = "陨铁冲锋兽"
+DisplayNameKey = &"CODEX_ENEMY_ENM_ABR_NRM_RAM_001_DISPLAYNAME"
+RoleId = &"RAM"
+Icon = ExtResource("1_lcey1")
+EnemyScene = ExtResource("2_scene")
+BaseHealth = 72
+WindupSeconds = 0.8
+CooldownSeconds = 4.5
+DisplayDamage = 22
+EffectiveHits = 1
+ControlResistance = 0.2
+SpawnCap = 12
+ThreatWeight = 1.2
+DropTableId = &"DROP_ENM_ABR_NRM_RAM_001"
+DropSummary = "2 微粒；6% 大型经验碎片（+3）。"
+DropSummaryKey = &"CODEX_ENEMY_ENM_ABR_NRM_RAM_001_DROPSUMMARY"
+TargetAndAttack = "最近前侧舰，否则最近舰；32 px 内使用单体投射物，有效命中 1。"
+TargetAndAttackKey = &"CODEX_ENEMY_ENM_ABR_NRM_RAM_001_TARGETANDATTACK"
+MechanicAndWarning = "冷却 6.0 s，控制抗性 20%。"
+MechanicAndWarningKey = &"CODEX_ENEMY_ENM_ABR_NRM_RAM_001_MECHANICANDWARNING"
+SpawnRule = "单波 2–8，场上 36，权重 1.2。"
+SpawnRuleKey = &"CODEX_ENEMY_ENM_ABR_NRM_RAM_001_SPAWNRULE"
+

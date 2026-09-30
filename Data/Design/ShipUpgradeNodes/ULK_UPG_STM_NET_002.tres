@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_STM_NET_002"
+ShipId = &"SHP_PLY_CTL_002"
+BranchId = &"ULK_UPG_STM_NET"
+Tier = 2
+PreviousNodeId = &"ULK_UPG_STM_NET_001"
+BranchName = "拦截电网"
+EffectDescription = "被电弧命中的投射单位移速 -25%。"
+IsImplementedInRuntime = false
+

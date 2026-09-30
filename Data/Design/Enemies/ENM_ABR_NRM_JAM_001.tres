@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="EnemyDesignData" format=3 uid="uid://b6buha2yfrq0f"]
+
+[ext_resource type="Script" uid="uid://u651y3gitnya" path="res://Data/DataCS/EnemyDesignData.cs" id="1_enemy"]
+[ext_resource type="PackedScene" path="res://Scene/Map/Enemies/ENM_ABR_NRM_JAM_001.tscn" id="2_scene"]
+[ext_resource type="Texture2D" uid="uid://bbxbkf8vsyedd" path="res://Resource/Sprites/Alien/alien_03.png" id="1_lo1vn"]
+
+[resource]
+script = ExtResource("1_enemy")
+EnemyId = &"ENM_ABR_NRM_JAM_001"
+DisplayName = "电弧干扰器"
+DisplayNameKey = &"CODEX_ENEMY_ENM_ABR_NRM_JAM_001_DISPLAYNAME"
+RoleId = &"JAM"
+Icon = ExtResource("1_lo1vn")
+EnemyScene = ExtResource("2_scene")
+BaseHealth = 68
+WindupSeconds = 0.9
+ControlResistance = 0.15
+SpawnCap = 3
+ThreatWeight = 1.4
+DropTableId = &"DROP_ENM_ABR_NRM_JAM_001"
+DropSummary = "3 微粒；8% 角色信标碎片（3 个合成一次角色权重提升）。"
+DropSummaryKey = &"CODEX_ENEMY_ENM_ABR_NRM_JAM_001_DROPSUMMARY"
+TargetAndAttack = "优先已激活羁绊附近的舰，否则最近舰；单体投射物冷却 7.0 s。"
+TargetAndAttackKey = &"CODEX_ENEMY_ENM_ABR_NRM_JAM_001_TARGETANDATTACK"
+MechanicAndWarning = "仅使用单体投射物，不使用范围干扰；抗性 15%。"
+MechanicAndWarningKey = &"CODEX_ENEMY_ENM_ABR_NRM_JAM_001_MECHANICANDWARNING"
+SpawnRule = "单波最多 1，场上 3，权重 1.4。"
+SpawnRuleKey = &"CODEX_ENEMY_ENM_ABR_NRM_JAM_001_SPAWNRULE"
+

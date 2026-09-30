@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_IRN_CNT_001"
+ShipId = &"SHP_PLY_GRD_002"
+BranchId = &"ULK_UPG_IRN_CNT"
+Tier = 1
+PreviousNodeId = &""
+BranchName = "反击装甲"
+EffectDescription = "自身失盾时下发扇面炮 +70%伤害。"
+IsImplementedInRuntime = false
+

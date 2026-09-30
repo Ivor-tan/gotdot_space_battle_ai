@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="BondDefinitionData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/BondDefinitionData.cs" id="1_bond"]
+
+[resource]
+script = ExtResource("1_bond")
+BondId = &"BND_TRI_002"
+DisplayName = "电磁蜂巢"
+DisplayNameKey = &"CODEX_BOND_BND_TRI_002_DISPLAYNAME"
+MemberCondition = "ASS_001、CAR_001、CTL_002 满足两条相邻边。"
+MemberConditionKey = &"CODEX_BOND_BND_TRI_002_MEMBERCONDITION"
+EffectDescription = "磁暴触发时强化无人机，并为航母授予 1 层护盾。"
+EffectDescriptionKey = &"CODEX_BOND_BND_TRI_002_EFFECTDESCRIPTION"
+Counterplay = "需要紧凑前排站位，成员移动会使羁绊失效。"
+CounterplayKey = &"CODEX_BOND_BND_TRI_002_COUNTERPLAY"
+RequiredMemberCount = 3
+

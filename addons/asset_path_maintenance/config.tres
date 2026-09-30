@@ -1,0 +1,1555 @@
+[gd_resource type="Resource" script_class="AssetConfig" format=3 uid="uid://bx4wyld8kgfnj"]
+
+[ext_resource type="Script" uid="uid://batvyc464haaw" path="res://addons/asset_path_maintenance/AssetEntry.cs" id="1_esnyr"]
+[ext_resource type="Script" uid="uid://q0fhc6gl1qon" path="res://addons/asset_path_maintenance/AssetConfig.cs" id="2_px8xc"]
+
+[sub_resource type="Resource" id="Resource_esnyr"]
+script = ExtResource("1_esnyr")
+Name = "EnemyBullet"
+Path = "res://Scene/Common/EnemyBullet.tscn"
+
+[sub_resource type="Resource" id="Resource_px8xc"]
+script = ExtResource("1_esnyr")
+Name = "ExpBall"
+Path = "res://Scene/Common/ExpBall.tscn"
+
+[sub_resource type="Resource" id="Resource_wp88y"]
+script = ExtResource("1_esnyr")
+Name = "PlayerBullet"
+Path = "res://Scene/Common/PlayerBullet.tscn"
+
+[sub_resource type="Resource" id="Resource_v0rre"]
+script = ExtResource("1_esnyr")
+Name = "RocketExplode01"
+Path = "res://Scene/Common/RocketExplode01.tscn"
+
+[sub_resource type="Resource" id="Resource_4fy3a"]
+script = ExtResource("1_esnyr")
+Name = "DebugInfoPanel"
+Path = "res://Scene/Debug/DebugInfoPanel.tscn"
+
+[sub_resource type="Resource" id="Resource_a03sf"]
+script = ExtResource("1_esnyr")
+Name = "DebugTestPanel"
+Path = "res://Scene/Debug/DebugTestPanel.tscn"
+
+[sub_resource type="Resource" id="Resource_yvptu"]
+script = ExtResource("1_esnyr")
+Name = "MainGameScene"
+Path = "res://Scene/Game/MainGameScene.tscn"
+
+[sub_resource type="Resource" id="Resource_skews"]
+script = ExtResource("1_esnyr")
+Name = "MainScene"
+Path = "res://Scene/MainScene.tscn"
+
+[sub_resource type="Resource" id="Resource_3fb2a"]
+script = ExtResource("1_esnyr")
+Name = "Enemy_1"
+Path = "res://Scene/Map/Enemies/Enemy_1.tscn"
+
+[sub_resource type="Resource" id="Resource_sidar"]
+script = ExtResource("1_esnyr")
+Name = "Enemy_2"
+Path = "res://Scene/Map/Enemies/Enemy_2.tscn"
+
+[sub_resource type="Resource" id="Resource_v6qe8"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_BOS_CTL_001"
+Path = "res://Scene/Map/Enemies/ENM_ABR_BOS_CTL_001.tscn"
+
+[sub_resource type="Resource" id="Resource_ir6rt"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_BOS_FRM_001"
+Path = "res://Scene/Map/Enemies/ENM_ABR_BOS_FRM_001.tscn"
+
+[sub_resource type="Resource" id="Resource_arskq"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_BOS_ZON_001"
+Path = "res://Scene/Map/Enemies/ENM_ABR_BOS_ZON_001.tscn"
+
+[sub_resource type="Resource" id="Resource_2vgts"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_ELT_JAM_001"
+Path = "res://Scene/Map/Enemies/ENM_ABR_ELT_JAM_001.tscn"
+
+[sub_resource type="Resource" id="Resource_vcgh7"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_ELT_RAM_001"
+Path = "res://Scene/Map/Enemies/ENM_ABR_ELT_RAM_001.tscn"
+
+[sub_resource type="Resource" id="Resource_kw1d6"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_ELT_SUM_001"
+Path = "res://Scene/Map/Enemies/ENM_ABR_ELT_SUM_001.tscn"
+
+[sub_resource type="Resource" id="Resource_74h16"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_ELT_ZON_001"
+Path = "res://Scene/Map/Enemies/ENM_ABR_ELT_ZON_001.tscn"
+
+[sub_resource type="Resource" id="Resource_8msb4"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_NRM_CHS_001"
+Path = "res://Scene/Map/Enemies/ENM_ABR_NRM_CHS_001.tscn"
+
+[sub_resource type="Resource" id="Resource_ao08i"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_NRM_HAR_001"
+Path = "res://Scene/Map/Enemies/ENM_ABR_NRM_HAR_001.tscn"
+
+[sub_resource type="Resource" id="Resource_22fh4"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_NRM_JAM_001"
+Path = "res://Scene/Map/Enemies/ENM_ABR_NRM_JAM_001.tscn"
+
+[sub_resource type="Resource" id="Resource_24c0y"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_NRM_RAM_001"
+Path = "res://Scene/Map/Enemies/ENM_ABR_NRM_RAM_001.tscn"
+
+[sub_resource type="Resource" id="Resource_glt5d"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_NRM_SHD_001"
+Path = "res://Scene/Map/Enemies/ENM_ABR_NRM_SHD_001.tscn"
+
+[sub_resource type="Resource" id="Resource_yey1g"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_NRM_SUM_001"
+Path = "res://Scene/Map/Enemies/ENM_ABR_NRM_SUM_001.tscn"
+
+[sub_resource type="Resource" id="Resource_uqe7f"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_NRM_SUP_001"
+Path = "res://Scene/Map/Enemies/ENM_ABR_NRM_SUP_001.tscn"
+
+[sub_resource type="Resource" id="Resource_fby33"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_NRM_ZON_001"
+Path = "res://Scene/Map/Enemies/ENM_ABR_NRM_ZON_001.tscn"
+
+[sub_resource type="Resource" id="Resource_kfqip"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_SUM_CHS_001"
+Path = "res://Scene/Map/Enemies/ENM_ABR_SUM_CHS_001.tscn"
+
+[sub_resource type="Resource" id="Resource_4qp5l"]
+script = ExtResource("1_esnyr")
+Name = "Asteroid_Scene"
+Path = "res://Scene/Map/Planets/Asteroid_Scene.tscn"
+
+[sub_resource type="Resource" id="Resource_06xpb"]
+script = ExtResource("1_esnyr")
+Name = "Planet_Scene"
+Path = "res://Scene/Map/Planets/Planet_Scene.tscn"
+
+[sub_resource type="Resource" id="Resource_0u4bt"]
+script = ExtResource("1_esnyr")
+Name = "BasePlayer"
+Path = "res://Scene/Player/BasePlayer.tscn"
+
+[sub_resource type="Resource" id="Resource_grc2l"]
+script = ExtResource("1_esnyr")
+Name = "BasePlayer1"
+Path = "res://Scene/Player/BasePlayer1.tscn"
+
+[sub_resource type="Resource" id="Resource_3yd38"]
+script = ExtResource("1_esnyr")
+Name = "ShowAttackRangeFunction"
+Path = "res://Scene/Player/EnhanceFunction/ShowAttackRangeFunction.tscn"
+
+[sub_resource type="Resource" id="Resource_n0eio"]
+script = ExtResource("1_esnyr")
+Name = "Breaker"
+Path = "res://Scene/Player/Ships/Breaker.tscn"
+
+[sub_resource type="Resource" id="Resource_xa3aj"]
+script = ExtResource("1_esnyr")
+Name = "BudPod"
+Path = "res://Scene/Player/Ships/BudPod.tscn"
+
+[sub_resource type="Resource" id="Resource_khamd"]
+script = ExtResource("1_esnyr")
+Name = "Bulwark"
+Path = "res://Scene/Player/Ships/Bulwark.tscn"
+
+[sub_resource type="Resource" id="Resource_i0yii"]
+script = ExtResource("1_esnyr")
+Name = "Corona"
+Path = "res://Scene/Player/Ships/Corona.tscn"
+
+[sub_resource type="Resource" id="Resource_ct4vf"]
+script = ExtResource("1_esnyr")
+Name = "Flagship"
+Path = "res://Scene/Player/Ships/Flagship.tscn"
+
+[sub_resource type="Resource" id="Resource_kpk78"]
+script = ExtResource("1_esnyr")
+Name = "Foldlight"
+Path = "res://Scene/Player/Ships/Foldlight.tscn"
+
+[sub_resource type="Resource" id="Resource_0r6k3"]
+script = ExtResource("1_esnyr")
+Name = "FrostCore"
+Path = "res://Scene/Player/Ships/FrostCore.tscn"
+
+[sub_resource type="Resource" id="Resource_gtmsv"]
+script = ExtResource("1_esnyr")
+Name = "HiveMother"
+Path = "res://Scene/Player/Ships/HiveMother.tscn"
+
+[sub_resource type="Resource" id="Resource_j88uj"]
+script = ExtResource("1_esnyr")
+Name = "IronCurtain"
+Path = "res://Scene/Player/Ships/IronCurtain.tscn"
+
+[sub_resource type="Resource" id="Resource_ccyer"]
+script = ExtResource("1_esnyr")
+Name = "MagneticStorm"
+Path = "res://Scene/Player/Ships/MagneticStorm.tscn"
+
+[sub_resource type="Resource" id="Resource_x8fuj"]
+script = ExtResource("1_esnyr")
+Name = "Tide"
+Path = "res://Scene/Player/Ships/Tide.tscn"
+
+[sub_resource type="Resource" id="Resource_nabe1"]
+script = ExtResource("1_esnyr")
+Name = "SceneTransition"
+Path = "res://Scene/SceneTransition.tscn"
+
+[sub_resource type="Resource" id="Resource_ipj3g"]
+script = ExtResource("1_esnyr")
+Name = "close_button"
+Path = "res://Scene/UI/close_button.tscn"
+
+[sub_resource type="Resource" id="Resource_pgvy7"]
+script = ExtResource("1_esnyr")
+Name = "CodexDetailsPopup"
+Path = "res://Scene/UI/CodexDetailsPopup.tscn"
+
+[sub_resource type="Resource" id="Resource_tj56m"]
+script = ExtResource("1_esnyr")
+Name = "CodexListItem"
+Path = "res://Scene/UI/CodexListItem.tscn"
+
+[sub_resource type="Resource" id="Resource_k4ica"]
+script = ExtResource("1_esnyr")
+Name = "ShipArchiveItem"
+Path = "res://Scene/UI/ShipArchiveItem.tscn"
+
+[sub_resource type="Resource" id="Resource_bt1kn"]
+script = ExtResource("1_esnyr")
+Name = "UI_Gaming"
+Path = "res://Scene/UI/UI_Gaming.tscn"
+
+[sub_resource type="Resource" id="Resource_ad0i3"]
+script = ExtResource("1_esnyr")
+Name = "Asteroid_Png"
+Path = "res://Assets/PngRse/Asteroid_Png.tres"
+
+[sub_resource type="Resource" id="Resource_cibgw"]
+script = ExtResource("1_esnyr")
+Name = "Mechanical_Png"
+Path = "res://Assets/PngRse/Mechanical_Png.tres"
+
+[sub_resource type="Resource" id="Resource_h441g"]
+script = ExtResource("1_esnyr")
+Name = "Planet_Png"
+Path = "res://Assets/PngRse/Planet_Png.tres"
+
+[sub_resource type="Resource" id="Resource_due6a"]
+script = ExtResource("1_esnyr")
+Name = "Sound_Rse"
+Path = "res://Assets/Sound/Sound_Rse.tres"
+
+[sub_resource type="Resource" id="Resource_b5306"]
+script = ExtResource("1_esnyr")
+Name = "Bond_Definition_Data"
+Path = "res://Assets/Status/Bond_Definition_Data.tres"
+
+[sub_resource type="Resource" id="Resource_kopts"]
+script = ExtResource("1_esnyr")
+Name = "Card_Benefit_Data"
+Path = "res://Assets/Status/Card_Benefit_Data.tres"
+
+[sub_resource type="Resource" id="Resource_y4lcy"]
+script = ExtResource("1_esnyr")
+Name = "Enemy_Design_Data"
+Path = "res://Assets/Status/Enemy_Design_Data.tres"
+
+[sub_resource type="Resource" id="Resource_x7ngs"]
+script = ExtResource("1_esnyr")
+Name = "Enemy_Tscn"
+Path = "res://Assets/Status/Enemy_Tscn.tres"
+
+[sub_resource type="Resource" id="Resource_k46ke"]
+script = ExtResource("1_esnyr")
+Name = "Exp_Tres"
+Path = "res://Assets/Status/Exp_Tres.tres"
+
+[sub_resource type="Resource" id="Resource_5up3f"]
+script = ExtResource("1_esnyr")
+Name = "Player_Enhance_Data"
+Path = "res://Assets/Status/Player_Enhance_Data.tres"
+
+[sub_resource type="Resource" id="Resource_jhtl2"]
+script = ExtResource("1_esnyr")
+Name = "Player_Ship_Data"
+Path = "res://Assets/Status/Player_Ship_Data.tres"
+
+[sub_resource type="Resource" id="Resource_pcyct"]
+script = ExtResource("1_esnyr")
+Name = "Ship_Design_Data"
+Path = "res://Assets/Status/Ship_Design_Data.tres"
+
+[sub_resource type="Resource" id="Resource_f8t8l"]
+script = ExtResource("1_esnyr")
+Name = "Ship_Upgrade_Nodes"
+Path = "res://Assets/Status/Ship_Upgrade_Nodes.tres"
+
+[sub_resource type="Resource" id="Resource_2m7k2"]
+script = ExtResource("1_esnyr")
+Name = "BND_PAI_001"
+Path = "res://Data/Design/Bonds/BND_PAI_001.tres"
+
+[sub_resource type="Resource" id="Resource_5wgny"]
+script = ExtResource("1_esnyr")
+Name = "BND_PAI_002"
+Path = "res://Data/Design/Bonds/BND_PAI_002.tres"
+
+[sub_resource type="Resource" id="Resource_41vqo"]
+script = ExtResource("1_esnyr")
+Name = "BND_PAI_003"
+Path = "res://Data/Design/Bonds/BND_PAI_003.tres"
+
+[sub_resource type="Resource" id="Resource_sfsg1"]
+script = ExtResource("1_esnyr")
+Name = "BND_PAI_004"
+Path = "res://Data/Design/Bonds/BND_PAI_004.tres"
+
+[sub_resource type="Resource" id="Resource_2tla7"]
+script = ExtResource("1_esnyr")
+Name = "BND_PAI_005"
+Path = "res://Data/Design/Bonds/BND_PAI_005.tres"
+
+[sub_resource type="Resource" id="Resource_mw2pi"]
+script = ExtResource("1_esnyr")
+Name = "BND_TRI_001"
+Path = "res://Data/Design/Bonds/BND_TRI_001.tres"
+
+[sub_resource type="Resource" id="Resource_357yx"]
+script = ExtResource("1_esnyr")
+Name = "BND_TRI_002"
+Path = "res://Data/Design/Bonds/BND_TRI_002.tres"
+
+[sub_resource type="Resource" id="Resource_ipj30"]
+script = ExtResource("1_esnyr")
+Name = "BND_TRI_003"
+Path = "res://Data/Design/Bonds/BND_TRI_003.tres"
+
+[sub_resource type="Resource" id="Resource_ev6ht"]
+script = ExtResource("1_esnyr")
+Name = "FLT_002"
+Path = "res://Data/Design/Cards/FLT_002.tres"
+
+[sub_resource type="Resource" id="Resource_spobn"]
+script = ExtResource("1_esnyr")
+Name = "FLT_003"
+Path = "res://Data/Design/Cards/FLT_003.tres"
+
+[sub_resource type="Resource" id="Resource_lo68x"]
+script = ExtResource("1_esnyr")
+Name = "FLT_004"
+Path = "res://Data/Design/Cards/FLT_004.tres"
+
+[sub_resource type="Resource" id="Resource_ixkga"]
+script = ExtResource("1_esnyr")
+Name = "FLT_005"
+Path = "res://Data/Design/Cards/FLT_005.tres"
+
+[sub_resource type="Resource" id="Resource_7xnxm"]
+script = ExtResource("1_esnyr")
+Name = "FLT_006"
+Path = "res://Data/Design/Cards/FLT_006.tres"
+
+[sub_resource type="Resource" id="Resource_outxh"]
+script = ExtResource("1_esnyr")
+Name = "FLT_010"
+Path = "res://Data/Design/Cards/FLT_010.tres"
+
+[sub_resource type="Resource" id="Resource_0uqed"]
+script = ExtResource("1_esnyr")
+Name = "FLT_011"
+Path = "res://Data/Design/Cards/FLT_011.tres"
+
+[sub_resource type="Resource" id="Resource_erks1"]
+script = ExtResource("1_esnyr")
+Name = "FLT_012"
+Path = "res://Data/Design/Cards/FLT_012.tres"
+
+[sub_resource type="Resource" id="Resource_lk05w"]
+script = ExtResource("1_esnyr")
+Name = "FLT_013"
+Path = "res://Data/Design/Cards/FLT_013.tres"
+
+[sub_resource type="Resource" id="Resource_icbal"]
+script = ExtResource("1_esnyr")
+Name = "FLT_014"
+Path = "res://Data/Design/Cards/FLT_014.tres"
+
+[sub_resource type="Resource" id="Resource_mo7or"]
+script = ExtResource("1_esnyr")
+Name = "FLT_015"
+Path = "res://Data/Design/Cards/FLT_015.tres"
+
+[sub_resource type="Resource" id="Resource_44ay1"]
+script = ExtResource("1_esnyr")
+Name = "FLT_016"
+Path = "res://Data/Design/Cards/FLT_016.tres"
+
+[sub_resource type="Resource" id="Resource_16gf1"]
+script = ExtResource("1_esnyr")
+Name = "FLT_018"
+Path = "res://Data/Design/Cards/FLT_018.tres"
+
+[sub_resource type="Resource" id="Resource_aektr"]
+script = ExtResource("1_esnyr")
+Name = "FLT_019"
+Path = "res://Data/Design/Cards/FLT_019.tres"
+
+[sub_resource type="Resource" id="Resource_wwmrx"]
+script = ExtResource("1_esnyr")
+Name = "SIG_001"
+Path = "res://Data/Design/Cards/SIG_001.tres"
+
+[sub_resource type="Resource" id="Resource_asbtl"]
+script = ExtResource("1_esnyr")
+Name = "SIG_002"
+Path = "res://Data/Design/Cards/SIG_002.tres"
+
+[sub_resource type="Resource" id="Resource_1xfw4"]
+script = ExtResource("1_esnyr")
+Name = "SIG_003"
+Path = "res://Data/Design/Cards/SIG_003.tres"
+
+[sub_resource type="Resource" id="Resource_3ju5s"]
+script = ExtResource("1_esnyr")
+Name = "SIG_004"
+Path = "res://Data/Design/Cards/SIG_004.tres"
+
+[sub_resource type="Resource" id="Resource_xhk0w"]
+script = ExtResource("1_esnyr")
+Name = "SIG_005"
+Path = "res://Data/Design/Cards/SIG_005.tres"
+
+[sub_resource type="Resource" id="Resource_d5oub"]
+script = ExtResource("1_esnyr")
+Name = "SIG_006"
+Path = "res://Data/Design/Cards/SIG_006.tres"
+
+[sub_resource type="Resource" id="Resource_25tte"]
+script = ExtResource("1_esnyr")
+Name = "SIG_007"
+Path = "res://Data/Design/Cards/SIG_007.tres"
+
+[sub_resource type="Resource" id="Resource_2stk2"]
+script = ExtResource("1_esnyr")
+Name = "SIG_008"
+Path = "res://Data/Design/Cards/SIG_008.tres"
+
+[sub_resource type="Resource" id="Resource_tt8jx"]
+script = ExtResource("1_esnyr")
+Name = "SIG_009"
+Path = "res://Data/Design/Cards/SIG_009.tres"
+
+[sub_resource type="Resource" id="Resource_ubk4v"]
+script = ExtResource("1_esnyr")
+Name = "SIG_010"
+Path = "res://Data/Design/Cards/SIG_010.tres"
+
+[sub_resource type="Resource" id="Resource_6sgpp"]
+script = ExtResource("1_esnyr")
+Name = "SIG_011"
+Path = "res://Data/Design/Cards/SIG_011.tres"
+
+[sub_resource type="Resource" id="Resource_vmfn8"]
+script = ExtResource("1_esnyr")
+Name = "SIG_012"
+Path = "res://Data/Design/Cards/SIG_012.tres"
+
+[sub_resource type="Resource" id="Resource_wxgnw"]
+script = ExtResource("1_esnyr")
+Name = "SIG_013"
+Path = "res://Data/Design/Cards/SIG_013.tres"
+
+[sub_resource type="Resource" id="Resource_a8vek"]
+script = ExtResource("1_esnyr")
+Name = "SIG_014"
+Path = "res://Data/Design/Cards/SIG_014.tres"
+
+[sub_resource type="Resource" id="Resource_hpfby"]
+script = ExtResource("1_esnyr")
+Name = "SIG_015"
+Path = "res://Data/Design/Cards/SIG_015.tres"
+
+[sub_resource type="Resource" id="Resource_xf7je"]
+script = ExtResource("1_esnyr")
+Name = "SIG_018"
+Path = "res://Data/Design/Cards/SIG_018.tres"
+
+[sub_resource type="Resource" id="Resource_x3er4"]
+script = ExtResource("1_esnyr")
+Name = "SIG_019"
+Path = "res://Data/Design/Cards/SIG_019.tres"
+
+[sub_resource type="Resource" id="Resource_dgtm0"]
+script = ExtResource("1_esnyr")
+Name = "SYS_001"
+Path = "res://Data/Design/Cards/SYS_001.tres"
+
+[sub_resource type="Resource" id="Resource_7idrs"]
+script = ExtResource("1_esnyr")
+Name = "SYS_002"
+Path = "res://Data/Design/Cards/SYS_002.tres"
+
+[sub_resource type="Resource" id="Resource_cnobl"]
+script = ExtResource("1_esnyr")
+Name = "SYS_003"
+Path = "res://Data/Design/Cards/SYS_003.tres"
+
+[sub_resource type="Resource" id="Resource_pqsqj"]
+script = ExtResource("1_esnyr")
+Name = "SYS_004"
+Path = "res://Data/Design/Cards/SYS_004.tres"
+
+[sub_resource type="Resource" id="Resource_hh3fb"]
+script = ExtResource("1_esnyr")
+Name = "SYS_005"
+Path = "res://Data/Design/Cards/SYS_005.tres"
+
+[sub_resource type="Resource" id="Resource_12xoh"]
+script = ExtResource("1_esnyr")
+Name = "SYS_006"
+Path = "res://Data/Design/Cards/SYS_006.tres"
+
+[sub_resource type="Resource" id="Resource_hj0c3"]
+script = ExtResource("1_esnyr")
+Name = "SYS_007"
+Path = "res://Data/Design/Cards/SYS_007.tres"
+
+[sub_resource type="Resource" id="Resource_qja1q"]
+script = ExtResource("1_esnyr")
+Name = "SYS_008"
+Path = "res://Data/Design/Cards/SYS_008.tres"
+
+[sub_resource type="Resource" id="Resource_h2xxe"]
+script = ExtResource("1_esnyr")
+Name = "SYS_009"
+Path = "res://Data/Design/Cards/SYS_009.tres"
+
+[sub_resource type="Resource" id="Resource_sswun"]
+script = ExtResource("1_esnyr")
+Name = "SYS_010"
+Path = "res://Data/Design/Cards/SYS_010.tres"
+
+[sub_resource type="Resource" id="Resource_tj8ew"]
+script = ExtResource("1_esnyr")
+Name = "SYS_012"
+Path = "res://Data/Design/Cards/SYS_012.tres"
+
+[sub_resource type="Resource" id="Resource_cq4ax"]
+script = ExtResource("1_esnyr")
+Name = "SYS_015"
+Path = "res://Data/Design/Cards/SYS_015.tres"
+
+[sub_resource type="Resource" id="Resource_8qsmt"]
+script = ExtResource("1_esnyr")
+Name = "SYS_016"
+Path = "res://Data/Design/Cards/SYS_016.tres"
+
+[sub_resource type="Resource" id="Resource_gyajv"]
+script = ExtResource("1_esnyr")
+Name = "SYS_017"
+Path = "res://Data/Design/Cards/SYS_017.tres"
+
+[sub_resource type="Resource" id="Resource_tj0sh"]
+script = ExtResource("1_esnyr")
+Name = "SYS_018"
+Path = "res://Data/Design/Cards/SYS_018.tres"
+
+[sub_resource type="Resource" id="Resource_oohew"]
+script = ExtResource("1_esnyr")
+Name = "SYS_019"
+Path = "res://Data/Design/Cards/SYS_019.tres"
+
+[sub_resource type="Resource" id="Resource_totbx"]
+script = ExtResource("1_esnyr")
+Name = "SYS_020"
+Path = "res://Data/Design/Cards/SYS_020.tres"
+
+[sub_resource type="Resource" id="Resource_txiys"]
+script = ExtResource("1_esnyr")
+Name = "TRT_001"
+Path = "res://Data/Design/Cards/TRT_001.tres"
+
+[sub_resource type="Resource" id="Resource_lqbnj"]
+script = ExtResource("1_esnyr")
+Name = "TRT_002"
+Path = "res://Data/Design/Cards/TRT_002.tres"
+
+[sub_resource type="Resource" id="Resource_h68t2"]
+script = ExtResource("1_esnyr")
+Name = "TRT_003"
+Path = "res://Data/Design/Cards/TRT_003.tres"
+
+[sub_resource type="Resource" id="Resource_4hdl1"]
+script = ExtResource("1_esnyr")
+Name = "TRT_004"
+Path = "res://Data/Design/Cards/TRT_004.tres"
+
+[sub_resource type="Resource" id="Resource_3qdor"]
+script = ExtResource("1_esnyr")
+Name = "TRT_005"
+Path = "res://Data/Design/Cards/TRT_005.tres"
+
+[sub_resource type="Resource" id="Resource_05mv1"]
+script = ExtResource("1_esnyr")
+Name = "TRT_006"
+Path = "res://Data/Design/Cards/TRT_006.tres"
+
+[sub_resource type="Resource" id="Resource_2guvl"]
+script = ExtResource("1_esnyr")
+Name = "TRT_007"
+Path = "res://Data/Design/Cards/TRT_007.tres"
+
+[sub_resource type="Resource" id="Resource_jrfcx"]
+script = ExtResource("1_esnyr")
+Name = "TRT_008"
+Path = "res://Data/Design/Cards/TRT_008.tres"
+
+[sub_resource type="Resource" id="Resource_7uktb"]
+script = ExtResource("1_esnyr")
+Name = "TRT_010"
+Path = "res://Data/Design/Cards/TRT_010.tres"
+
+[sub_resource type="Resource" id="Resource_cxgot"]
+script = ExtResource("1_esnyr")
+Name = "TRT_011"
+Path = "res://Data/Design/Cards/TRT_011.tres"
+
+[sub_resource type="Resource" id="Resource_x2p5b"]
+script = ExtResource("1_esnyr")
+Name = "TRT_012"
+Path = "res://Data/Design/Cards/TRT_012.tres"
+
+[sub_resource type="Resource" id="Resource_r25g5"]
+script = ExtResource("1_esnyr")
+Name = "TRT_013"
+Path = "res://Data/Design/Cards/TRT_013.tres"
+
+[sub_resource type="Resource" id="Resource_5ovei"]
+script = ExtResource("1_esnyr")
+Name = "TRT_014"
+Path = "res://Data/Design/Cards/TRT_014.tres"
+
+[sub_resource type="Resource" id="Resource_ei5gr"]
+script = ExtResource("1_esnyr")
+Name = "TRT_015"
+Path = "res://Data/Design/Cards/TRT_015.tres"
+
+[sub_resource type="Resource" id="Resource_hx714"]
+script = ExtResource("1_esnyr")
+Name = "TRT_017"
+Path = "res://Data/Design/Cards/TRT_017.tres"
+
+[sub_resource type="Resource" id="Resource_ngsxd"]
+script = ExtResource("1_esnyr")
+Name = "TRT_018"
+Path = "res://Data/Design/Cards/TRT_018.tres"
+
+[sub_resource type="Resource" id="Resource_xlqgc"]
+script = ExtResource("1_esnyr")
+Name = "TRT_019"
+Path = "res://Data/Design/Cards/TRT_019.tres"
+
+[sub_resource type="Resource" id="Resource_0w2s8"]
+script = ExtResource("1_esnyr")
+Name = "TRT_020"
+Path = "res://Data/Design/Cards/TRT_020.tres"
+
+[sub_resource type="Resource" id="Resource_kdp8f"]
+script = ExtResource("1_esnyr")
+Name = "WPN_001"
+Path = "res://Data/Design/Cards/WPN_001.tres"
+
+[sub_resource type="Resource" id="Resource_1wx1d"]
+script = ExtResource("1_esnyr")
+Name = "WPN_002"
+Path = "res://Data/Design/Cards/WPN_002.tres"
+
+[sub_resource type="Resource" id="Resource_7qd1f"]
+script = ExtResource("1_esnyr")
+Name = "WPN_003"
+Path = "res://Data/Design/Cards/WPN_003.tres"
+
+[sub_resource type="Resource" id="Resource_64mk6"]
+script = ExtResource("1_esnyr")
+Name = "WPN_004"
+Path = "res://Data/Design/Cards/WPN_004.tres"
+
+[sub_resource type="Resource" id="Resource_6gfgd"]
+script = ExtResource("1_esnyr")
+Name = "WPN_005"
+Path = "res://Data/Design/Cards/WPN_005.tres"
+
+[sub_resource type="Resource" id="Resource_7rre2"]
+script = ExtResource("1_esnyr")
+Name = "WPN_006"
+Path = "res://Data/Design/Cards/WPN_006.tres"
+
+[sub_resource type="Resource" id="Resource_ael7a"]
+script = ExtResource("1_esnyr")
+Name = "WPN_007"
+Path = "res://Data/Design/Cards/WPN_007.tres"
+
+[sub_resource type="Resource" id="Resource_83fbw"]
+script = ExtResource("1_esnyr")
+Name = "WPN_008"
+Path = "res://Data/Design/Cards/WPN_008.tres"
+
+[sub_resource type="Resource" id="Resource_offkc"]
+script = ExtResource("1_esnyr")
+Name = "WPN_009"
+Path = "res://Data/Design/Cards/WPN_009.tres"
+
+[sub_resource type="Resource" id="Resource_2y13a"]
+script = ExtResource("1_esnyr")
+Name = "WPN_010"
+Path = "res://Data/Design/Cards/WPN_010.tres"
+
+[sub_resource type="Resource" id="Resource_a17xp"]
+script = ExtResource("1_esnyr")
+Name = "WPN_011"
+Path = "res://Data/Design/Cards/WPN_011.tres"
+
+[sub_resource type="Resource" id="Resource_1cq23"]
+script = ExtResource("1_esnyr")
+Name = "WPN_012"
+Path = "res://Data/Design/Cards/WPN_012.tres"
+
+[sub_resource type="Resource" id="Resource_hgbko"]
+script = ExtResource("1_esnyr")
+Name = "WPN_013"
+Path = "res://Data/Design/Cards/WPN_013.tres"
+
+[sub_resource type="Resource" id="Resource_55tdd"]
+script = ExtResource("1_esnyr")
+Name = "WPN_014"
+Path = "res://Data/Design/Cards/WPN_014.tres"
+
+[sub_resource type="Resource" id="Resource_g1vtx"]
+script = ExtResource("1_esnyr")
+Name = "WPN_015"
+Path = "res://Data/Design/Cards/WPN_015.tres"
+
+[sub_resource type="Resource" id="Resource_4jkft"]
+script = ExtResource("1_esnyr")
+Name = "WPN_017"
+Path = "res://Data/Design/Cards/WPN_017.tres"
+
+[sub_resource type="Resource" id="Resource_rq8ql"]
+script = ExtResource("1_esnyr")
+Name = "WPN_018"
+Path = "res://Data/Design/Cards/WPN_018.tres"
+
+[sub_resource type="Resource" id="Resource_wfxfc"]
+script = ExtResource("1_esnyr")
+Name = "WPN_019"
+Path = "res://Data/Design/Cards/WPN_019.tres"
+
+[sub_resource type="Resource" id="Resource_bafh6"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_BOS_CTL_001"
+Path = "res://Data/Design/Enemies/ENM_ABR_BOS_CTL_001.tres"
+
+[sub_resource type="Resource" id="Resource_5c61c"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_BOS_FRM_001"
+Path = "res://Data/Design/Enemies/ENM_ABR_BOS_FRM_001.tres"
+
+[sub_resource type="Resource" id="Resource_dv533"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_BOS_ZON_001"
+Path = "res://Data/Design/Enemies/ENM_ABR_BOS_ZON_001.tres"
+
+[sub_resource type="Resource" id="Resource_yqm6n"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_ELT_JAM_001"
+Path = "res://Data/Design/Enemies/ENM_ABR_ELT_JAM_001.tres"
+
+[sub_resource type="Resource" id="Resource_ppvs8"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_ELT_RAM_001"
+Path = "res://Data/Design/Enemies/ENM_ABR_ELT_RAM_001.tres"
+
+[sub_resource type="Resource" id="Resource_xxfym"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_ELT_SUM_001"
+Path = "res://Data/Design/Enemies/ENM_ABR_ELT_SUM_001.tres"
+
+[sub_resource type="Resource" id="Resource_ktoul"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_ELT_ZON_001"
+Path = "res://Data/Design/Enemies/ENM_ABR_ELT_ZON_001.tres"
+
+[sub_resource type="Resource" id="Resource_x0i1x"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_NRM_CHS_001"
+Path = "res://Data/Design/Enemies/ENM_ABR_NRM_CHS_001.tres"
+
+[sub_resource type="Resource" id="Resource_lkvar"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_NRM_HAR_001"
+Path = "res://Data/Design/Enemies/ENM_ABR_NRM_HAR_001.tres"
+
+[sub_resource type="Resource" id="Resource_ojvuj"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_NRM_JAM_001"
+Path = "res://Data/Design/Enemies/ENM_ABR_NRM_JAM_001.tres"
+
+[sub_resource type="Resource" id="Resource_r8q6p"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_NRM_RAM_001"
+Path = "res://Data/Design/Enemies/ENM_ABR_NRM_RAM_001.tres"
+
+[sub_resource type="Resource" id="Resource_nojly"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_NRM_SHD_001"
+Path = "res://Data/Design/Enemies/ENM_ABR_NRM_SHD_001.tres"
+
+[sub_resource type="Resource" id="Resource_e3o08"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_NRM_SUM_001"
+Path = "res://Data/Design/Enemies/ENM_ABR_NRM_SUM_001.tres"
+
+[sub_resource type="Resource" id="Resource_dp5us"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_NRM_SUP_001"
+Path = "res://Data/Design/Enemies/ENM_ABR_NRM_SUP_001.tres"
+
+[sub_resource type="Resource" id="Resource_hce7s"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_NRM_ZON_001"
+Path = "res://Data/Design/Enemies/ENM_ABR_NRM_ZON_001.tres"
+
+[sub_resource type="Resource" id="Resource_nwyrv"]
+script = ExtResource("1_esnyr")
+Name = "ENM_ABR_SUM_CHS_001"
+Path = "res://Data/Design/Enemies/ENM_ABR_SUM_CHS_001.tres"
+
+[sub_resource type="Resource" id="Resource_m78tt"]
+script = ExtResource("1_esnyr")
+Name = "README"
+Path = "res://Data/Design/README.md"
+
+[sub_resource type="Resource" id="Resource_3bu86"]
+script = ExtResource("1_esnyr")
+Name = "SHP_PLY_ART_001"
+Path = "res://Data/Design/ShipDesigns/SHP_PLY_ART_001.tres"
+
+[sub_resource type="Resource" id="Resource_3j1gi"]
+script = ExtResource("1_esnyr")
+Name = "SHP_PLY_ART_002"
+Path = "res://Data/Design/ShipDesigns/SHP_PLY_ART_002.tres"
+
+[sub_resource type="Resource" id="Resource_blb4t"]
+script = ExtResource("1_esnyr")
+Name = "SHP_PLY_ASS_001"
+Path = "res://Data/Design/ShipDesigns/SHP_PLY_ASS_001.tres"
+
+[sub_resource type="Resource" id="Resource_14qtm"]
+script = ExtResource("1_esnyr")
+Name = "SHP_PLY_CAR_001"
+Path = "res://Data/Design/ShipDesigns/SHP_PLY_CAR_001.tres"
+
+[sub_resource type="Resource" id="Resource_q6hdy"]
+script = ExtResource("1_esnyr")
+Name = "SHP_PLY_CTL_001"
+Path = "res://Data/Design/ShipDesigns/SHP_PLY_CTL_001.tres"
+
+[sub_resource type="Resource" id="Resource_8i7ar"]
+script = ExtResource("1_esnyr")
+Name = "SHP_PLY_CTL_002"
+Path = "res://Data/Design/ShipDesigns/SHP_PLY_CTL_002.tres"
+
+[sub_resource type="Resource" id="Resource_lrks3"]
+script = ExtResource("1_esnyr")
+Name = "SHP_PLY_FLG_001"
+Path = "res://Data/Design/ShipDesigns/SHP_PLY_FLG_001.tres"
+
+[sub_resource type="Resource" id="Resource_oxuny"]
+script = ExtResource("1_esnyr")
+Name = "SHP_PLY_GRD_001"
+Path = "res://Data/Design/ShipDesigns/SHP_PLY_GRD_001.tres"
+
+[sub_resource type="Resource" id="Resource_oh5bl"]
+script = ExtResource("1_esnyr")
+Name = "SHP_PLY_GRD_002"
+Path = "res://Data/Design/ShipDesigns/SHP_PLY_GRD_002.tres"
+
+[sub_resource type="Resource" id="Resource_o16qs"]
+script = ExtResource("1_esnyr")
+Name = "SHP_PLY_SUP_001"
+Path = "res://Data/Design/ShipDesigns/SHP_PLY_SUP_001.tres"
+
+[sub_resource type="Resource" id="Resource_ryv80"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_ASS_HNT_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_ASS_HNT_001.tres"
+
+[sub_resource type="Resource" id="Resource_up1iu"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_ASS_HNT_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_ASS_HNT_002.tres"
+
+[sub_resource type="Resource" id="Resource_jgx2y"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_ASS_HNT_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_ASS_HNT_003.tres"
+
+[sub_resource type="Resource" id="Resource_o3vg7"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_ASS_IMP_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_ASS_IMP_001.tres"
+
+[sub_resource type="Resource" id="Resource_kkyam"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_ASS_IMP_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_ASS_IMP_002.tres"
+
+[sub_resource type="Resource" id="Resource_0b2ur"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_ASS_IMP_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_ASS_IMP_003.tres"
+
+[sub_resource type="Resource" id="Resource_tds0a"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_ASS_SHK_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_ASS_SHK_001.tres"
+
+[sub_resource type="Resource" id="Resource_60yby"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_ASS_SHK_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_ASS_SHK_002.tres"
+
+[sub_resource type="Resource" id="Resource_cywkw"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_ASS_SHK_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_ASS_SHK_003.tres"
+
+[sub_resource type="Resource" id="Resource_mao38"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FLD_RES_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FLD_RES_001.tres"
+
+[sub_resource type="Resource" id="Resource_xumt0"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FLD_RES_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FLD_RES_002.tres"
+
+[sub_resource type="Resource" id="Resource_n6pfg"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FLD_RES_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FLD_RES_003.tres"
+
+[sub_resource type="Resource" id="Resource_y6v08"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FLD_RLY_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FLD_RLY_001.tres"
+
+[sub_resource type="Resource" id="Resource_fgmcu"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FLD_RLY_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FLD_RLY_002.tres"
+
+[sub_resource type="Resource" id="Resource_y2nwx"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FLD_RLY_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FLD_RLY_003.tres"
+
+[sub_resource type="Resource" id="Resource_uxyd2"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FLD_SHD_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FLD_SHD_001.tres"
+
+[sub_resource type="Resource" id="Resource_c4oov"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FLD_SHD_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FLD_SHD_002.tres"
+
+[sub_resource type="Resource" id="Resource_skbx0"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FLD_SHD_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FLD_SHD_003.tres"
+
+[sub_resource type="Resource" id="Resource_pajiy"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FLG_EXP_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FLG_EXP_001.tres"
+
+[sub_resource type="Resource" id="Resource_40ru2"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FLG_EXP_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FLG_EXP_002.tres"
+
+[sub_resource type="Resource" id="Resource_0wd3y"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FLG_EXP_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FLG_EXP_003.tres"
+
+[sub_resource type="Resource" id="Resource_n63wt"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FLG_FRM_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FLG_FRM_002.tres"
+
+[sub_resource type="Resource" id="Resource_7g8bf"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FLG_FRM_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FLG_FRM_003.tres"
+
+[sub_resource type="Resource" id="Resource_bu464"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FLG_PRC_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FLG_PRC_001.tres"
+
+[sub_resource type="Resource" id="Resource_8owtb"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FLG_PRC_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FLG_PRC_002.tres"
+
+[sub_resource type="Resource" id="Resource_31hdo"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FLG_PRC_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FLG_PRC_003.tres"
+
+[sub_resource type="Resource" id="Resource_pdie6"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FRS_COL_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FRS_COL_001.tres"
+
+[sub_resource type="Resource" id="Resource_1cw2d"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FRS_COL_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FRS_COL_002.tres"
+
+[sub_resource type="Resource" id="Resource_dmbqg"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FRS_COL_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FRS_COL_003.tres"
+
+[sub_resource type="Resource" id="Resource_4o453"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FRS_SHR_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FRS_SHR_001.tres"
+
+[sub_resource type="Resource" id="Resource_m6uvj"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FRS_SHR_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FRS_SHR_002.tres"
+
+[sub_resource type="Resource" id="Resource_muob5"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FRS_SHR_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FRS_SHR_003.tres"
+
+[sub_resource type="Resource" id="Resource_7n8uy"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FRS_ZON_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FRS_ZON_001.tres"
+
+[sub_resource type="Resource" id="Resource_jsxo3"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FRS_ZON_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FRS_ZON_002.tres"
+
+[sub_resource type="Resource" id="Resource_ksa2q"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_FRS_ZON_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_FRS_ZON_003.tres"
+
+[sub_resource type="Resource" id="Resource_2ismi"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_HIV_GRD_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_HIV_GRD_001.tres"
+
+[sub_resource type="Resource" id="Resource_xcdrl"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_HIV_GRD_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_HIV_GRD_002.tres"
+
+[sub_resource type="Resource" id="Resource_4c7bn"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_HIV_GRD_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_HIV_GRD_003.tres"
+
+[sub_resource type="Resource" id="Resource_oghfl"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_HIV_HNT_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_HIV_HNT_001.tres"
+
+[sub_resource type="Resource" id="Resource_affao"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_HIV_HNT_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_HIV_HNT_002.tres"
+
+[sub_resource type="Resource" id="Resource_va21h"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_HIV_HNT_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_HIV_HNT_003.tres"
+
+[sub_resource type="Resource" id="Resource_shydq"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_HIV_SWM_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_HIV_SWM_001.tres"
+
+[sub_resource type="Resource" id="Resource_6q6p0"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_HIV_SWM_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_HIV_SWM_002.tres"
+
+[sub_resource type="Resource" id="Resource_tcjub"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_HIV_SWM_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_HIV_SWM_003.tres"
+
+[sub_resource type="Resource" id="Resource_kt7cw"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_IRN_CNT_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_IRN_CNT_001.tres"
+
+[sub_resource type="Resource" id="Resource_p4pow"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_IRN_CNT_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_IRN_CNT_002.tres"
+
+[sub_resource type="Resource" id="Resource_3dedl"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_IRN_CNT_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_IRN_CNT_003.tres"
+
+[sub_resource type="Resource" id="Resource_w437k"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_IRN_COV_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_IRN_COV_001.tres"
+
+[sub_resource type="Resource" id="Resource_j2aad"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_IRN_COV_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_IRN_COV_002.tres"
+
+[sub_resource type="Resource" id="Resource_be1nt"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_IRN_COV_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_IRN_COV_003.tres"
+
+[sub_resource type="Resource" id="Resource_g24j8"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_IRN_FRN_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_IRN_FRN_001.tres"
+
+[sub_resource type="Resource" id="Resource_4i84b"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_IRN_FRN_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_IRN_FRN_002.tres"
+
+[sub_resource type="Resource" id="Resource_gvwhb"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_IRN_FRN_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_IRN_FRN_003.tres"
+
+[sub_resource type="Resource" id="Resource_glawi"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_PRM_BST_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_PRM_BST_001.tres"
+
+[sub_resource type="Resource" id="Resource_qgrue"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_PRM_BST_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_PRM_BST_002.tres"
+
+[sub_resource type="Resource" id="Resource_dnh2h"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_PRM_BST_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_PRM_BST_003.tres"
+
+[sub_resource type="Resource" id="Resource_yvcn5"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_PRM_GUA_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_PRM_GUA_001.tres"
+
+[sub_resource type="Resource" id="Resource_7r8od"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_PRM_GUA_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_PRM_GUA_002.tres"
+
+[sub_resource type="Resource" id="Resource_yqc25"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_PRM_GUA_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_PRM_GUA_003.tres"
+
+[sub_resource type="Resource" id="Resource_76xlt"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_PRM_RAY_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_PRM_RAY_001.tres"
+
+[sub_resource type="Resource" id="Resource_sh1yi"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_PRM_RAY_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_PRM_RAY_002.tres"
+
+[sub_resource type="Resource" id="Resource_phd6l"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_PRM_RAY_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_PRM_RAY_003.tres"
+
+[sub_resource type="Resource" id="Resource_wij0a"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_SOL_FLR_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_SOL_FLR_001.tres"
+
+[sub_resource type="Resource" id="Resource_5ltvl"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_SOL_FLR_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_SOL_FLR_002.tres"
+
+[sub_resource type="Resource" id="Resource_dv0v0"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_SOL_FLR_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_SOL_FLR_003.tres"
+
+[sub_resource type="Resource" id="Resource_sw1nk"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_SOL_FUR_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_SOL_FUR_001.tres"
+
+[sub_resource type="Resource" id="Resource_ojfak"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_SOL_FUR_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_SOL_FUR_002.tres"
+
+[sub_resource type="Resource" id="Resource_cne52"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_SOL_FUR_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_SOL_FUR_003.tres"
+
+[sub_resource type="Resource" id="Resource_0ueli"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_SOL_SIE_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_SOL_SIE_001.tres"
+
+[sub_resource type="Resource" id="Resource_4ryp5"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_SOL_SIE_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_SOL_SIE_002.tres"
+
+[sub_resource type="Resource" id="Resource_hhypc"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_SOL_SIE_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_SOL_SIE_003.tres"
+
+[sub_resource type="Resource" id="Resource_janbb"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_STM_CHN_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_STM_CHN_001.tres"
+
+[sub_resource type="Resource" id="Resource_q6jkf"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_STM_CHN_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_STM_CHN_002.tres"
+
+[sub_resource type="Resource" id="Resource_bcf1i"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_STM_CHN_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_STM_CHN_003.tres"
+
+[sub_resource type="Resource" id="Resource_5lv5e"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_STM_NET_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_STM_NET_001.tres"
+
+[sub_resource type="Resource" id="Resource_mu3cx"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_STM_NET_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_STM_NET_002.tres"
+
+[sub_resource type="Resource" id="Resource_a4x60"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_STM_NET_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_STM_NET_003.tres"
+
+[sub_resource type="Resource" id="Resource_b07yg"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_STM_OVR_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_STM_OVR_001.tres"
+
+[sub_resource type="Resource" id="Resource_2a2ha"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_STM_OVR_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_STM_OVR_002.tres"
+
+[sub_resource type="Resource" id="Resource_ht2km"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_STM_OVR_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_STM_OVR_003.tres"
+
+[sub_resource type="Resource" id="Resource_73vdr"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_TID_GRV_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_TID_GRV_001.tres"
+
+[sub_resource type="Resource" id="Resource_1m2rk"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_TID_GRV_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_TID_GRV_002.tres"
+
+[sub_resource type="Resource" id="Resource_4cb5e"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_TID_GRV_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_TID_GRV_003.tres"
+
+[sub_resource type="Resource" id="Resource_d5i1q"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_TID_RLY_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_TID_RLY_001.tres"
+
+[sub_resource type="Resource" id="Resource_nt3oq"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_TID_RLY_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_TID_RLY_002.tres"
+
+[sub_resource type="Resource" id="Resource_irpf8"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_TID_RLY_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_TID_RLY_003.tres"
+
+[sub_resource type="Resource" id="Resource_j0343"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_TID_WAV_001"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_TID_WAV_001.tres"
+
+[sub_resource type="Resource" id="Resource_r1a3w"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_TID_WAV_002"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_TID_WAV_002.tres"
+
+[sub_resource type="Resource" id="Resource_xh4tb"]
+script = ExtResource("1_esnyr")
+Name = "ULK_UPG_TID_WAV_003"
+Path = "res://Data/Design/ShipUpgradeNodes/ULK_UPG_TID_WAV_003.tres"
+
+[sub_resource type="Resource" id="Resource_v0h8w"]
+script = ExtResource("1_esnyr")
+Name = "Enemies_States"
+Path = "res://Data/Enemies/Enemies_States.tres"
+
+[sub_resource type="Resource" id="Resource_dxat4"]
+script = ExtResource("1_esnyr")
+Name = "Object01"
+Path = "res://Data/Enemies/Object01.tres"
+
+[sub_resource type="Resource" id="Resource_j0vnd"]
+script = ExtResource("1_esnyr")
+Name = "Exp100Points"
+Path = "res://Data/ExpBalls/Exp100Points.tres"
+
+[sub_resource type="Resource" id="Resource_m65g0"]
+script = ExtResource("1_esnyr")
+Name = "Exp10Points"
+Path = "res://Data/ExpBalls/Exp10Points.tres"
+
+[sub_resource type="Resource" id="Resource_b0np3"]
+script = ExtResource("1_esnyr")
+Name = "Exp1Points"
+Path = "res://Data/ExpBalls/Exp1Points.tres"
+
+[sub_resource type="Resource" id="Resource_hneoo"]
+script = ExtResource("1_esnyr")
+Name = "Exp20Points"
+Path = "res://Data/ExpBalls/Exp20Points.tres"
+
+[sub_resource type="Resource" id="Resource_utcfx"]
+script = ExtResource("1_esnyr")
+Name = "Exp50Points"
+Path = "res://Data/ExpBalls/Exp50Points.tres"
+
+[sub_resource type="Resource" id="Resource_w6ouw"]
+script = ExtResource("1_esnyr")
+Name = "Exp5Points"
+Path = "res://Data/ExpBalls/Exp5Points.tres"
+
+[sub_resource type="Resource" id="Resource_71tsy"]
+script = ExtResource("1_esnyr")
+Name = "AddAttackPoints"
+Path = "res://Data/PlayerEnhanceFunction/AddAttackPoints.tres"
+
+[sub_resource type="Resource" id="Resource_76sla"]
+script = ExtResource("1_esnyr")
+Name = "AddMoveSpeed"
+Path = "res://Data/PlayerEnhanceFunction/AddMoveSpeed.tres"
+
+[sub_resource type="Resource" id="Resource_14auw"]
+script = ExtResource("1_esnyr")
+Name = "AddNewPlayer"
+Path = "res://Data/PlayerEnhanceFunction/AddNewPlayer.tres"
+
+[sub_resource type="Resource" id="Resource_gwx7m"]
+script = ExtResource("1_esnyr")
+Name = "AddRotationSpeed"
+Path = "res://Data/PlayerEnhanceFunction/AddRotationSpeed.tres"
+
+[sub_resource type="Resource" id="Resource_bqamu"]
+script = ExtResource("1_esnyr")
+Name = "AddShieldCharges"
+Path = "res://Data/PlayerEnhanceFunction/AddShieldCharges.tres"
+
+[sub_resource type="Resource" id="Resource_6n4ju"]
+script = ExtResource("1_esnyr")
+Name = "IncreaseAttackRange"
+Path = "res://Data/PlayerEnhanceFunction/IncreaseAttackRange.tres"
+
+[sub_resource type="Resource" id="Resource_cqx50"]
+script = ExtResource("1_esnyr")
+Name = "RecruitBreaker"
+Path = "res://Data/PlayerEnhanceFunction/RecruitBreaker.tres"
+
+[sub_resource type="Resource" id="Resource_04yk4"]
+script = ExtResource("1_esnyr")
+Name = "RecruitBudPod"
+Path = "res://Data/PlayerEnhanceFunction/RecruitBudPod.tres"
+
+[sub_resource type="Resource" id="Resource_xcft2"]
+script = ExtResource("1_esnyr")
+Name = "RecruitCorona"
+Path = "res://Data/PlayerEnhanceFunction/RecruitCorona.tres"
+
+[sub_resource type="Resource" id="Resource_06doi"]
+script = ExtResource("1_esnyr")
+Name = "RecruitFoldlight"
+Path = "res://Data/PlayerEnhanceFunction/RecruitFoldlight.tres"
+
+[sub_resource type="Resource" id="Resource_4qvdo"]
+script = ExtResource("1_esnyr")
+Name = "RecruitHiveMother"
+Path = "res://Data/PlayerEnhanceFunction/RecruitHiveMother.tres"
+
+[sub_resource type="Resource" id="Resource_7vfyx"]
+script = ExtResource("1_esnyr")
+Name = "RecruitIronCurtain"
+Path = "res://Data/PlayerEnhanceFunction/RecruitIronCurtain.tres"
+
+[sub_resource type="Resource" id="Resource_ns8ca"]
+script = ExtResource("1_esnyr")
+Name = "RecruitMagneticStorm"
+Path = "res://Data/PlayerEnhanceFunction/RecruitMagneticStorm.tres"
+
+[sub_resource type="Resource" id="Resource_wdous"]
+script = ExtResource("1_esnyr")
+Name = "RecruitSingularity"
+Path = "res://Data/PlayerEnhanceFunction/RecruitSingularity.tres"
+
+[sub_resource type="Resource" id="Resource_b8b5l"]
+script = ExtResource("1_esnyr")
+Name = "RecruitTide"
+Path = "res://Data/PlayerEnhanceFunction/RecruitTide.tres"
+
+[sub_resource type="Resource" id="Resource_ongwq"]
+script = ExtResource("1_esnyr")
+Name = "ShowAttackRange"
+Path = "res://Data/PlayerEnhanceFunction/ShowAttackRange.tres"
+
+[sub_resource type="Resource" id="Resource_w0lk7"]
+script = ExtResource("1_esnyr")
+Name = "TestEnhanceFunction"
+Path = "res://Data/PlayerEnhanceFunction/TestEnhanceFunction.tres"
+
+[sub_resource type="Resource" id="Resource_l2nsm"]
+script = ExtResource("1_esnyr")
+Name = "SHP_PLY_ART_001"
+Path = "res://Data/PlayerShips/SHP_PLY_ART_001.tres"
+
+[sub_resource type="Resource" id="Resource_gxukl"]
+script = ExtResource("1_esnyr")
+Name = "SHP_PLY_ART_002"
+Path = "res://Data/PlayerShips/SHP_PLY_ART_002.tres"
+
+[sub_resource type="Resource" id="Resource_3jg86"]
+script = ExtResource("1_esnyr")
+Name = "SHP_PLY_ASS_001"
+Path = "res://Data/PlayerShips/SHP_PLY_ASS_001.tres"
+
+[sub_resource type="Resource" id="Resource_jplnw"]
+script = ExtResource("1_esnyr")
+Name = "SHP_PLY_CAR_001"
+Path = "res://Data/PlayerShips/SHP_PLY_CAR_001.tres"
+
+[sub_resource type="Resource" id="Resource_04cfa"]
+script = ExtResource("1_esnyr")
+Name = "SHP_PLY_CTL_001"
+Path = "res://Data/PlayerShips/SHP_PLY_CTL_001.tres"
+
+[sub_resource type="Resource" id="Resource_ijkmd"]
+script = ExtResource("1_esnyr")
+Name = "SHP_PLY_CTL_002"
+Path = "res://Data/PlayerShips/SHP_PLY_CTL_002.tres"
+
+[sub_resource type="Resource" id="Resource_dfst4"]
+script = ExtResource("1_esnyr")
+Name = "SHP_PLY_FLG_001"
+Path = "res://Data/PlayerShips/SHP_PLY_FLG_001.tres"
+
+[sub_resource type="Resource" id="Resource_t4yv4"]
+script = ExtResource("1_esnyr")
+Name = "SHP_PLY_GRD_001"
+Path = "res://Data/PlayerShips/SHP_PLY_GRD_001.tres"
+
+[sub_resource type="Resource" id="Resource_6vnh3"]
+script = ExtResource("1_esnyr")
+Name = "SHP_PLY_GRD_002"
+Path = "res://Data/PlayerShips/SHP_PLY_GRD_002.tres"
+
+[sub_resource type="Resource" id="Resource_6mcvs"]
+script = ExtResource("1_esnyr")
+Name = "SHP_PLY_SUP_001"
+Path = "res://Data/PlayerShips/SHP_PLY_SUP_001.tres"
+
+[sub_resource type="Resource" id="Resource_otdq6"]
+script = ExtResource("1_esnyr")
+Name = "SHP_PLY_SUP_002"
+Path = "res://Data/PlayerShips/SHP_PLY_SUP_002.tres"
+
+[sub_resource type="Resource" id="Resource_hefq1"]
+script = ExtResource("1_esnyr")
+Name = "Asteroid_States"
+Path = "res://Data/States/Asteroid_States.tres"
+
+[sub_resource type="Resource" id="Resource_hhyd2"]
+script = ExtResource("1_esnyr")
+Name = "Bullets_States"
+Path = "res://Data/States/Bullets_States.tres"
+
+[sub_resource type="Resource" id="Resource_5atnk"]
+script = ExtResource("1_esnyr")
+Name = "Planet_States"
+Path = "res://Data/States/Planet_States.tres"
+
+[sub_resource type="Resource" id="Resource_gaylr"]
+script = ExtResource("1_esnyr")
+Name = "Player_States"
+Path = "res://Data/States/Player_States.tres"
+
+[resource]
+script = ExtResource("2_px8xc")
+ScanPaths = Array[String](["res://Scene", "res://Assets", "res://Data"])
+OutputPath = "res://Scripts/Common/Assets.cs"
+Assets = Array[ExtResource("1_esnyr")]([SubResource("Resource_esnyr"), SubResource("Resource_px8xc"), SubResource("Resource_wp88y"), SubResource("Resource_v0rre"), SubResource("Resource_4fy3a"), SubResource("Resource_a03sf"), SubResource("Resource_yvptu"), SubResource("Resource_skews"), SubResource("Resource_3fb2a"), SubResource("Resource_sidar"), SubResource("Resource_v6qe8"), SubResource("Resource_ir6rt"), SubResource("Resource_arskq"), SubResource("Resource_2vgts"), SubResource("Resource_vcgh7"), SubResource("Resource_kw1d6"), SubResource("Resource_74h16"), SubResource("Resource_8msb4"), SubResource("Resource_ao08i"), SubResource("Resource_22fh4"), SubResource("Resource_24c0y"), SubResource("Resource_glt5d"), SubResource("Resource_yey1g"), SubResource("Resource_uqe7f"), SubResource("Resource_fby33"), SubResource("Resource_kfqip"), SubResource("Resource_4qp5l"), SubResource("Resource_06xpb"), SubResource("Resource_0u4bt"), SubResource("Resource_grc2l"), SubResource("Resource_3yd38"), SubResource("Resource_n0eio"), SubResource("Resource_xa3aj"), SubResource("Resource_khamd"), SubResource("Resource_i0yii"), SubResource("Resource_ct4vf"), SubResource("Resource_kpk78"), SubResource("Resource_0r6k3"), SubResource("Resource_gtmsv"), SubResource("Resource_j88uj"), SubResource("Resource_ccyer"), SubResource("Resource_x8fuj"), SubResource("Resource_nabe1"), SubResource("Resource_ipj3g"), SubResource("Resource_pgvy7"), SubResource("Resource_tj56m"), SubResource("Resource_k4ica"), SubResource("Resource_bt1kn"), SubResource("Resource_ad0i3"), SubResource("Resource_cibgw"), SubResource("Resource_h441g"), SubResource("Resource_due6a"), SubResource("Resource_b5306"), SubResource("Resource_kopts"), SubResource("Resource_y4lcy"), SubResource("Resource_x7ngs"), SubResource("Resource_k46ke"), SubResource("Resource_5up3f"), SubResource("Resource_jhtl2"), SubResource("Resource_pcyct"), SubResource("Resource_f8t8l"), SubResource("Resource_2m7k2"), SubResource("Resource_5wgny"), SubResource("Resource_41vqo"), SubResource("Resource_sfsg1"), SubResource("Resource_2tla7"), SubResource("Resource_mw2pi"), SubResource("Resource_357yx"), SubResource("Resource_ipj30"), SubResource("Resource_ev6ht"), SubResource("Resource_spobn"), SubResource("Resource_lo68x"), SubResource("Resource_ixkga"), SubResource("Resource_7xnxm"), SubResource("Resource_outxh"), SubResource("Resource_0uqed"), SubResource("Resource_erks1"), SubResource("Resource_lk05w"), SubResource("Resource_icbal"), SubResource("Resource_mo7or"), SubResource("Resource_44ay1"), SubResource("Resource_16gf1"), SubResource("Resource_aektr"), SubResource("Resource_wwmrx"), SubResource("Resource_asbtl"), SubResource("Resource_1xfw4"), SubResource("Resource_3ju5s"), SubResource("Resource_xhk0w"), SubResource("Resource_d5oub"), SubResource("Resource_25tte"), SubResource("Resource_2stk2"), SubResource("Resource_tt8jx"), SubResource("Resource_ubk4v"), SubResource("Resource_6sgpp"), SubResource("Resource_vmfn8"), SubResource("Resource_wxgnw"), SubResource("Resource_a8vek"), SubResource("Resource_hpfby"), SubResource("Resource_xf7je"), SubResource("Resource_x3er4"), SubResource("Resource_dgtm0"), SubResource("Resource_7idrs"), SubResource("Resource_cnobl"), SubResource("Resource_pqsqj"), SubResource("Resource_hh3fb"), SubResource("Resource_12xoh"), SubResource("Resource_hj0c3"), SubResource("Resource_qja1q"), SubResource("Resource_h2xxe"), SubResource("Resource_sswun"), SubResource("Resource_tj8ew"), SubResource("Resource_cq4ax"), SubResource("Resource_8qsmt"), SubResource("Resource_gyajv"), SubResource("Resource_tj0sh"), SubResource("Resource_oohew"), SubResource("Resource_totbx"), SubResource("Resource_txiys"), SubResource("Resource_lqbnj"), SubResource("Resource_h68t2"), SubResource("Resource_4hdl1"), SubResource("Resource_3qdor"), SubResource("Resource_05mv1"), SubResource("Resource_2guvl"), SubResource("Resource_jrfcx"), SubResource("Resource_7uktb"), SubResource("Resource_cxgot"), SubResource("Resource_x2p5b"), SubResource("Resource_r25g5"), SubResource("Resource_5ovei"), SubResource("Resource_ei5gr"), SubResource("Resource_hx714"), SubResource("Resource_ngsxd"), SubResource("Resource_xlqgc"), SubResource("Resource_0w2s8"), SubResource("Resource_kdp8f"), SubResource("Resource_1wx1d"), SubResource("Resource_7qd1f"), SubResource("Resource_64mk6"), SubResource("Resource_6gfgd"), SubResource("Resource_7rre2"), SubResource("Resource_ael7a"), SubResource("Resource_83fbw"), SubResource("Resource_offkc"), SubResource("Resource_2y13a"), SubResource("Resource_a17xp"), SubResource("Resource_1cq23"), SubResource("Resource_hgbko"), SubResource("Resource_55tdd"), SubResource("Resource_g1vtx"), SubResource("Resource_4jkft"), SubResource("Resource_rq8ql"), SubResource("Resource_wfxfc"), SubResource("Resource_bafh6"), SubResource("Resource_5c61c"), SubResource("Resource_dv533"), SubResource("Resource_yqm6n"), SubResource("Resource_ppvs8"), SubResource("Resource_xxfym"), SubResource("Resource_ktoul"), SubResource("Resource_x0i1x"), SubResource("Resource_lkvar"), SubResource("Resource_ojvuj"), SubResource("Resource_r8q6p"), SubResource("Resource_nojly"), SubResource("Resource_e3o08"), SubResource("Resource_dp5us"), SubResource("Resource_hce7s"), SubResource("Resource_nwyrv"), SubResource("Resource_m78tt"), SubResource("Resource_3bu86"), SubResource("Resource_3j1gi"), SubResource("Resource_blb4t"), SubResource("Resource_14qtm"), SubResource("Resource_q6hdy"), SubResource("Resource_8i7ar"), SubResource("Resource_lrks3"), SubResource("Resource_oxuny"), SubResource("Resource_oh5bl"), SubResource("Resource_o16qs"), SubResource("Resource_ryv80"), SubResource("Resource_up1iu"), SubResource("Resource_jgx2y"), SubResource("Resource_o3vg7"), SubResource("Resource_kkyam"), SubResource("Resource_0b2ur"), SubResource("Resource_tds0a"), SubResource("Resource_60yby"), SubResource("Resource_cywkw"), SubResource("Resource_mao38"), SubResource("Resource_xumt0"), SubResource("Resource_n6pfg"), SubResource("Resource_y6v08"), SubResource("Resource_fgmcu"), SubResource("Resource_y2nwx"), SubResource("Resource_uxyd2"), SubResource("Resource_c4oov"), SubResource("Resource_skbx0"), SubResource("Resource_pajiy"), SubResource("Resource_40ru2"), SubResource("Resource_0wd3y"), SubResource("Resource_n63wt"), SubResource("Resource_7g8bf"), SubResource("Resource_bu464"), SubResource("Resource_8owtb"), SubResource("Resource_31hdo"), SubResource("Resource_pdie6"), SubResource("Resource_1cw2d"), SubResource("Resource_dmbqg"), SubResource("Resource_4o453"), SubResource("Resource_m6uvj"), SubResource("Resource_muob5"), SubResource("Resource_7n8uy"), SubResource("Resource_jsxo3"), SubResource("Resource_ksa2q"), SubResource("Resource_2ismi"), SubResource("Resource_xcdrl"), SubResource("Resource_4c7bn"), SubResource("Resource_oghfl"), SubResource("Resource_affao"), SubResource("Resource_va21h"), SubResource("Resource_shydq"), SubResource("Resource_6q6p0"), SubResource("Resource_tcjub"), SubResource("Resource_kt7cw"), SubResource("Resource_p4pow"), SubResource("Resource_3dedl"), SubResource("Resource_w437k"), SubResource("Resource_j2aad"), SubResource("Resource_be1nt"), SubResource("Resource_g24j8"), SubResource("Resource_4i84b"), SubResource("Resource_gvwhb"), SubResource("Resource_glawi"), SubResource("Resource_qgrue"), SubResource("Resource_dnh2h"), SubResource("Resource_yvcn5"), SubResource("Resource_7r8od"), SubResource("Resource_yqc25"), SubResource("Resource_76xlt"), SubResource("Resource_sh1yi"), SubResource("Resource_phd6l"), SubResource("Resource_wij0a"), SubResource("Resource_5ltvl"), SubResource("Resource_dv0v0"), SubResource("Resource_sw1nk"), SubResource("Resource_ojfak"), SubResource("Resource_cne52"), SubResource("Resource_0ueli"), SubResource("Resource_4ryp5"), SubResource("Resource_hhypc"), SubResource("Resource_janbb"), SubResource("Resource_q6jkf"), SubResource("Resource_bcf1i"), SubResource("Resource_5lv5e"), SubResource("Resource_mu3cx"), SubResource("Resource_a4x60"), SubResource("Resource_b07yg"), SubResource("Resource_2a2ha"), SubResource("Resource_ht2km"), SubResource("Resource_73vdr"), SubResource("Resource_1m2rk"), SubResource("Resource_4cb5e"), SubResource("Resource_d5i1q"), SubResource("Resource_nt3oq"), SubResource("Resource_irpf8"), SubResource("Resource_j0343"), SubResource("Resource_r1a3w"), SubResource("Resource_xh4tb"), SubResource("Resource_v0h8w"), SubResource("Resource_dxat4"), SubResource("Resource_j0vnd"), SubResource("Resource_m65g0"), SubResource("Resource_b0np3"), SubResource("Resource_hneoo"), SubResource("Resource_utcfx"), SubResource("Resource_w6ouw"), SubResource("Resource_71tsy"), SubResource("Resource_76sla"), SubResource("Resource_14auw"), SubResource("Resource_gwx7m"), SubResource("Resource_bqamu"), SubResource("Resource_6n4ju"), SubResource("Resource_cqx50"), SubResource("Resource_04yk4"), SubResource("Resource_xcft2"), SubResource("Resource_06doi"), SubResource("Resource_4qvdo"), SubResource("Resource_7vfyx"), SubResource("Resource_ns8ca"), SubResource("Resource_wdous"), SubResource("Resource_b8b5l"), SubResource("Resource_ongwq"), SubResource("Resource_w0lk7"), SubResource("Resource_l2nsm"), SubResource("Resource_gxukl"), SubResource("Resource_3jg86"), SubResource("Resource_jplnw"), SubResource("Resource_04cfa"), SubResource("Resource_ijkmd"), SubResource("Resource_dfst4"), SubResource("Resource_t4yv4"), SubResource("Resource_6vnh3"), SubResource("Resource_6mcvs"), SubResource("Resource_otdq6"), SubResource("Resource_hefq1"), SubResource("Resource_hhyd2"), SubResource("Resource_5atnk"), SubResource("Resource_gaylr")])

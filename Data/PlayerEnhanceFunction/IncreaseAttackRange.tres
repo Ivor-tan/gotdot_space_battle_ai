@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IncreaseAttackRange" format=3 uid="uid://dc3rkr2kpkhpt"]
+
+[ext_resource type="Texture2D" uid="uid://i4jmuirlogqh" path="res://icon.svg" id="1_httw7"]
+[ext_resource type="Script" uid="uid://diti3gncq7j4t" path="res://Data/DataCS/Enhance/IncreaseAttackRange.cs" id="1_ws45m"]
+
+[resource]
+script = ExtResource("1_ws45m")
+Name = "火控链路延展"
+Description = "旗舰攻击范围 +10%。"
+NameKey = &"GAMEPLAY_ENHANCE_STAT_ATTACK_RANGE_NAME"
+DescriptionKey = &"GAMEPLAY_ENHANCE_STAT_ATTACK_RANGE_DESCRIPTION"
+Icon = ExtResource("1_httw7")
+FunctionType = 1
+TargetShipId = null
+metadata/_custom_type_script = "uid://diti3gncq7j4t"

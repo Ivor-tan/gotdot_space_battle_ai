@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_IRN_CNT_003"
+ShipId = &"SHP_PLY_GRD_002"
+BranchId = &"ULK_UPG_IRN_CNT"
+Tier = 3
+PreviousNodeId = &"ULK_UPG_IRN_CNT_002"
+BranchName = "反击装甲"
+EffectDescription = "反击触发后，下一发伤害 +25%。"
+IsImplementedInRuntime = false
+

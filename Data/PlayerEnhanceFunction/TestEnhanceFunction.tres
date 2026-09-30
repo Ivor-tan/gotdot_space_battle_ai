@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="BaseEnhanceFunction" format=3 uid="uid://b8vg05kqn3dk3"]
+
+[ext_resource type="Texture2D" uid="uid://d05k57jc7w4ue" path="res://Resource/PlayerSpaceCraft/SpaceCraft.png" id="2_cxtnh"]
+[ext_resource type="Script" uid="uid://dy0l6bfn35vvr" path="res://Data/DataCS/Enhance/BaseEnhanceFunction.cs" id="3_bo55x"]
+[ext_resource type="Resource" uid="uid://rmpdmkhrn10e" path="res://Data/PlayerShips/SHP_PLY_FLG_001.tres" id="4_ship"]
+
+[resource]
+script = ExtResource("3_bo55x")
+Name = "GAMEPLAY_ABILITY_TEST"
+Description = "GAMEPLAY_ABILITY_TEST"
+NameKey = &"GAMEPLAY_ENHANCE_TEST_NAME"
+DescriptionKey = &"GAMEPLAY_ENHANCE_TEST_DESCRIPTION"
+Icon = ExtResource("2_cxtnh")
+IsRandomlyAvailable = false
+AppliesToAllShips = false
+TargetShipData = ExtResource("4_ship")
+TargetShipId = &"SHP_PLY_FLG_001"
+metadata/_custom_type_script = "uid://dy0l6bfn35vvr"

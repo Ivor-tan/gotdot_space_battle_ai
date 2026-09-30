@@ -1,0 +1,6 @@
+[gd_resource type="Resource" format=3 uid="uid://dh8nlg5gwfpi7"]
+
+[ext_resource type="Script" uid="uid://cep68ha3ptfxm" path="res://Data/DataCS/BulletStatus.cs" id="1_w2dl7"]
+
+[resource]
+script = ExtResource("1_w2dl7")

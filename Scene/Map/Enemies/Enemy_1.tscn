@@ -1,0 +1,54 @@
+[gd_scene format=3 uid="uid://dwg5i25yxsr86"]
+
+[ext_resource type="Script" uid="uid://ecmlwy7wtloo" path="res://Scripts/Enemys/EnemyController.cs" id="1_b03i1"]
+[ext_resource type="Resource" uid="uid://c2rc3s20ol1ji" path="res://Data/Enemies/Object01.tres" id="2_cfpum"]
+[ext_resource type="Texture2D" uid="uid://cn7paruk1ob3x" path="res://Resource/Sprites/Alien/base_cthulhu_enemy_01.png" id="3_cfpum"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_gd47k"]
+radius = 21.0
+
+[node name="Enemy1" type="CharacterBody2D" unique_id=277099104 node_paths=PackedStringArray("_rayFront", "DetectionArea", "Sprite", "BodyCollision", "DebugHealthLabel")]
+collision_layer = 4
+collision_mask = 15
+input_pickable = true
+motion_mode = 1
+safe_margin = 0.02
+script = ExtResource("1_b03i1")
+_rayFront = NodePath("CenterRay")
+DetectionArea = NodePath("EnemyArea")
+Sprite = NodePath("Sprite")
+BodyCollision = NodePath("CollisionShape2D")
+DebugHealthLabel = NodePath("DebugHealthLabel")
+EnemiesStates = ExtResource("2_cfpum")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1713856831]
+position = Vector2(-2, 0)
+shape = SubResource("CircleShape2D_gd47k")
+
+[node name="Sprite" type="Sprite2D" parent="." unique_id=94127517]
+z_index = 1
+rotation = 1.5707964
+scale = Vector2(1, 1)
+texture = ExtResource("3_cfpum")
+
+[node name="DebugHealthLabel" type="Label" parent="." unique_id=214566957]
+top_level = true
+offset_right = 80.0
+offset_bottom = 24.0
+theme_override_colors/font_color = Color(1, 0.82, 0.3, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+theme_override_font_sizes/font_size = 14
+text = "HP -"
+horizontal_alignment = 1
+
+[node name="EnemyArea" type="Area2D" parent="." unique_id=92312046]
+collision_layer = 4
+collision_mask = 15
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="EnemyArea" unique_id=1014564333]
+polygon = PackedVector2Array(24, -8, 24, 7, -26, 30, -26, -30)
+
+[node name="CenterRay" type="RayCast2D" parent="." unique_id=977123390]
+position = Vector2(25, 0)
+target_position = Vector2(200, 0)

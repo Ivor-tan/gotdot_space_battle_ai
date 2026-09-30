@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="CardBenefitData" format=3 uid="uid://bawcslwh0suvb"]
+
+[ext_resource type="Script" uid="uid://4xau2yynf0di" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"WPN_006"
+CategoryId = &"wpn"
+RarityId = &"rare"
+DisplayName = "电弧电容"
+DisplayNameKey = &"CODEX_CARD_WPN_006_DISPLAYNAME"
+EffectDescription = "电磁舰：瘫痪目标时 30% 概率电弧至另一目标。"
+EffectDescriptionKey = &"CODEX_CARD_WPN_006_EFFECTDESCRIPTION"
+SynergyDescription = "磁暴、巢母。"
+SynergyDescriptionKey = &"CODEX_CARD_WPN_006_SYNERGYDESCRIPTION"
+TargetScopeId = &"run"
+IsImplementedInRuntime = true
+

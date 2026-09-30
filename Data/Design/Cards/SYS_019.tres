@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="CardBenefitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"SYS_019"
+CategoryId = &"sys"
+RarityId = &"rare"
+DisplayName = "诱饵无人机"
+DisplayNameKey = &"CODEX_CARD_SYS_019_DISPLAYNAME"
+EffectDescription = "指定后排舰获得特性：每 12 秒放出诱饵，吸引远程锁定 2 秒。"
+EffectDescriptionKey = &"CODEX_CARD_SYS_019_EFFECTDESCRIPTION"
+SynergyDescription = "炮击/母舰保护。"
+SynergyDescriptionKey = &"CODEX_CARD_SYS_019_SYNERGYDESCRIPTION"
+TargetScopeId = &"ship"
+RequiresTargetSelection = true
+IsImplementedInRuntime = false
+

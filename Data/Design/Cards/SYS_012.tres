@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="CardBenefitData" format=3 uid="uid://cj7amcjqvtjq6"]
+
+[ext_resource type="Script" uid="uid://4xau2yynf0di" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"SYS_012"
+CategoryId = &"sys"
+RarityId = &"rare"
+DisplayName = "共享电池"
+DisplayNameKey = &"CODEX_CARD_SYS_012_DISPLAYNAME"
+EffectDescription = "指定中排舰：相邻舰触发控制、护盾或近距反击后，自身下一击伤害 +25%。"
+EffectDescriptionKey = &"CODEX_CARD_SYS_012_EFFECTDESCRIPTION"
+SynergyDescription = "指挥舰、控制。"
+SynergyDescriptionKey = &"CODEX_CARD_SYS_012_SYNERGYDESCRIPTION"
+TargetScopeId = &"ship"
+RequiresTargetSelection = true
+IsImplementedInRuntime = true
+

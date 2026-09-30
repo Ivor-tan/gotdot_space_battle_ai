@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ExpBallPointsData" format=3 uid="uid://ofnqgavlb67k"]
+
+[ext_resource type="Script" uid="uid://c5nx2po7mqprg" path="res://Data/DataCS/ExpBallPointsData.cs" id="1_3yb22"]
+[ext_resource type="SpriteFrames" uid="uid://dnsbspp0hc6dr" path="res://Resource/Animation/exp_ball_100.tres" id="1_ly3sl"]
+
+[resource]
+script = ExtResource("1_3yb22")
+ExpPoints = 100
+AnimationRes = ExtResource("1_ly3sl")
+ExpType = 5
+metadata/_custom_type_script = "uid://c5nx2po7mqprg"

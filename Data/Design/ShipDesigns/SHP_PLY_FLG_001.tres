@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="ShipDesignData" format=3 uid="uid://djgfp6ntui48l"]
+
+[ext_resource type="Script" uid="uid://dsyo42kgkoxaa" path="res://Data/DataCS/ShipDesignData.cs" id="1_design"]
+[ext_resource type="Resource" uid="uid://rmpdmkhrn10e" path="res://Data/PlayerShips/SHP_PLY_FLG_001.tres" id="2_ship"]
+[ext_resource type="Texture2D" uid="uid://dcosj7tg0pp8q" path="res://Resource/Sprites/Fighters/fighters_01.png" id="3_preview"]
+[ext_resource type="Texture2D" uid="uid://bbo82m2bier5u" path="res://Resource/Sprites/Projectiles/projectile_r1_c2.png" id="4_projectile"]
+
+[resource]
+script = ExtResource("1_design")
+ShipId = &"SHP_PLY_FLG_001"
+ShipData = ExtResource("2_ship")
+DisplayName = "奇点指挥舰"
+DisplayNameKey = &"CODEX_SHIP_SHP_PLY_FLG_001_DISPLAYNAME"
+PreviewIcon = ExtResource("3_preview")
+ProjectileIcon = ExtResource("4_projectile")
+CenterRingEffectId = &"RING_FLG_CENTER"
+RingOneEffectId = &"RING_FLG_R1"
+RingTwoEffectId = &"RING_FLG_R2"
+CenterRingEffect = "每 3 次命中使一名相邻舰下一发 +12% 伤害。"
+CenterRingEffectKey = &"CODEX_SHIP_SHP_PLY_FLG_001_CENTERRINGEFFECT"
+RingTwoEffect = "经验物吸附半径 +25%。"
+BranchIds = Array[StringName]([&"ULK_UPG_FLG_PRC_", &"ULK_UPG_FLG_FRM_", &"ULK_UPG_FLG_EXP_"])
+BranchOneDescription = "穿透校准 `ULK_UPG_FLG_PRC_001–003` | 每第三发 +1 穿透。 | 第三发首命中造成半径 55 的 35% 溅射。 | 附加奇点标记 4 秒；下一次相邻舰命中额外承受 30% 伤害。"
+BranchOneDescriptionKey = &"CODEX_SHIP_SHP_PLY_FLG_001_BRANCHONEDESCRIPTION"
+BranchTwoDescription = "编队指令 `ULK_UPG_FLG_FRM_002–003` | 相邻舰首次失盾时，下一发伤害 +25%，每舰 8 秒一次。 | 每命中 8 次，使相邻舰下一发 +25% 伤害。"
+BranchTwoDescriptionKey = &"CODEX_SHIP_SHP_PLY_FLG_001_BRANCHTWODESCRIPTION"
+BranchThreeDescription = "星图采集 `ULK_UPG_FLG_EXP_001–003` | 吸附范围 +20%。 | 参与击杀精英额外掉 1 经验物。 | 每收集 12 经验物，自身与相邻舰获 1 层测绘：射程 +12，最多 5 层。"
+BranchThreeDescriptionKey = &"CODEX_SHIP_SHP_PLY_FLG_001_BRANCHTHREEDESCRIPTION"
+

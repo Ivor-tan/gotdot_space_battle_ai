@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ResourceGroup" format=3 uid="uid://3vwxhcywu5d"]
+
+[ext_resource type="Script" uid="uid://klv8tuveaql4" path="res://addons/godot_resource_groups/resource_group.gd" id="1_1anom"]
+
+[resource]
+script = ExtResource("1_1anom")
+base_folder = "res://Resource/Sound"
+includes = Array[String](["*.ogg", "*.wav", "*.mp3"])
+paths = Array[String](["res://Resource/Sound/Main_BGM.ogg"])
+metadata/_custom_type_script = "uid://klv8tuveaql4"

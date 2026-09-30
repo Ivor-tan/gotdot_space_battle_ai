@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="EnemyDesignData" format=3 uid="uid://wwg73qwjdom5"]
+
+[ext_resource type="Script" uid="uid://u651y3gitnya" path="res://Data/DataCS/EnemyDesignData.cs" id="1_enemy"]
+[ext_resource type="PackedScene" path="res://Scene/Map/Enemies/ENM_ABR_NRM_SUM_001.tscn" id="2_scene"]
+[ext_resource type="Texture2D" uid="uid://bxgd72s07w7ug" path="res://Resource/Sprites/Alien/alien_06.png" id="1_odhbr"]
+
+[resource]
+script = ExtResource("1_enemy")
+EnemyId = &"ENM_ABR_NRM_SUM_001"
+DisplayName = "蚀群载机"
+DisplayNameKey = &"CODEX_ENEMY_ENM_ABR_NRM_SUM_001_DISPLAYNAME"
+RoleId = &"SUM"
+Icon = ExtResource("1_odhbr")
+EnemyScene = ExtResource("2_scene")
+BaseHealth = 140
+ControlResistance = 0.25
+SpawnCap = 4
+ThreatWeight = 1.6
+DropTableId = &"DROP_ENM_ABR_NRM_SUM_001"
+DropSummary = "4 微粒；12% 蜂群残片（无人机伤害 +15%，12 s）。"
+DropSummaryKey = &"CODEX_ENEMY_ENM_ABR_NRM_SUM_001_DROPSUMMARY"
+TargetAndAttack = "与舰队保持 520–650 px；无本体攻击。"
+TargetAndAttackKey = &"CODEX_ENEMY_ENM_ABR_NRM_SUM_001_TARGETANDATTACK"
+MechanicAndWarning = "每 6.0 s 召唤 3 架子机；开舱前摇 0.65 s 可打断；控制抗性 25%。"
+MechanicAndWarningKey = &"CODEX_ENEMY_ENM_ABR_NRM_SUM_001_MECHANICANDWARNING"
+SpawnRule = "单波最多 1，场上 4，权重 1.6。"
+SpawnRuleKey = &"CODEX_ENEMY_ENM_ABR_NRM_SUM_001_SPAWNRULE"
+

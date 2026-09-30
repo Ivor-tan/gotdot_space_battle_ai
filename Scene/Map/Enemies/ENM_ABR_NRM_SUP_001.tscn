@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://Scene/Map/Enemies/Enemy_1.tscn" id="1_base"]
+
+[node name="ENM_ABR_NRM_SUP_001" instance=ExtResource("1_base")]
+Pattern = 4
+AbilityRange = 72.0
+AbilityCooldown = 1.0
+AbilityTargets = 1

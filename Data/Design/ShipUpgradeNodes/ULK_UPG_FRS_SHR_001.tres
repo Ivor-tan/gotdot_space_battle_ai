@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_FRS_SHR_001"
+ShipId = &"SHP_PLY_ART_002"
+BranchId = &"ULK_UPG_FRS_SHR"
+Tier = 1
+PreviousNodeId = &""
+BranchName = "碎冰制导"
+EffectDescription = "爆炸命中 2 敌人以上时发射 2 枚碎冰，各 30% 伤害。"
+IsImplementedInRuntime = false
+

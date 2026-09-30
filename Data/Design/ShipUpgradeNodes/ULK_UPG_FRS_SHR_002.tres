@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_FRS_SHR_002"
+ShipId = &"SHP_PLY_ART_002"
+BranchId = &"ULK_UPG_FRS_SHR"
+Tier = 2
+PreviousNodeId = &"ULK_UPG_FRS_SHR_001"
+BranchName = "碎冰制导"
+EffectDescription = "碎冰命中减速目标时反弹一次。"
+IsImplementedInRuntime = false
+

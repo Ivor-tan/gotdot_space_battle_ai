@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="CardBenefitData" format=3 uid="uid://ou4r06jlvyxs"]
+
+[ext_resource type="Script" uid="uid://4xau2yynf0di" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"SIG_019"
+CategoryId = &"sig"
+RarityId = &"epic"
+DisplayName = "战地改装"
+DisplayNameKey = &"CODEX_CARD_SIG_019_DISPLAYNAME"
+EffectDescription = "选择已拥有舰船：获得 1 个随机稀有单舰改造，并立刻显示其羁绊关联。"
+EffectDescriptionKey = &"CODEX_CARD_SIG_019_EFFECTDESCRIPTION"
+SynergyDescription = "王牌舰、单舰改造。"
+SynergyDescriptionKey = &"CODEX_CARD_SIG_019_SYNERGYDESCRIPTION"
+TargetScopeId = &"run"
+

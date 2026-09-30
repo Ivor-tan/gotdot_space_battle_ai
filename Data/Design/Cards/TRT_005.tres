@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="CardBenefitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"TRT_005"
+CategoryId = &"trt"
+RarityId = &"common"
+DisplayName = "支援网络"
+DisplayNameKey = &"CODEX_CARD_TRT_005_DISPLAYNAME"
+EffectDescription = "全部支援舰：护盾授予范围 +1 格。"
+EffectDescriptionKey = &"CODEX_CARD_TRT_005_EFFECTDESCRIPTION"
+SynergyDescription = "芽舱、中排。"
+SynergyDescriptionKey = &"CODEX_CARD_TRT_005_SYNERGYDESCRIPTION"
+TargetScopeId = &"fleet"
+RequiresTargetSelection = false
+IsImplementedInRuntime = false
+

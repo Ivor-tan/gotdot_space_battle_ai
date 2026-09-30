@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="PlayerShipData" format=3 uid="uid://cmqqvdad5atkg"]
+
+[ext_resource type="Script" uid="uid://chfm6671qx1of" path="res://Data/DataCS/PlayerShipData.cs" id="1_script"]
+[ext_resource type="Texture2D" uid="uid://bv3kiwneqj2ro" path="res://Resource/PlayerSpaceCraft/SpaceCraft_Rust.png" id="2_icon"]
+[ext_resource type="PackedScene" path="res://Scene/Player/Ships/Bulwark.tscn" id="3_scene"]
+
+[resource]
+script = ExtResource("1_script")
+ShipId = &"SHP_PLY_GRD_001"
+ShipTypeId = &"guard"
+FactionId = &"kinetic"
+RoleId = &"guard"
+DisplayName = "壁垒"
+Description = "前排守卫舰。优先拦截接近旗舰的敌人，并分担相邻舰船受到伤害的 20%。"
+DisplayNameKey = null
+DescriptionKey = null
+Icon = ExtResource("2_icon")
+ShipScene = ExtResource("3_scene")
+RecommendedPositionId = &"front"
+RotateSpeed = 4.5
+AttackRange = 190.0
+AttackInterval = 1.5
+AttackPower = 18
+WeaponId = &"WPN_INTERCEPT_CANNON"
+ActiveAbilityId = null
+PassiveAbilityId = &"PAS_ADJACENT_GUARD"
+UnlockSourceId = &"UNLOCK_START"
+UnlockLevel = 1
+DeployCost = 1
+TagIds = Array[StringName]([&"kinetic", &"guard"])
+TraitIds = Array[StringName]([&"intercept", &"damage_share"])
+BondIds = Array[StringName]([&"BND_PAI_002"])

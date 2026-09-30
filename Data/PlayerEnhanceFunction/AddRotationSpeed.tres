@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AddRotationSpeed" format=3 uid="uid://d1booyerjwv6d"]
+
+[ext_resource type="Script" uid="uid://ue7gie4ahj06" path="res://Data/DataCS/Enhance/AddRotationSpeed.cs" id="1_8h252"]
+[ext_resource type="Texture2D" uid="uid://i4jmuirlogqh" path="res://icon.svg" id="1_y1dcs"]
+
+[resource]
+script = ExtResource("1_8h252")
+Name = "姿态喷口调校"
+Description = "旗舰旋转速度 +1。"
+NameKey = &"GAMEPLAY_ENHANCE_STAT_ROTATE_SPEED_NAME"
+DescriptionKey = &"GAMEPLAY_ENHANCE_STAT_ROTATE_SPEED_DESCRIPTION"
+Icon = ExtResource("1_y1dcs")
+FunctionType = 1
+TargetShipId = null
+metadata/_custom_type_script = "uid://ue7gie4ahj06"

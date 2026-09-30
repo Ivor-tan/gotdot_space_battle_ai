@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="EnemyDesignData" format=3 uid="uid://bttr2u6x35c3y"]
+
+[ext_resource type="Script" uid="uid://u651y3gitnya" path="res://Data/DataCS/EnemyDesignData.cs" id="1_enemy"]
+[ext_resource type="PackedScene" path="res://Scene/Map/Enemies/ENM_ABR_ELT_SUM_001.tscn" id="2_scene"]
+[ext_resource type="Texture2D" path="res://Resource/Sprites/Alien/alien_12.png" id="1_lts51"]
+
+[resource]
+script = ExtResource("1_enemy")
+EnemyId = &"ENM_ABR_ELT_SUM_001"
+DisplayName = "蚀群主宰"
+DisplayNameKey = &"CODEX_ENEMY_ENM_ABR_ELT_SUM_001_DISPLAYNAME"
+TierId = &"ELT"
+RoleId = &"SUM"
+Icon = ExtResource("1_lts51")
+EnemyScene = ExtResource("2_scene")
+BaseHealth = 860
+EnemyShieldLayers = 2
+DisplayDamage = 10
+EffectiveHits = 1
+DropTableId = &"DROP_ENM_ABR_ELT_SUM_001"
+TargetAndAttack = "每 5.5 s 召唤 6 架精英子机；前摇 0.75 s 可打断。子机 22 HP、255 px/s、冷却 1.4 s、有效命中 1；死亡溅射仅造成表现伤害 10。"
+TargetAndAttackKey = &"CODEX_ENEMY_ENM_ABR_ELT_SUM_001_TARGETANDATTACK"
+MechanicAndWarning = "阶段 2 后；同场最多 1 只。"
+MechanicAndWarningKey = &"CODEX_ENEMY_ENM_ABR_ELT_SUM_001_MECHANICANDWARNING"
+SpawnRule = "固定 14 微粒 + 大型经验核心；12% 角色信标，10% 强化蜂群残片（+30%，12 s）。"
+SpawnRuleKey = &"CODEX_ENEMY_ENM_ABR_ELT_SUM_001_SPAWNRULE"
+

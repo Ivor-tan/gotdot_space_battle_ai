@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="EnemyDesignData" format=3 uid="uid://huwafo608koo"]
+
+[ext_resource type="Script" uid="uid://u651y3gitnya" path="res://Data/DataCS/EnemyDesignData.cs" id="1_enemy"]
+[ext_resource type="PackedScene" path="res://Scene/Map/Enemies/ENM_ABR_NRM_ZON_001.tscn" id="2_scene"]
+[ext_resource type="Texture2D" uid="uid://fr3u3y8yqchn" path="res://Resource/Sprites/Alien/alien_08.png" id="1_fkrtp"]
+
+[resource]
+script = ExtResource("1_enemy")
+EnemyId = &"ENM_ABR_NRM_ZON_001"
+DisplayName = "定点投射器"
+DisplayNameKey = &"CODEX_ENEMY_ENM_ABR_NRM_ZON_001_DISPLAYNAME"
+RoleId = &"ZON"
+Icon = ExtResource("1_fkrtp")
+EnemyScene = ExtResource("2_scene")
+BaseHealth = 34
+SpawnCap = 6
+ThreatWeight = 0.8
+DropTableId = &"DROP_ENM_ABR_NRM_ZON_001"
+DropSummary = "2 微粒；15% 牵引碎片（+1 微粒、经验吸附范围 +10%，10 s）。"
+DropSummaryKey = &"CODEX_ENEMY_ENM_ABR_NRM_ZON_001_DROPSUMMARY"
+TargetAndAttack = "优先最外侧舰；使用单体投射物，冷却 7.0 s。"
+TargetAndAttackKey = &"CODEX_ENEMY_ENM_ABR_NRM_ZON_001_TARGETANDATTACK"
+MechanicAndWarning = "仅使用单体投射物；抗性 100%。"
+MechanicAndWarningKey = &"CODEX_ENEMY_ENM_ABR_NRM_ZON_001_MECHANICANDWARNING"
+SpawnRule = "单波最多 2，场上 6，权重 0.8。"
+SpawnRuleKey = &"CODEX_ENEMY_ENM_ABR_NRM_ZON_001_SPAWNRULE"
+

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="ResourceGroup" format=3 uid="uid://bkxyy1cdx5wfa"]
+
+[ext_resource type="Script" uid="uid://klv8tuveaql4" path="res://addons/godot_resource_groups/resource_group.gd" id="1_group"]
+
+[resource]
+script = ExtResource("1_group")
+base_folder = "res://Data/Design/Bonds"
+includes = Array[String](["*.tres"])
+paths = Array[String](["res://Data/Design/Bonds/BND_PAI_001.tres", "res://Data/Design/Bonds/BND_PAI_002.tres", "res://Data/Design/Bonds/BND_PAI_003.tres", "res://Data/Design/Bonds/BND_PAI_004.tres", "res://Data/Design/Bonds/BND_PAI_005.tres", "res://Data/Design/Bonds/BND_TRI_001.tres", "res://Data/Design/Bonds/BND_TRI_002.tres", "res://Data/Design/Bonds/BND_TRI_003.tres"])

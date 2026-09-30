@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://dqvyohgt1o7w"]
+
+[ext_resource type="SpriteFrames" uid="uid://bvgfu4olphlel" path="res://Resource/Animation/exp_ball_1.tres" id="1_qr36m"]
+[ext_resource type="Shader" uid="uid://covr6rl4fkk8c" path="res://Material/Shader/ScaleBreathe.gdshader" id="1_yrks6"]
+[ext_resource type="Script" uid="uid://nv8hgku4jiat" path="res://Scripts/Animation/ExpBallController.cs" id="2_fdenj"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_3f4am"]
+shader = ExtResource("1_yrks6")
+shader_parameter/breathe_speed = 3.0000001392401203
+shader_parameter/breathe_amount = 0.05000000167648
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_nowi5"]
+radius = 500.0
+
+[node name="ExpBall" type="AnimatedSprite2D" unique_id=1450655308 node_paths=PackedStringArray("DetectionArea")]
+material = SubResource("ShaderMaterial_3f4am")
+scale = Vector2(0.2, 0.2)
+sprite_frames = ExtResource("1_qr36m")
+animation = &"exp_ball_1"
+script = ExtResource("2_fdenj")
+DetectionArea = NodePath("Area2D")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1427702742]
+collision_layer = 0
+collision_mask = 2
+input_pickable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=750275860]
+shape = SubResource("CircleShape2D_nowi5")

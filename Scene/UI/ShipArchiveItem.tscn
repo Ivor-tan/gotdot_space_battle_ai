@@ -1,0 +1,41 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Scripts/UI/shipArchiveItem.cs" id="1_script"]
+
+[node name="ShipArchiveItem" type="PanelContainer" node_paths=PackedStringArray("icon", "nameLabel", "descriptionLabel", "detailsButton")]
+custom_minimum_size = Vector2(420, 118)
+layout_mode = 2
+script = ExtResource("1_script")
+icon = NodePath("Content/Icon")
+nameLabel = NodePath("Content/Info/Name")
+descriptionLabel = NodePath("Content/Info/Description")
+detailsButton = NodePath("Content/Info/Details")
+
+[node name="Content" type="HBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Icon" type="TextureRect" parent="Content"]
+custom_minimum_size = Vector2(92, 92)
+layout_mode = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Info" type="VBoxContainer" parent="Content"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Name" type="Label" parent="Content/Info"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "UI_ARCHIVE_SHIP_001_NAME"
+
+[node name="Description" type="Label" parent="Content/Info"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "UI_ARCHIVE_SHIP_001_DESCRIPTION"
+autowrap_mode = 2
+
+[node name="Details" type="Button" parent="Content/Info"]
+layout_mode = 2
+text = "UI_ARCHIVE_DETAILS"

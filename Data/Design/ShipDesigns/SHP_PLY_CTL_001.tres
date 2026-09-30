@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="ShipDesignData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipDesignData.cs" id="1_design"]
+[ext_resource type="Resource" path="res://Data/PlayerShips/SHP_PLY_CTL_001.tres" id="2_ship"]
+[ext_resource type="Texture2D" path="res://Resource/Sprites/Fighters/fighters_03.png" id="3_preview"]
+[ext_resource type="Texture2D" path="res://Resource/Sprites/Projectiles/projectile_r2_c4.png" id="4_projectile"]
+
+[resource]
+script = ExtResource("1_design")
+ShipId = &"SHP_PLY_CTL_001"
+ShipData = ExtResource("2_ship")
+PreviewIcon = ExtResource("3_preview")
+ProjectileIcon = ExtResource("4_projectile")
+DisplayName = "潮汐干扰舰"
+DisplayNameKey = &"CODEX_SHIP_SHP_PLY_CTL_001_DISPLAYNAME"
+CenterRingEffectId = &"RING_CTL_CENTER"
+RingOneEffectId = &"RING_CTL_R1"
+RingTwoEffectId = &"RING_CTL_R2"
+CenterRingEffect = "牵引中心持续 +0.35 秒。"
+CenterRingEffectKey = &"CODEX_SHIP_SHP_PLY_CTL_001_CENTERRINGEFFECT"
+RingOneEffect = "对靠近中心敌人的拉拽 +20%。"
+RingTwoEffect = "弹着点牵引半径 +18%。"
+BranchIds = Array[StringName]([&"ULK_UPG_TID_GRV_", &"ULK_UPG_TID_WAV_", &"ULK_UPG_TID_RLY_"])
+BranchOneDescription = "引潮重力 `ULK_UPG_TID_GRV_001–003` | 额外拉拽 12%。 | 被拉拽目标移速 -20% 2 秒。 | 同位置命中 3 次形成 1.5 秒重力井，每 0.5 秒拉拽；每区 6 秒一次。"
+BranchOneDescriptionKey = &"CODEX_SHIP_SHP_PLY_CTL_001_BRANCHONEDESCRIPTION"
+BranchTwoDescription = "潮汐回卷 `ULK_UPG_TID_WAV_001–003` | 牵引结束造成 25% 控制伤害。 | 目标被拉入 120 内时，附近敌人减速 15% 1 秒。 | 每第 5 次牵引形成回卷弹，依次拉拽最近 3 敌人，强度 55%。"
+BranchTwoDescriptionKey = &"CODEX_SHIP_SHP_PLY_CTL_001_BRANCHTWODESCRIPTION"
+BranchThreeDescription = "弱点转译 `ULK_UPG_TID_RLY_001–003` | 受控敌人下次受伤 +12%。 | 不同 `ShipId` 可各触发一次，最多 3 次。 | 4 秒内被 3 艘不同舰命中时释放电涌，传递一次 50% 控制伤害。"
+BranchThreeDescriptionKey = &"CODEX_SHIP_SHP_PLY_CTL_001_BRANCHTHREEDESCRIPTION"
+

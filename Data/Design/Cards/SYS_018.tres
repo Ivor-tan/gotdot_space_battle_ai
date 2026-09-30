@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="CardBenefitData" format=3 uid="uid://bnxcai5natkq6"]
+
+[ext_resource type="Script" uid="uid://4xau2yynf0di" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"SYS_018"
+CategoryId = &"sys"
+RarityId = &"epic"
+DisplayName = "紧急信标"
+DisplayNameKey = &"CODEX_CARD_SYS_018_DISPLAYNAME"
+EffectDescription = "指定舰首次将被击毁时，抵消该次命中并获得 1 层护盾，单局一次。"
+EffectDescriptionKey = &"CODEX_CARD_SYS_018_EFFECTDESCRIPTION"
+SynergyDescription = "高风险前排、护盾。"
+SynergyDescriptionKey = &"CODEX_CARD_SYS_018_SYNERGYDESCRIPTION"
+TargetScopeId = &"ship"
+RequiresTargetSelection = true
+IsImplementedInRuntime = true
+

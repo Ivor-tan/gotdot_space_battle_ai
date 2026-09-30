@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="CardBenefitData" format=3 uid="uid://dikruyyg2qraa"]
+
+[ext_resource type="Script" uid="uid://4xau2yynf0di" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"SIG_005"
+CategoryId = &"sig"
+RarityId = &"epic"
+DisplayName = "巢母信标"
+DisplayNameKey = &"CODEX_CARD_SIG_005_DISPLAYNAME"
+EffectDescription = "招募巢母；已有巢母时仍获得待部署巢母，可补位或融合。"
+EffectDescriptionKey = &"CODEX_CARD_SIG_005_EFFECTDESCRIPTION"
+SynergyDescription = "磁暴、无人机。"
+SynergyDescriptionKey = &"CODEX_CARD_SIG_005_SYNERGYDESCRIPTION"
+TargetScopeId = &"recruitment"
+IsImplementedInRuntime = true
+

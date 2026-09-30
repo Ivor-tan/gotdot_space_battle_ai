@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="EnemyDesignData" format=3 uid="uid://t701wqawyo2r"]
+
+[ext_resource type="Texture2D" path="res://Resource/Sprites/Alien/alien_10.png" id="1_0t4w7"]
+[ext_resource type="Script" uid="uid://u651y3gitnya" path="res://Data/DataCS/EnemyDesignData.cs" id="1_enemy"]
+[ext_resource type="PackedScene" path="res://Scene/Map/Enemies/ENM_ABR_ELT_ZON_001.tscn" id="2_scene"]
+
+[resource]
+script = ExtResource("1_enemy")
+EnemyId = &"ENM_ABR_ELT_ZON_001"
+DisplayName = "重装投射艇"
+DisplayNameKey = &"CODEX_ENEMY_ENM_ABR_ELT_ZON_001_DISPLAYNAME"
+TierId = &"ELT"
+RoleId = &"ZON"
+Icon = ExtResource("1_0t4w7")
+EnemyScene = ExtResource("2_scene")
+BaseHealth = 620
+EnemyShieldLayers = 2
+DropTableId = &"DROP_ENM_ABR_ELT_ZON_001"
+TargetAndAttack = "每 9 s 向最外侧舰发射单体投射物。"
+TargetAndAttackKey = &"CODEX_ENEMY_ENM_ABR_ELT_ZON_001_TARGETANDATTACK"
+MechanicAndWarning = "阶段 3 后；危机波最多 1 只。"
+MechanicAndWarningKey = &"CODEX_ENEMY_ENM_ABR_ELT_ZON_001_MECHANICANDWARNING"
+SpawnRule = "固定 14 微粒 + 大型经验核心；12% 角色信标，10% 移动系统卡。"
+SpawnRuleKey = &"CODEX_ENEMY_ENM_ABR_ELT_ZON_001_SPAWNRULE"
+

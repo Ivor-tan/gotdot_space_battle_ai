@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_ASS_HNT_002"
+ShipId = &"SHP_PLY_ASS_001"
+BranchId = &"ULK_UPG_ASS_HNT"
+Tier = 2
+PreviousNodeId = &"ULK_UPG_ASS_HNT_001"
+BranchName = "追猎协议"
+EffectDescription = "击败标记目标后下一发无需等待间隔。"
+IsImplementedInRuntime = false
+

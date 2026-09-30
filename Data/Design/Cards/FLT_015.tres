@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="CardBenefitData" format=3 uid="uid://cyg3bkwhyysbs"]
+
+[ext_resource type="Script" uid="uid://4xau2yynf0di" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"FLT_015"
+CategoryId = &"flt"
+RarityId = &"epic"
+DisplayName = "双重共鸣"
+DisplayNameKey = &"CODEX_CARD_FLT_015_DISPLAYNAME"
+EffectDescription = "同时激活 2 条羁绊时，所有羁绊效果 +15%。"
+EffectDescriptionKey = &"CODEX_CARD_FLT_015_EFFECTDESCRIPTION"
+SynergyDescription = "组合 Build。"
+SynergyDescriptionKey = &"CODEX_CARD_FLT_015_SYNERGYDESCRIPTION"
+TargetScopeId = &"run"
+IsImplementedInRuntime = true
+

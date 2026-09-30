@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_FLD_SHD_001"
+ShipId = &"SHP_PLY_SUP_001"
+BranchId = &"ULK_UPG_FLD_SHD"
+Tier = 1
+PreviousNodeId = &""
+BranchName = "折光护幕"
+EffectDescription = "每 9 秒为自身或最低盾相邻舰补 1 层。"
+IsImplementedInRuntime = false
+

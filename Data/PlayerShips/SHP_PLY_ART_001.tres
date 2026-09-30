@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="PlayerShipData" format=3 uid="uid://c6uypf4766hrp"]
+
+[ext_resource type="Script" uid="uid://chfm6671qx1of" path="res://Data/DataCS/PlayerShipData.cs" id="1_script"]
+[ext_resource type="Texture2D" uid="uid://cxq81oboyhnte" path="res://Resource/PlayerSpaceCraft/SpaceCraft_Gold.png" id="2_icon"]
+[ext_resource type="PackedScene" path="res://Scene/Player/Ships/Corona.tscn" id="3_scene"]
+
+[resource]
+script = ExtResource("1_script")
+ShipId = &"SHP_PLY_ART_001"
+ShipTypeId = &"artillery"
+FactionId = &"thermal"
+RoleId = &"artillery"
+RarityId = &"rare"
+DisplayName = "日冕"
+Description = "高射程热能炮击舰。命中附加燃烧；每 4 次主炮命中后下一发穿透 +2。"
+DisplayNameKey = null
+DescriptionKey = null
+Icon = ExtResource("2_icon")
+ShipScene = ExtResource("3_scene")
+RecommendedPositionId = &"rear"
+RotateSpeed = 4.8
+AttackRange = 560.0
+AttackPower = 42
+WeaponId = &"WPN_CORONA_BEAM"
+ActiveAbilityId = null
+PassiveAbilityId = &"PAS_CORONA_PIERCE"
+UnlockSourceId = &"UNLOCK_THERMAL_BEACON"
+UnlockLevel = 2
+DeployCost = 2
+TagIds = Array[StringName]([&"thermal", &"artillery"])
+TraitIds = Array[StringName]([&"burn", &"pierce"])
+BondIds = Array[StringName]([&"BND_PAI_001"])

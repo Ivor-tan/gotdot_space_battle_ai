@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_STM_NET_003"
+ShipId = &"SHP_PLY_CTL_002"
+BranchId = &"ULK_UPG_STM_NET"
+Tier = 3
+PreviousNodeId = &"ULK_UPG_STM_NET_002"
+BranchName = "拦截电网"
+EffectDescription = "每9秒形成电网2秒，网内普通敌人移速 -35%，每目标一次。"
+IsImplementedInRuntime = false
+

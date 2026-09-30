@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="ShipDesignData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipDesignData.cs" id="1_design"]
+[ext_resource type="Resource" path="res://Data/PlayerShips/SHP_PLY_ASS_001.tres" id="2_ship"]
+[ext_resource type="Texture2D" path="res://Resource/Sprites/Fighters/fighters_07.png" id="3_preview"]
+[ext_resource type="Texture2D" path="res://Resource/Sprites/Projectiles/projectile_r3_c8.png" id="4_projectile"]
+
+[resource]
+script = ExtResource("1_design")
+ShipId = &"SHP_PLY_ASS_001"
+ShipData = ExtResource("2_ship")
+PreviewIcon = ExtResource("3_preview")
+ProjectileIcon = ExtResource("4_projectile")
+DisplayName = "轨道强袭舰"
+DisplayNameKey = &"CODEX_SHIP_SHP_PLY_ASS_001_DISPLAYNAME"
+CenterRingEffectId = &"RING_ASS_CENTER"
+RingOneEffectId = &"RING_ASS_R1"
+RingTwoEffectId = &"RING_ASS_R2"
+CenterRingEffect = "冲击层数上限 +2。"
+CenterRingEffectKey = &"CODEX_SHIP_SHP_PLY_ASS_001_CENTERRINGEFFECT"
+RingOneEffect = "距目标 180 内伤害 +25%。"
+RingTwoEffect = "首次命中 360 外目标获 20% 移速 2 秒。"
+BranchIds = Array[StringName]([&"ULK_UPG_ASS_IMP_", &"ULK_UPG_ASS_HNT_", &"ULK_UPG_ASS_SHK_"])
+BranchOneDescription = "撞击增幅 `ULK_UPG_ASS_IMP_001–003` | 距目标小于 180 时伤害 +25%。 | 连续命中 4 次后，第 5 次击退 0.35 秒。 | 击退精英/Boss改为 +60% 伤害并获 1 层护盾，每 8 秒一次。"
+BranchOneDescriptionKey = &"CODEX_SHIP_SHP_PLY_ASS_001_BRANCHONEDESCRIPTION"
+BranchTwoDescription = "追猎协议 `ULK_UPG_ASS_HNT_001–003` | 对生命比例最低目标伤害 +18%。 | 击败标记目标后下一发无需等待间隔。 | 连杀 3 目标进入 3 秒追猎：间隔 -20%，不低于 0.5 秒。"
+BranchTwoDescriptionKey = &"CODEX_SHIP_SHP_PLY_ASS_001_BRANCHTWODESCRIPTION"
+BranchThreeDescription = "震荡弹头 `ULK_UPG_ASS_SHK_001–003` | 近距命中产生半径45、35%伤害震荡。 | 震荡命中 3 敌人以上时，下一发伤害 +15%。 | 每第 6 次近距命中将震荡提高至半径95，并减速35% 1秒。"
+BranchThreeDescriptionKey = &"CODEX_SHIP_SHP_PLY_ASS_001_BRANCHTHREEDESCRIPTION"
+

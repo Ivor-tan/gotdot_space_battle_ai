@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="ShipDesignData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipDesignData.cs" id="1_design"]
+[ext_resource type="Resource" path="res://Data/PlayerShips/SHP_PLY_CTL_002.tres" id="2_ship"]
+[ext_resource type="Texture2D" path="res://Resource/Sprites/Fighters/fighters_09.png" id="3_preview"]
+[ext_resource type="Texture2D" path="res://Resource/Sprites/Projectiles/projectile_r6_c2.png" id="4_projectile"]
+
+[resource]
+script = ExtResource("1_design")
+ShipId = &"SHP_PLY_CTL_002"
+ShipData = ExtResource("2_ship")
+PreviewIcon = ExtResource("3_preview")
+ProjectileIcon = ExtResource("4_projectile")
+DisplayName = "风暴链路舰"
+DisplayNameKey = &"CODEX_SHIP_SHP_PLY_CTL_002_DISPLAYNAME"
+CenterRingEffectId = &"RING_CTL_CENTER"
+RingOneEffectId = &"RING_CTL_R1"
+RingTwoEffectId = &"RING_CTL_R2"
+CenterRingEffect = "完整链路最后一跳麻痹 0.3 秒。"
+CenterRingEffectKey = &"CODEX_SHIP_SHP_PLY_CTL_002_CENTERRINGEFFECT"
+RingOneEffect = "优先覆盖攻击相邻舰的敌人。"
+RingTwoEffect = "电弧额外跳跃 1 次，按衰减规则结算。"
+BranchIds = Array[StringName]([&"ULK_UPG_STM_CHN_", &"ULK_UPG_STM_OVR_", &"ULK_UPG_STM_NET_"])
+BranchOneDescription = "风暴传导 `ULK_UPG_STM_CHN_001–003` | 电弧额外跳跃 1 次，按衰减结算。 | 每次跳跃使目标攻击间隔 +8% 2秒。 | 连续命中 4 名不同敌人时，最后目标麻痹0.5秒，每5秒一次。"
+BranchOneDescriptionKey = &"CODEX_SHIP_SHP_PLY_CTL_002_BRANCHONEDESCRIPTION"
+BranchTwoDescription = "过载电容 `ULK_UPG_STM_OVR_001–003` | 同目标受 3 次电弧后过载3秒。 | 过载目标受下一次非电弧伤害时爆裂，50%范围伤害。 | 每次爆裂使最近敌人获1层过载，最多传递2次。"
+BranchTwoDescriptionKey = &"CODEX_SHIP_SHP_PLY_CTL_002_BRANCHTWODESCRIPTION"
+BranchThreeDescription = "拦截电网 `ULK_UPG_STM_NET_001–003` | 优先命中攻击相邻舰的敌人。 | 被电弧命中的投射单位移速 -25%。 | 每9秒形成电网2秒，网内普通敌人移速 -35%，每目标一次。"
+BranchThreeDescriptionKey = &"CODEX_SHIP_SHP_PLY_CTL_002_BRANCHTHREEDESCRIPTION"
+

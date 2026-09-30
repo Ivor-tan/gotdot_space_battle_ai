@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_TID_GRV_003"
+ShipId = &"SHP_PLY_CTL_001"
+BranchId = &"ULK_UPG_TID_GRV"
+Tier = 3
+PreviousNodeId = &"ULK_UPG_TID_GRV_002"
+BranchName = "引潮重力"
+EffectDescription = "同位置命中 3 次形成 1.5 秒重力井，每 0.5 秒拉拽；每区 6 秒一次。"
+IsImplementedInRuntime = false
+

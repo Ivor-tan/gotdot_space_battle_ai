@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="CardBenefitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"SYS_004"
+CategoryId = &"sys"
+RarityId = &"rare"
+DisplayName = "应急跃迁"
+DisplayNameKey = &"CODEX_CARD_SYS_004_DISPLAYNAME"
+EffectDescription = "指定后排舰：首次被远程敌锁定时向舰队锚点短距位移，冷却 20 秒。"
+EffectDescriptionKey = &"CODEX_CARD_SYS_004_EFFECTDESCRIPTION"
+SynergyDescription = "针刺艇反制、守卫。"
+SynergyDescriptionKey = &"CODEX_CARD_SYS_004_SYNERGYDESCRIPTION"
+TargetScopeId = &"ship"
+RequiresTargetSelection = true
+IsImplementedInRuntime = false
+

@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="ShipDesignData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipDesignData.cs" id="1_design"]
+[ext_resource type="Resource" path="res://Data/PlayerShips/SHP_PLY_SUP_001.tres" id="2_ship"]
+[ext_resource type="Texture2D" path="res://Resource/Sprites/Fighters/fighters_05.png" id="3_preview"]
+[ext_resource type="Texture2D" path="res://Resource/Sprites/Projectiles/projectile_r6_c6.png" id="4_projectile"]
+
+[resource]
+script = ExtResource("1_design")
+ShipId = &"SHP_PLY_SUP_001"
+ShipData = ExtResource("2_ship")
+PreviewIcon = ExtResource("3_preview")
+ProjectileIcon = ExtResource("4_projectile")
+DisplayName = "折光支援舰"
+DisplayNameKey = &"CODEX_SHIP_SHP_PLY_SUP_001_DISPLAYNAME"
+CenterRingEffectId = &"RING_SUP_CENTER"
+RingOneEffectId = &"RING_SUP_R1"
+RingTwoEffectId = &"RING_SUP_R2"
+CenterRingEffect = "补盾目标下一发伤害 +15%。"
+CenterRingEffectKey = &"CODEX_SHIP_SHP_PLY_SUP_001_CENTERRINGEFFECT"
+RingOneEffect = "补盾冷却 -1.5 秒。"
+RingTwoEffect = "脉冲射程 +30%，仅补一个目标。"
+BranchIds = Array[StringName]([&"ULK_UPG_FLD_SHD_", &"ULK_UPG_FLD_RES_", &"ULK_UPG_FLD_RLY_"])
+BranchOneDescription = "折光护幕 `ULK_UPG_FLD_SHD_001–003` | 每 9 秒为自身或最低盾相邻舰补 1 层。 | 被补盾目标下一发伤害 +20%。 | 有 2 相邻舰时补盾额外弹射另一舰。"
+BranchOneDescriptionKey = &"CODEX_SHIP_SHP_PLY_SUP_001_BRANCHONEDESCRIPTION"
+BranchTwoDescription = "频率共振 `ULK_UPG_FLD_RES_001–003` | 相邻舰每攻击 5 次获 1 共振，最多 4 层。 | 每层使脉冲伤害 +12%、射程 +10%。 | 满 4 层消耗，使相邻舰下发 +35% 伤害。"
+BranchTwoDescriptionKey = &"CODEX_SHIP_SHP_PLY_SUP_001_BRANCHTWODESCRIPTION"
+BranchThreeDescription = "应急转接 `ULK_UPG_FLD_RLY_001–003` | 相邻舰失去最后护盾获 0.8 秒无敌，每舰 10 秒一次。 | 触发后自身获 1 层护盾。 | 5 秒内两名相邻舰触发时，脉冲击退 120 内普通敌人。"
+BranchThreeDescriptionKey = &"CODEX_SHIP_SHP_PLY_SUP_001_BRANCHTHREEDESCRIPTION"
+

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="CardBenefitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"TRT_013"
+CategoryId = &"trt"
+RarityId = &"common"
+DisplayName = "无人机编队"
+DisplayNameKey = &"CODEX_CARD_TRT_013_DISPLAYNAME"
+EffectDescription = "每有 3 架无人机，母舰本体伤害 +8%。"
+EffectDescriptionKey = &"CODEX_CARD_TRT_013_EFFECTDESCRIPTION"
+SynergyDescription = "复制舱、巢母。"
+SynergyDescriptionKey = &"CODEX_CARD_TRT_013_SYNERGYDESCRIPTION"
+TargetScopeId = &"run"
+RequiresTargetSelection = false
+IsImplementedInRuntime = false
+

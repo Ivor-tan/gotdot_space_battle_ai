@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="EnemyDesignData" format=3 uid="uid://cnjp32muqqprv"]
+
+[ext_resource type="Script" uid="uid://u651y3gitnya" path="res://Data/DataCS/EnemyDesignData.cs" id="1_enemy"]
+[ext_resource type="Texture2D" uid="uid://4wttn7do57if" path="res://Resource/Sprites/Alien/alien_05.png" id="1_u4i88"]
+[ext_resource type="PackedScene" path="res://Scene/Map/Enemies/ENM_ABR_BOS_CTL_001.tscn" id="2_scene"]
+
+[resource]
+script = ExtResource("1_enemy")
+EnemyId = &"ENM_ABR_BOS_CTL_001"
+DisplayName = "磁暴审判者"
+DisplayNameKey = &"CODEX_ENEMY_ENM_ABR_BOS_CTL_001_DISPLAYNAME"
+TierId = &"BOS"
+RoleId = &"CTL"
+Icon = ExtResource("1_u4i88")
+EnemyScene = ExtResource("2_scene")
+DropTableId = &"DROP_ENM_ABR_BOS_CTL_001"
+DropSummary = "28 微粒、2 大型经验核心；三选一：史诗舰队协议 40% / 高稀有随机舰船 60%。"
+DropSummaryKey = &"CODEX_ENEMY_ENM_ABR_BOS_CTL_001_DROPSUMMARY"
+TargetAndAttack = "9,000 HP / 4 层 / 64 px"
+TargetAndAttackKey = &"CODEX_ENEMY_ENM_ABR_BOS_CTL_001_TARGETANDATTACK"
+MechanicAndWarning = "优先已激活羁绊和后排舰；仅进行单体投射物攻击。"
+MechanicAndWarningKey = &"CODEX_ENEMY_ENM_ABR_BOS_CTL_001_MECHANICANDWARNING"
+SpawnRule = "70%、35%"
+SpawnRuleKey = &"CODEX_ENEMY_ENM_ABR_BOS_CTL_001_SPAWNRULE"
+PhaseOne = "阶段1：使用稳定的单体投射物。"
+PhaseTwo = "阶段2：使用稳定的单体投射物。"
+PhaseThree = "阶段3：仅使用单体投射物；Boss 护盾层降至 1，承受伤害 +25%。"
+

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" format=3 uid="uid://bx0japh7l26fo"]
+
+[ext_resource type="Script" uid="uid://du5m5ytsyirph" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_ASS_HNT_001"
+ShipId = &"SHP_PLY_ASS_001"
+BranchId = &"ULK_UPG_ASS_HNT"
+Tier = 1
+PreviousNodeId = &""
+BranchName = "追猎协议"
+EffectDescription = "对生命比例最低目标伤害 +18%。"

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="CardBenefitData" format=3 uid="uid://3ylbvt53b1eg"]
+
+[ext_resource type="Script" uid="uid://4xau2yynf0di" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"FLT_005"
+CategoryId = &"flt"
+RarityId = &"rare"
+DisplayName = "外环炮位"
+DisplayNameKey = &"CODEX_CARD_FLT_005_DISPLAYNAME"
+EffectDescription = "第二环舰船射程 +15%。"
+EffectDescriptionKey = &"CODEX_CARD_FLT_005_EFFECTDESCRIPTION"
+SynergyDescription = "炮击、母舰。"
+SynergyDescriptionKey = &"CODEX_CARD_FLT_005_SYNERGYDESCRIPTION"
+TargetScopeId = &"run"
+IsImplementedInRuntime = true
+

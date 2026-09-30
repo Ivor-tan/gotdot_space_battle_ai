@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="BondDefinitionData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/BondDefinitionData.cs" id="1_bond"]
+
+[resource]
+script = ExtResource("1_bond")
+BondId = &"BND_PAI_002"
+DisplayName = "生命壁垒"
+DisplayNameKey = &"CODEX_BOND_BND_PAI_002_DISPLAYNAME"
+MemberCondition = "GRD_001 与 SUP_001 相邻，且至少一艘位于前侧。"
+MemberConditionKey = &"CODEX_BOND_BND_PAI_002_MEMBERCONDITION"
+EffectDescription = "支援舰为护盾最低的相邻已部署舰授予 1 层护盾。"
+EffectDescriptionKey = &"CODEX_BOND_BND_PAI_002_EFFECTDESCRIPTION"
+Counterplay = "不要让成员脱离前侧或被击毁。"
+CounterplayKey = &"CODEX_BOND_BND_PAI_002_COUNTERPLAY"
+RequiredMemberCount = 2
+

@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="PlayerShipData" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/PlayerShipData.cs" id="1_ship"]
+[ext_resource type="Texture2D" path="res://Resource/PlayerSpaceCraft/SpaceCraft_Ice.png" id="2_icon"]
+[ext_resource type="PackedScene" path="res://Scene/Player/Ships/FrostCore.tscn" id="3_scene"]
+
+[resource]
+script = ExtResource("1_ship")
+ShipId = &"SHP_PLY_ART_002"
+ShipTypeId = &"artillery"
+FactionId = &"frost"
+RoleId = &"artillery"
+RarityId = &"rare"
+DisplayName = "霜核导弹舰"
+Description = "定点导弹；爆心产生减速场。"
+Icon = ExtResource("2_icon")
+ShipScene = ExtResource("3_scene")
+RecommendedPositionId = &"rear"
+RotateSpeed = 4.6
+AttackRange = 520.0
+AttackInterval = 1.8
+AttackPower = 38
+WeaponId = &"WPN_FROST_MISSILE"
+PassiveAbilityId = &"PAS_FROST_FIELD"
+UnlockSourceId = &"UNLOCK_FROST_BEACON"
+UnlockLevel = 6
+DeployCost = 2
+TagIds = Array[StringName]([&"frost", &"artillery"])
+TraitIds = Array[StringName]([&"slow", &"missile"])
+BondIds = Array[StringName]([])

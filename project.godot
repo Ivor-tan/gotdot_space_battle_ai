@@ -1,0 +1,105 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[addons]
+
+resources_spreadsheet_view/array_color_tint=100.0
+resources_spreadsheet_view/color_rows=true
+resources_spreadsheet_view/array_min_width=128.0
+resources_spreadsheet_view/resource_preview_size=32.0
+resources_spreadsheet_view/clip_headers=false
+resources_spreadsheet_view/dupe_arrays=true
+resources_spreadsheet_view/context_menu_on_leftclick=false
+resources_spreadsheet_view/fold_docks=true
+resources_spreadsheet_view/resource_cell_label_mode=1
+resources_spreadsheet_view/freeze_first_column=true
+
+[animation]
+
+compatibility/default_parent_skeleton_in_mesh_instance_3d=true
+
+[application]
+
+config/name="星海奇点"
+config/name_localized={
+"en": "Singularity of Star Ocean",
+"zh": "星海奇点",
+"zh_CN": "星海奇点"
+}
+run/main_scene="uid://cctf121hbhiw6"
+config/features=PackedStringArray("4.7", "C#", "Forward Plus")
+config/icon="res://Resource/Icons/app_icon.webp"
+
+[asset_enum_generator]
+
+scan_path="res://Data"
+output_file="res://Scripts/Assets.cs"
+
+[audio]
+
+buses/default_bus_layout="uid://m0nwkavy7r04"
+
+[autoload]
+
+PhantomCameraManager="*uid://duq6jhf6unyis"
+SceneTransition="*uid://d3tuh01djfvqy"
+GlobalMessengerManager="*uid://c4yeaub3m3sn5"
+SoundManager="*uid://bx0gouyscjjtw"
+GameConfigManager="*uid://b4tthuvmokei1"
+GodotTapTap="*uid://nv8rnb4xmifr"
+TapTapComplianceManager="*res://Scripts/Managers/TapTapComplianceManager.cs"
+_mcp_game_helper="*res://addons/godot_ai/runtime/game_helper.gd"
+
+[display]
+
+window/size/borderless=true
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[dotnet]
+
+project/assembly_name="HexGame"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/GodotTapTapSDK/plugin.cfg", "res://addons/asset_path_maintenance/plugin.cfg", "res://addons/godot_ai/plugin.cfg", "res://addons/godot_resource_groups/plugin.cfg", "res://addons/phantom_camera/plugin.cfg", "res://addons/resources_spreadsheet_view/plugin.cfg")
+
+[godot_resource_groups]
+
+auto_rebuild=true
+
+[internationalization]
+
+locale/translations=PackedStringArray("res://Localization/Language.en.translation", "res://Localization/Language.zh.translation")
+
+[layer_names]
+
+2d_physics/layer_1="World"
+2d_physics/layer_2="Player"
+2d_physics/layer_3="Enemy"
+2d_physics/layer_4="PlayerBullet"
+2d_physics/layer_5="EnemyBullet"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/vulkan/max_descriptors_per_pool=256
+rendering_device/driver.windows="d3d12"
+renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true
+textures/default_filters/anisotropic_filtering_level=3
+camera/depth_of_field/depth_of_field_bokeh_quality=2
+camera/depth_of_field/depth_of_field_use_jitter=true
+viewport/hdr_2d=true
+environment/subsurface_scattering/subsurface_scattering_quality=2
+environment/defaults/default_clear_color=Color(0, 0, 0, 0.74509805)

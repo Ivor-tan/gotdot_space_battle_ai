@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="CardBenefitData" format=3 uid="uid://c8nanb8m0vwtb"]
+
+[ext_resource type="Script" uid="uid://4xau2yynf0di" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"SYS_015"
+CategoryId = &"sys"
+RarityId = &"rare"
+DisplayName = "反应护盾"
+DisplayNameKey = &"CODEX_CARD_SYS_015_DISPLAYNAME"
+EffectDescription = "指定舰护盾被击破时，立即补充 1 层护盾；每 8 秒一次。"
+EffectDescriptionKey = &"CODEX_CARD_SYS_015_EFFECTDESCRIPTION"
+SynergyDescription = "Boss、前排。"
+SynergyDescriptionKey = &"CODEX_CARD_SYS_015_SYNERGYDESCRIPTION"
+TargetScopeId = &"ship"
+RequiresTargetSelection = true
+IsImplementedInRuntime = true
+

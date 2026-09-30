@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_PRM_BST_002"
+ShipId = &"SHP_PLY_GRD_001"
+BranchId = &"ULK_UPG_PRM_BST"
+Tier = 2
+PreviousNodeId = &"ULK_UPG_PRM_BST_001"
+BranchName = "定点壁垒"
+EffectDescription = "定点时相邻舰攻击范围 +10%。"
+IsImplementedInRuntime = false

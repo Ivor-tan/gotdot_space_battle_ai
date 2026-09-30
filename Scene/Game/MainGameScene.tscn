@@ -1,0 +1,792 @@
+[gd_scene format=3 uid="uid://bf0ffre43ckmy"]
+
+[ext_resource type="Script" uid="uid://bd046eokvcnu2" path="res://addons/phantom_camera/scripts/phantom_camera_host/phantom_camera_host.gd" id="1_o0v7t"]
+[ext_resource type="Script" uid="uid://cqavk3d1nv7rw" path="res://Scripts/Managers/ObjectPoolManager.cs" id="2_88at6"]
+[ext_resource type="PackedScene" uid="uid://dwg5i25yxsr86" path="res://Scene/Map/Enemies/Enemy_1.tscn" id="3_h5tcy"]
+[ext_resource type="Script" uid="uid://bi5lqh3rvqi7l" path="res://Data/DataCS/PoolEntity.cs" id="4_62v7d"]
+[ext_resource type="PackedScene" uid="uid://donp18hgngk2x" path="res://Scene/Common/PlayerBullet.tscn" id="5_4xt81"]
+[ext_resource type="Script" uid="uid://cg1agexkeqxbg" path="res://Scripts/Managers/EnemySpawnerManager.cs" id="6_m3fyi"]
+[ext_resource type="Script" uid="uid://dei56gnhjw7c1" path="res://Scripts/Managers/MapResources.cs" id="7_pkwpt"]
+[ext_resource type="Script" uid="uid://7pvai8hv1rfe" path="res://Scripts/Managers/PlayerManager.cs" id="8_p6v1g"]
+[ext_resource type="PackedScene" uid="uid://xduqnugimo02" path="res://Scene/Common/RocketExplode01.tscn" id="8_qaai1"]
+[ext_resource type="PackedScene" uid="uid://dqvyohgt1o7w" path="res://Scene/Common/ExpBall.tscn" id="9_3y7hc"]
+[ext_resource type="PackedScene" uid="uid://bpximnaappjhv" path="res://Scene/Map/Planets/Asteroid_Scene.tscn" id="9_88at6"]
+[ext_resource type="Script" uid="uid://cf8nyrt6x10ko" path="res://Scripts/Managers/SpatialGridManager.cs" id="11_o2d4e"]
+[ext_resource type="Script" uid="uid://dcc38sxymqgk8" path="res://Scripts/Managers/EnhanceFunctionManager.cs" id="12_4fowh"]
+[ext_resource type="Texture2D" uid="uid://4d4rwn47mum7" path="res://Resource/TileOutline.png" id="12_qaai1"]
+[ext_resource type="PackedScene" uid="uid://uiuvw624slv7" path="res://Scene/Map/Planets/Planet_Scene.tscn" id="15_nowi5"]
+[ext_resource type="Script" uid="uid://badllgsod03vs" path="res://Scripts/MapObjects/HexInfiniteChunkMap.cs" id="16_k2o71"]
+[ext_resource type="Script" uid="uid://c7ce0prf4gbqq" path="res://Scripts/Common/ClickedOutline.cs" id="17_o2d4e"]
+[ext_resource type="Script" uid="uid://c8pc8g2jcqpyf" path="res://Scripts/Player/PlayerMoveController.cs" id="18_51t7l"]
+[ext_resource type="Script" uid="uid://jb76lqpku76w" path="res://Scripts/UI/GameOverInfo.cs" id="21_ca37s"]
+[ext_resource type="Script" uid="uid://bhexx6mj1xv3q" path="res://addons/phantom_camera/scripts/phantom_camera/phantom_camera_2d.gd" id="21_fkiad"]
+[ext_resource type="Script" uid="uid://dsovvw6b5tdby" path="res://Scripts/UI/EnhanceInfo.cs" id="21_m3fyi"]
+[ext_resource type="Script" uid="uid://8umksf8e80fw" path="res://addons/phantom_camera/scripts/resources/tween_resource.gd" id="22_n2qor"]
+[ext_resource type="Script" uid="uid://dkw832ja8d8br" path="res://Scripts/UI/NotificationHandle.cs" id="22_o0v7t"]
+[ext_resource type="Script" uid="uid://cfauig7ydtqki" path="res://Scripts/UI/TipsInfo.cs" id="23_88at6"]
+[ext_resource type="Texture2D" uid="uid://bfqp35w5wuk4l" path="res://Resource/BG/BG_Frame_3.png" id="24_4xt81"]
+[ext_resource type="Texture2D" uid="uid://i4jmuirlogqh" path="res://icon.svg" id="24_62v7d"]
+[ext_resource type="Shader" uid="uid://bktkvm86xnob8" path="res://Material/Shader/bg_main_game01.gdshader" id="24_88at6"]
+[ext_resource type="Script" uid="uid://2fl54xutt7lm" path="res://Scripts/Managers/DebugManager.cs" id="26_leytw"]
+[ext_resource type="Resource" uid="uid://dc3rkr2kpkhpt" path="res://Data/PlayerEnhanceFunction/IncreaseAttackRange.tres" id="27_d65hr"]
+[ext_resource type="Script" uid="uid://cy4j7vwjnpaiv" path="res://Scripts/UI/EnhanceSelector.cs" id="27_vvv0m"]
+[ext_resource type="Script" uid="uid://dd1h80kv6nia4" path="res://Data/DataCS/PlayerStatus.cs" id="32_55upo"]
+[ext_resource type="Script" uid="uid://c383phkijgdwy" path="res://Scripts/UI/PlayerExpProgressBar.cs" id="34_nowi5"]
+[ext_resource type="Shader" uid="uid://bd1bevebc3rjk" path="res://Material/Shader/bg_main_game02.gdshader" id="34_xpn7s"]
+[ext_resource type="Texture2D" uid="uid://d1pfr48ogfx0a" path="res://Resource/BG/main_game_bg02.png" id="35_xpn7s"]
+[ext_resource type="Script" uid="uid://jo2ji3ku7xf1" path="res://Scripts/UI/GameHud.cs" id="36_game_hud"]
+[ext_resource type="Script" uid="uid://1knm7xscymcp" path="res://Scripts/UI/FleetEditor.cs" id="37_fleet_editor"]
+[ext_resource type="Script" uid="uid://bs10ara12fmca" path="res://Scripts/UI/FleetFormationCanvas.cs" id="38_fleet_canvas"]
+[ext_resource type="PackedScene" path="res://Scene/Debug/DebugTestPanel.tscn" id="39_debug_test_panel"]
+
+[sub_resource type="Resource" id="Resource_2p2nw"]
+script = ExtResource("4_62v7d")
+Scene = ExtResource("3_h5tcy")
+metadata/_custom_type_script = "uid://bi5lqh3rvqi7l"
+
+[sub_resource type="Resource" id="Resource_0dtn4"]
+script = ExtResource("4_62v7d")
+Type = 1
+Scene = ExtResource("5_4xt81")
+metadata/_custom_type_script = "uid://bi5lqh3rvqi7l"
+
+[sub_resource type="Resource" id="Resource_o0v7t"]
+script = ExtResource("4_62v7d")
+Type = 4
+Scene = ExtResource("9_88at6")
+metadata/_custom_type_script = "uid://bi5lqh3rvqi7l"
+
+[sub_resource type="Resource" id="Resource_xpn7s"]
+script = ExtResource("4_62v7d")
+Type = 2
+Scene = ExtResource("8_qaai1")
+metadata/_custom_type_script = "uid://bi5lqh3rvqi7l"
+
+[sub_resource type="Resource" id="Resource_3y7hc"]
+script = ExtResource("4_62v7d")
+Type = 5
+Scene = ExtResource("9_3y7hc")
+metadata/_custom_type_script = "uid://bi5lqh3rvqi7l"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ca37s"]
+texture = ExtResource("12_qaai1")
+texture_region_size = Vector2i(28, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_h5tcy"]
+scenes/1/scene = ExtResource("15_nowi5")
+
+[sub_resource type="TileSet" id="TileSet_62v7d"]
+tile_shape = 3
+tile_size = Vector2i(28, 32)
+sources/1 = SubResource("TileSetAtlasSource_ca37s")
+sources/6 = SubResource("TileSetScenesCollectionSource_h5tcy")
+
+[sub_resource type="Resource" id="Resource_20wyp"]
+script = ExtResource("32_55upo")
+MaxSpeed = 100.0
+RotateSpeed = 1.0
+AttackRange = 150.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_h5tcy"]
+shader = ExtResource("24_88at6")
+shader_parameter/effect_opacity = 1.0
+shader_parameter/global_alpha = 1.0
+shader_parameter/star_density = 25.0
+shader_parameter/star_size = 0.05
+shader_parameter/star_color = Color(1, 1, 1, 1)
+shader_parameter/meteor_color = Color(0.8, 0.9, 1, 1)
+shader_parameter/meteor_speed = 2.0
+shader_parameter/meteor_probability = 0.2
+
+[sub_resource type="Resource" id="Resource_qqdt2"]
+script = ExtResource("22_n2qor")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_route_selection"]
+content_margin_left = 24.0
+content_margin_top = 20.0
+content_margin_right = 24.0
+content_margin_bottom = 20.0
+bg_color = Color(0.025, 0.045, 0.1, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.28, 0.65, 0.95, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+shadow_color = Color(0, 0, 0, 0.65)
+shadow_size = 12
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_nowi5"]
+shader = ExtResource("34_xpn7s")
+shader_parameter/effect_opacity = 1.0
+shader_parameter/global_alpha = 0.70000003325
+shader_parameter/gradient_radius = 0.10000000475
+shader_parameter/gradient_softness = 0.50000002375
+shader_parameter/apply_to_background = true
+shader_parameter/star_density = 50.0000023275
+shader_parameter/star_size = 0.10000000149012
+shader_parameter/star_color = Color(1, 1, 1, 1)
+shader_parameter/meteor_color = Color(0.8, 0.9, 1, 1)
+shader_parameter/meteor_speed = 2.0
+shader_parameter/meteor_probability = 0.2
+
+[node name="Root2D" type="Node2D" unique_id=175998289]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=347436271]
+modulate = Color(0.08235294, 0.08235294, 0.18039216, 1)
+self_modulate = Color(0.08235294, 0.08235294, 0.18039216, 1)
+top_level = true
+position = Vector2(100, 100)
+
+[node name="PhantomCameraHost" type="Node" parent="Camera2D" unique_id=840132022]
+process_priority = 300
+process_physics_priority = 300
+script = ExtResource("1_o0v7t")
+metadata/_custom_type_script = "uid://bd046eokvcnu2"
+
+[node name="Managers" type="Node" parent="." unique_id=1210503196]
+
+[node name="ObjectPoolManager" type="Node" parent="Managers" unique_id=848709047]
+script = ExtResource("2_88at6")
+PoolConfigs = Array[Object]([SubResource("Resource_2p2nw"), SubResource("Resource_0dtn4"), SubResource("Resource_o0v7t"), SubResource("Resource_xpn7s"), SubResource("Resource_3y7hc")])
+
+[node name="EnemySpawnerManager" type="Node" parent="Managers" unique_id=1845846511 node_paths=PackedStringArray("MapLayer", "Player", "SpawnTimer", "Grid")]
+script = ExtResource("6_m3fyi")
+CheckRadius = 5
+MapLayer = NodePath("../../Map/Object/ObjectTileMapLayer")
+Player = NodePath("../../PlayerRoot")
+SpawnTimer = NodePath("SpawnerTimer")
+Grid = NodePath("SpatialGridManager")
+
+[node name="SpatialGridManager" type="Node" parent="Managers/EnemySpawnerManager" unique_id=1614421427]
+script = ExtResource("11_o2d4e")
+
+[node name="SpawnerTimer" type="Timer" parent="Managers/EnemySpawnerManager" unique_id=1734138214]
+autostart = true
+ignore_time_scale = true
+
+[node name="MapResources" type="Node" parent="Managers" unique_id=874176275]
+script = ExtResource("7_pkwpt")
+
+[node name="PlayerManager" type="Node" parent="Managers" unique_id=540129713 node_paths=PackedStringArray("Player", "PlayersParent")]
+script = ExtResource("8_p6v1g")
+Player = NodePath("../../PlayerRoot")
+PlayersParent = NodePath("../../PlayerRoot/PlayersParent")
+
+[node name="EnhanceFunctionManager" type="Node" parent="Managers" unique_id=1894098631]
+script = ExtResource("12_4fowh")
+
+[node name="DebugManager" type="Node" parent="Managers" unique_id=1451262394 node_paths=PackedStringArray("TestPanel")]
+script = ExtResource("26_leytw")
+DebugScene = ExtResource("27_d65hr")
+TestPanel = NodePath("../../UILayer/DebugTestPanel")
+
+[node name="Map" type="Node" parent="." unique_id=2125394991]
+
+[node name="Object" type="Node2D" parent="Map" unique_id=2033447071]
+
+[node name="ObjectTileMapLayer" type="TileMapLayer" parent="Map/Object" unique_id=398104898]
+tile_set = SubResource("TileSet_62v7d")
+script = ExtResource("16_k2o71")
+SpawnChance = 0.015
+ChunkSize = 20
+
+[node name="PlayerRoot" type="Node2D" parent="." unique_id=1587826467]
+position = Vector2(100, 100)
+script = ExtResource("18_51t7l")
+PlayerStats = SubResource("Resource_20wyp")
+
+[node name="PhantomCamera2D" type="Node2D" parent="PlayerRoot" unique_id=885031282]
+material = SubResource("ShaderMaterial_h5tcy")
+script = ExtResource("21_fkiad")
+tween_resource = SubResource("Resource_qqdt2")
+metadata/_custom_type_script = "uid://bhexx6mj1xv3q"
+
+[node name="PlayersParent" type="Node2D" parent="PlayerRoot" unique_id=880230445]
+
+[node name="UILayer" type="CanvasLayer" parent="." unique_id=1777040913]
+process_mode = 3
+
+[node name="EnhanceInfo" type="MarginContainer" parent="UILayer" unique_id=334025243 node_paths=PackedStringArray("SelectOne", "SelectTwo", "SelectThree", "FleetEditor")]
+process_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 150
+theme_override_constants/margin_top = 100
+theme_override_constants/margin_right = 150
+theme_override_constants/margin_bottom = 100
+script = ExtResource("21_m3fyi")
+SelectOne = NodePath("SelectContents/SelectItem/SelectorOne")
+SelectTwo = NodePath("SelectContents/SelectItem/SelectorTwo")
+SelectThree = NodePath("SelectContents/SelectItem/SelectorThree")
+FleetEditor = NodePath("../FleetEditor")
+
+[node name="BG" type="NinePatchRect" parent="UILayer/EnhanceInfo" unique_id=1629173340]
+layout_mode = 2
+texture = ExtResource("24_4xt81")
+region_rect = Rect2(2.1909637, 0, 1373.8091, 769.071)
+patch_margin_left = 64
+patch_margin_top = 64
+patch_margin_right = 65
+patch_margin_bottom = 50
+
+[node name="SelectContents" type="MarginContainer" parent="UILayer/EnhanceInfo" unique_id=468867082]
+layout_mode = 2
+theme_override_constants/margin_left = 100
+theme_override_constants/margin_top = 100
+theme_override_constants/margin_right = 100
+theme_override_constants/margin_bottom = 100
+
+[node name="SelectItem" type="HBoxContainer" parent="UILayer/EnhanceInfo/SelectContents" unique_id=1377430013]
+layout_mode = 2
+theme_override_constants/separation = 100
+
+[node name="SelectorOne" type="VBoxContainer" parent="UILayer/EnhanceInfo/SelectContents/SelectItem" unique_id=822415009 node_paths=PackedStringArray("Title", "Icon", "Description", "Selected")]
+layout_mode = 2
+size_flags_horizontal = 3
+script = ExtResource("27_vvv0m")
+Title = NodePath("Title")
+Icon = NodePath("Icon")
+Description = NodePath("Description")
+Selected = NodePath("SelectOne")
+
+[node name="Title" type="Label" parent="UILayer/EnhanceInfo/SelectContents/SelectItem/SelectorOne" unique_id=1266673170]
+custom_minimum_size = Vector2(0, 32)
+layout_mode = 2
+text = "UI_ENHANCE_PLACEHOLDER_TITLE"
+horizontal_alignment = 1
+vertical_alignment = 1
+text_overrun_behavior = 3
+max_lines_visible = 1
+
+[node name="Icon" type="TextureRect" parent="UILayer/EnhanceInfo/SelectContents/SelectItem/SelectorOne" unique_id=1533481001]
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("24_62v7d")
+expand_mode = 3
+stretch_mode = 5
+
+[node name="Description" type="Label" parent="UILayer/EnhanceInfo/SelectContents/SelectItem/SelectorOne" unique_id=1612017718]
+custom_minimum_size = Vector2(0, 96)
+layout_mode = 2
+size_flags_vertical = 3
+text = "UI_ENHANCE_PLACEHOLDER_DESCRIPTION"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+clip_text = true
+text_overrun_behavior = 3
+max_lines_visible = 4
+
+[node name="SelectOne" type="Button" parent="UILayer/EnhanceInfo/SelectContents/SelectItem/SelectorOne" unique_id=1274008160]
+layout_mode = 2
+text = "UI_ENHANCE_SELECT"
+icon_alignment = 1
+vertical_icon_alignment = 0
+
+[node name="SelectorTwo" type="VBoxContainer" parent="UILayer/EnhanceInfo/SelectContents/SelectItem" unique_id=502564965 node_paths=PackedStringArray("Title", "Icon", "Description", "Selected")]
+layout_mode = 2
+size_flags_horizontal = 3
+script = ExtResource("27_vvv0m")
+Title = NodePath("Title")
+Icon = NodePath("Icon")
+Description = NodePath("Description")
+Selected = NodePath("SelectTwo")
+
+[node name="Title" type="Label" parent="UILayer/EnhanceInfo/SelectContents/SelectItem/SelectorTwo" unique_id=190111296]
+custom_minimum_size = Vector2(0, 32)
+layout_mode = 2
+text = "UI_ENHANCE_PLACEHOLDER_TITLE"
+horizontal_alignment = 1
+vertical_alignment = 1
+text_overrun_behavior = 3
+max_lines_visible = 1
+
+[node name="Icon" type="TextureRect" parent="UILayer/EnhanceInfo/SelectContents/SelectItem/SelectorTwo" unique_id=246185246]
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("24_62v7d")
+expand_mode = 3
+stretch_mode = 5
+
+[node name="Description" type="Label" parent="UILayer/EnhanceInfo/SelectContents/SelectItem/SelectorTwo" unique_id=960658761]
+custom_minimum_size = Vector2(0, 96)
+layout_mode = 2
+size_flags_vertical = 3
+text = "UI_ENHANCE_PLACEHOLDER_DESCRIPTION"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+clip_text = true
+text_overrun_behavior = 3
+max_lines_visible = 4
+
+[node name="SelectTwo" type="Button" parent="UILayer/EnhanceInfo/SelectContents/SelectItem/SelectorTwo" unique_id=1467427070]
+layout_mode = 2
+text = "UI_ENHANCE_SELECT"
+icon_alignment = 1
+vertical_icon_alignment = 0
+
+[node name="SelectorThree" type="VBoxContainer" parent="UILayer/EnhanceInfo/SelectContents/SelectItem" unique_id=932649300 node_paths=PackedStringArray("Title", "Icon", "Description", "Selected")]
+layout_mode = 2
+size_flags_horizontal = 3
+script = ExtResource("27_vvv0m")
+Title = NodePath("Title")
+Icon = NodePath("Icon")
+Description = NodePath("Description")
+Selected = NodePath("SelectThree")
+
+[node name="Title" type="Label" parent="UILayer/EnhanceInfo/SelectContents/SelectItem/SelectorThree" unique_id=1262987492]
+custom_minimum_size = Vector2(0, 32)
+layout_mode = 2
+text = "UI_ENHANCE_PLACEHOLDER_TITLE"
+horizontal_alignment = 1
+vertical_alignment = 1
+text_overrun_behavior = 3
+max_lines_visible = 1
+
+[node name="Icon" type="TextureRect" parent="UILayer/EnhanceInfo/SelectContents/SelectItem/SelectorThree" unique_id=1592173491]
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("24_62v7d")
+expand_mode = 3
+stretch_mode = 5
+
+[node name="Description" type="Label" parent="UILayer/EnhanceInfo/SelectContents/SelectItem/SelectorThree" unique_id=643600324]
+custom_minimum_size = Vector2(0, 96)
+layout_mode = 2
+size_flags_vertical = 3
+text = "UI_ENHANCE_PLACEHOLDER_DESCRIPTION"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+clip_text = true
+text_overrun_behavior = 3
+max_lines_visible = 4
+
+[node name="SelectThree" type="Button" parent="UILayer/EnhanceInfo/SelectContents/SelectItem/SelectorThree" unique_id=1603010667]
+layout_mode = 2
+text = "UI_ENHANCE_SELECT"
+icon_alignment = 1
+vertical_icon_alignment = 0
+
+[node name="FleetEditor" type="PanelContainer" parent="UILayer" unique_id=1357186379 node_paths=PackedStringArray("TitleLabel", "PendingShipLabel", "HintLabel", "FormationCanvas", "ConfirmButton", "CancelButton")]
+process_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -300.0
+offset_top = -280.0
+offset_right = 300.0
+offset_bottom = 280.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("37_fleet_editor")
+TitleLabel = NodePath("Content/TitleLabel")
+PendingShipLabel = NodePath("Content/PendingShipLabel")
+HintLabel = NodePath("Content/HintLabel")
+FormationCanvas = NodePath("Content/FormationCanvas")
+ConfirmButton = NodePath("Content/Actions/ConfirmButton")
+CancelButton = NodePath("Content/Actions/CancelButton")
+
+[node name="Content" type="VBoxContainer" parent="UILayer/FleetEditor" unique_id=1891000487]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="TitleLabel" type="Label" parent="UILayer/FleetEditor/Content" unique_id=1679713392]
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+text = "UI_FLEET_EDITOR_TITLE"
+horizontal_alignment = 1
+
+[node name="PendingShipLabel" type="Label" parent="UILayer/FleetEditor/Content" unique_id=626502493]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+horizontal_alignment = 1
+
+[node name="HintLabel" type="Label" parent="UILayer/FleetEditor/Content" unique_id=821590248]
+layout_mode = 2
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="FormationCanvas" type="Control" parent="UILayer/FleetEditor/Content" unique_id=1690917990]
+custom_minimum_size = Vector2(0, 330)
+layout_mode = 2
+size_flags_vertical = 3
+script = ExtResource("38_fleet_canvas")
+
+[node name="Actions" type="HBoxContainer" parent="UILayer/FleetEditor/Content" unique_id=894966827]
+layout_mode = 2
+theme_override_constants/separation = 16
+alignment = 1
+
+[node name="ConfirmButton" type="Button" parent="UILayer/FleetEditor/Content/Actions" unique_id=1290581567]
+custom_minimum_size = Vector2(150, 44)
+layout_mode = 2
+text = "UI_COMMON_CONFIRM"
+
+[node name="CancelButton" type="Button" parent="UILayer/FleetEditor/Content/Actions" unique_id=960579690]
+custom_minimum_size = Vector2(150, 44)
+layout_mode = 2
+text = "UI_COMMON_BACK_TO_SELECTION"
+
+[node name="NotificationInfo" type="PanelContainer" parent="UILayer" unique_id=1589751224 node_paths=PackedStringArray("messageRoot")]
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+grow_vertical = 2
+size_flags_horizontal = 3
+script = ExtResource("22_o0v7t")
+messageRoot = NodePath("CenterContainer/GridContainer")
+MaxMessages = 10
+
+[node name="CenterContainer" type="CenterContainer" parent="UILayer/NotificationInfo" unique_id=1762419781]
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="UILayer/NotificationInfo/CenterContainer" unique_id=1061621568]
+layout_mode = 2
+
+[node name="TipsInfo" type="PanelContainer" parent="UILayer" unique_id=1109520963 node_paths=PackedStringArray("NameLabel", "HpLabel")]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -102.0
+offset_top = 30.0
+offset_right = -52.0
+offset_bottom = 80.0
+grow_horizontal = 0
+script = ExtResource("23_88at6")
+NameLabel = NodePath("GridContainer/NameContent")
+HpLabel = NodePath("GridContainer/HpContent")
+
+[node name="GridContainer" type="GridContainer" parent="UILayer/TipsInfo" unique_id=1443493385]
+layout_mode = 2
+columns = 2
+
+[node name="Name" type="Label" parent="UILayer/TipsInfo/GridContainer" unique_id=1118140996]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+text = "UI_COMMON_NAME"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="NameContent" type="Label" parent="UILayer/TipsInfo/GridContainer" unique_id=912001506]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+text = "UI_COMMON_NAME"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Hp" type="Label" parent="UILayer/TipsInfo/GridContainer" unique_id=1180396803]
+layout_mode = 2
+text = "UI_COMMON_HP"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HpContent" type="Label" parent="UILayer/TipsInfo/GridContainer" unique_id=1820526212]
+layout_mode = 2
+text = "UI_COMMON_HP"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="GameOverInfo" type="MarginContainer" parent="UILayer" unique_id=1229668972 node_paths=PackedStringArray("Restart", "MainMenu")]
+process_mode = 3
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 150
+theme_override_constants/margin_top = 100
+theme_override_constants/margin_right = 150
+theme_override_constants/margin_bottom = 100
+script = ExtResource("21_ca37s")
+Restart = NodePath("PanelContainer/HBoxContainer/Restart")
+MainMenu = NodePath("PanelContainer/HBoxContainer/BackMainMenu")
+
+[node name="PanelContainer" type="Panel" parent="UILayer/GameOverInfo" unique_id=1659488514]
+layout_mode = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="UILayer/GameOverInfo/PanelContainer" unique_id=927850332]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -576.0
+offset_top = -324.0
+offset_right = 576.0
+offset_bottom = 324.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="UILayer/GameOverInfo/PanelContainer/CenterContainer" unique_id=505854076]
+layout_mode = 2
+text = "UI_RESULTS_TITLE"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="UILayer/GameOverInfo/PanelContainer" unique_id=449194793]
+process_priority = 5
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.845679
+anchor_right = 0.5
+anchor_bottom = 0.845679
+offset_left = -223.5
+offset_top = -31.0
+offset_right = 223.5
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 100
+metadata/_edit_use_anchors_ = true
+
+[node name="Restart" type="Button" parent="UILayer/GameOverInfo/PanelContainer/HBoxContainer" unique_id=1341743726]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "UI_RESULTS_RESTART"
+
+[node name="BackMainMenu" type="Button" parent="UILayer/GameOverInfo/PanelContainer/HBoxContainer" unique_id=1084448113]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "UI_RESULTS_BACK_MAIN_MENU"
+
+[node name="ExpProgressBar" type="ProgressBar" parent="UILayer" unique_id=999765652]
+offset_left = 24.0
+offset_top = 121.0
+offset_right = 384.0
+offset_bottom = 145.0
+max_value = 10.0
+step = 1.0
+show_percentage = false
+script = ExtResource("34_nowi5")
+
+[node name="GameHud" type="Control" parent="UILayer" unique_id=274089054 node_paths=PackedStringArray("WaveLabel", "TimeLabel", "DangerLabel", "PauseButton", "FlagshipLabel", "FleetLabel", "EnemyLabel", "ShieldLabel", "ExpProgressBar", "PausePanel", "PauseTitleLabel", "PauseContentLabel", "ResumeButton", "FleetStatusButton", "EditFleetButton", "SettingsButton", "MainMenuButton", "PauseBackButton", "MainMenuConfirmDialog", "UpgradePanel", "FleetEditor", "RouteSelectionPanel", "RouteStageLabel", "FirstRouteButton", "SecondRouteButton")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("36_game_hud")
+WaveLabel = NodePath("TopBar/Row/WaveLabel")
+TimeLabel = NodePath("TopBar/Row/TimeLabel")
+DangerLabel = NodePath("TopBar/Row/DangerLabel")
+PauseButton = NodePath("TopBar/Row/PauseButton")
+FlagshipLabel = NodePath("StatusPanel/Content/FlagshipLabel")
+FleetLabel = NodePath("StatusPanel/Content/FleetLabel")
+EnemyLabel = NodePath("StatusPanel/Content/EnemyLabel")
+ShieldLabel = NodePath("StatusPanel/Content/ShieldLabel")
+ExpProgressBar = NodePath("../ExpProgressBar")
+PausePanel = NodePath("PausePanel")
+PauseTitleLabel = NodePath("PausePanel/Content/PauseTitleLabel")
+PauseContentLabel = NodePath("PausePanel/Content/PauseContentLabel")
+ResumeButton = NodePath("PausePanel/Content/ResumeButton")
+FleetStatusButton = NodePath("PausePanel/Content/FleetStatusButton")
+EditFleetButton = NodePath("PausePanel/Content/EditFleetButton")
+SettingsButton = NodePath("PausePanel/Content/SettingsButton")
+MainMenuButton = NodePath("PausePanel/Content/MainMenuButton")
+PauseBackButton = NodePath("PausePanel/Content/PauseBackButton")
+MainMenuConfirmDialog = NodePath("MainMenuConfirmDialog")
+UpgradePanel = NodePath("../EnhanceInfo")
+FleetEditor = NodePath("../FleetEditor")
+RouteSelectionPanel = NodePath("RouteSelectionPanel")
+RouteStageLabel = NodePath("RouteSelectionPanel/Content/RouteStageLabel")
+FirstRouteButton = NodePath("RouteSelectionPanel/Content/FirstRouteButton")
+SecondRouteButton = NodePath("RouteSelectionPanel/Content/SecondRouteButton")
+
+[node name="TopBar" type="PanelContainer" parent="UILayer/GameHud" unique_id=1905928872]
+layout_mode = 0
+anchor_right = 1.0
+offset_left = 16.0
+offset_top = 16.0
+offset_right = -16.0
+offset_bottom = 54.0
+grow_horizontal = 2
+
+[node name="Row" type="HBoxContainer" parent="UILayer/GameHud/TopBar" unique_id=924674516]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="WaveLabel" type="Label" parent="UILayer/GameHud/TopBar/Row" unique_id=1506679182]
+custom_minimum_size = Vector2(110, 0)
+layout_mode = 2
+vertical_alignment = 1
+
+[node name="TimeLabel" type="Label" parent="UILayer/GameHud/TopBar/Row" unique_id=392167645]
+custom_minimum_size = Vector2(110, 0)
+layout_mode = 2
+vertical_alignment = 1
+
+[node name="DangerLabel" type="Label" parent="UILayer/GameHud/TopBar/Row" unique_id=1276587291]
+layout_mode = 2
+size_flags_horizontal = 3
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PauseButton" type="Button" parent="UILayer/GameHud/TopBar/Row" unique_id=1699855481]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+
+[node name="StatusPanel" type="PanelContainer" parent="UILayer/GameHud" unique_id=135203859]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 66.0
+offset_right = 384.0
+offset_bottom = 166.0
+
+[node name="Content" type="VBoxContainer" parent="UILayer/GameHud/StatusPanel" unique_id=975611079]
+layout_mode = 2
+
+[node name="FlagshipLabel" type="Label" parent="UILayer/GameHud/StatusPanel/Content" unique_id=314882836]
+layout_mode = 2
+
+[node name="FleetLabel" type="Label" parent="UILayer/GameHud/StatusPanel/Content" unique_id=837762216]
+layout_mode = 2
+
+[node name="EnemyLabel" type="Label" parent="UILayer/GameHud/StatusPanel/Content" unique_id=1235053677]
+layout_mode = 2
+
+[node name="ShieldLabel" type="Label" parent="UILayer/GameHud/StatusPanel/Content" unique_id=1597614092]
+layout_mode = 2
+
+[node name="LevelLabel" type="Label" parent="UILayer/GameHud" unique_id=286690006]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 196.0
+offset_right = 384.0
+offset_bottom = 220.0
+
+[node name="PausePanel" type="PanelContainer" parent="UILayer/GameHud" unique_id=1242150009]
+layout_mode = 0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -250.0
+offset_top = -230.0
+offset_right = 250.0
+offset_bottom = 230.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Content" type="VBoxContainer" parent="UILayer/GameHud/PausePanel" unique_id=2032531992]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="PauseTitleLabel" type="Label" parent="UILayer/GameHud/PausePanel/Content" unique_id=1198248857]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+horizontal_alignment = 1
+
+[node name="PauseContentLabel" type="RichTextLabel" parent="UILayer/GameHud/PausePanel/Content" unique_id=3288271]
+custom_minimum_size = Vector2(0, 120)
+layout_mode = 2
+bbcode_enabled = true
+fit_content = true
+
+[node name="ResumeButton" type="Button" parent="UILayer/GameHud/PausePanel/Content" unique_id=839261608]
+layout_mode = 2
+text = "UI_GAME_PAUSE_RESUME"
+
+[node name="FleetStatusButton" type="Button" parent="UILayer/GameHud/PausePanel/Content" unique_id=602920842]
+layout_mode = 2
+text = "UI_GAME_PAUSE_FLEET"
+
+[node name="EditFleetButton" type="Button" parent="UILayer/GameHud/PausePanel/Content" unique_id=551011368]
+layout_mode = 2
+text = "UI_GAME_PAUSE_EDIT_FLEET"
+
+[node name="SettingsButton" type="Button" parent="UILayer/GameHud/PausePanel/Content" unique_id=1310423969]
+layout_mode = 2
+text = "UI_GAME_PAUSE_SETTINGS"
+
+[node name="MainMenuButton" type="Button" parent="UILayer/GameHud/PausePanel/Content" unique_id=2063515116]
+layout_mode = 2
+text = "UI_GAME_PAUSE_MAIN_MENU"
+
+[node name="PauseBackButton" type="Button" parent="UILayer/GameHud/PausePanel/Content" unique_id=1501215791]
+layout_mode = 2
+text = "UI_GAME_PAUSE_BACK"
+
+[node name="RouteSelectionPanel" type="PanelContainer" parent="UILayer/GameHud" unique_id=260100001]
+process_mode = 3
+visible = false
+z_index = 100
+layout_mode = 0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -310.0
+offset_top = -190.0
+offset_right = 310.0
+offset_bottom = 190.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_route_selection")
+
+[node name="Content" type="VBoxContainer" parent="UILayer/GameHud/RouteSelectionPanel" unique_id=260100002]
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="TitleLabel" type="Label" parent="UILayer/GameHud/RouteSelectionPanel/Content" unique_id=260100003]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "UI_ROUTE_SELECTION_TITLE"
+horizontal_alignment = 1
+
+[node name="RouteStageLabel" type="Label" parent="UILayer/GameHud/RouteSelectionPanel/Content" unique_id=260100004]
+layout_mode = 2
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="FirstRouteButton" type="Button" parent="UILayer/GameHud/RouteSelectionPanel/Content" unique_id=260100005]
+custom_minimum_size = Vector2(0, 72)
+layout_mode = 2
+text_overrun_behavior = 3
+autowrap_mode = 2
+
+[node name="SecondRouteButton" type="Button" parent="UILayer/GameHud/RouteSelectionPanel/Content" unique_id=260100006]
+custom_minimum_size = Vector2(0, 72)
+layout_mode = 2
+text_overrun_behavior = 3
+autowrap_mode = 2
+
+[node name="MainMenuConfirmDialog" type="ConfirmationDialog" parent="UILayer/GameHud" unique_id=276622700]
+title = "UI_GAME_MAIN_MENU_CONFIRM_TITLE"
+ok_button_text = "UI_GAME_MAIN_MENU_CONFIRM_OK"
+dialog_text = "UI_GAME_MAIN_MENU_CONFIRM_DESCRIPTION"
+cancel_button_text = "UI_GAME_MAIN_MENU_CONFIRM_CANCEL"
+
+[node name="DebugTestPanel" parent="UILayer" unique_id=2012129276 instance=ExtResource("39_debug_test_panel")]
+layout_mode = 3
+
+[node name="ClickedOutline" type="Sprite2D" parent="." unique_id=322803503]
+visible = false
+z_index = 2
+texture = ExtResource("12_qaai1")
+script = ExtResource("17_o2d4e")
+
+[node name="MainBG" type="Parallax2D" parent="." unique_id=848412416]
+z_index = -100
+scroll_scale = Vector2(0.1, 0.1)
+repeat_size = Vector2(1024, 1024)
+autoscroll = Vector2(1, 1)
+repeat_times = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="MainBG" unique_id=2011138997]
+material = SubResource("ShaderMaterial_nowi5")
+texture = ExtResource("35_xpn7s")

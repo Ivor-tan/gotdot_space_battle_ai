@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="CardBenefitData" format=3 uid="uid://cixsk7l48nywg"]
+
+[ext_resource type="Script" uid="uid://4xau2yynf0di" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"WPN_010"
+CategoryId = &"wpn"
+RarityId = &"rare"
+DisplayName = "余烬回收"
+DisplayNameKey = &"CODEX_CARD_WPN_010_DISPLAYNAME"
+EffectDescription = "热能舰：燃烧敌人死亡时向最近敌人转移 2 层燃烧。"
+EffectDescriptionKey = &"CODEX_CARD_WPN_010_EFFECTDESCRIPTION"
+SynergyDescription = "聚怪、散射。"
+SynergyDescriptionKey = &"CODEX_CARD_WPN_010_SYNERGYDESCRIPTION"
+TargetScopeId = &"run"
+IsImplementedInRuntime = true
+

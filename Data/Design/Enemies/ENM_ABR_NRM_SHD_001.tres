@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="EnemyDesignData" format=3 uid="uid://dcvdp3t3w833j"]
+
+[ext_resource type="Texture2D" uid="uid://4wttn7do57if" path="res://Resource/Sprites/Alien/alien_05.png" id="1_0wbrn"]
+[ext_resource type="Script" uid="uid://u651y3gitnya" path="res://Data/DataCS/EnemyDesignData.cs" id="1_enemy"]
+[ext_resource type="PackedScene" path="res://Scene/Map/Enemies/ENM_ABR_NRM_SHD_001.tscn" id="2_scene"]
+
+[resource]
+script = ExtResource("1_enemy")
+EnemyId = &"ENM_ABR_NRM_SHD_001"
+DisplayName = "废舰壁垒"
+DisplayNameKey = &"CODEX_ENEMY_ENM_ABR_NRM_SHD_001_DISPLAYNAME"
+RoleId = &"SHD"
+Icon = ExtResource("1_0wbrn")
+EnemyScene = ExtResource("2_scene")
+BaseHealth = 120
+DisplayDamage = 16
+EffectiveHits = 1
+ControlResistance = 0.35
+SpawnCap = 18
+ThreatWeight = 1.5
+DropTableId = &"DROP_ENM_ABR_NRM_SHD_001"
+DropSummary = "3 微粒；8% 护盾残片（+2 微粒）。"
+DropSummaryKey = &"CODEX_ENEMY_ENM_ABR_NRM_SHD_001_DROPSUMMARY"
+TargetAndAttack = "最近舰；接触 44 px；表现伤害 16、有效命中 1，冷却 2.20 s。"
+TargetAndAttackKey = &"CODEX_ENEMY_ENM_ABR_NRM_SHD_001_TARGETANDATTACK"
+MechanicAndWarning = "每 7 s 为 220 px 内最多 6 名敌人授予 2 层敌方护盾；前摇 0.75 s；控制抗性 35%。"
+MechanicAndWarningKey = &"CODEX_ENEMY_ENM_ABR_NRM_SHD_001_MECHANICANDWARNING"
+SpawnRule = "单波 1–4，场上 18，权重 1.5。"
+SpawnRuleKey = &"CODEX_ENEMY_ENM_ABR_NRM_SHD_001_SPAWNRULE"
+

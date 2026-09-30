@@ -1,0 +1,1181 @@
+[gd_scene format=3 uid="uid://cctf121hbhiw6"]
+
+[ext_resource type="Script" uid="uid://dild8krwuq1fq" path="res://Scripts/UI/MainSceneUI.cs" id="1_uptpg"]
+[ext_resource type="Texture2D" uid="uid://qnw4ebuh02vf" path="res://Resource/BG/BG002_2.png" id="2_ly247"]
+[ext_resource type="Texture2D" uid="uid://y4k475awersn" path="res://Resource/BG/BG_Ship_1.png" id="3_hcm6b"]
+[ext_resource type="Shader" uid="uid://7mnnp3q75mqp" path="res://Material/Shader/bg_objects.gdshader" id="3_l7vlk"]
+[ext_resource type="Texture2D" uid="uid://c0rmsqvdstxve" path="res://Resource/BG/BG_Objects_Moon.png" id="5_l7vlk"]
+[ext_resource type="Texture2D" uid="uid://dauhq0fuxkbto" path="res://Resource/BG/BG_Ship_2.png" id="5_so1si"]
+[ext_resource type="Texture2D" uid="uid://b53dfbvjn1la0" path="res://Resource/BG/BG_Alien_1.png" id="6_i8335"]
+[ext_resource type="Texture2D" uid="uid://djpuhnlhxnq1y" path="res://Resource/BG/BG002_1.png" id="6_nr04c"]
+[ext_resource type="Texture2D" uid="uid://cx75b7rwurvtl" path="res://Resource/BG/BG_Alien_2.png" id="7_i8335"]
+[ext_resource type="Texture2D" uid="uid://c7n4pnlm4dcc5" path="res://Resource/BG/BG_Alien_3.png" id="8_e7n4u"]
+[ext_resource type="Texture2D" uid="uid://dfdfam8vgf4mn" path="res://Resource/BG/BG_Alien_4.png" id="9_so1si"]
+[ext_resource type="Texture2D" uid="uid://dajcuc7q2ycl8" path="res://Resource/BG/BG_Ship_3.png" id="11_h4sd3"]
+[ext_resource type="Texture2D" uid="uid://clqpc1gp530l2" path="res://Resource/BG/BG_Ship_5.png" id="12_fr17n"]
+[ext_resource type="Texture2D" uid="uid://dixqur4tw6nny" path="res://Resource/BG/BG_Ship_4.png" id="12_j5k17"]
+[ext_resource type="Texture2D" uid="uid://c8uch57ouf8s2" path="res://Resource/BG/BG_Ship_6.png" id="14_ugl1b"]
+[ext_resource type="Texture2D" uid="uid://dck3eg42fko78" path="res://Resource/BG/BG_Ship_7.png" id="15_d452q"]
+[ext_resource type="Texture2D" uid="uid://bfqp35w5wuk4l" path="res://Resource/BG/BG_Frame_3.png" id="21_1rxtl"]
+[ext_resource type="PackedScene" uid="uid://cvprn4c3axa4v" path="res://Scene/UI/close_button.tscn" id="22_ao0eo"]
+[ext_resource type="Script" uid="uid://gb2kfqgywveo" path="res://Scripts/UI/LanguageSelector.cs" id="23_agg47"]
+[ext_resource type="Script" uid="uid://dkrtgwbdg8if4" path="res://Scripts/UI/MusicProgress.cs" id="24_n7022"]
+[ext_resource type="Script" uid="uid://dhm16xm3ac1mv" path="res://Scripts/UI/SFXProgress.cs" id="25_iw3ar"]
+[ext_resource type="Script" uid="uid://7oksf3v5e7d4" path="res://Scripts/UI/ProgressionDebugToggle.cs" id="26_progression_debug"]
+[ext_resource type="PackedScene" path="res://Scene/UI/ShipArchiveItem.tscn" id="36_archive_item"]
+[ext_resource type="Script" uid="uid://dtbc47ttdgleu" path="res://Scripts/UI/MetaUpgradeCanvas.cs" id="39_meta_canvas"]
+[ext_resource type="PackedScene" path="res://Scene/UI/CodexListItem.tscn" id="40_codex_item"]
+[ext_resource type="PackedScene" path="res://Scene/UI/CodexDetailsPopup.tscn" id="41_codex_details"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ly247"]
+shader = ExtResource("3_l7vlk")
+shader_parameter/amplitude = 4.00000019
+shader_parameter/speed = 1.50000007125
+shader_parameter/phase = 0.0
+shader_parameter/motion_scale = Vector2(1, 1)
+shader_parameter/enable_breath = true
+shader_parameter/breath_speed = 1.5
+shader_parameter/breath_strength = 0.0
+shader_parameter/glow_color = Color(0.43529412, 0.654902, 0.74509805, 1)
+shader_parameter/glow_size = 5.0
+shader_parameter/glow_intensity = 0.1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_so1si"]
+shader = ExtResource("3_l7vlk")
+shader_parameter/amplitude = 10.0
+shader_parameter/speed = 2.0
+shader_parameter/phase = 0.0
+shader_parameter/motion_scale = Vector2(1, 1)
+shader_parameter/enable_breath = true
+shader_parameter/breath_speed = 1.5
+shader_parameter/breath_strength = 0.3
+shader_parameter/glow_color = Color(0.49486536, 0.8980102, 0.992333, 1)
+shader_parameter/glow_size = 2.0
+shader_parameter/glow_intensity = 0.3
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_j5k17"]
+shader = ExtResource("3_l7vlk")
+shader_parameter/amplitude = 10.0
+shader_parameter/speed = 2.0
+shader_parameter/phase = 3.0
+shader_parameter/motion_scale = Vector2(1, 1)
+shader_parameter/enable_breath = false
+shader_parameter/breath_speed = 1.5
+shader_parameter/breath_strength = 0.3
+shader_parameter/glow_color = Color(0.2627451, 0.3372549, 0.4, 1)
+shader_parameter/glow_size = 2.0
+shader_parameter/glow_intensity = 0.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_d452q"]
+shader = ExtResource("3_l7vlk")
+shader_parameter/amplitude = 10.0
+shader_parameter/speed = 2.0
+shader_parameter/phase = 10.0
+shader_parameter/motion_scale = Vector2(1, 1)
+shader_parameter/enable_breath = true
+shader_parameter/breath_speed = 1.5
+shader_parameter/breath_strength = 0.5
+shader_parameter/glow_color = Color(1, 0.8, 0.3019608, 0.23137255)
+shader_parameter/glow_size = 2.0
+shader_parameter/glow_intensity = 0.2
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_1ggbh"]
+shader = ExtResource("3_l7vlk")
+shader_parameter/amplitude = 2.0
+shader_parameter/speed = 2.0
+shader_parameter/phase = 0.0
+shader_parameter/motion_scale = Vector2(1, 1)
+shader_parameter/enable_breath = true
+shader_parameter/breath_speed = 1.5
+shader_parameter/breath_strength = 0.3
+shader_parameter/glow_color = Color(1, 0.8, 0.3, 1)
+shader_parameter/glow_size = 2.0
+shader_parameter/glow_intensity = 0.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ke7ow"]
+shader = ExtResource("3_l7vlk")
+shader_parameter/amplitude = 5.0
+shader_parameter/speed = 2.0
+shader_parameter/phase = 10.0
+shader_parameter/motion_scale = Vector2(1, 1)
+shader_parameter/enable_breath = true
+shader_parameter/breath_speed = 1.5
+shader_parameter/breath_strength = 0.3
+shader_parameter/glow_color = Color(1, 0.8, 0.3, 1)
+shader_parameter/glow_size = 2.0
+shader_parameter/glow_intensity = 0.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_l7vlk"]
+shader = ExtResource("3_l7vlk")
+shader_parameter/amplitude = 2.000000095
+shader_parameter/speed = 1.0000000475
+shader_parameter/phase = 0.0
+shader_parameter/motion_scale = Vector2(1, 1)
+shader_parameter/enable_breath = true
+shader_parameter/breath_speed = 1.5
+shader_parameter/breath_strength = 0.3
+shader_parameter/glow_color = Color(1, 1, 1, 1)
+shader_parameter/glow_size = 0.5
+shader_parameter/glow_intensity = 0.2
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_u8a2y"]
+shader = ExtResource("3_l7vlk")
+shader_parameter/amplitude = 10.0
+shader_parameter/speed = 1.5
+shader_parameter/phase = 0.0
+shader_parameter/motion_scale = Vector2(2, 1)
+shader_parameter/enable_breath = true
+shader_parameter/breath_speed = 1.5
+shader_parameter/breath_strength = 0.3
+shader_parameter/glow_color = Color(0.21176471, 0.11372549, 0.23137255, 1)
+shader_parameter/glow_size = 2.0
+shader_parameter/glow_intensity = 0.5
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_i8335"]
+shader = ExtResource("3_l7vlk")
+shader_parameter/amplitude = 5.0
+shader_parameter/speed = 0.3
+shader_parameter/phase = 2.0
+shader_parameter/motion_scale = Vector2(1, 1)
+shader_parameter/enable_breath = true
+shader_parameter/breath_speed = 1.5
+shader_parameter/breath_strength = 1.0
+shader_parameter/glow_color = Color(0.21176471, 0.11372549, 0.23137255, 1)
+shader_parameter/glow_size = 2.0
+shader_parameter/glow_intensity = 1.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_h4sd3"]
+shader = ExtResource("3_l7vlk")
+shader_parameter/amplitude = 10.0
+shader_parameter/speed = 2.0
+shader_parameter/phase = 0.0
+shader_parameter/motion_scale = Vector2(1, 1)
+shader_parameter/enable_breath = true
+shader_parameter/breath_speed = 1.5
+shader_parameter/breath_strength = 0.3
+shader_parameter/glow_color = Color(0.2784314, 0.44313726, 0.3764706, 1)
+shader_parameter/glow_size = 2.0
+shader_parameter/glow_intensity = 1.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fr17n"]
+shader = ExtResource("3_l7vlk")
+shader_parameter/amplitude = 15.0
+shader_parameter/speed = 0.5
+shader_parameter/phase = 0.0
+shader_parameter/motion_scale = Vector2(1, 1)
+shader_parameter/enable_breath = false
+shader_parameter/breath_speed = 1.5
+shader_parameter/breath_strength = 0.3
+shader_parameter/glow_color = Color(0.4509804, 0.34901962, 0.45490196, 1)
+shader_parameter/glow_size = 2.0
+shader_parameter/glow_intensity = 0.1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ugl1b"]
+shader = ExtResource("3_l7vlk")
+shader_parameter/amplitude = 10.0
+shader_parameter/speed = 2.0
+shader_parameter/phase = 1.0
+shader_parameter/motion_scale = Vector2(1, 1)
+shader_parameter/enable_breath = true
+shader_parameter/breath_speed = 1.5
+shader_parameter/breath_strength = 0.3
+shader_parameter/glow_color = Color(0.23137255, 0.40784314, 0.5529412, 1)
+shader_parameter/glow_size = 2.0
+shader_parameter/glow_intensity = 0.5
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8ld3n"]
+shader = ExtResource("3_l7vlk")
+shader_parameter/amplitude = 3.0
+shader_parameter/speed = 2.0
+shader_parameter/phase = 0.0
+shader_parameter/motion_scale = Vector2(1, 1)
+shader_parameter/enable_breath = true
+shader_parameter/breath_speed = 1.5
+shader_parameter/breath_strength = 0.3
+shader_parameter/glow_color = Color(1, 0.8, 0.3, 1)
+shader_parameter/glow_size = 2.0
+shader_parameter/glow_intensity = 0.0
+
+[node name="MainScene" type="CanvasLayer" unique_id=1314090785 node_paths=PackedStringArray("gameStart", "gameExit", "gameSettings", "gameContinue", "shipArchive", "codex", "metaUpgrade", "metaUpgradeWindow", "metaUpgradeClose", "settingsWindow", "shipArchiveWindow", "codexWindow", "codexContents", "codexTabs", "shipArchiveBack", "codexBack", "runSetupWindow", "runSetupContents", "initialShipSelector", "initialShipScroll", "initialShipCards", "difficultySelector", "waveSelector", "waveModeSelector", "customWaveInput", "waveModeDescription", "initialShipPreview", "runSetupBack", "runSetupConfirm", "shipArchiveScroll", "shipArchiveItems", "codexShipGrid", "codexEnemyGrid", "codexBondGrid", "codexCardGrid", "codexDetailsPopup")]
+follow_viewport_enabled = true
+script = ExtResource("1_uptpg")
+gameStart = NodePath("MainBG_1/MainMenu/PanelContainer/Gruop/StartGame")
+gameExit = NodePath("MainBG_1/MainMenu/PanelContainer/Gruop/Exit")
+gameSettings = NodePath("MainBG_1/MainMenu/PanelContainer/Gruop/Setting")
+gameContinue = NodePath("MainBG_1/MainMenu/PanelContainer/Gruop/Continue")
+shipArchive = NodePath("MainBG_1/MainMenu/PanelContainer/Gruop/ShipArchive")
+codex = NodePath("MainBG_1/MainMenu/PanelContainer/Gruop/Codex")
+metaUpgrade = NodePath("MainBG_1/MainMenu/PanelContainer/Gruop/MetaUpgrade")
+metaUpgradeWindow = NodePath("MainBG_1/MetaUpgradeWindow")
+metaUpgradeClose = NodePath("MainBG_1/MetaUpgradeWindow/TextureRect/Contents/Close")
+settingsWindow = NodePath("MainBG_1/Settings")
+shipArchiveWindow = NodePath("MainBG_1/ShipArchiveWindow")
+codexWindow = NodePath("MainBG_1/CodexWindow")
+codexContents = NodePath("MainBG_1/CodexWindow/TextureRect/Contents")
+codexTabs = NodePath("MainBG_1/CodexWindow/TextureRect/Contents/Tabs")
+shipArchiveBack = NodePath("MainBG_1/ShipArchiveWindow/TextureRect/Contents/BackMarginContainerMarginContainer/Back")
+codexBack = NodePath("MainBG_1/CodexWindow/TextureRect/Contents/Back")
+runSetupWindow = NodePath("MainBG_1/RunSetupWindow")
+runSetupContents = NodePath("MainBG_1/RunSetupWindow/TextureRect/Contents")
+initialShipSelector = NodePath("MainBG_1/RunSetupWindow/TextureRect/Contents/InitialShipRow/InitialShipSelector")
+initialShipScroll = NodePath("MainBG_1/RunSetupWindow/TextureRect/Contents/InitialShipScroll")
+initialShipCards = NodePath("MainBG_1/RunSetupWindow/TextureRect/Contents/InitialShipScroll/InitialShipCards")
+difficultySelector = NodePath("MainBG_1/RunSetupWindow/TextureRect/Contents/DifficultyRow/DifficultySelector")
+waveSelector = NodePath("MainBG_1/RunSetupWindow/TextureRect/Contents/WaveRow/WaveSelector")
+waveModeSelector = NodePath("MainBG_1/RunSetupWindow/TextureRect/Contents/WaveModeRow/WaveModeSelector")
+customWaveInput = NodePath("MainBG_1/RunSetupWindow/TextureRect/Contents/CustomWaveRow/CustomWaveInput")
+waveModeDescription = NodePath("MainBG_1/RunSetupWindow/TextureRect/Contents/WaveModeDescription")
+initialShipPreview = NodePath("MainBG_1/RunSetupWindow/TextureRect/Contents/InitialShipPreview")
+runSetupBack = NodePath("MainBG_1/RunSetupWindow/TextureRect/Contents/Actions/Back")
+runSetupConfirm = NodePath("MainBG_1/RunSetupWindow/TextureRect/Contents/Actions/StartRun")
+shipArchiveScroll = NodePath("MainBG_1/ShipArchiveWindow/TextureRect/Contents/ShipList")
+shipArchiveItems = NodePath("MainBG_1/ShipArchiveWindow/TextureRect/Contents/ShipList/ReusableItemsMargin/ReusableItems")
+shipArchiveItemScene = ExtResource("36_archive_item")
+codexShipGrid = NodePath("MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Ships/BlueprintScroll/Grid")
+codexEnemyGrid = NodePath("MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Enemies/BlueprintScroll/Grid")
+codexBondGrid = NodePath("MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Bonds/Grid")
+codexCardGrid = NodePath("MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Cards/Grid")
+codexListItemScene = ExtResource("40_codex_item")
+codexDetailsPopup = NodePath("CodexDetailsPopup")
+
+[node name="CodexDetailsPopup" parent="." unique_id=1078323597 instance=ExtResource("41_codex_details")]
+
+[node name="MainBG_2" type="TextureRect" parent="." unique_id=740276496]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_ly247")
+expand_mode = 2
+
+[node name="Ship_1" type="TextureRect" parent="MainBG_2" unique_id=1356408420]
+z_index = 1
+texture_filter = 2
+texture_repeat = 1
+material = SubResource("ShaderMaterial_ly247")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.08020833
+anchor_top = 0.6722222
+anchor_right = 0.19270833
+anchor_bottom = 0.87222224
+grow_horizontal = 2
+grow_vertical = 2
+rotation = -0.08726646
+texture = ExtResource("3_hcm6b")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="Ship_2" type="TextureRect" parent="MainBG_2" unique_id=1113376126]
+z_index = 1
+texture_filter = 2
+texture_repeat = 1
+material = SubResource("ShaderMaterial_so1si")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.108
+anchor_top = 0.113
+anchor_right = 0.108
+anchor_bottom = 0.258
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 0.08113095
+pivot_offset_ratio = Vector2(0.5, 0.5)
+texture = ExtResource("5_so1si")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="Ship_3" type="TextureRect" parent="MainBG_2" unique_id=1607650509]
+z_index = 1
+texture_filter = 2
+texture_repeat = 1
+material = SubResource("ShaderMaterial_j5k17")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0953125
+anchor_top = 0.4787037
+anchor_right = 0.18731251
+anchor_bottom = 0.5917037
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("11_h4sd3")
+expand_mode = 2
+stretch_mode = 5
+metadata/_edit_use_anchors_ = true
+
+[node name="Ship_4" type="TextureRect" parent="MainBG_2" unique_id=794897846]
+z_index = 1
+texture_filter = 2
+texture_repeat = 1
+material = SubResource("ShaderMaterial_d452q")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.194
+anchor_top = 0.263
+anchor_right = 0.301
+anchor_bottom = 0.392
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 0.09733594
+pivot_offset_ratio = Vector2(0.5, 0.5)
+texture = ExtResource("12_j5k17")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="Ship_7" type="TextureRect" parent="MainBG_2" unique_id=1348445856]
+texture_filter = 2
+texture_repeat = 2
+material = SubResource("ShaderMaterial_1ggbh")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.26354167
+anchor_top = 0.4287037
+anchor_right = 0.37210417
+anchor_bottom = 0.6217037
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("15_d452q")
+expand_mode = 2
+stretch_mode = 5
+metadata/_edit_use_anchors_ = true
+
+[node name="Ship_8" type="TextureRect" parent="MainBG_2" unique_id=983905371]
+z_index = 1
+material = SubResource("ShaderMaterial_ke7ow")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.25
+anchor_top = 0.72
+anchor_right = 0.32
+anchor_bottom = 0.85
+grow_horizontal = 2
+grow_vertical = 2
+rotation = -0.14930408
+pivot_offset_ratio = Vector2(0.5, 0.5)
+texture = ExtResource("5_so1si")
+expand_mode = 2
+stretch_mode = 5
+metadata/_edit_use_anchors_ = true
+
+[node name="Moon" type="TextureRect" parent="MainBG_2" unique_id=1256950334]
+texture_filter = 2
+texture_repeat = 1
+material = SubResource("ShaderMaterial_l7vlk")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.35
+anchor_top = 0.1
+anchor_right = 0.35
+anchor_bottom = 0.35
+offset_left = -135.0
+offset_right = 135.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("5_l7vlk")
+expand_mode = 2
+stretch_mode = 4
+
+[node name="Alien_1" type="TextureRect" parent="MainBG_2" unique_id=860494471]
+texture_filter = 2
+material = SubResource("ShaderMaterial_u8a2y")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.85
+anchor_top = 0.15
+anchor_right = 0.85
+anchor_bottom = 0.35
+pivot_offset_ratio = Vector2(0.5, 0.5)
+texture = ExtResource("6_i8335")
+expand_mode = 2
+stretch_mode = 5
+metadata/_edit_use_anchors_ = true
+
+[node name="Alien_2" type="TextureRect" parent="MainBG_2" unique_id=1978355892]
+texture_filter = 2
+material = SubResource("ShaderMaterial_i8335")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.607
+anchor_right = 0.75
+anchor_bottom = 0.4
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("7_i8335")
+expand_mode = 2
+stretch_mode = 5
+metadata/_edit_use_anchors_ = true
+
+[node name="Alien_3" type="TextureRect" parent="MainBG_2" unique_id=1239030027]
+texture_filter = 2
+material = SubResource("ShaderMaterial_h4sd3")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.74114585
+anchor_top = 0.30555555
+anchor_right = 0.85364586
+anchor_bottom = 0.5055556
+texture = ExtResource("8_e7n4u")
+expand_mode = 2
+stretch_mode = 5
+metadata/_edit_use_anchors_ = true
+
+[node name="Alien_4" type="TextureRect" parent="MainBG_2" unique_id=698840379]
+texture_filter = 2
+material = SubResource("ShaderMaterial_fr17n")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.87395835
+anchor_top = 0.46203703
+anchor_right = 0.9437083
+anchor_bottom = 0.58603704
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("9_so1si")
+expand_mode = 2
+stretch_mode = 5
+metadata/_edit_use_anchors_ = true
+
+[node name="Ship_5" type="TextureRect" parent="MainBG_2" unique_id=1654873348]
+z_index = 1
+texture_filter = 2
+material = SubResource("ShaderMaterial_ugl1b")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.6984375
+anchor_top = 0.73703706
+anchor_right = 0.9234375
+anchor_bottom = 0.93703705
+rotation = 0.05235988
+pivot_offset_ratio = Vector2(0.5, 0.5)
+texture = ExtResource("12_fr17n")
+expand_mode = 2
+stretch_mode = 5
+metadata/_edit_use_anchors_ = true
+
+[node name="Ship_6" type="TextureRect" parent="MainBG_2" unique_id=383626270]
+material = SubResource("ShaderMaterial_8ld3n")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.6703126
+anchor_top = 0.5037038
+anchor_right = 0.82443756
+anchor_bottom = 0.7777038
+rotation = 0.10471976
+pivot_offset = Vector2(0.5, 0.5)
+pivot_offset_ratio = Vector2(0.5, 0.5)
+texture = ExtResource("14_ugl1b")
+expand_mode = 2
+stretch_mode = 5
+metadata/_edit_use_anchors_ = true
+
+[node name="MainBG_1" type="TextureRect" parent="." unique_id=960739390]
+z_index = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("6_nr04c")
+expand_mode = 2
+
+[node name="MainMenu" type="CenterContainer" parent="MainBG_1" unique_id=1496112647]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MainBG_1/MainMenu" unique_id=1728022247]
+layout_mode = 2
+
+[node name="Gruop" type="VBoxContainer" parent="MainBG_1/MainMenu/PanelContainer" unique_id=799808446]
+layout_mode = 2
+
+[node name="StartGame" type="Button" parent="MainBG_1/MainMenu/PanelContainer/Gruop" unique_id=1886827974]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "UI_MAIN_PLAY"
+
+[node name="Continue" type="Button" parent="MainBG_1/MainMenu/PanelContainer/Gruop" unique_id=742494809]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "UI_MAIN_CONTINUE"
+
+[node name="MetaUpgrade" type="Button" parent="MainBG_1/MainMenu/PanelContainer/Gruop" unique_id=1441792383]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "UI_META_UPGRADE_BUTTON"
+
+[node name="ShipArchive" type="Button" parent="MainBG_1/MainMenu/PanelContainer/Gruop" unique_id=1565149876]
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "UI_MAIN_ARCHIVE"
+
+[node name="Codex" type="Button" parent="MainBG_1/MainMenu/PanelContainer/Gruop" unique_id=1515862612]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "UI_MAIN_CODEX"
+
+[node name="Setting" type="Button" parent="MainBG_1/MainMenu/PanelContainer/Gruop" unique_id=274508880]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "UI_MAIN_SETTINGS"
+
+[node name="Exit" type="Button" parent="MainBG_1/MainMenu/PanelContainer/Gruop" unique_id=2140505875]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "UI_MAIN_QUIT"
+
+[node name="Settings" type="MarginContainer" parent="MainBG_1" unique_id=2000401164]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 0
+theme_override_constants/margin_left = 150
+theme_override_constants/margin_top = 70
+theme_override_constants/margin_right = 150
+theme_override_constants/margin_bottom = 70
+
+[node name="TextureRect" type="TextureRect" parent="MainBG_1/Settings" unique_id=31471448]
+z_index = 2
+clip_contents = true
+layout_mode = 2
+texture = ExtResource("21_1rxtl")
+expand_mode = 2
+
+[node name="SettingsContents" type="VBoxContainer" parent="MainBG_1/Settings/TextureRect" unique_id=885856014]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 30.0
+offset_top = 38.0
+offset_right = -33.0
+offset_bottom = -41.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 16
+
+[node name="Title" type="Label" parent="MainBG_1/Settings/TextureRect/SettingsContents" unique_id=1745828678]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "UI_MAIN_SETTINGS"
+horizontal_alignment = 1
+
+[node name="SettingsBody" type="VBoxContainer" parent="MainBG_1/Settings/TextureRect/SettingsContents" unique_id=1462815694]
+custom_minimum_size = Vector2(360, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+theme_override_constants/separation = 18
+alignment = 1
+
+[node name="LanguageSelected" type="HBoxContainer" parent="MainBG_1/Settings/TextureRect/SettingsContents/SettingsBody" unique_id=821905414]
+layout_mode = 2
+
+[node name="Langegue" type="Label" parent="MainBG_1/Settings/TextureRect/SettingsContents/SettingsBody/LanguageSelected" unique_id=1454788642]
+layout_mode = 2
+text = "UI_SETTINGS_LANGUAGE"
+
+[node name="LanguageSelector" type="OptionButton" parent="MainBG_1/Settings/TextureRect/SettingsContents/SettingsBody/LanguageSelected" unique_id=1719917189]
+layout_mode = 2
+button_pressed = true
+selected = 0
+item_count = 2
+popup/item_0/text = "中文"
+popup/item_0/id = 0
+popup/item_1/text = "English"
+popup/item_1/id = 1
+script = ExtResource("23_agg47")
+
+[node name="SetMusic" type="HBoxContainer" parent="MainBG_1/Settings/TextureRect/SettingsContents/SettingsBody" unique_id=330853965]
+layout_mode = 2
+
+[node name="Title" type="Label" parent="MainBG_1/Settings/TextureRect/SettingsContents/SettingsBody/SetMusic" unique_id=185435736]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "UI_SETTINGS_MUSIC"
+
+[node name="Music" type="HSlider" parent="MainBG_1/Settings/TextureRect/SettingsContents/SettingsBody/SetMusic" unique_id=464627097]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+size_flags_stretch_ratio = 2.0
+max_value = 1.0
+step = 0.01
+value = 1.0
+script = ExtResource("24_n7022")
+
+[node name="SetSfx" type="HBoxContainer" parent="MainBG_1/Settings/TextureRect/SettingsContents/SettingsBody" unique_id=702764196]
+layout_mode = 2
+
+[node name="Title" type="Label" parent="MainBG_1/Settings/TextureRect/SettingsContents/SettingsBody/SetSfx" unique_id=1231672280]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "UI_SETTINGS_SFX"
+
+[node name="SFX" type="HSlider" parent="MainBG_1/Settings/TextureRect/SettingsContents/SettingsBody/SetSfx" unique_id=430817828]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+size_flags_stretch_ratio = 2.0
+max_value = 1.0
+step = 0.01
+value = 1.0
+script = ExtResource("25_iw3ar")
+
+[node name="ProgressionDebug" type="HBoxContainer" parent="MainBG_1/Settings/TextureRect/SettingsContents/SettingsBody" unique_id=1752831457]
+layout_mode = 2
+
+[node name="Title" type="Label" parent="MainBG_1/Settings/TextureRect/SettingsContents/SettingsBody/ProgressionDebug" unique_id=1380969566]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "UI_SETTINGS_DEBUG_PROGRESSION"
+
+[node name="Toggle" type="CheckButton" parent="MainBG_1/Settings/TextureRect/SettingsContents/SettingsBody/ProgressionDebug" unique_id=685609249]
+layout_mode = 2
+tooltip_text = "UI_SETTINGS_DEBUG_PROGRESSION_TOOLTIP"
+text = "UI_SETTINGS_DEBUG_PROGRESSION_ON"
+script = ExtResource("26_progression_debug")
+
+[node name="CloseButton" parent="MainBG_1/Settings/TextureRect/SettingsContents" unique_id=588253072 node_paths=PackedStringArray("CloseItem") instance=ExtResource("22_ao0eo")]
+layout_mode = 2
+CloseItem = NodePath("../../..")
+
+[node name="ShipArchiveWindow" type="MarginContainer" parent="MainBG_1" unique_id=804764604]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 150
+theme_override_constants/margin_top = 70
+theme_override_constants/margin_right = 150
+theme_override_constants/margin_bottom = 70
+
+[node name="TextureRect" type="TextureRect" parent="MainBG_1/ShipArchiveWindow" unique_id=1415934782 groups=["ship_archive_details_host"]]
+z_index = 2
+layout_mode = 2
+texture = ExtResource("21_1rxtl")
+expand_mode = 3
+stretch_mode = 5
+
+[node name="Contents" type="VBoxContainer" parent="MainBG_1/ShipArchiveWindow/TextureRect" unique_id=660219546]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+
+[node name="Title" type="Label" parent="MainBG_1/ShipArchiveWindow/TextureRect/Contents" unique_id=546740541]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "UI_ARCHIVE_TITLE"
+horizontal_alignment = 1
+
+[node name="ShipList" type="ScrollContainer" parent="MainBG_1/ShipArchiveWindow/TextureRect/Contents" unique_id=922199989]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="ReusableItemsMargin" type="MarginContainer" parent="MainBG_1/ShipArchiveWindow/TextureRect/Contents/ShipList" unique_id=14405874]
+layout_mode = 2
+theme_override_constants/margin_left = 18
+theme_override_constants/margin_right = 18
+
+[node name="ReusableItems" type="GridContainer" parent="MainBG_1/ShipArchiveWindow/TextureRect/Contents/ShipList/ReusableItemsMargin" unique_id=396967750]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/h_separation = 14
+theme_override_constants/v_separation = 14
+columns = 2
+
+[node name="BackMarginContainerMarginContainer" type="MarginContainer" parent="MainBG_1/ShipArchiveWindow/TextureRect/Contents" unique_id=829847398]
+layout_mode = 2
+theme_override_constants/margin_left = 25
+theme_override_constants/margin_right = 25
+
+[node name="Back" type="Button" parent="MainBG_1/ShipArchiveWindow/TextureRect/Contents/BackMarginContainerMarginContainer" unique_id=761879867]
+layout_mode = 2
+text = "UI_ARCHIVE_BACK"
+
+[node name="CodexWindow" type="MarginContainer" parent="MainBG_1" unique_id=554598006]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 150
+theme_override_constants/margin_top = 70
+theme_override_constants/margin_right = 150
+theme_override_constants/margin_bottom = 70
+
+[node name="TextureRect" type="TextureRect" parent="MainBG_1/CodexWindow" unique_id=1176150258]
+z_index = 2
+clip_contents = true
+layout_mode = 2
+texture = ExtResource("21_1rxtl")
+expand_mode = 2
+
+[node name="Contents" type="VBoxContainer" parent="MainBG_1/CodexWindow/TextureRect" unique_id=1374463788]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 30.0
+offset_top = 38.0
+offset_right = -33.0
+offset_bottom = -41.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 16
+
+[node name="Title" type="Label" parent="MainBG_1/CodexWindow/TextureRect/Contents" unique_id=795165227]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "UI_CODEX_TITLE"
+horizontal_alignment = 1
+
+[node name="Tabs" type="TabContainer" parent="MainBG_1/CodexWindow/TextureRect/Contents" unique_id=780440515]
+custom_minimum_size = Vector2(0, 260)
+layout_mode = 2
+size_flags_vertical = 3
+current_tab = 0
+
+[node name="Ships" type="VBoxContainer" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs" unique_id=913042278]
+layout_mode = 2
+theme_override_constants/separation = 10
+metadata/_tab_index = 0
+
+[node name="Title" type="Label" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Ships" unique_id=1869739429]
+layout_mode = 2
+text = "UI_CODEX_TAB_BLUEPRINTS"
+horizontal_alignment = 1
+
+[node name="BlueprintScroll" type="ScrollContainer" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Ships" unique_id=2013103005]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="Grid" type="GridContainer" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Ships/BlueprintScroll" unique_id=1316318729]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/h_separation = 12
+theme_override_constants/v_separation = 12
+columns = 3
+
+[node name="Singularity" type="PanelContainer" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Ships/BlueprintScroll/Grid" unique_id=1820022571]
+custom_minimum_size = Vector2(220, 100)
+layout_mode = 2
+
+[node name="Text" type="Label" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Ships/BlueprintScroll/Grid/Singularity" unique_id=466846217]
+layout_mode = 2
+text = "UI_CODEX_SHIP_001"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Bulwark" type="PanelContainer" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Ships/BlueprintScroll/Grid" unique_id=1325205064]
+custom_minimum_size = Vector2(220, 100)
+layout_mode = 2
+
+[node name="Text" type="Label" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Ships/BlueprintScroll/Grid/Bulwark" unique_id=812536728]
+layout_mode = 2
+text = "UI_CODEX_SHIP_002"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Mender" type="PanelContainer" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Ships/BlueprintScroll/Grid" unique_id=1309799757]
+custom_minimum_size = Vector2(220, 100)
+layout_mode = 2
+
+[node name="Text" type="Label" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Ships/BlueprintScroll/Grid/Mender" unique_id=1973083221]
+layout_mode = 2
+text = "UI_CODEX_SHIP_003"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Enemies" type="VBoxContainer" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs" unique_id=1569572012]
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 10
+metadata/_tab_index = 1
+
+[node name="Title" type="Label" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Enemies" unique_id=581738980]
+layout_mode = 2
+text = "UI_CODEX_TAB_ENEMIES"
+horizontal_alignment = 1
+
+[node name="BlueprintScroll" type="ScrollContainer" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Enemies" unique_id=1675829237]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="Grid" type="GridContainer" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Enemies/BlueprintScroll" unique_id=1615469489]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/h_separation = 12
+theme_override_constants/v_separation = 12
+columns = 3
+
+[node name="Drifter" type="PanelContainer" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Enemies/BlueprintScroll/Grid" unique_id=1313270235]
+custom_minimum_size = Vector2(220, 100)
+layout_mode = 2
+
+[node name="Text" type="Label" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Enemies/BlueprintScroll/Grid/Drifter" unique_id=1983142193]
+layout_mode = 2
+text = "UI_CODEX_ENEMY_001"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Leech" type="PanelContainer" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Enemies/BlueprintScroll/Grid" unique_id=1851785021]
+custom_minimum_size = Vector2(220, 100)
+layout_mode = 2
+
+[node name="Text" type="Label" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Enemies/BlueprintScroll/Grid/Leech" unique_id=664453573]
+layout_mode = 2
+text = "UI_CODEX_ENEMY_002"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Warden" type="PanelContainer" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Enemies/BlueprintScroll/Grid" unique_id=1069667532]
+custom_minimum_size = Vector2(220, 100)
+layout_mode = 2
+
+[node name="Text" type="Label" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Enemies/BlueprintScroll/Grid/Warden" unique_id=2080594694]
+layout_mode = 2
+text = "UI_CODEX_ENEMY_003"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Bonds" type="VBoxContainer" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs" unique_id=1042529247]
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 10
+metadata/_tab_index = 2
+
+[node name="Title" type="Label" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Bonds" unique_id=1355944229]
+layout_mode = 2
+text = "UI_CODEX_TAB_BONDS"
+horizontal_alignment = 1
+
+[node name="Grid" type="GridContainer" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Bonds" unique_id=606528965]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/h_separation = 12
+theme_override_constants/v_separation = 12
+columns = 3
+
+[node name="TwinStars" type="PanelContainer" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Bonds/Grid" unique_id=520439255]
+custom_minimum_size = Vector2(220, 100)
+layout_mode = 2
+
+[node name="Text" type="Label" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Bonds/Grid/TwinStars" unique_id=325402695]
+layout_mode = 2
+text = "UI_CODEX_BOND_001"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Frontline" type="PanelContainer" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Bonds/Grid" unique_id=1957639283]
+custom_minimum_size = Vector2(220, 100)
+layout_mode = 2
+
+[node name="Text" type="Label" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Bonds/Grid/Frontline" unique_id=1819455424]
+layout_mode = 2
+text = "UI_CODEX_BOND_002"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Echo" type="PanelContainer" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Bonds/Grid" unique_id=147696228]
+custom_minimum_size = Vector2(220, 100)
+layout_mode = 2
+
+[node name="Text" type="Label" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Bonds/Grid/Echo" unique_id=100654968]
+layout_mode = 2
+text = "UI_CODEX_BOND_003"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Cards" type="VBoxContainer" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs" unique_id=297768678]
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 10
+metadata/_tab_index = 3
+
+[node name="Title" type="Label" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Cards" unique_id=245515108]
+layout_mode = 2
+text = "UI_CODEX_TAB_CARDS"
+horizontal_alignment = 1
+
+[node name="Grid" type="GridContainer" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Cards" unique_id=1918784121]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/h_separation = 12
+theme_override_constants/v_separation = 12
+columns = 3
+
+[node name="Overclock" type="PanelContainer" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Cards/Grid" unique_id=496452712]
+custom_minimum_size = Vector2(220, 100)
+layout_mode = 2
+
+[node name="Text" type="Label" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Cards/Grid/Overclock" unique_id=1785765899]
+layout_mode = 2
+text = "UI_CODEX_CARD_001"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="ReinforcedHull" type="PanelContainer" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Cards/Grid" unique_id=24321554]
+custom_minimum_size = Vector2(220, 100)
+layout_mode = 2
+
+[node name="Text" type="Label" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Cards/Grid/ReinforcedHull" unique_id=2044029002]
+layout_mode = 2
+text = "UI_CODEX_CARD_002"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="NewHull" type="PanelContainer" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Cards/Grid" unique_id=478415097]
+custom_minimum_size = Vector2(220, 100)
+layout_mode = 2
+
+[node name="Text" type="Label" parent="MainBG_1/CodexWindow/TextureRect/Contents/Tabs/Cards/Grid/NewHull" unique_id=847850232]
+layout_mode = 2
+text = "UI_CODEX_CARD_003"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Back" type="Button" parent="MainBG_1/CodexWindow/TextureRect/Contents" unique_id=844697107]
+layout_mode = 2
+text = "UI_CODEX_BACK"
+
+[node name="MetaUpgradeWindow" type="PanelContainer" parent="MainBG_1" unique_id=1285973599]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 40.0
+offset_top = 20.0
+offset_right = -40.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="MainBG_1/MetaUpgradeWindow" unique_id=1622690196]
+z_index = 2
+clip_contents = true
+layout_mode = 2
+mouse_filter = 2
+texture = ExtResource("21_1rxtl")
+expand_mode = 2
+
+[node name="Contents" type="VBoxContainer" parent="MainBG_1/MetaUpgradeWindow/TextureRect" unique_id=778617696]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 30.0
+offset_top = 38.0
+offset_right = -33.0
+offset_bottom = -41.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 12
+
+[node name="Points" type="Label" parent="MainBG_1/MetaUpgradeWindow/TextureRect/Contents" unique_id=1788263435]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+text = "UI_META_UPGRADE_TITLE"
+horizontal_alignment = 1
+
+[node name="Canvas" type="Control" parent="MainBG_1/MetaUpgradeWindow/TextureRect/Contents" unique_id=176492559]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("39_meta_canvas")
+
+[node name="Close" type="Button" parent="MainBG_1/MetaUpgradeWindow/TextureRect/Contents" unique_id=1659961985]
+custom_minimum_size = Vector2(0, 36)
+layout_mode = 2
+text = "UI_COMMON_CLOSE"
+
+[node name="RunSetupWindow" type="MarginContainer" parent="MainBG_1" unique_id=1261542391]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 72
+theme_override_constants/margin_top = 26
+theme_override_constants/margin_right = 72
+theme_override_constants/margin_bottom = 26
+
+[node name="TextureRect" type="TextureRect" parent="MainBG_1/RunSetupWindow" unique_id=707621922]
+clip_contents = true
+layout_mode = 2
+texture = ExtResource("21_1rxtl")
+expand_mode = 2
+
+[node name="Contents" type="VBoxContainer" parent="MainBG_1/RunSetupWindow/TextureRect" unique_id=2093243103]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_top = 31.0
+offset_right = -18.0
+offset_bottom = -32.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 8
+alignment = 1
+
+[node name="Title" type="Label" parent="MainBG_1/RunSetupWindow/TextureRect/Contents" unique_id=889640568]
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+text = "UI_RUN_SETUP_TITLE"
+horizontal_alignment = 1
+
+[node name="InitialShipRow" type="HBoxContainer" parent="MainBG_1/RunSetupWindow/TextureRect/Contents" unique_id=1163822775]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Title" type="Label" parent="MainBG_1/RunSetupWindow/TextureRect/Contents/InitialShipRow" unique_id=1819367476]
+custom_minimum_size = Vector2(148, 0)
+layout_mode = 2
+text = "UI_RUN_SETUP_INITIAL_SHIP"
+vertical_alignment = 1
+
+[node name="InitialShipSelector" type="OptionButton" parent="MainBG_1/RunSetupWindow/TextureRect/Contents/InitialShipRow" unique_id=1752201885]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="InitialShipScroll" type="ScrollContainer" parent="MainBG_1/RunSetupWindow/TextureRect/Contents" unique_id=1716472225]
+custom_minimum_size = Vector2(0, 160)
+layout_mode = 2
+horizontal_scroll_mode = 2
+vertical_scroll_mode = 0
+
+[node name="InitialShipCards" type="HBoxContainer" parent="MainBG_1/RunSetupWindow/TextureRect/Contents/InitialShipScroll" unique_id=1113012783]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="InitialShipPreview" type="Label" parent="MainBG_1/RunSetupWindow/TextureRect/Contents" unique_id=155659655]
+custom_minimum_size = Vector2(0, 72)
+layout_mode = 2
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="DifficultyRow" type="HBoxContainer" parent="MainBG_1/RunSetupWindow/TextureRect/Contents" unique_id=560652174]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Title" type="Label" parent="MainBG_1/RunSetupWindow/TextureRect/Contents/DifficultyRow" unique_id=342503903]
+custom_minimum_size = Vector2(148, 0)
+layout_mode = 2
+text = "UI_RUN_SETUP_DIFFICULTY"
+vertical_alignment = 1
+
+[node name="DifficultySelector" type="OptionButton" parent="MainBG_1/RunSetupWindow/TextureRect/Contents/DifficultyRow" unique_id=819645183]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="WaveRow" type="HBoxContainer" parent="MainBG_1/RunSetupWindow/TextureRect/Contents" unique_id=860920610]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Title" type="Label" parent="MainBG_1/RunSetupWindow/TextureRect/Contents/WaveRow" unique_id=2099439521]
+custom_minimum_size = Vector2(148, 0)
+layout_mode = 2
+text = "UI_RUN_SETUP_WAVES"
+vertical_alignment = 1
+
+[node name="WaveSelector" type="OptionButton" parent="MainBG_1/RunSetupWindow/TextureRect/Contents/WaveRow" unique_id=98807559]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="WaveModeRow" type="HBoxContainer" parent="MainBG_1/RunSetupWindow/TextureRect/Contents" unique_id=811109310]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Title" type="Label" parent="MainBG_1/RunSetupWindow/TextureRect/Contents/WaveModeRow" unique_id=1168048672]
+custom_minimum_size = Vector2(148, 0)
+layout_mode = 2
+text = "UI_RUN_SETUP_WAVE_MODE"
+vertical_alignment = 1
+
+[node name="WaveModeSelector" type="OptionButton" parent="MainBG_1/RunSetupWindow/TextureRect/Contents/WaveModeRow" unique_id=627000796]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="CustomWaveRow" type="HBoxContainer" parent="MainBG_1/RunSetupWindow/TextureRect/Contents" unique_id=1732286556]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Title" type="Label" parent="MainBG_1/RunSetupWindow/TextureRect/Contents/CustomWaveRow" unique_id=1859920308]
+custom_minimum_size = Vector2(148, 0)
+layout_mode = 2
+text = "UI_RUN_SETUP_CUSTOM_WAVES"
+vertical_alignment = 1
+
+[node name="CustomWaveInput" type="SpinBox" parent="MainBG_1/RunSetupWindow/TextureRect/Contents/CustomWaveRow" unique_id=1024239298]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="WaveModeDescription" type="Label" parent="MainBG_1/RunSetupWindow/TextureRect/Contents" unique_id=408699212]
+custom_minimum_size = Vector2(0, 36)
+layout_mode = 2
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Actions" type="HBoxContainer" parent="MainBG_1/RunSetupWindow/TextureRect/Contents" unique_id=206769783]
+layout_mode = 2
+theme_override_constants/separation = 16
+alignment = 1
+
+[node name="Back" type="Button" parent="MainBG_1/RunSetupWindow/TextureRect/Contents/Actions" unique_id=193726322]
+custom_minimum_size = Vector2(144, 0)
+layout_mode = 2
+text = "UI_RUN_SETUP_BACK"
+
+[node name="StartRun" type="Button" parent="MainBG_1/RunSetupWindow/TextureRect/Contents/Actions" unique_id=1482036633]
+custom_minimum_size = Vector2(176, 0)
+layout_mode = 2
+text = "UI_RUN_SETUP_CONFIRM"
+
+[connection signal="value_changed" from="MainBG_1/Settings/TextureRect/SettingsContents/SettingsBody/SetMusic/Music" to="MainBG_1/Settings/TextureRect/SettingsContents/SettingsBody/SetMusic/Music" method="_on_value_changed"]
+[connection signal="value_changed" from="MainBG_1/Settings/TextureRect/SettingsContents/SettingsBody/SetSfx/SFX" to="MainBG_1/Settings/TextureRect/SettingsContents/SettingsBody/SetSfx/SFX" method="_on_value_changed"]

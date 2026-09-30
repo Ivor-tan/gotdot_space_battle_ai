@@ -1,0 +1,57 @@
+[gd_scene format=3 uid="uid://dljwgnv7o5w8v"]
+
+[ext_resource type="Script" uid="uid://qps3itljhacu" path="res://Scripts/Player/PlayerController.cs" id="1_fvocf"]
+[ext_resource type="Script" uid="uid://dvhtlkrkp7g37" path="res://Scripts/Common/TrailLine.cs" id="2_1fxkx"]
+[ext_resource type="Resource" uid="uid://wgarau0oh0nn" path="res://Data/States/Player_States.tres" id="2_3pik8"]
+[ext_resource type="Texture2D" uid="uid://d05k57jc7w4ue" path="res://Resource/PlayerSpaceCraft/SpaceCraft.png" id="3_fm322"]
+[ext_resource type="Script" uid="uid://dfdh0fnvl66im" path="res://Scripts/Player/BulletSpawn.cs" id="4_si60p"]
+
+[sub_resource type="Curve" id="Curve_xeyxs"]
+_data = [Vector2(0.0050000027, 0.46067423), 0.0, 0.0, 0, 0, Vector2(0.905, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Gradient" id="Gradient_xeyxs"]
+offsets = PackedFloat32Array(0, 0.60493827, 1)
+colors = PackedColorArray(0.08235294, 0.08235294, 0.18039216, 0.3647059, 0.84705883, 0.5803922, 0.16862746, 0.5019608, 1, 1, 0.3254902, 0.8039216)
+
+[node name="Player" type="Area2D" unique_id=116431105 node_paths=PackedStringArray("BulletSpawn", "TrailLine", "DetectionArea", "Sprite", "AttackTimer")]
+collision_layer = 2
+collision_mask = 21
+script = ExtResource("1_fvocf")
+BulletSpawn = NodePath("BullteSpawn")
+PlayerStats = ExtResource("2_3pik8")
+TrailLine = NodePath("TrailLine")
+DetectionArea = NodePath(".")
+Sprite = NodePath("PlyerSprite")
+AttackTimer = NodePath("FireTimer")
+
+[node name="Abilities" type="Node2D" parent="." unique_id=1737954076]
+
+[node name="AttackedCollision" type="CollisionPolygon2D" parent="." unique_id=1870354747]
+position = Vector2(-1, 1)
+polygon = PackedVector2Array(-7, 15, 2, 6, 17, 0, 1, -6, -8, -15, -13, -15, -16, -1, -12, 15)
+
+[node name="TrailLine" type="Line2D" parent="." unique_id=1106648474 node_paths=PackedStringArray("pointPosition")]
+top_level = true
+width_curve = SubResource("Curve_xeyxs")
+gradient = SubResource("Gradient_xeyxs")
+texture_mode = 1
+joint_mode = 1
+script = ExtResource("2_1fxkx")
+pointPosition = NodePath("../PlyerSprite")
+offset = 0.0
+
+[node name="PlyerSprite" type="Sprite2D" parent="." unique_id=8270961]
+z_index = 1
+position = Vector2(0, 1)
+rotation = 1.5707964
+texture = ExtResource("3_fm322")
+
+[node name="BullteSpawn" type="Node2D" parent="." unique_id=1239737931]
+scale = Vector2(1, 2.3200002)
+script = ExtResource("4_si60p")
+
+[node name="FireTimer" type="Timer" parent="." unique_id=314315236]
+wait_time = 2.0
+one_shot = true
+autostart = true

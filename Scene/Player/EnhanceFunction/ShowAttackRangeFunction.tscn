@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://bm5bircwo06gp"]
+
+[ext_resource type="Script" uid="uid://rsyybdv4x51k" path="res://Data/DataCS/Enhance/ShowAttackRange.cs" id="1_c4cek"]
+
+[node name="ShowAttackRange" type="Node2D" unique_id=1576689051]
+script = ExtResource("1_c4cek")
+AttackRange = 50.0
+RangeColor = Color(0.74509805, 0, 0, 0.23529412)
+LineWidth = 1.0

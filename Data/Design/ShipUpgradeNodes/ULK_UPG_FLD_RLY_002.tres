@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_FLD_RLY_002"
+ShipId = &"SHP_PLY_SUP_001"
+BranchId = &"ULK_UPG_FLD_RLY"
+Tier = 2
+PreviousNodeId = &"ULK_UPG_FLD_RLY_001"
+BranchName = "应急转接"
+EffectDescription = "触发后自身获 1 层护盾。"
+IsImplementedInRuntime = false
+

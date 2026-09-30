@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="ResourceGroup" format=3 uid="uid://dw05f8qwxguu"]
+
+[ext_resource type="Script" uid="uid://klv8tuveaql4" path="res://addons/godot_resource_groups/resource_group.gd" id="1_group"]
+
+[resource]
+script = ExtResource("1_group")
+base_folder = "res://Data/Design/Enemies"
+includes = Array[String](["*.tres"])
+paths = Array[String](["res://Data/Design/Enemies/ENM_ABR_BOS_CTL_001.tres", "res://Data/Design/Enemies/ENM_ABR_BOS_FRM_001.tres", "res://Data/Design/Enemies/ENM_ABR_BOS_ZON_001.tres", "res://Data/Design/Enemies/ENM_ABR_ELT_JAM_001.tres", "res://Data/Design/Enemies/ENM_ABR_ELT_RAM_001.tres", "res://Data/Design/Enemies/ENM_ABR_ELT_SUM_001.tres", "res://Data/Design/Enemies/ENM_ABR_ELT_ZON_001.tres", "res://Data/Design/Enemies/ENM_ABR_NRM_CHS_001.tres", "res://Data/Design/Enemies/ENM_ABR_NRM_HAR_001.tres", "res://Data/Design/Enemies/ENM_ABR_NRM_JAM_001.tres", "res://Data/Design/Enemies/ENM_ABR_NRM_RAM_001.tres", "res://Data/Design/Enemies/ENM_ABR_NRM_SHD_001.tres", "res://Data/Design/Enemies/ENM_ABR_NRM_SUM_001.tres", "res://Data/Design/Enemies/ENM_ABR_NRM_SUP_001.tres", "res://Data/Design/Enemies/ENM_ABR_NRM_ZON_001.tres", "res://Data/Design/Enemies/ENM_ABR_SUM_CHS_001.tres"])

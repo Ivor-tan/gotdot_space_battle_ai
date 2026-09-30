@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="ShipDesignData" format=3 uid="uid://dq62hx00lpkjw"]
+
+[ext_resource type="Script" uid="uid://dsyo42kgkoxaa" path="res://Data/DataCS/ShipDesignData.cs" id="1_design"]
+[ext_resource type="Resource" uid="uid://c6uypf4766hrp" path="res://Data/PlayerShips/SHP_PLY_ART_001.tres" id="2_ship"]
+[ext_resource type="Texture2D" uid="uid://dvmc0thwdrss" path="res://Resource/Sprites/Fighters/fighters_02.png" id="3_preview"]
+[ext_resource type="Texture2D" uid="uid://bo7srb853vqya" path="res://Resource/Sprites/Projectiles/projectile_r2_c8.png" id="4_projectile"]
+
+[resource]
+script = ExtResource("1_design")
+ShipId = &"SHP_PLY_ART_001"
+ShipData = ExtResource("2_ship")
+DisplayName = "日冕炮舰"
+DisplayNameKey = &"CODEX_SHIP_SHP_PLY_ART_001_DISPLAYNAME"
+PreviewIcon = ExtResource("3_preview")
+ProjectileIcon = ExtResource("4_projectile")
+CenterRingEffectId = &"RING_ART_CENTER"
+RingOneEffectId = &"RING_ART_R1"
+RingTwoEffectId = &"RING_ART_R2"
+CenterRingEffect = "灼烧区半径 +15%。"
+CenterRingEffectKey = &"CODEX_SHIP_SHP_PLY_ART_001_CENTERRINGEFFECT"
+RingOneEffect = "距目标 220 内爆炸伤害 +20%。"
+RingTwoEffect = "距目标 380 外爆炸半径 +20%。"
+BranchIds = Array[StringName]([&"ULK_UPG_SOL_FUR_", &"ULK_UPG_SOL_FLR_", &"ULK_UPG_SOL_SIE_"])
+BranchOneDescription = "炉心余烬 `ULK_UPG_SOL_FUR_001–003` | 爆炸附加 3 秒灼烧，每秒 20% 基础伤害。 | 灼烧目标再受爆炸时向最近 2 敌人溅射 25%。 | 灼烧 3 层爆裂，80% 范围伤害；同目标 5 秒一次。"
+BranchOneDescriptionKey = &"CODEX_SHIP_SHP_PLY_ART_001_BRANCHONEDESCRIPTION"
+BranchTwoDescription = "日斑抛射 `ULK_UPG_SOL_FLR_001–003` | 爆炸边缘留下 2 枚日斑，0.6 秒后各 30% 伤害。 | 日斑命中灼烧目标时减速 20% 1.5 秒。 | 每 6 秒下次爆炸生成 5 日斑，单枚伤害降为 22%。"
+BranchTwoDescriptionKey = &"CODEX_SHIP_SHP_PLY_ART_001_BRANCHTWODESCRIPTION"
+BranchThreeDescription = "阵地火控 `ULK_UPG_SOL_SIE_001–003` | 距目标 380 外伤害 +20%。 | 超远命中减速 25% 2 秒。 | 连续 3 次攻击同一区域后，下次半径 +45%、伤害 +40%。"
+BranchThreeDescriptionKey = &"CODEX_SHIP_SHP_PLY_ART_001_BRANCHTHREEDESCRIPTION"
+

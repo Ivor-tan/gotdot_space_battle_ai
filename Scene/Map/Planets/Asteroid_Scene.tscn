@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://bpximnaappjhv"]
+
+[ext_resource type="Script" uid="uid://s2j01tv4vl46" path="res://Scripts/MapObjects/AsteroidsController.cs" id="1_hha07"]
+[ext_resource type="Material" uid="uid://bmcq8vmaayhgn" path="res://Material/planet_rotation.material" id="1_hwsf3"]
+[ext_resource type="Texture2D" uid="uid://cm26iy74seogt" path="res://Resource/GraysSpaceTiles/Asteroids/Asteroid2.png" id="2_hha07"]
+[ext_resource type="Resource" uid="uid://dy82bli7y4tcm" path="res://Data/States/Asteroid_States.tres" id="2_or0bs"]
+[ext_resource type="Script" uid="uid://dc7grs40ie83c" path="res://Scripts/MapObjects/Asteroids_Image.cs" id="3_or0bs"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_or0bs"]
+radius = 19.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_e8etx"]
+radius = 15.033297
+
+[node name="Asteroid" type="CharacterBody2D" unique_id=240446602]
+collision_mask = 0
+script = ExtResource("1_hha07")
+Asteroid_States = ExtResource("2_or0bs")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1404741511]
+material = ExtResource("1_hwsf3")
+texture = ExtResource("2_hha07")
+offset = Vector2(-1, 0)
+script = ExtResource("3_or0bs")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=883479928]
+shape = SubResource("CircleShape2D_or0bs")
+
+[node name="AsteroidArea" type="Area2D" parent="." unique_id=497557092]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AsteroidArea" unique_id=861764732]
+shape = SubResource("CircleShape2D_e8etx")
+debug_color = Color(0.775496, 0.24684623, 0.8988403, 0.41960785)

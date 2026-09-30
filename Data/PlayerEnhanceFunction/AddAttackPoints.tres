@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AddAttackPoints" format=3 uid="uid://djyy4dw421r14"]
+
+[ext_resource type="Texture2D" uid="uid://i4jmuirlogqh" path="res://icon.svg" id="1_wvwmh"]
+[ext_resource type="Script" uid="uid://byormq6q4rdo6" path="res://Data/DataCS/Enhance/AddAttackPoints.cs" id="2_wvwmh"]
+
+[resource]
+script = ExtResource("2_wvwmh")
+Name = "增加攻击力"
+Description = "攻击力+5"
+NameKey = &"GAMEPLAY_ENHANCE_STAT_ATTACK_NAME"
+DescriptionKey = &"GAMEPLAY_ENHANCE_STAT_ATTACK_DESCRIPTION"
+Icon = ExtResource("1_wvwmh")
+FunctionType = 1
+TargetShipId = null
+metadata/_custom_type_script = "uid://byormq6q4rdo6"

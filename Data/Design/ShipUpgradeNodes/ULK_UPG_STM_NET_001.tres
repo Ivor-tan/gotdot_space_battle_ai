@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_STM_NET_001"
+ShipId = &"SHP_PLY_CTL_002"
+BranchId = &"ULK_UPG_STM_NET"
+Tier = 1
+PreviousNodeId = &""
+BranchName = "拦截电网"
+EffectDescription = "优先命中攻击相邻舰的敌人。"
+IsImplementedInRuntime = false
+

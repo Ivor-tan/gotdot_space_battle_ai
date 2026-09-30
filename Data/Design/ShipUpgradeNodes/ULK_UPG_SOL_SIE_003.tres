@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_SOL_SIE_003"
+ShipId = &"SHP_PLY_ART_001"
+BranchId = &"ULK_UPG_SOL_SIE"
+Tier = 3
+PreviousNodeId = &"ULK_UPG_SOL_SIE_002"
+BranchName = "阵地火控"
+EffectDescription = "连续 3 次攻击同一区域后，下次半径 +45%、伤害 +40%。"
+IsImplementedInRuntime = false
+

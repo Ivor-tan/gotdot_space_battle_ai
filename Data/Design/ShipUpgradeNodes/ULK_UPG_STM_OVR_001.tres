@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_STM_OVR_001"
+ShipId = &"SHP_PLY_CTL_002"
+BranchId = &"ULK_UPG_STM_OVR"
+Tier = 1
+PreviousNodeId = &""
+BranchName = "过载电容"
+EffectDescription = "同目标受 3 次电弧后过载3秒。"
+IsImplementedInRuntime = false
+

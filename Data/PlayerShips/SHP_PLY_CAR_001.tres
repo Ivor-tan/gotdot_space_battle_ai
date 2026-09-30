@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="PlayerShipData" format=3 uid="uid://c4epero64pujc"]
+
+[ext_resource type="Script" uid="uid://chfm6671qx1of" path="res://Data/DataCS/PlayerShipData.cs" id="1_script"]
+[ext_resource type="Texture2D" uid="uid://b3qlonucfmih2" path="res://Resource/PlayerSpaceCraft/SpaceCraft_Magenta.png" id="2_icon"]
+[ext_resource type="PackedScene" path="res://Scene/Player/Ships/HiveMother.tscn" id="3_scene"]
+
+[resource]
+script = ExtResource("1_script")
+ShipId = &"SHP_PLY_CAR_001"
+ShipTypeId = &"carrier"
+FactionId = &"electromagnetic"
+RoleId = &"carrier"
+RarityId = &"epic"
+DisplayName = "巢母"
+Description = "持续无人机输出母舰。常驻放出 3 架无人机，优先攻击带有控制状态的目标。"
+DisplayNameKey = null
+DescriptionKey = null
+Icon = ExtResource("2_icon")
+ShipScene = ExtResource("3_scene")
+RecommendedPositionId = &"rear"
+RotateSpeed = 4.2
+AttackRange = 440.0
+AttackInterval = 1.5
+AttackPower = 12
+WeaponId = &"WPN_SWARM_HANGAR"
+ActiveAbilityId = null
+PassiveAbilityId = &"PAS_CONTROLLED_TARGET_PRIORITY"
+UnlockSourceId = &"UNLOCK_DRONE_BEACON"
+UnlockLevel = 6
+DeployCost = 3
+TagIds = Array[StringName]([&"drone", &"electromagnetic"])
+TraitIds = Array[StringName]([&"drone", &"controlled_target"])
+BondIds = Array[StringName]([&"BND_PAI_003"])

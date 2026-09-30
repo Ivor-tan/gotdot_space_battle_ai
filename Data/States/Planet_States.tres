@@ -1,0 +1,6 @@
+[gd_resource type="Resource" script_class="Planets_States" format=3 uid="uid://0n6svcn6v5d6"]
+
+[ext_resource type="Script" uid="uid://b3b2s1wh34geu" path="res://Data/DataCS/PlanetsStatus.cs" id="1_lph2l"]
+
+[resource]
+script = ExtResource("1_lph2l")

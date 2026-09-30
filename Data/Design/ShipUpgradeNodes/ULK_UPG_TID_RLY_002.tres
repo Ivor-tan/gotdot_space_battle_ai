@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_TID_RLY_002"
+ShipId = &"SHP_PLY_CTL_001"
+BranchId = &"ULK_UPG_TID_RLY"
+Tier = 2
+PreviousNodeId = &"ULK_UPG_TID_RLY_001"
+BranchName = "弱点转译"
+EffectDescription = "不同 `ShipId` 可各触发一次，最多 3 次。"
+IsImplementedInRuntime = false
+

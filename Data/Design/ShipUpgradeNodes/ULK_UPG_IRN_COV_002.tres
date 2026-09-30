@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_IRN_COV_002"
+ShipId = &"SHP_PLY_GRD_002"
+BranchId = &"ULK_UPG_IRN_COV"
+Tier = 2
+PreviousNodeId = &"ULK_UPG_IRN_COV_001"
+BranchName = "掩护扇面"
+EffectDescription = "扇面命中精英时，其对非铁幕目标伤害 -15% 2秒。"
+IsImplementedInRuntime = false
+

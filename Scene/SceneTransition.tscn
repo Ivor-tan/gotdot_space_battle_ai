@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://d3tuh01djfvqy"]
+
+[ext_resource type="Script" uid="uid://djser5t6f3trs" path="res://Scripts/Managers/SceneManager.cs" id="1_v1yu2"]
+
+[node name="SceneTransition" type="CanvasLayer" unique_id=545392063 node_paths=PackedStringArray("LoadingBar", "LoadingContainer", "FadeAnimation")]
+process_mode = 3
+script = ExtResource("1_v1yu2")
+LoadingBar = NodePath("LoadProgress/ProgressBar")
+LoadingContainer = NodePath("LoadProgress")
+FadeAnimation = NodePath("FadeColor")
+
+[node name="FadeColor" type="ColorRect" parent="." unique_id=1525818286]
+process_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.08235294, 0.08235294, 0.18039216, 1)
+
+[node name="LoadProgress" type="PanelContainer" parent="." unique_id=1790490937]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -27.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ProgressBar" type="ProgressBar" parent="LoadProgress" unique_id=449889309]
+layout_direction = 4
+layout_mode = 2

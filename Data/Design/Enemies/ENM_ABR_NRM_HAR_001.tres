@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="EnemyDesignData" format=3 uid="uid://blr6254ivso2c"]
+
+[ext_resource type="Script" uid="uid://u651y3gitnya" path="res://Data/DataCS/EnemyDesignData.cs" id="1_enemy"]
+[ext_resource type="PackedScene" path="res://Scene/Map/Enemies/ENM_ABR_NRM_HAR_001.tscn" id="2_scene"]
+[ext_resource type="Texture2D" uid="uid://bif33sbqag46p" path="res://Resource/Sprites/Alien/alien_02.png" id="1_t8pid"]
+
+[resource]
+script = ExtResource("1_enemy")
+EnemyId = &"ENM_ABR_NRM_HAR_001"
+DisplayName = "针刺艇"
+DisplayNameKey = &"CODEX_ENEMY_ENM_ABR_NRM_HAR_001_DISPLAYNAME"
+RoleId = &"HAR"
+Icon = ExtResource("1_t8pid")
+EnemyScene = ExtResource("2_scene")
+BaseHealth = 42
+WindupSeconds = 0.7
+CooldownSeconds = 2.8
+DisplayDamage = 12
+EffectiveHits = 1
+SpawnCap = 15
+DropTableId = &"DROP_ENM_ABR_NRM_HAR_001"
+DropSummary = "2 微粒；3% 护盾能量（共享护盾未满时 +1）。"
+DropSummaryKey = &"CODEX_ENEMY_ENM_ABR_NRM_HAR_001_DROPSUMMARY"
+TargetAndAttack = "优先最远炮击/母舰，否则最远舰；射程 560 px；针弹表现伤害 12、有效命中 1。"
+TargetAndAttackKey = &"CODEX_ENEMY_ENM_ABR_NRM_HAR_001_TARGETANDATTACK"
+MechanicAndWarning = "锁定线 0.70 s，转向 300°/s，寿命 2.2 s，冷却 2.80 s；控制抗性 0%。"
+MechanicAndWarningKey = &"CODEX_ENEMY_ENM_ABR_NRM_HAR_001_MECHANICANDWARNING"
+SpawnRule = "单波 2–7，场上 30，权重 1.0。"
+SpawnRuleKey = &"CODEX_ENEMY_ENM_ABR_NRM_HAR_001_SPAWNRULE"
+

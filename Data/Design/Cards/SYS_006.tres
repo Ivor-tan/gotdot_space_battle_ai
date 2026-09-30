@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="CardBenefitData" format=3 uid="uid://cmaw887xag20t"]
+
+[ext_resource type="Script" uid="uid://4xau2yynf0di" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"SYS_006"
+CategoryId = &"sys"
+RarityId = &"rare"
+DisplayName = "牺牲护盾"
+DisplayNameKey = &"CODEX_CARD_SYS_006_DISPLAYNAME"
+EffectDescription = "指定守卫舰：获得 2 层护盾，自身造成伤害 -12%。"
+EffectDescriptionKey = &"CODEX_CARD_SYS_006_EFFECTDESCRIPTION"
+SynergyDescription = "分担、护盾脉冲。"
+SynergyDescriptionKey = &"CODEX_CARD_SYS_006_SYNERGYDESCRIPTION"
+TargetScopeId = &"ship"
+RequiresTargetSelection = true
+IsImplementedInRuntime = true
+

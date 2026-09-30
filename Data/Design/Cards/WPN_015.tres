@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="CardBenefitData" format=3 uid="uid://btc4qyd26ogqj"]
+
+[ext_resource type="Script" uid="uid://4xau2yynf0di" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"WPN_015"
+CategoryId = &"wpn"
+RarityId = &"rare"
+DisplayName = "近防弹幕"
+DisplayNameKey = &"CODEX_CARD_WPN_015_DISPLAYNAME"
+EffectDescription = "守卫舰：每 3 秒对距离自身 160 内最近敌人追加一次 40% 伤害射击。"
+EffectDescriptionKey = &"CODEX_CARD_WPN_015_EFFECTDESCRIPTION"
+SynergyDescription = "铁幕、后排保护。"
+SynergyDescriptionKey = &"CODEX_CARD_WPN_015_SYNERGYDESCRIPTION"
+TargetScopeId = &"run"
+IsImplementedInRuntime = true
+

@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://Scene/Player/BasePlayer.tscn" id="1_base"]
+[ext_resource type="Script" path="res://Scripts/Player/ShipEffectController.cs" id="2_effect"]
+
+[node name="FrostCore" instance=ExtResource("1_base")]
+
+[node name="EffectController" type="Node" parent="." unique_id=1]
+script = ExtResource("2_effect")

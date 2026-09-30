@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AddMoveSpeed" format=3 uid="uid://445qc3x32all"]
+
+[ext_resource type="Texture2D" uid="uid://i4jmuirlogqh" path="res://icon.svg" id="1_57bkf"]
+[ext_resource type="Script" uid="uid://dtf4gf0qpsvck" path="res://Data/DataCS/Enhance/AddMoveSpeed.cs" id="2_57bkf"]
+
+[resource]
+script = ExtResource("2_57bkf")
+Name = "推进器校准"
+Description = "舰队整体移动速度 +1。"
+NameKey = &"GAMEPLAY_ENHANCE_STAT_MOVE_SPEED_NAME"
+DescriptionKey = &"GAMEPLAY_ENHANCE_STAT_MOVE_SPEED_DESCRIPTION"
+Icon = ExtResource("1_57bkf")
+FunctionType = 1
+TargetShipId = null
+metadata/_custom_type_script = "uid://dtf4gf0qpsvck"

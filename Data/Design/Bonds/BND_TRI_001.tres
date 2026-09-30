@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="BondDefinitionData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/BondDefinitionData.cs" id="1_bond"]
+
+[resource]
+script = ExtResource("1_bond")
+BondId = &"BND_TRI_001"
+DisplayName = "引力日冕"
+DisplayNameKey = &"CODEX_BOND_BND_TRI_001_DISPLAYNAME"
+MemberCondition = "ART_001、FLG_001、CTL_001 形成两条相邻边。"
+MemberConditionKey = &"CODEX_BOND_BND_TRI_001_MEMBERCONDITION"
+EffectDescription = "日冕引爆后将附近敌人牵引至爆点，冷却 3 秒。"
+EffectDescriptionKey = &"CODEX_BOND_BND_TRI_001_EFFECTDESCRIPTION"
+Counterplay = "三舰必须通过真实相邻边连接，不能跨越空格。"
+CounterplayKey = &"CODEX_BOND_BND_TRI_001_COUNTERPLAY"
+RequiredMemberCount = 3
+

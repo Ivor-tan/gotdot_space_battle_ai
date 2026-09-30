@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_PRM_BST_003"
+ShipId = &"SHP_PLY_GRD_001"
+BranchId = &"ULK_UPG_PRM_BST"
+Tier = 3
+PreviousNodeId = &"ULK_UPG_PRM_BST_002"
+BranchName = "定点壁垒"
+EffectDescription = "定点 6 秒展开壁垒区 3 秒，普通敌人减速 45%。"
+IsImplementedInRuntime = false
+

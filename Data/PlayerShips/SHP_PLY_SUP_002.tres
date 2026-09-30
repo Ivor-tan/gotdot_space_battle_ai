@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="PlayerShipData" format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/PlayerShipData.cs" id="1_script"]
+[ext_resource type="Texture2D" path="res://Resource/PlayerSpaceCraft/SpaceCraft_Ice.png" id="2_icon"]
+[ext_resource type="PackedScene" path="res://Scene/Player/Ships/Foldlight.tscn" id="3_scene"]
+
+[resource]
+script = ExtResource("1_script")
+ShipId = &"SHP_PLY_SUP_002"
+ShipTypeId = &"support"
+FactionId = &"quantum"
+RoleId = &"shield"
+RarityId = &"epic"
+DisplayName = "折光"
+Description = "量子护盾支援舰。相邻舰释放技能后获得 1 层护盾；同一舰船冷却 4 秒。"
+Icon = ExtResource("2_icon")
+ShipScene = ExtResource("3_scene")
+RecommendedPositionId = &"middle"
+RotateSpeed = 5.0
+AttackRange = 340.0
+AttackInterval = 1.5
+AttackPower = 12
+WeaponId = &"WPN_REFRACTED_PULSE"
+PassiveAbilityId = &"PAS_ADJACENT_SKILL_SHIELD"
+UnlockSourceId = &"UNLOCK_QUANTUM_BEACON"
+UnlockLevel = 8
+DeployCost = 3
+TagIds = [&"quantum", &"shield"]
+TraitIds = [&"shield", &"chain"]
+BondIds = Array[StringName]([])

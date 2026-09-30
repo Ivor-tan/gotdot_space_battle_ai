@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ResourceGroup" format=3 uid="uid://uud7b5g35c2p"]
+
+[ext_resource type="Script" uid="uid://klv8tuveaql4" path="res://addons/godot_resource_groups/resource_group.gd" id="1_w16ox"]
+
+[resource]
+script = ExtResource("1_w16ox")
+base_folder = "res://Scene/Map/Enemies"
+includes = Array[String](["*.tscn"])
+paths = Array[String](["res://Scene/Map/Enemies/EnemyProjectile.tscn", "res://Scene/Map/Enemies/Enemy_1.tscn", "res://Scene/Map/Enemies/Enemy_2.tscn", "res://Scene/Map/Enemies/ENM_ABR_BOS_CTL_001.tscn", "res://Scene/Map/Enemies/ENM_ABR_BOS_FRM_001.tscn", "res://Scene/Map/Enemies/ENM_ABR_BOS_ZON_001.tscn", "res://Scene/Map/Enemies/ENM_ABR_ELT_JAM_001.tscn", "res://Scene/Map/Enemies/ENM_ABR_ELT_RAM_001.tscn", "res://Scene/Map/Enemies/ENM_ABR_ELT_SUM_001.tscn", "res://Scene/Map/Enemies/ENM_ABR_ELT_ZON_001.tscn", "res://Scene/Map/Enemies/ENM_ABR_NRM_CHS_001.tscn", "res://Scene/Map/Enemies/ENM_ABR_NRM_HAR_001.tscn", "res://Scene/Map/Enemies/ENM_ABR_NRM_JAM_001.tscn", "res://Scene/Map/Enemies/ENM_ABR_NRM_RAM_001.tscn", "res://Scene/Map/Enemies/ENM_ABR_NRM_SHD_001.tscn", "res://Scene/Map/Enemies/ENM_ABR_NRM_SUM_001.tscn", "res://Scene/Map/Enemies/ENM_ABR_NRM_SUP_001.tscn", "res://Scene/Map/Enemies/ENM_ABR_NRM_ZON_001.tscn", "res://Scene/Map/Enemies/ENM_ABR_SUM_CHS_001.tscn"])
+metadata/_custom_type_script = "uid://klv8tuveaql4"

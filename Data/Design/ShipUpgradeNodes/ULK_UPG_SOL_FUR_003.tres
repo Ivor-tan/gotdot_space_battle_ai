@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_SOL_FUR_003"
+ShipId = &"SHP_PLY_ART_001"
+BranchId = &"ULK_UPG_SOL_FUR"
+Tier = 3
+PreviousNodeId = &"ULK_UPG_SOL_FUR_002"
+BranchName = "炉心余烬"
+EffectDescription = "灼烧 3 层爆裂，80% 范围伤害；同目标 5 秒一次。"
+IsImplementedInRuntime = false
+

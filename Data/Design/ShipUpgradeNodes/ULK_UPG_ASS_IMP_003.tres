@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_ASS_IMP_003"
+ShipId = &"SHP_PLY_ASS_001"
+BranchId = &"ULK_UPG_ASS_IMP"
+Tier = 3
+PreviousNodeId = &"ULK_UPG_ASS_IMP_002"
+BranchName = "撞击增幅"
+EffectDescription = "命中精英/Boss 时伤害 +60% 并获 1 层护盾，每 8 秒一次。"
+IsImplementedInRuntime = false
+

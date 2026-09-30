@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="PlayerShipData" format=3 uid="uid://xwnxja3dc53v"]
+
+[ext_resource type="Script" uid="uid://chfm6671qx1of" path="res://Data/DataCS/PlayerShipData.cs" id="1_script"]
+[ext_resource type="Texture2D" uid="uid://cirvo1q4x4xq0" path="res://Resource/PlayerSpaceCraft/SpaceCraft_Blue.png" id="2_icon"]
+[ext_resource type="PackedScene" path="res://Scene/Player/Ships/Tide.tscn" id="3_scene"]
+
+[resource]
+script = ExtResource("1_script")
+ShipId = &"SHP_PLY_CTL_001"
+ShipTypeId = &"control"
+FactionId = &"gravity"
+RoleId = &"control"
+RarityId = &"rare"
+DisplayName = "潮汐"
+Description = "引力控制舰。引力锚牵引敌人，被牵引目标移速 -25%，持续 1.5 秒。"
+DisplayNameKey = null
+DescriptionKey = null
+Icon = ExtResource("2_icon")
+ShipScene = ExtResource("3_scene")
+RotateSpeed = 5.2
+AttackRange = 360.0
+AttackInterval = 1.5
+AttackPower = 14
+WeaponId = &"WPN_GRAVITY_ANCHOR"
+ActiveAbilityId = null
+PassiveAbilityId = &"PAS_TIDE_SLOW"
+UnlockSourceId = &"UNLOCK_GRAVITY_BEACON"
+UnlockLevel = 3
+DeployCost = 2
+TagIds = Array[StringName]([&"gravity", &"control"])
+TraitIds = Array[StringName]([&"pull", &"slow"])
+BondIds = Array[StringName]([&"BND_PAI_001"])

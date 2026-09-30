@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="AddPlayer" format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/Enhance/AddPlayer.cs" id="1_script"]
+[ext_resource type="Resource" path="res://Data/PlayerShips/SHP_PLY_ASS_001.tres" id="2_ship"]
+[ext_resource type="Texture2D" path="res://Resource/PlayerSpaceCraft/SpaceCraft_Red.png" id="3_icon"]
+
+[resource]
+script = ExtResource("1_script")
+NameKey = &"GAMEPLAY_ENHANCE_RECRUIT_BREAKER_NAME"
+DescriptionKey = &"GAMEPLAY_ENHANCE_RECRUIT_BREAKER_DESCRIPTION"
+Name = "招募破阵"
+Description = "获得稀有动能突击舰：破阵。"
+Icon = ExtResource("3_icon")
+FunctionType = 0
+AppliesToAllShips = false
+TargetShipData = ExtResource("2_ship")
+TargetShipId = &"SHP_PLY_ASS_001"

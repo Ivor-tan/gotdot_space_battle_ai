@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="ResourceGroup" format=3 uid="uid://c88af43atkr5t"]
+
+[ext_resource type="Script" uid="uid://klv8tuveaql4" path="res://addons/godot_resource_groups/resource_group.gd" id="1_group"]
+
+[resource]
+script = ExtResource("1_group")
+base_folder = "res://Data/Design/ShipDesigns"
+includes = Array[String](["*.tres"])
+paths = Array[String](["res://Data/Design/ShipDesigns/SHP_PLY_ART_001.tres", "res://Data/Design/ShipDesigns/SHP_PLY_ART_002.tres", "res://Data/Design/ShipDesigns/SHP_PLY_ASS_001.tres", "res://Data/Design/ShipDesigns/SHP_PLY_CAR_001.tres", "res://Data/Design/ShipDesigns/SHP_PLY_CTL_001.tres", "res://Data/Design/ShipDesigns/SHP_PLY_CTL_002.tres", "res://Data/Design/ShipDesigns/SHP_PLY_FLG_001.tres", "res://Data/Design/ShipDesigns/SHP_PLY_GRD_001.tres", "res://Data/Design/ShipDesigns/SHP_PLY_GRD_002.tres", "res://Data/Design/ShipDesigns/SHP_PLY_SUP_001.tres"])

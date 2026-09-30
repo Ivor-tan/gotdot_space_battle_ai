@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="CardBenefitData" format=3 uid="uid://bwxpjhciwan7k"]
+
+[ext_resource type="Script" uid="uid://4xau2yynf0di" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"SYS_017"
+CategoryId = &"sys"
+RarityId = &"epic"
+DisplayName = "联结导管"
+DisplayNameKey = &"CODEX_CARD_SYS_017_DISPLAYNAME"
+EffectDescription = "指定舰获得特性：相邻舰获得的护盾有 20% 复制给自身。"
+EffectDescriptionKey = &"CODEX_CARD_SYS_017_EFFECTDESCRIPTION"
+SynergyDescription = "护盾流、铁幕。"
+SynergyDescriptionKey = &"CODEX_CARD_SYS_017_SYNERGYDESCRIPTION"
+TargetScopeId = &"ship"
+RequiresTargetSelection = true
+IsImplementedInRuntime = true
+

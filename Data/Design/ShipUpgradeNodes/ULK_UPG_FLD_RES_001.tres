@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_FLD_RES_001"
+ShipId = &"SHP_PLY_SUP_001"
+BranchId = &"ULK_UPG_FLD_RES"
+Tier = 1
+PreviousNodeId = &""
+BranchName = "频率共振"
+EffectDescription = "相邻舰每攻击 5 次获 1 共振，最多 4 层。"
+IsImplementedInRuntime = false
+

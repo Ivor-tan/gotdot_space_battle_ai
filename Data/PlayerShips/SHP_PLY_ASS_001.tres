@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="PlayerShipData" format=3 uid="uid://dm017irdbyq8d"]
+
+[ext_resource type="Script" uid="uid://chfm6671qx1of" path="res://Data/DataCS/PlayerShipData.cs" id="1_script"]
+[ext_resource type="Texture2D" uid="uid://bp07kpfxovtls" path="res://Resource/PlayerSpaceCraft/SpaceCraft_Red.png" id="2_icon"]
+[ext_resource type="PackedScene" path="res://Scene/Player/Ships/Breaker.tscn" id="3_scene"]
+
+[resource]
+script = ExtResource("1_script")
+ShipId = &"SHP_PLY_ASS_001"
+ShipTypeId = &"assault"
+FactionId = &"kinetic"
+RoleId = &"assault"
+RarityId = &"rare"
+DisplayName = "破阵"
+Description = "前排突击舰。优先以近距动能火力压制最近精英或敌群。"
+DisplayNameKey = null
+DescriptionKey = null
+Icon = ExtResource("2_icon")
+ShipScene = ExtResource("3_scene")
+RecommendedPositionId = &"front"
+RotateSpeed = 6.0
+AttackRange = 230.0
+AttackInterval = 1.5
+AttackPower = 34
+WeaponId = &"WPN_RAM_CANNON"
+ActiveAbilityId = null
+PassiveAbilityId = &"PAS_ELITE_RAM"
+UnlockSourceId = &"UNLOCK_KINETIC_BEACON"
+UnlockLevel = 7
+DeployCost = 2
+TagIds = Array[StringName]([&"kinetic", &"assault"])
+TraitIds = Array[StringName]([&"close_range", &"charge"])
+BondIds = Array[StringName]([&"BND_PAI_004"])

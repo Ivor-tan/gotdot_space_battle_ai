@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="PlayerShipData" format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/PlayerShipData.cs" id="1_script"]
+[ext_resource type="Texture2D" path="res://Resource/PlayerSpaceCraft/SpaceCraft_Stealth.png" id="2_icon"]
+[ext_resource type="PackedScene" path="res://Scene/Player/Ships/IronCurtain.tscn" id="3_scene"]
+
+[resource]
+script = ExtResource("1_script")
+ShipId = &"SHP_PLY_GRD_002"
+ShipTypeId = &"guard"
+FactionId = &"kinetic"
+RoleId = &"guard"
+RarityId = &"rare"
+DisplayName = "铁幕"
+Description = "前排拦截守卫舰。偏转阵列拦截近距离投射物，并使相邻前排舰船碰撞伤害 -12%。"
+Icon = ExtResource("2_icon")
+ShipScene = ExtResource("3_scene")
+RecommendedPositionId = &"front"
+RotateSpeed = 5.0
+AttackRange = 180.0
+AttackInterval = 1.5
+AttackPower = 14
+WeaponId = &"WPN_DEFLECTION_ARRAY"
+PassiveAbilityId = &"PAS_FRONTLINE_COLLISION_GUARD"
+UnlockSourceId = &"UNLOCK_GUARD_BEACON"
+UnlockLevel = 5
+DeployCost = 2
+TagIds = [&"kinetic", &"guard"]
+TraitIds = [&"projectile_intercept", &"frontline_guard"]
+BondIds = [&"BND_PAI_004"]

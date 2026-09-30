@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="CardBenefitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"FLT_006"
+CategoryId = &"flt"
+RarityId = &"common"
+DisplayName = "危机演算"
+DisplayNameKey = &"CODEX_CARD_FLT_006_DISPLAYNAME"
+EffectDescription = "危机波期间全队伤害 +15%。"
+EffectDescriptionKey = &"CODEX_CARD_FLT_006_EFFECTDESCRIPTION"
+SynergyDescription = "45 秒波次。"
+SynergyDescriptionKey = &"CODEX_CARD_FLT_006_SYNERGYDESCRIPTION"
+TargetScopeId = &"fleet"
+RequiresTargetSelection = false
+IsImplementedInRuntime = false
+

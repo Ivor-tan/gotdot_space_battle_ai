@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="ResourceGroup" format=3 uid="uid://d10eo6prfaepp"]
+
+[ext_resource type="Script" uid="uid://klv8tuveaql4" path="res://addons/godot_resource_groups/resource_group.gd" id="1_group"]
+
+[resource]
+script = ExtResource("1_group")
+base_folder = "res://Data/PlayerEnhanceFunction"
+includes = Array[String](["*.tres"])
+paths = Array[String](["res://Data/PlayerEnhanceFunction/AddAttackPoints.tres", "res://Data/PlayerEnhanceFunction/AddMoveSpeed.tres", "res://Data/PlayerEnhanceFunction/AddNewPlayer.tres", "res://Data/PlayerEnhanceFunction/AddRotationSpeed.tres", "res://Data/PlayerEnhanceFunction/AddShieldCharges.tres", "res://Data/PlayerEnhanceFunction/IncreaseAttackRange.tres", "res://Data/PlayerEnhanceFunction/RecruitBreaker.tres", "res://Data/PlayerEnhanceFunction/RecruitBudPod.tres", "res://Data/PlayerEnhanceFunction/RecruitCorona.tres", "res://Data/PlayerEnhanceFunction/RecruitFoldlight.tres", "res://Data/PlayerEnhanceFunction/RecruitHiveMother.tres", "res://Data/PlayerEnhanceFunction/RecruitIronCurtain.tres", "res://Data/PlayerEnhanceFunction/RecruitMagneticStorm.tres", "res://Data/PlayerEnhanceFunction/RecruitSingularity.tres", "res://Data/PlayerEnhanceFunction/RecruitTide.tres", "res://Data/PlayerEnhanceFunction/ShowAttackRange.tres", "res://Data/PlayerEnhanceFunction/TestEnhanceFunction.tres"])

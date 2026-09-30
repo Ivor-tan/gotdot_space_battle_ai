@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_FLD_SHD_003"
+ShipId = &"SHP_PLY_SUP_001"
+BranchId = &"ULK_UPG_FLD_SHD"
+Tier = 3
+PreviousNodeId = &"ULK_UPG_FLD_SHD_002"
+BranchName = "折光护幕"
+EffectDescription = "有 2 相邻舰时补盾额外弹射另一舰。"
+IsImplementedInRuntime = false
+

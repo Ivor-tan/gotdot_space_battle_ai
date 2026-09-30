@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_IRN_COV_003"
+ShipId = &"SHP_PLY_GRD_002"
+BranchId = &"ULK_UPG_IRN_COV"
+Tier = 3
+PreviousNodeId = &"ULK_UPG_IRN_COV_002"
+BranchName = "掩护扇面"
+EffectDescription = "连续4次扇面命中后，下次角度 +35°、射程 +20%，每6秒一次。"
+IsImplementedInRuntime = false
+

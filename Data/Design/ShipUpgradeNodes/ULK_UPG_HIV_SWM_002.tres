@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_HIV_SWM_002"
+ShipId = &"SHP_PLY_CAR_001"
+BranchId = &"ULK_UPG_HIV_SWM"
+Tier = 2
+PreviousNodeId = &"ULK_UPG_HIV_SWM_001"
+BranchName = "蜂群算法"
+EffectDescription = "3 架连续攻击同目标后，第 4 次 +70% 伤害。"
+IsImplementedInRuntime = false
+

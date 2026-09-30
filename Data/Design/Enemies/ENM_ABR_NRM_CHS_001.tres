@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="EnemyDesignData" format=3 uid="uid://d0s7588jfause"]
+
+[ext_resource type="Script" uid="uid://u651y3gitnya" path="res://Data/DataCS/EnemyDesignData.cs" id="1_enemy"]
+[ext_resource type="PackedScene" path="res://Scene/Map/Enemies/ENM_ABR_NRM_CHS_001.tscn" id="2_scene"]
+[ext_resource type="Texture2D" uid="uid://80xtlkpmxwwo" path="res://Resource/Sprites/Alien/alien_01.png" id="1_jdada"]
+
+[resource]
+script = ExtResource("1_enemy")
+EnemyId = &"ENM_ABR_NRM_CHS_001"
+DisplayName = "碎星侦察机"
+DisplayNameKey = &"CODEX_ENEMY_ENM_ABR_NRM_CHS_001_DISPLAYNAME"
+RoleId = &"CHS"
+Icon = ExtResource("1_jdada")
+EnemyScene = ExtResource("2_scene")
+BaseHealth = 24
+WindupSeconds = 0.25
+DisplayDamage = 8
+EffectiveHits = 1
+SpawnCap = 48
+DropTableId = &"DROP_ENM_ABR_NRM_CHS_001"
+DropSummary = "1 微粒；2% 额外 +1 微粒。"
+DropSummaryKey = &"CODEX_ENEMY_ENM_ABR_NRM_CHS_001_DROPSUMMARY"
+TargetAndAttack = "最近已部署舰；接触 32 px；每 2.20 s 咬击；表现伤害 8、有效命中 1。"
+TargetAndAttackKey = &"CODEX_ENEMY_ENM_ABR_NRM_CHS_001_TARGETANDATTACK"
+MechanicAndWarning = "进入 64 px 时进行稳定的攻击前摇；控制抗性 0%。"
+MechanicAndWarningKey = &"CODEX_ENEMY_ENM_ABR_NRM_CHS_001_MECHANICANDWARNING"
+SpawnRule = "单波 4–12，场上 48，权重 1.0。"
+SpawnRuleKey = &"CODEX_ENEMY_ENM_ABR_NRM_CHS_001_SPAWNRULE"
+

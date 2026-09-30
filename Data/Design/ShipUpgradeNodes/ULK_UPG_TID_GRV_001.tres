@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_TID_GRV_001"
+ShipId = &"SHP_PLY_CTL_001"
+BranchId = &"ULK_UPG_TID_GRV"
+Tier = 1
+PreviousNodeId = &""
+BranchName = "引潮重力"
+EffectDescription = "额外拉拽 12%。"
+IsImplementedInRuntime = false
+

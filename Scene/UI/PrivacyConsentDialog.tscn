@@ -1,0 +1,76 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Scripts/UI/PrivacyConsentDialog.cs" id="1_privacy"]
+
+[node name="PrivacyConsentDialog" type="CanvasLayer" node_paths=PackedStringArray("PolicyText", "AcceptButton", "RejectButton")]
+script = ExtResource("1_privacy")
+PolicyText = NodePath("Overlay/Center/Panel/Margin/Content/PolicyText")
+AcceptButton = NodePath("Overlay/Center/Panel/Margin/Content/Buttons/Accept")
+RejectButton = NodePath("Overlay/Center/Panel/Margin/Content/Buttons/Reject")
+
+[node name="Overlay" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.015, 0.025, 0.04, 0.94)
+mouse_filter = 0
+
+[node name="Center" type="CenterContainer" parent="Overlay"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="PanelContainer" parent="Overlay/Center"]
+custom_minimum_size = Vector2(720, 520)
+layout_mode = 2
+
+[node name="Margin" type="MarginContainer" parent="Overlay/Center/Panel"]
+layout_mode = 2
+theme_override_constants/margin_left = 28
+theme_override_constants/margin_top = 24
+theme_override_constants/margin_right = 28
+theme_override_constants/margin_bottom = 24
+
+[node name="Content" type="VBoxContainer" parent="Overlay/Center/Panel/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="Title" type="Label" parent="Overlay/Center/Panel/Margin/Content"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "UI_PRIVACY_TITLE"
+horizontal_alignment = 1
+
+[node name="PolicyText" type="RichTextLabel" parent="Overlay/Center/Panel/Margin/Content"]
+custom_minimum_size = Vector2(0, 360)
+layout_mode = 2
+size_flags_vertical = 3
+bbcode_enabled = true
+fit_content = false
+scroll_active = true
+text = "UI_PRIVACY_CONTENT"
+
+[node name="Hint" type="Label" parent="Overlay/Center/Panel/Margin/Content"]
+layout_mode = 2
+text = "UI_PRIVACY_HINT"
+autowrap_mode = 2
+
+[node name="Buttons" type="HBoxContainer" parent="Overlay/Center/Panel/Margin/Content"]
+layout_mode = 2
+theme_override_constants/separation = 16
+alignment = 1
+
+[node name="Reject" type="Button" parent="Overlay/Center/Panel/Margin/Content/Buttons"]
+custom_minimum_size = Vector2(220, 48)
+layout_mode = 2
+text = "UI_PRIVACY_REJECT"
+
+[node name="Accept" type="Button" parent="Overlay/Center/Panel/Margin/Content/Buttons"]
+custom_minimum_size = Vector2(220, 48)
+layout_mode = 2
+text = "UI_PRIVACY_ACCEPT"

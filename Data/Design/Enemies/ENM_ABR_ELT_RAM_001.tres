@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="EnemyDesignData" format=3 uid="uid://dt51rlbtjjbps"]
+
+[ext_resource type="Script" uid="uid://u651y3gitnya" path="res://Data/DataCS/EnemyDesignData.cs" id="1_enemy"]
+[ext_resource type="Texture2D" uid="uid://bkfdjlpg6oqs0" path="res://Resource/Sprites/Alien/alien_04.png" id="1_qs36j"]
+[ext_resource type="PackedScene" path="res://Scene/Map/Enemies/ENM_ABR_ELT_RAM_001.tscn" id="2_scene"]
+
+[resource]
+script = ExtResource("1_enemy")
+EnemyId = &"ENM_ABR_ELT_RAM_001"
+DisplayName = "裂阵猎犬"
+DisplayNameKey = &"CODEX_ENEMY_ENM_ABR_ELT_RAM_001_DISPLAYNAME"
+TierId = &"ELT"
+RoleId = &"RAM"
+Icon = ExtResource("1_qs36j")
+EnemyScene = ExtResource("2_scene")
+BaseHealth = 520
+EnemyShieldLayers = 1
+DisplayDamage = 32
+EffectiveHits = 1
+DropTableId = &"DROP_ENM_ABR_ELT_RAM_001"
+TargetAndAttack = "32 px 内使用单体投射物；有效命中 1；冷却 7.0 s。"
+TargetAndAttackKey = &"CODEX_ENEMY_ENM_ABR_ELT_RAM_001_TARGETANDATTACK"
+MechanicAndWarning = "阶段 1 后；精英节点 1 只，危机波最多 1 只。"
+MechanicAndWarningKey = &"CODEX_ENEMY_ENM_ABR_ELT_RAM_001_MECHANICANDWARNING"
+SpawnRule = "固定 12 微粒 + 1 大型经验核心（+8）；12% 角色信标，8% 稀有单舰强化。"
+SpawnRuleKey = &"CODEX_ENEMY_ENM_ABR_ELT_RAM_001_SPAWNRULE"
+

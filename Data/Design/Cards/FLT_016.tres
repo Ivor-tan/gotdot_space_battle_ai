@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="CardBenefitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"FLT_016"
+CategoryId = &"flt"
+RarityId = &"rare"
+DisplayName = "联合火网"
+DisplayNameKey = &"CODEX_CARD_FLT_016_DISPLAYNAME"
+EffectDescription = "3 艘相邻不同角色舰船均攻击同一目标时，第三艘命中额外造成 30% 伤害。"
+EffectDescriptionKey = &"CODEX_CARD_FLT_016_EFFECTDESCRIPTION"
+SynergyDescription = "多角色编队。"
+SynergyDescriptionKey = &"CODEX_CARD_FLT_016_SYNERGYDESCRIPTION"
+TargetScopeId = &"run"
+RequiresTargetSelection = false
+IsImplementedInRuntime = false
+

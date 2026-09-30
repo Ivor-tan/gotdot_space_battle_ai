@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_IRN_CNT_002"
+ShipId = &"SHP_PLY_GRD_002"
+BranchId = &"ULK_UPG_IRN_CNT"
+Tier = 2
+PreviousNodeId = &"ULK_UPG_IRN_CNT_001"
+BranchName = "反击装甲"
+EffectDescription = "该炮命中3敌人获1层护盾，8秒内最多1层。"
+IsImplementedInRuntime = false
+

@@ -1,0 +1,1514 @@
+{
+  "TileOutlineWhite.png": {
+	"source_size": [
+	  28,
+	  32
+	],
+	"trim_offset": [
+	  0,
+	  0
+	],
+	"trim_size": [
+	  28,
+	  32
+	]
+  },
+  "Asteroids/Asteroid3.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  33,
+	  39
+	],
+	"trim_size": [
+	  27,
+	  33
+	]
+  },
+  "Asteroids/Asteroid4.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  45,
+	  51
+	],
+	"trim_size": [
+	  15,
+	  15
+	]
+  },
+  "Asteroids/Asteroid10.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  21,
+	  30
+	],
+	"trim_size": [
+	  48,
+	  51
+	]
+  },
+  "Asteroids/Asteroid1.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  30,
+	  48
+	],
+	"trim_size": [
+	  36,
+	  18
+	]
+  },
+  "TileOutlineBlack.png": {
+	"source_size": [
+	  28,
+	  32
+	],
+	"trim_offset": [
+	  0,
+	  0
+	],
+	"trim_size": [
+	  28,
+	  32
+	]
+  },
+  "Asteroids/Asteroid2.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  33,
+	  42
+	],
+	"trim_size": [
+	  33,
+	  27
+	]
+  },
+  "SpaceTileSet.png": {
+	"source_size": [
+	  384,
+	  320
+	],
+	"trim_offset": [
+	  0,
+	  0
+	],
+	"trim_size": [
+	  380,
+	  320
+	]
+  },
+  "Asteroids/Asteroid9.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  18,
+	  42
+	],
+	"trim_size": [
+	  48,
+	  42
+	]
+  },
+  "Asteroids/Asteroid5.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  36,
+	  39
+	],
+	"trim_size": [
+	  24,
+	  27
+	]
+  },
+  "Asteroids/Asteroid8.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  27,
+	  36
+	],
+	"trim_size": [
+	  33,
+	  45
+	]
+  },
+  "Asteroids/Asteroid7.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  30,
+	  36
+	],
+	"trim_size": [
+	  30,
+	  33
+	]
+  },
+  "Moons/Moon1.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  45,
+	  36
+	],
+	"trim_size": [
+	  21,
+	  21
+	]
+  },
+  "Moons/Moon10.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  42,
+	  48
+	],
+	"trim_size": [
+	  12,
+	  12
+	]
+  },
+  "Asteroids/Asteroid6.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  39,
+	  42
+	],
+	"trim_size": [
+	  24,
+	  33
+	]
+  },
+  "Moons/Moon3.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  27,
+	  33
+	],
+	"trim_size": [
+	  18,
+	  18
+	]
+  },
+  "Moons/Moon5.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  54,
+	  45
+	],
+	"trim_size": [
+	  15,
+	  15
+	]
+  },
+  "Moons/Moon6.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  21,
+	  30
+	],
+	"trim_size": [
+	  24,
+	  24
+	]
+  },
+  "Moons/Moon4.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  54,
+	  60
+	],
+	"trim_size": [
+	  12,
+	  12
+	]
+  },
+  "Moons/Moon7.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  36,
+	  60
+	],
+	"trim_size": [
+	  21,
+	  21
+	]
+  },
+  "Moons/Moon2.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  21,
+	  51
+	],
+	"trim_size": [
+	  24,
+	  24
+	]
+  },
+  "Moons/Moon9.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  60,
+	  60
+	],
+	"trim_size": [
+	  15,
+	  15
+	]
+  },
+  "Moons/Moon8.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  36,
+	  42
+	],
+	"trim_size": [
+	  24,
+	  24
+	]
+  },
+  "Nebulas/Nebula2.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  9,
+	  15
+	],
+	"trim_size": [
+	  78,
+	  78
+	]
+  },
+  "Nebulas/Nebula5.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  15,
+	  21
+	],
+	"trim_size": [
+	  72,
+	  66
+	]
+  },
+  "Nebulas/Nebula6.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  15,
+	  27
+	],
+	"trim_size": [
+	  60,
+	  60
+	]
+  },
+  "Nebulas/Nebula4.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  6,
+	  21
+	],
+	"trim_size": [
+	  78,
+	  69
+	]
+  },
+  "Nebulas/Nebula7.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  15,
+	  21
+	],
+	"trim_size": [
+	  69,
+	  69
+	]
+  },
+  "Nebulas/Nebula1.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  3,
+	  15
+	],
+	"trim_size": [
+	  81,
+	  75
+	]
+  },
+  "Nebulas/Nebula3.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  12,
+	  18
+	],
+	"trim_size": [
+	  66,
+	  69
+	]
+  },
+  "Nebulas/Nebula10.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  15,
+	  24
+	],
+	"trim_size": [
+	  66,
+	  63
+	]
+  },
+  "Nebulas/Nebula8.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  12,
+	  18
+	],
+	"trim_size": [
+	  81,
+	  75
+	]
+  },
+  "Objects (Mechanical)/Object1.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  15,
+	  30
+	],
+	"trim_size": [
+	  57,
+	  57
+	]
+  },
+  "Objects (Mechanical)/Object4.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  15,
+	  36
+	],
+	"trim_size": [
+	  66,
+	  36
+	]
+  },
+  "Nebulas/Nebula9.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  18,
+	  24
+	],
+	"trim_size": [
+	  54,
+	  60
+	]
+  },
+  "Objects (Mechanical)/Object2.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  33,
+	  27
+	],
+	"trim_size": [
+	  30,
+	  63
+	]
+  },
+  "Objects (Mechanical)/Object6.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  15,
+	  39
+	],
+	"trim_size": [
+	  72,
+	  39
+	]
+  },
+  "Objects (Mechanical)/Object3.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  24,
+	  30
+	],
+	"trim_size": [
+	  51,
+	  51
+	]
+  },
+  "Objects (Mechanical)/Object5.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  24,
+	  30
+	],
+	"trim_size": [
+	  48,
+	  51
+	]
+  },
+  "Objects (Natural)/Comet.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  21,
+	  30
+	],
+	"trim_size": [
+	  48,
+	  54
+	]
+  },
+  "Objects (Mechanical)/Object7.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  21,
+	  27
+	],
+	"trim_size": [
+	  54,
+	  54
+	]
+  },
+  "Objects (Natural)/Asteroid Field.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  9,
+	  15
+	],
+	"trim_size": [
+	  75,
+	  75
+	]
+  },
+  "Objects (Natural)/Black Hole.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  9,
+	  15
+	],
+	"trim_size": [
+	  78,
+	  78
+	]
+  },
+  "Objects (Natural)/Constellation2.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  33,
+	  18
+	],
+	"trim_size": [
+	  33,
+	  72
+	]
+  },
+  "Objects (Natural)/Constellation1.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  9,
+	  36
+	],
+	"trim_size": [
+	  78,
+	  36
+	]
+  },
+  "Objects (Natural)/Constellation3.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  24,
+	  18
+	],
+	"trim_size": [
+	  45,
+	  63
+	]
+  },
+  "Objects (Natural)/Rift.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  36,
+	  21
+	],
+	"trim_size": [
+	  24,
+	  72
+	]
+  },
+  "Planets/Planet10.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  21,
+	  27
+	],
+	"trim_size": [
+	  54,
+	  54
+	]
+  },
+  "Planets/Planet11.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  21,
+	  36
+	],
+	"trim_size": [
+	  54,
+	  36
+	]
+  },
+  "Planets/Planet14.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  21,
+	  27
+	],
+	"trim_size": [
+	  54,
+	  54
+	]
+  },
+  "Planets/Planet13.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  18,
+	  24
+	],
+	"trim_size": [
+	  60,
+	  60
+	]
+  },
+  "Planets/Planet1.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  12,
+	  18
+	],
+	"trim_size": [
+	  69,
+	  69
+	]
+  },
+  "Planets/Planet12.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  24,
+	  30
+	],
+	"trim_size": [
+	  48,
+	  48
+	]
+  },
+  "Planets/Planet16.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  18,
+	  24
+	],
+	"trim_size": [
+	  60,
+	  60
+	]
+  },
+  "Planets/Planet15.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  15,
+	  21
+	],
+	"trim_size": [
+	  66,
+	  66
+	]
+  },
+  "Planets/Planet17.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  15,
+	  21
+	],
+	"trim_size": [
+	  66,
+	  66
+	]
+  },
+  "Planets/Planet18.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  21,
+	  27
+	],
+	"trim_size": [
+	  54,
+	  54
+	]
+  },
+  "Planets/Planet19.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  18,
+	  24
+	],
+	"trim_size": [
+	  60,
+	  60
+	]
+  },
+  "Planets/Planet20.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  9,
+	  24
+	],
+	"trim_size": [
+	  81,
+	  60
+	]
+  },
+  "Planets/Planet2.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  18,
+	  24
+	],
+	"trim_size": [
+	  57,
+	  57
+	]
+  },
+  "Planets/Planet3.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  21,
+	  27
+	],
+	"trim_size": [
+	  54,
+	  54
+	]
+  },
+  "Planets/Planet4.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  18,
+	  24
+	],
+	"trim_size": [
+	  60,
+	  60
+	]
+  },
+  "Planets/Planet5.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  12,
+	  18
+	],
+	"trim_size": [
+	  72,
+	  72
+	]
+  },
+  "Space/Space1.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  0,
+	  12
+	],
+	"trim_size": [
+	  96,
+	  84
+	]
+  },
+  "Planets/Planet6.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  18,
+	  24
+	],
+	"trim_size": [
+	  60,
+	  60
+	]
+  },
+  "Planets/Planet7.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  21,
+	  27
+	],
+	"trim_size": [
+	  54,
+	  54
+	]
+  },
+  "Planets/Planet8.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  12,
+	  18
+	],
+	"trim_size": [
+	  72,
+	  72
+	]
+  },
+  "Planets/Planet9.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  18,
+	  24
+	],
+	"trim_size": [
+	  60,
+	  60
+	]
+  },
+  "Stars (Background)/Stars1.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  6,
+	  18
+	],
+	"trim_size": [
+	  84,
+	  72
+	]
+  },
+  "Stars (Background)/Stars10.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  18,
+	  18
+	],
+	"trim_size": [
+	  72,
+	  75
+	]
+  },
+  "Stars (Background)/Stars3.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  18,
+	  15
+	],
+	"trim_size": [
+	  63,
+	  69
+	]
+  },
+  "Stars (Background)/Stars2.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  6,
+	  21
+	],
+	"trim_size": [
+	  81,
+	  72
+	]
+  },
+  "Stars (Background)/Stars6.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  9,
+	  18
+	],
+	"trim_size": [
+	  75,
+	  63
+	]
+  },
+  "Stars (Background)/Stars7.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  15,
+	  15
+	],
+	"trim_size": [
+	  78,
+	  78
+	]
+  },
+  "Stars (Background)/Stars4.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  12,
+	  15
+	],
+	"trim_size": [
+	  72,
+	  75
+	]
+  },
+  "Stars (Background)/Stars5.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  3,
+	  15
+	],
+	"trim_size": [
+	  84,
+	  72
+	]
+  },
+  "Stars (Background)/Stars8.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  12,
+	  15
+	],
+	"trim_size": [
+	  69,
+	  78
+	]
+  },
+  "Stars (Background)/Stars9.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  3,
+	  15
+	],
+	"trim_size": [
+	  90,
+	  78
+	]
+  },
+  "Stars (Blue)/BlueStar1.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  18,
+	  45
+	],
+	"trim_size": [
+	  39,
+	  39
+	]
+  },
+  "Stars (Blue)/BlueStar10.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  60,
+	  60
+	],
+	"trim_size": [
+	  9,
+	  9
+	]
+  },
+  "Stars (Blue)/BlueStar2.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  39,
+	  24
+	],
+	"trim_size": [
+	  39,
+	  39
+	]
+  },
+  "Stars (Blue)/BlueStar3.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  21,
+	  33
+	],
+	"trim_size": [
+	  48,
+	  51
+	]
+  },
+  "Stars (Blue)/BlueStar5.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  30,
+	  27
+	],
+	"trim_size": [
+	  45,
+	  36
+	]
+  },
+  "Stars (Blue)/BlueStar7.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  66,
+	  39
+	],
+	"trim_size": [
+	  9,
+	  9
+	]
+  },
+  "Stars (Blue)/BlueStar6.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  24,
+	  39
+	],
+	"trim_size": [
+	  45,
+	  36
+	]
+  },
+  "Stars (Blue)/BlueStar8.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  36,
+	  69
+	],
+	"trim_size": [
+	  9,
+	  9
+	]
+  },
+  "Stars (Blue)/BlueStar4.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  30,
+	  30
+	],
+	"trim_size": [
+	  33,
+	  45
+	]
+  },
+  "Stars (Blue)/BlueStar9.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  30,
+	  36
+	],
+	"trim_size": [
+	  9,
+	  9
+	]
+  },
+  "Stars (Yellow)/YellowStar1.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  18,
+	  45
+	],
+	"trim_size": [
+	  39,
+	  39
+	]
+  },
+  "Stars (Yellow)/YellowStar2.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  39,
+	  24
+	],
+	"trim_size": [
+	  39,
+	  39
+	]
+  },
+  "Stars (Yellow)/YellowStar10.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  60,
+	  60
+	],
+	"trim_size": [
+	  9,
+	  9
+	]
+  },
+  "Stars (Yellow)/YellowStar7.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  66,
+	  39
+	],
+	"trim_size": [
+	  9,
+	  9
+	]
+  },
+  "Stars (Yellow)/YellowStar3.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  21,
+	  33
+	],
+	"trim_size": [
+	  48,
+	  51
+	]
+  },
+  "Stars (Yellow)/YellowStar6.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  24,
+	  39
+	],
+	"trim_size": [
+	  45,
+	  36
+	]
+  },
+  "Stars (Yellow)/YellowStar4.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  30,
+	  30
+	],
+	"trim_size": [
+	  33,
+	  45
+	]
+  },
+  "Stars (Yellow)/YellowStar5.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  30,
+	  27
+	],
+	"trim_size": [
+	  45,
+	  36
+	]
+  },
+  "Stars (Yellow)/YellowStar8.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  36,
+	  69
+	],
+	"trim_size": [
+	  9,
+	  9
+	]
+  },
+  "Suns/Sun10.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  36,
+	  42
+	],
+	"trim_size": [
+	  24,
+	  24
+	]
+  },
+  "Suns/Sun1.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  15,
+	  21
+	],
+	"trim_size": [
+	  66,
+	  66
+	]
+  },
+  "Suns/Sun4.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  15,
+	  21
+	],
+	"trim_size": [
+	  66,
+	  66
+	]
+  },
+  "Stars (Yellow)/YellowStar9.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  30,
+	  36
+	],
+	"trim_size": [
+	  9,
+	  9
+	]
+  },
+  "Suns/Sun2.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  15,
+	  21
+	],
+	"trim_size": [
+	  66,
+	  66
+	]
+  },
+  "Suns/Sun5.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  36,
+	  42
+	],
+	"trim_size": [
+	  24,
+	  24
+	]
+  },
+  "Suns/Sun3.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  15,
+	  21
+	],
+	"trim_size": [
+	  66,
+	  66
+	]
+  },
+  "Suns/Sun9.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  36,
+	  42
+	],
+	"trim_size": [
+	  24,
+	  24
+	]
+  },
+  "Suns/Sun7.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  36,
+	  42
+	],
+	"trim_size": [
+	  24,
+	  24
+	]
+  },
+  "Suns/Sun8.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  36,
+	  42
+	],
+	"trim_size": [
+	  24,
+	  24
+	]
+  },
+  "Suns/Sun6.png": {
+	"source_size": [
+	  96,
+	  96
+	],
+	"trim_offset": [
+	  36,
+	  42
+	],
+	"trim_size": [
+	  24,
+	  24
+	]
+  }
+}

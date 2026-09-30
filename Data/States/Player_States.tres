@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="PlayerStatus" format=3 uid="uid://wgarau0oh0nn"]
+
+[ext_resource type="Script" uid="uid://dd1h80kv6nia4" path="res://Data/DataCS/PlayerStatus.cs" id="1_5pkeo"]
+
+[resource]
+script = ExtResource("1_5pkeo")
+MaxSpeed = 100.0
+RotateSpeed = 5.0
+AttackRange = 150.0

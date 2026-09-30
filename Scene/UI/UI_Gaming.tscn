@@ -1,0 +1,66 @@
+[gd_scene format=3 uid="uid://5dw2avvn831x"]
+
+[ext_resource type="Script" uid="uid://dkw832ja8d8br" path="res://Scripts/UI/NotificationHandle.cs" id="1_tx6m6"]
+[ext_resource type="Script" uid="uid://cfauig7ydtqki" path="res://Scripts/UI/TipsInfo.cs" id="2_qfqqd"]
+
+[node name="UILayer" type="CanvasLayer" unique_id=1303430360]
+
+[node name="NotificationInfo" type="PanelContainer" parent="." unique_id=668816735 node_paths=PackedStringArray("messageRoot")]
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+grow_vertical = 2
+size_flags_horizontal = 3
+script = ExtResource("1_tx6m6")
+messageRoot = NodePath("CenterContainer/GridContainer")
+MaxMessages = 10
+
+[node name="CenterContainer" type="CenterContainer" parent="NotificationInfo" unique_id=430320050]
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="NotificationInfo/CenterContainer" unique_id=304592198]
+layout_mode = 2
+
+[node name="TipsInfo" type="PanelContainer" parent="." unique_id=1467639689 node_paths=PackedStringArray("NameLabel", "HpLabel")]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -102.0
+offset_top = 30.0
+offset_right = -52.0
+offset_bottom = 80.0
+grow_horizontal = 0
+script = ExtResource("2_qfqqd")
+NameLabel = NodePath("GridContainer/NameContent")
+HpLabel = NodePath("GridContainer/HpContent")
+
+[node name="GridContainer" type="GridContainer" parent="TipsInfo" unique_id=239318062]
+layout_mode = 2
+columns = 2
+
+[node name="Name" type="Label" parent="TipsInfo/GridContainer" unique_id=1451789636]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+text = "UI_COMMON_NAME"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="NameContent" type="Label" parent="TipsInfo/GridContainer" unique_id=549790319]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+text = "UI_COMMON_NAME"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Hp" type="Label" parent="TipsInfo/GridContainer" unique_id=1551718121]
+layout_mode = 2
+text = "UI_COMMON_HP"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HpContent" type="Label" parent="TipsInfo/GridContainer" unique_id=1478034750]
+layout_mode = 2
+text = "UI_COMMON_HP"
+horizontal_alignment = 1
+vertical_alignment = 1

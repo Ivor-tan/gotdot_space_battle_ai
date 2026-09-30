@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="CardBenefitData" format=3 uid="uid://v7xpsw4msrur"]
+
+[ext_resource type="Script" uid="uid://4xau2yynf0di" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"WPN_005"
+CategoryId = &"wpn"
+RarityId = &"rare"
+DisplayName = "热熔弹头"
+DisplayNameKey = &"CODEX_CARD_WPN_005_DISPLAYNAME"
+EffectDescription = "热能舰：燃烧层数上限 +3；满层时爆炸 35% 主炮伤害。"
+EffectDescriptionKey = &"CODEX_CARD_WPN_005_EFFECTDESCRIPTION"
+SynergyDescription = "潮汐、日冕引爆。"
+SynergyDescriptionKey = &"CODEX_CARD_WPN_005_SYNERGYDESCRIPTION"
+TargetScopeId = &"run"
+IsImplementedInRuntime = true
+

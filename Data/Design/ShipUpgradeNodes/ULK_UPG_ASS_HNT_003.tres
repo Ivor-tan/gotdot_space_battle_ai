@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_ASS_HNT_003"
+ShipId = &"SHP_PLY_ASS_001"
+BranchId = &"ULK_UPG_ASS_HNT"
+Tier = 3
+PreviousNodeId = &"ULK_UPG_ASS_HNT_002"
+BranchName = "追猎协议"
+EffectDescription = "连杀 3 目标进入 3 秒追猎：间隔 -20%，不低于 0.5 秒。"
+IsImplementedInRuntime = false
+

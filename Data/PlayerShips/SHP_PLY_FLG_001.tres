@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PlayerShipData" format=3 uid="uid://rmpdmkhrn10e"]
+
+[ext_resource type="Script" uid="uid://chfm6671qx1of" path="res://Data/DataCS/PlayerShipData.cs" id="1_script"]
+[ext_resource type="Texture2D" uid="uid://d05k57jc7w4ue" path="res://Resource/PlayerSpaceCraft/SpaceCraft.png" id="2_icon"]
+[ext_resource type="PackedScene" path="res://Scene/Player/Ships/Flagship.tscn" id="3_scene"]
+
+[resource]
+script = ExtResource("1_script")
+ShipId = &"SHP_PLY_FLG_001"
+ShipTypeId = &"flagship"
+DisplayName = "奇点"
+Description = "核心旗舰。穿透主炮命中第三个敌人后爆炸；每艘未失能友舰使经验微粒吸附范围 +2%。"
+DisplayNameKey = &"UI_ARCHIVE_SHIP_001_NAME"
+DescriptionKey = &"UI_ARCHIVE_SHIP_001_DESCRIPTION"
+Icon = ExtResource("2_icon")
+ShipScene = ExtResource("3_scene")
+RecommendedPositionId = &"core"
+RotateSpeed = 5.5
+AttackRange = 420.0
+AttackPower = 24
+WeaponId = &"WPN_SINGULARITY_CANNON"
+ActiveAbilityId = &"ABL_FOLD_COMMAND"
+PassiveAbilityId = &"PAS_EXPERIENCE_LINK"
+UnlockSourceId = &"UNLOCK_START"
+UnlockLevel = 1
+TagIds = Array[StringName]([&"quantum", &"command"])
+TraitIds = Array[StringName]([&"pierce", &"experience"])

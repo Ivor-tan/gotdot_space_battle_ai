@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ResourceGroup" format=3 uid="uid://bxqmok8us57v1"]
+
+[ext_resource type="Script" uid="uid://klv8tuveaql4" path="res://addons/godot_resource_groups/resource_group.gd" id="1_liqjg"]
+
+[resource]
+script = ExtResource("1_liqjg")
+base_folder = "res://Resource/GraysSpaceTiles/Objects (Mechanical)"
+includes = Array[String](["*.png"])
+paths = Array[String](["res://Resource/GraysSpaceTiles/Objects (Mechanical)/Object1.png", "res://Resource/GraysSpaceTiles/Objects (Mechanical)/Object2.png", "res://Resource/GraysSpaceTiles/Objects (Mechanical)/Object3.png", "res://Resource/GraysSpaceTiles/Objects (Mechanical)/Object4.png", "res://Resource/GraysSpaceTiles/Objects (Mechanical)/Object5.png", "res://Resource/GraysSpaceTiles/Objects (Mechanical)/object6.png", "res://Resource/GraysSpaceTiles/Objects (Mechanical)/Object7.png"])
+metadata/_custom_type_script = "uid://klv8tuveaql4"

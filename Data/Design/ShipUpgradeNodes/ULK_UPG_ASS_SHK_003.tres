@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_ASS_SHK_003"
+ShipId = &"SHP_PLY_ASS_001"
+BranchId = &"ULK_UPG_ASS_SHK"
+Tier = 3
+PreviousNodeId = &"ULK_UPG_ASS_SHK_002"
+BranchName = "震荡弹头"
+EffectDescription = "每第 6 次近距命中将震荡提高至半径95，并减速35% 1秒。"
+IsImplementedInRuntime = false
+

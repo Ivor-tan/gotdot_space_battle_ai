@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_IRN_FRN_003"
+ShipId = &"SHP_PLY_GRD_002"
+BranchId = &"ULK_UPG_IRN_FRN"
+Tier = 3
+PreviousNodeId = &"ULK_UPG_IRN_FRN_002"
+BranchName = "前线铁幕"
+EffectDescription = "前侧每有 1 艘相邻舰，自身伤害 +5%，最多 3 层。"
+IsImplementedInRuntime = false

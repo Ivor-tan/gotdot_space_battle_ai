@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_HIV_GRD_003"
+ShipId = &"SHP_PLY_CAR_001"
+BranchId = &"ULK_UPG_HIV_GRD"
+Tier = 3
+PreviousNodeId = &"ULK_UPG_HIV_GRD_002"
+BranchName = "近防机库"
+EffectDescription = "航母或相邻舰被近身命中时，全机对攻击者 120% 反击，每目标 5 秒一次。"
+IsImplementedInRuntime = false
+

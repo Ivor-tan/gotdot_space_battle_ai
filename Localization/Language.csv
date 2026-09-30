@@ -1,0 +1,838 @@
+id,en,zh
+APP_NAME,Singularity of Star Ocean,星海奇点
+UI_PRIVACY_TITLE,Privacy Policy and Minor Protection,隐私政策与未成年人保护
+UI_PRIVACY_CONTENT,"Before using this game, please read and agree to the Privacy Policy.\n\nThis game stores progress and settings locally. To meet real-name verification and minor anti-addiction requirements, the game integrates TapSDK from XD (Shanghai) Network Technology Co., Ltd. TapSDK may process your TapTap account identifier, authentication status, age range, AndroidID, device model, system version, network type and network status. If manual real-name verification is selected, TapTap may process your real name and identity document number. The game operator does not locally retain your complete identity document number.\n\nTapSDK Privacy Policy: [url=https://developer.taptap.cn/docs/sdk/start/agreement/]View official policy[/url]","使用本游戏前，请阅读并同意隐私政策。\n\n本游戏在设备本地保存游戏进度和设置。为履行实名认证与未成年人防沉迷要求，本游戏接入易玩（上海）网络科技有限公司提供的 TapSDK。TapSDK 可能处理您的 TapTap 账号标识、认证状态、年龄段、AndroidID、设备型号、系统版本、网络类型及网络状态。选择手动实名认证时，TapTap 还可能处理您的真实姓名和身份证件号码；游戏运营方不会在本地保存您的完整身份证件号码。\n\nTapSDK 隐私政策：[url=https://developer.taptap.cn/docs/sdk/start/agreement/]查看官方政策[/url]"
+UI_PRIVACY_HINT,TapSDK will be initialized only after you agree. If you disagree the game will exit.,同意后才会初始化 TapSDK；若不同意，游戏将退出。
+UI_PRIVACY_REJECT,Disagree and Exit,不同意并退出
+UI_PRIVACY_ACCEPT,Agree and Continue,同意并继续
+UI_MAIN_PLAY,Play,开始游戏
+UI_MAIN_CONTINUE,Continue,继续游戏
+UI_MAIN_ARCHIVE,Blueprints / Ship Archive,蓝图库 / 飞船档案
+UI_MAIN_CODEX,Codex,图鉴
+UI_MAIN_SETTINGS,Settings,设置
+UI_MAIN_QUIT,Quit,退出
+UI_RUN_SETUP_TITLE,Configure Your Run,配置本局
+UI_RUN_SETUP_INITIAL_SHIP,Initial Ship,初始飞船
+UI_RUN_SETUP_DIFFICULTY,Difficulty,难度
+UI_RUN_SETUP_WAVES,Enemy Assault Waves,敌人袭击波次
+UI_RUN_SETUP_DIFFICULTY_CASUAL,Casual,轻松
+UI_RUN_SETUP_DIFFICULTY_NORMAL,Normal,标准
+UI_RUN_SETUP_DIFFICULTY_HARD,Hard,困难
+UI_RUN_SETUP_WAVES_5,5 waves,5 波
+UI_RUN_SETUP_WAVES_10,10 waves,10 波
+UI_RUN_SETUP_WAVES_20,20 waves,20 波
+UI_RUN_SETUP_BACK,Back,返回
+UI_RUN_SETUP_CONFIRM,Start Run,开始本局
+UI_SETTINGS_LANGUAGE,Language,语言
+UI_SETTINGS_LANGUAGE_CHINESE,Chinese,中文
+UI_SETTINGS_LANGUAGE_ENGLISH,English,英文
+UI_SETTINGS_MUSIC,Music,音乐
+UI_SETTINGS_SFX,Sound Effects,音效
+UI_SETTINGS_DEBUG_PROGRESSION,Progression Debug,局外升级调试
+UI_SETTINGS_DEBUG_PROGRESSION_ON,Enabled,开启
+UI_SETTINGS_DEBUG_PROGRESSION_TOOLTIP,"Grant sufficient meta experience, profile level, and all ship-upgrade node unlock eligibility while enabled.","开启时提供充足的星图经验、档案等级和全部舰船升级节点解锁资格。"
+UI_ARCHIVE_TITLE,Blueprints / Ship Archive,蓝图库 / 飞船档案
+UI_ARCHIVE_BACK,Back to Home,返回主页
+UI_ARCHIVE_DETAILS,Details,详情
+UI_ARCHIVE_CLOSE,Close,关闭
+UI_ARCHIVE_SHIP_001_NAME,Singularity,奇点
+UI_ARCHIVE_SHIP_001_DESCRIPTION,Quantum / Command · Core flagship,量子 / 指挥 · 核心旗舰
+UI_ARCHIVE_SHIP_001_STATS,"HP 240  ·  Armor 8  ·  Range 420\nMain weapon: Piercing energy cannon\nPassive: Each active ally increases XP pickup range by 2%.","生命 240  ·  护甲 8  ·  射程 420\n主炮：穿透能量弹\n固有：每有 1 艘未失能友舰，经验吸附范围 +2%。"
+UI_ARCHIVE_SHIP_002_NAME,Corona,日冕
+UI_ARCHIVE_SHIP_002_DESCRIPTION,Thermal / Artillery · Recommended backline,热能 / 炮击 · 推荐后排
+UI_ARCHIVE_SHIP_002_STATS,"HP 95  ·  Armor 2  ·  Range 560\nMain weapon: Corona beam applies Burn.\nPassive: Every 4 hits grants the next shot +2 pierce.","生命 95  ·  护甲 2  ·  射程 560\n主炮：日冕束施加燃烧。\n固有：每命中 4 次，下一发穿透 +2。"
+UI_ARCHIVE_SHIP_003_NAME,Tide,潮汐
+UI_ARCHIVE_SHIP_003_DESCRIPTION,Gravity / Control · Recommended midline,引力 / 控制 · 推荐中排
+UI_ARCHIVE_SHIP_003_STATS,"HP 125  ·  Armor 4  ·  Range 360\nMain weapon: Gravity anchor pulls enemies together.\nPassive: Pulled enemies are slowed by 25% for 1.5 seconds.","生命 125  ·  护甲 4  ·  射程 360\n主炮：引力锚牵引敌人。\n固有：被牵引敌人减速 25%，持续 1.5 秒。"
+UI_ARCHIVE_SHIP_004_NAME,Bastion,壁垒
+UI_ARCHIVE_SHIP_004_DESCRIPTION,Kinetic / Guard · Recommended frontline,动能 / 守卫 · 推荐前排
+UI_ARCHIVE_SHIP_004_STATS,"HP 260  ·  Armor 18  ·  Range 190\nMain weapon: Interceptor cannon prioritizes nearby threats.\nPassive: Redirects 20% of adjacent allies' damage.","生命 260  ·  护甲 18  ·  射程 190\n主炮：拦截炮优先攻击靠近旗舰的敌人。\n固有：分担相邻友舰受到伤害的 20%。"
+UI_ARCHIVE_SHIP_005_NAME,Bud Pod,芽舱
+UI_ARCHIVE_SHIP_005_DESCRIPTION,Bio / Repair · Recommended midline,生物 / 修复 · 推荐中排
+UI_ARCHIVE_SHIP_005_STATS,"HP 120  ·  Armor 3  ·  Range 300\nMain weapon: Spore needle.\nPassive: Repairs the lowest-health adjacent ally every 2 seconds.","生命 120  ·  护甲 3  ·  射程 300\n主炮：孢子针。\n固有：每 2 秒修复生命最低的相邻友舰。"
+UI_ARCHIVE_SHIP_006_NAME,Hive Mother,巢母
+UI_ARCHIVE_SHIP_006_DESCRIPTION,Drone / Electromagnetic · Recommended backline,无人机 / 电磁 · 推荐后排
+UI_ARCHIVE_SHIP_006_STATS,"HP 145  ·  Armor 5  ·  Range 440\nMain weapon: Hangar launches 3 drones.\nPassive: Drones prioritize controlled targets.","生命 145  ·  护甲 5  ·  射程 440\n主炮：机库常驻放出 3 架无人机。\n固有：无人机优先攻击受控目标。"
+UI_ARCHIVE_SHIP_007_NAME,Magnetar,磁暴
+UI_ARCHIVE_SHIP_007_DESCRIPTION,Electromagnetic / Control · Recommended midline,电磁 / 控制 · 推荐中排
+UI_ARCHIVE_SHIP_007_STATS,"HP 130  ·  Armor 5  ·  Range 390\nMain weapon: Electromagnetic pulse may paralyze targets.\nPassive: 5 overload stacks release a small arc.","生命 130  ·  护甲 5  ·  射程 390\n主炮：电磁脉冲有概率瘫痪目标。\n固有：5 层过载后释放小范围电弧。"
+UI_ARCHIVE_SHIP_008_NAME,Breaker,破阵
+UI_ARCHIVE_SHIP_008_DESCRIPTION,Kinetic / Assault · Recommended frontline,动能 / 突击 · 推荐前排
+UI_ARCHIVE_SHIP_008_STATS,"HP 200  ·  Armor 10  ·  Range 150\nMain weapon: Ram cannon knocks enemies back.\nPassive: Charges toward an elite or enemy group every 5 seconds.","生命 200  ·  护甲 10  ·  射程 150\n主炮：冲角炮击退近距离敌人。\n固有：每 5 秒向精英或敌群短距撞击。"
+UI_ARCHIVE_SHIP_009_NAME,Ironwall,铁幕
+UI_ARCHIVE_SHIP_009_DESCRIPTION,Kinetic / Guard · Recommended frontline,动能 / 守卫 · 推荐前排
+UI_ARCHIVE_SHIP_009_STATS,"HP 290  ·  Armor 20  ·  Range 180\nMain weapon: Deflection array intercepts nearby projectiles.\nPassive: Adjacent frontline allies take 12% less collision damage.","生命 290  ·  护甲 20  ·  射程 180\n主炮：偏转阵列拦截近距离投射物。\n固有：前排相邻友舰碰撞伤害 -12%。"
+UI_ARCHIVE_SHIP_010_NAME,Foldlight,折光
+UI_ARCHIVE_SHIP_010_DESCRIPTION,Quantum / Shield · Recommended midline,量子 / 护盾 · 推荐中排
+UI_ARCHIVE_SHIP_010_STATS,"HP 115  ·  Armor 4  ·  Range 340\nMain weapon: Refracted pulse chains between marked targets.\nPassive: Adjacent allies gain a shield after using a skill.","生命 115  ·  护甲 4  ·  射程 340\n主炮：折射脉冲在标记目标间弹射。\n固有：相邻友舰施放技能后获得护盾。"
+UI_CODEX_TITLE,Codex,图鉴
+UI_CODEX_DESCRIPTION,"[Ships] [Enemies] [Bonds] [Cards]    Search / Filter\n\nUnlocked entries show role tags recommended positions and counter tips.\nUndiscovered entries show only silhouettes and unlock conditions.","[飞船] [敌方] [羁绊] [卡牌]    搜索 / 筛选\n\n已解锁内容显示角色、标签、推荐格位与反制提示。\n未发现内容仅显示轮廓和解锁条件，不提前泄露完整数值。"
+UI_CODEX_TAB_SHIPS,Ships,飞船
+UI_CODEX_TAB_BLUEPRINTS,Blueprints,蓝图
+UI_CODEX_TAB_ENEMIES,Enemies,敌方
+UI_CODEX_TAB_BONDS,Bonds,羁绊
+UI_CODEX_TAB_CARDS,Cards,卡牌
+UI_CODEX_SHIP_NO_BLUEPRINT,No separate blueprint configuration. Base ship data is shown.,暂无独立蓝图配置，显示基础飞船数据。
+UI_CODEX_SHIP_STAR_AND_ROLE,★ {0}  |  {1},★ {0}  |  {1}
+UI_CODEX_SHIP_COMBAT_STATS,Attack {0}  Range {1:0},攻击 {0}  射程 {1:0}
+UI_CODEX_SHIP_DESIGN_DETAILS,"Center Ring: {0}\nPath 1: {1}\nPath 2: {2}\nPath 3: {3}","中心环：{0}\n路线一：{1}\n路线二：{2}\n路线三：{3}"
+UI_CODEX_SHIP_BASE_ABILITIES,"Weapon: {0}\nActive: {1}\nPassive: {2}","武器：{0}\n主动：{1}\n被动：{2}"
+UI_CODEX_SHIP_BRANCH_TOOLTIP,"Path 1: {0}\nPath 2: {1}\nPath 3: {2}","路线一：{0}\n路线二：{1}\n路线三：{2}"
+UI_CODEX_SHIP_001,Singularity\nCommand flagship · Quantum,奇点\n指挥旗舰 · 量子
+UI_CODEX_SHIP_002,Bulwark\nFrontline shield · Kinetic,壁垒\n前线护盾 · 动能
+UI_CODEX_SHIP_003,Mender\nRepair support · Bio,修复者\n维修支援 · 生化
+UI_CODEX_ENEMY_001,Drifter\nFast swarm attacker,漂流者\n高速群体攻击
+UI_CODEX_ENEMY_002,Leech\nSteals shields on contact,吸能虫\n接触时偷取护盾
+UI_CODEX_ENEMY_003,Warden\nArmored area defender,守卫者\n装甲区域防御
+UI_CODEX_BOND_001,Twin Stars\nTwo matching ships share critical chance,双星\n同类飞船共享暴击率
+UI_CODEX_BOND_002,Frontline Pact\nFrontline ships gain armor in formation,前线契约\n编队前排飞船获得护甲
+UI_CODEX_BOND_003,Echo Circuit\nSkill casts reduce nearby cooldowns,回响回路\n技能施放缩短附近冷却
+UI_CODEX_CARD_001,Overclock\nAttack speed up, heat generation up,超频\n攻速提升，热量生成提升
+UI_CODEX_CARD_002,Reinforced Hull\nMaximum hull up,装甲强化\n最大船体值提升
+UI_CODEX_CARD_003,New Hull\nAdds a recruitable ship,新舰体\n增加可招募飞船
+UI_CODEX_BACK,Back to Home,返回主页
+UI_RESULTS_RESTART,Restart,重新开始
+UI_RESULTS_BACK_MAIN_MENU,Back to Main Menu,返回主菜单
+GAMEPLAY_ABILITY_TEST,Choose Test,选择能力测试
+COMMON_HELLO,Hello %s!,你好 %s！
+GAMEPLAY_ENHANCE_STAT_ATTACK_NAME,Amplified Warheads,增强弹头
+GAMEPLAY_ENHANCE_STAT_ATTACK_DESCRIPTION,Flagship attack power +5.,旗舰攻击力 +5。
+GAMEPLAY_ENHANCE_STAT_MOVE_SPEED_NAME,Thruster Calibration,推进器校准
+GAMEPLAY_ENHANCE_STAT_MOVE_SPEED_DESCRIPTION,Flagship movement speed +1.,旗舰移动速度 +1。
+GAMEPLAY_ENHANCE_STAT_ROTATE_SPEED_NAME,Attitude Thruster Tuning,姿态喷口调校
+GAMEPLAY_ENHANCE_STAT_ROTATE_SPEED_DESCRIPTION,Flagship rotation speed +1.,旗舰旋转速度 +1。
+GAMEPLAY_ENHANCE_STAT_ATTACK_RANGE_NAME,Fire-Control Extension,火控链路延展
+GAMEPLAY_ENHANCE_STAT_ATTACK_RANGE_DESCRIPTION,Flagship attack range +10%.,旗舰攻击范围 +10%。
+GAMEPLAY_ENHANCE_STAT_SHIELD_NAME,Emergency Shield Array,应急护盾阵列
+GAMEPLAY_ENHANCE_STAT_SHIELD_DESCRIPTION,The fleet gains 1 shield layer. Each layer blocks one hit. Future recruits inherit the current shield layers.,全舰队获得 1 层护盾；每层抵挡一次伤害。后续招募的飞船同样继承当前护盾层数。
+GAMEPLAY_ENHANCE_SPECIAL_ATTACK_RANGE_NAME,Tactical Firing Arc,战术射界
+GAMEPLAY_ENHANCE_SPECIAL_ATTACK_RANGE_DESCRIPTION,Display the flagship's current attack range.,显示旗舰当前攻击范围。
+GAMEPLAY_ENHANCE_RECRUIT_BULWARK_NAME,Recruit Bulwark,招募壁垒
+GAMEPLAY_ENHANCE_RECRUIT_BULWARK_DESCRIPTION,Recruit a basic heavy guard ship: Bulwark.,获得基础重装护卫舰：壁垒。
+GAMEPLAY_ENHANCE_RECRUIT_BREAKER_NAME,Recruit Breaker,招募破阵
+GAMEPLAY_ENHANCE_RECRUIT_BREAKER_DESCRIPTION,Recruit a rare kinetic assault ship: Breaker.,获得稀有动能突击舰：破阵。
+GAMEPLAY_ENHANCE_RECRUIT_BUD_POD_NAME,Recruit Bud Pod,招募芽舱
+GAMEPLAY_ENHANCE_RECRUIT_BUD_POD_DESCRIPTION,Recruit a basic bio shield support ship: Bud Pod.,获得基础生物护盾支援舰：芽舱。
+GAMEPLAY_ENHANCE_RECRUIT_CORONA_NAME,Recruit Corona,招募日冕
+GAMEPLAY_ENHANCE_RECRUIT_CORONA_DESCRIPTION,Recruit a rare thermal artillery ship: Corona.,获得稀有热能炮击舰：日冕。
+GAMEPLAY_ENHANCE_RECRUIT_FOLDLIGHT_NAME,Recruit Foldlight,招募折光
+GAMEPLAY_ENHANCE_RECRUIT_FOLDLIGHT_DESCRIPTION,Recruit an epic quantum shield ship: Foldlight.,获得史诗量子护盾舰：折光。
+GAMEPLAY_ENHANCE_RECRUIT_HIVE_MOTHER_NAME,Recruit Hive Mother,招募巢母
+GAMEPLAY_ENHANCE_RECRUIT_HIVE_MOTHER_DESCRIPTION,Recruit an epic drone carrier: Hive Mother.,获得史诗无人机母舰：巢母。
+GAMEPLAY_ENHANCE_RECRUIT_IRON_CURTAIN_NAME,Recruit Iron Curtain,招募铁幕
+GAMEPLAY_ENHANCE_RECRUIT_IRON_CURTAIN_DESCRIPTION,Recruit a rare kinetic guard ship: Iron Curtain.,获得稀有动能守卫舰：铁幕。
+GAMEPLAY_ENHANCE_RECRUIT_MAGNETIC_STORM_NAME,Recruit Magnetic Storm,招募磁暴
+GAMEPLAY_ENHANCE_RECRUIT_MAGNETIC_STORM_DESCRIPTION,Recruit a rare electromagnetic control ship: Magnetic Storm.,获得稀有电磁控制舰：磁暴。
+GAMEPLAY_ENHANCE_RECRUIT_TIDE_NAME,Recruit Tide,招募潮汐
+GAMEPLAY_ENHANCE_RECRUIT_TIDE_DESCRIPTION,Recruit a rare gravity control ship: Tide.,获得稀有引力控制舰：潮汐。
+GAMEPLAY_ENHANCE_TEST_NAME,Test Ability,测试能力
+GAMEPLAY_ENHANCE_TEST_DESCRIPTION,Internal gameplay ability test entry.,内部玩法能力测试条目。
+UI_GAME_WAVE,Wave {0},波次 {0}
+UI_GAME_TIME,Time {0},时间 {0}
+UI_GAME_DANGER_NORMAL,Danger: Normal,危险：常规
+UI_GAME_FLAGSHIP_ACTIVE,Flagship: Active,旗舰状态：存活
+UI_GAME_SHIELD,Shield Layers: {0},护盾层：{0}
+UI_GAME_LEVEL,Level {0},等级 {0}
+UI_GAME_PAUSE_BUTTON,Pause [Esc],暂停 [Esc]
+UI_GAME_PAUSE_TITLE,Paused,暂停
+UI_GAME_PAUSE_DESCRIPTION,Choose an action. The battle remains paused while this menu is open.,选择操作。菜单打开期间战斗保持暂停。
+UI_GAME_PAUSE_RESUME,Resume,继续游戏
+UI_GAME_PAUSE_FLEET,Fleet Status,舰队状态
+UI_GAME_PAUSE_EDIT_FLEET,Edit Fleet,编辑舰队
+UI_GAME_PAUSE_SETTINGS,Settings,设置
+UI_GAME_PAUSE_MAIN_MENU,Back to Home,返回主页
+UI_GAME_PAUSE_BACK,Back,返回
+UI_GAME_FLEET_STATUS_TITLE,Fleet Status,舰队状态
+UI_GAME_FLEET_STATUS_DESCRIPTION,[b]Active ships:[/b] {0}[br][b]Disabled ships:[/b] {1}[br][b]Fleet shield layers:[/b] {2},[b]存活舰船：[/b] {0}[br][b]失能舰船：[/b] {1}[br][b]舰队护盾层：[/b] {2}
+UI_GAME_SETTINGS_TITLE,Settings,设置
+UI_GAME_SETTINGS_DESCRIPTION,[b]Audio[/b]  Configure music and sound effects in the home settings.[br][b]Accessibility[/b]  Standard text size.,[b]音频[/b]  音乐与音效可在主页设置中调整。[br][b]无障碍[/b]  当前为标准字号。
+UI_GAME_MAIN_MENU_CONFIRM_TITLE,Return to Home?,返回主页？
+UI_GAME_MAIN_MENU_CONFIRM_DESCRIPTION,This run's progress will be lost.,本局进度将丢失。
+UI_GAME_MAIN_MENU_CONFIRM_OK,Return to Home,返回主页
+UI_GAME_MAIN_MENU_CONFIRM_CANCEL,Cancel,取消
+UI_COMMON_CLOSE,Close,关闭
+UI_COMMON_CONFIRM,Confirm,确认
+UI_COMMON_BACK_TO_SELECTION,Back to Selection,返回选择
+UI_META_UPGRADE_BUTTON,Meta Upgrades,天赋升级
+UI_META_UPGRADE_TITLE,Starmap Upgrades,局外星图升级
+UI_RUN_SETUP_WAVE_MODE,Wave Mode,波数模式
+UI_RUN_SETUP_CUSTOM_WAVES,Custom Wave Count,自定义波数
+UI_FLEET_EDITOR_TITLE,Fleet Editor,舰队编辑
+UI_RESULTS_TITLE,Run Complete,游戏结束
+UI_ROUTE_SELECTION_TITLE,Choose Your Next Route,选择下一条航线
+UI_RESULTS_VICTORY,Victory,胜利
+UI_RESULTS_DEFEAT,Fleet Eliminated,舰队全灭
+UI_RESULTS_WAVE,Wave: {0},波次：{0}
+UI_RESULTS_KILLS,Kills: {0} normal / {1} elite / {2} boss,击杀：{0} 普通 / {1} 精英 / {2} Boss
+UI_RESULTS_RUN_XP,Run XP: {0}    Starmap XP: +{1},本局经验：{0}   局外星图经验：+{1}
+UI_RESULTS_TOTAL_META_XP,Total Starmap XP: {0},星图经验总计：{0}
+UI_GAME_DEPLOYED_SHIPS,Deployed Ships: {0},已部署舰船：{0}
+UI_GAME_EMPTY_SLOTS,Open Fleet Slots: {0} / {1},可补员空格：{0} / {1}
+UI_GAME_ACTIVE_ENEMIES,Active Enemies: {0} / {1},场上敌人：{0} / {1}
+UI_GAME_SHARED_SHIELD,Shared Shield: {0},共享护盾：{0}
+UI_COMMON_NAME,Name,名称
+UI_COMMON_HP,HP,生命值
+UI_ENHANCE_PLACEHOLDER_TITLE,Upgrade,升级
+UI_ENHANCE_PLACEHOLDER_DESCRIPTION,Choose an upgrade to improve your fleet.,选择一项升级来强化舰队。
+UI_ENHANCE_SELECT,Select,选择
+UI_ROUTE_STAGE_COMPLETE,Stage {0} complete. Choose a route for the next stage.,阶段 {0} 已完成。选择路线进入下一阶段。
+UI_ROUTE_STEADY_SUPPLY,"Steady Supply\nNext-stage danger -10%; gain 1 shared shield layer.","稳健补给\n下阶段危险 -10%；立即获得 1 层共享护盾。"
+UI_ROUTE_EXPANSION_SIGNAL,"Expansion Signal\nKeep standard danger; prioritize ship recruitment at the next level-up.","扩编信号\n保持标准危险；下次升级优先提供舰船招募。"
+UI_ROUTE_HIGH_RISK_HUNT,"High-Risk Hunt\nNext-stage danger +15%; better reward chances.","高风险猎杀\n下阶段危险 +15%；提高高价值奖励机会。"
+UI_ROUTE_TACTICAL_ADJUSTMENT,"Tactical Adjustment\nKeep standard danger; prioritize formation and control rewards.","战术调整\n保持标准危险；优先提供编队与控制相关奖励。"
+UI_FLEET_RECRUIT_TITLE,Deploy New Ship,部署新舰船
+UI_FLEET_RECRUIT_PENDING,New Ship: {0}  ★{1},获得舰船：{0}  ★{1}
+UI_FLEET_RECRUIT_HINT,Drag the new ship to an empty slot. Drag it onto a matching ship of the same star level to fuse and promote it.,拖动获得的舰船到空位部署；拖到同型号且同星级的舰船可融合升星。
+UI_FLEET_CONFIRM_DEPLOY,Confirm Deployment,确认部署
+UI_FLEET_BACK_TO_SELECTION,Back to Selection,返回选择
+UI_FLEET_EDITOR_HINT,Drag deployed ships to arrange the formation. Drag onto another ship to swap positions.,拖动已部署舰船以调整舰队位置；拖到其他舰船上可交换位置。
+UI_FLEET_BACK_TO_PAUSE,Back to Pause Menu,返回暂停菜单
+UI_FLEET_BENEFIT_TARGET_TITLE,Choose Benefit Target,选择增益目标
+UI_FLEET_BENEFIT_PENDING,Benefit to Apply: {0},待应用增益：{0}
+UI_FLEET_BENEFIT_HINT,Select a deployed ship, then confirm to apply the benefit.,点击一艘已部署的舰船，然后确认应用增益。
+UI_FLEET_APPLY_BENEFIT,Apply Benefit,应用增益
+UI_META_UPGRADE_SUMMARY,"Starmap Upgrades · Profile Level {0} · Starmap XP {1}","局外星图升级 · 档案等级 {0} · 星图经验 {1}"
+UI_CODEX_TARGET_SCOPE,Target Scope,目标
+CODEX_CARD_SIG_009_EFFECTDESCRIPTION,"Recruit the Foldlight quantum support ship: adjacent ships gain 1 shield layer after every 3 completed attacks.","招募“折光”量子支援舰：相邻舰每完成 3 次攻击后获得 1 层护盾。"
+CODEX_ENEMY_ENM_ABR_BOS_CTL_001_DISPLAYNAME,"Magnetic Storm Judge","磁暴审判者"
+CODEX_ENEMY_ENM_ABR_BOS_CTL_001_TARGETANDATTACK,"9,000 HP / 4 layers / 64 px","9,000 HP / 4 层 / 64 px"
+CODEX_ENEMY_ENM_ABR_BOS_CTL_001_MECHANICANDWARNING,"Priority will be given to activated bonds and rear-row ships; only single-target projectile attacks will be carried out.","优先已激活羁绊和后排舰；仅进行单体投射物攻击。"
+CODEX_ENEMY_ENM_ABR_BOS_CTL_001_SPAWNRULE,"70%, 35%","70%、35%"
+CODEX_ENEMY_ENM_ABR_BOS_CTL_001_DROPSUMMARY,"28 motes, 2 large experience cores; choose one of three: Epic Fleet Protocol 40% / High Rare Random Ship 60%.","28 微粒、2 大型经验核心；三选一：史诗舰队协议 40% / 高稀有随机舰船 60%。"
+CODEX_ENEMY_ENM_ABR_BOS_FRM_001_DISPLAYNAME,"Split Ring Mothership","裂环母舰"
+CODEX_ENEMY_ENM_ABR_BOS_FRM_001_TARGETANDATTACK,"7,200 HP / 3 layers / 72 px","7,200 HP / 3 层 / 72 px"
+CODEX_ENEMY_ENM_ABR_BOS_FRM_001_MECHANICANDWARNING,"Prioritize the dense grid on the front side; if there is none, attack the nearest ship.","优先前侧密集格位；若无，攻击最近舰。"
+CODEX_ENEMY_ENM_ABR_BOS_FRM_001_SPAWNRULE,"70%, 35%","70%、35%"
+CODEX_ENEMY_ENM_ABR_BOS_FRM_001_DROPSUMMARY,"24 particles, 2 large experience cores; choose one of three: rare ship recruitment 45% / character directional beacon 55%.","24 微粒、2 大型经验核心；三选一：稀有舰船招募 45% / 角色定向信标 55%。"
+CODEX_ENEMY_ENM_ABR_BOS_ZON_001_DISPLAYNAME,"Tide Eater","潮汐吞噬者"
+CODEX_ENEMY_ENM_ABR_BOS_ZON_001_TARGETANDATTACK,"11,500 HP / 5 layers / 88 px","11,500 HP / 5 层 / 88 px"
+CODEX_ENEMY_ENM_ABR_BOS_ZON_001_MECHANICANDWARNING,"Priority is given to the outermost deployed ships; only single-target projectiles are used.","优先最外侧已部署舰；仅使用单体投射物。"
+CODEX_ENEMY_ENM_ABR_BOS_ZON_001_SPAWNRULE,"70%, 35%","70%、35%"
+CODEX_ENEMY_ENM_ABR_BOS_ZON_001_DROPSUMMARY,"32 particles, 3 large experience cores; choose one of three ship recruitment, 100%.","32 微粒、3 大型经验核心；舰船招募三选一，100%。"
+CODEX_ENEMY_ENM_ABR_ELT_JAM_001_DISPLAYNAME,"Signal Reaper","信号收割者"
+CODEX_ENEMY_ENM_ABR_ELT_JAM_001_TARGETANDATTACK,"Priority is given to ships near activated bonds; single-target projectiles are used, with a cooldown of 8 seconds.","优先已激活羁绊附近的舰船；使用单体投射物，冷却 8 s。"
+CODEX_ENEMY_ENM_ABR_ELT_JAM_001_MECHANICANDWARNING,"After Phase 2; the first crisis wave is prohibited.","阶段 2 后；首个危机波禁止出现。"
+CODEX_ENEMY_ENM_ABR_ELT_JAM_001_SPAWNRULE,"Fixed 12 particles + large experience core; 12% character beacon, 10% bond navigation fragment.","固定 12 微粒 + 大型经验核心；12% 角色信标，10% 羁绊导航碎片。"
+CODEX_ENEMY_ENM_ABR_ELT_RAM_001_DISPLAYNAME,"Splinter Hound","裂阵猎犬"
+CODEX_ENEMY_ENM_ABR_ELT_RAM_001_TARGETANDATTACK,"Uses a single projectile within 32 px; effective hit 1; cooldown 7.0 s.","32 px 内使用单体投射物；有效命中 1；冷却 7.0 s。"
+CODEX_ENEMY_ENM_ABR_ELT_RAM_001_MECHANICANDWARNING,"After stage 1; 1 elite node, 1 crisis wave at most.","阶段 1 后；精英节点 1 只，危机波最多 1 只。"
+CODEX_ENEMY_ENM_ABR_ELT_RAM_001_SPAWNRULE,"Fixed 12 particles + 1 large experience core (+8); 12% character beacons, 8% rare single ship enhancements.","固定 12 微粒 + 1 大型经验核心（+8）；12% 角色信标，8% 稀有单舰强化。"
+CODEX_ENEMY_ENM_ABR_ELT_SUM_001_DISPLAYNAME,"Eclipse Lord","蚀群主宰"
+CODEX_ENEMY_ENM_ABR_ELT_SUM_001_TARGETANDATTACK,"Summons 6 elite drones every 5.5 s; shake forward for 0.75 s to interrupt. Submachine 22 HP, 255 px/s, cooldown 1.4 s, effective hit 1; death splash only does express damage 10.","每 5.5 s 召唤 6 架精英子机；前摇 0.75 s 可打断。子机 22 HP、255 px/s、冷却 1.4 s、有效命中 1；死亡溅射仅造成表现伤害 10。"
+CODEX_ENEMY_ENM_ABR_ELT_SUM_001_MECHANICANDWARNING,"After Stage 2; Maximum of 1 in the same field.","阶段 2 后；同场最多 1 只。"
+CODEX_ENEMY_ENM_ABR_ELT_SUM_001_SPAWNRULE,"Fixed 14 motes + large experience cores; 12% character beacon, 10% empowered swarm fragments (+30%, 12 s).","固定 14 微粒 + 大型经验核心；12% 角色信标，10% 强化蜂群残片（+30%，12 s）。"
+CODEX_ENEMY_ENM_ABR_ELT_ZON_001_DISPLAYNAME,"Heavy missile launcher","重装投射艇"
+CODEX_ENEMY_ENM_ABR_ELT_ZON_001_TARGETANDATTACK,"Fires a single projectile at the outermost ship every 9 s.","每 9 s 向最外侧舰发射单体投射物。"
+CODEX_ENEMY_ENM_ABR_ELT_ZON_001_MECHANICANDWARNING,"After stage 3; crisis wave can only be 1 at most.","阶段 3 后；危机波最多 1 只。"
+CODEX_ENEMY_ENM_ABR_ELT_ZON_001_SPAWNRULE,"Fixed 14 motes + large experience cores; 12% character beacons, 10% mobile system cards.","固定 14 微粒 + 大型经验核心；12% 角色信标，10% 移动系统卡。"
+CODEX_ENEMY_ENM_ABR_NRM_CHS_001_DISPLAYNAME,"Broken Star Reconnaissance Plane","碎星侦察机"
+CODEX_ENEMY_ENM_ABR_NRM_CHS_001_TARGETANDATTACK,"Recently Deployed Ship; Contact 32 px; Bite every 2.20 s; Expressed Damage 8, Effective Hits 1.","最近已部署舰；接触 32 px；每 2.20 s 咬击；表现伤害 8、有效命中 1。"
+CODEX_ENEMY_ENM_ABR_NRM_CHS_001_MECHANICANDWARNING,"Steady attack roll when entering 64 px; Control Resistance 0%.","进入 64 px 时进行稳定的攻击前摇；控制抗性 0%。"
+CODEX_ENEMY_ENM_ABR_NRM_CHS_001_SPAWNRULE,"Single wave 4–12, field 48, weight 1.0.","单波 4–12，场上 48，权重 1.0。"
+CODEX_ENEMY_ENM_ABR_NRM_CHS_001_DROPSUMMARY,"1 mote; 2% bonus +1 mote.","1 微粒；2% 额外 +1 微粒。"
+CODEX_ENEMY_ENM_ABR_NRM_HAR_001_DISPLAYNAME,"Needle boat","针刺艇"
+CODEX_ENEMY_ENM_ABR_NRM_HAR_001_TARGETANDATTACK,"Prioritize the farthest bombardment/mothership, otherwise the farthest ship; range 560 px; needle bullet performance damage 12, effective hit 1.","优先最远炮击/母舰，否则最远舰；射程 560 px；针弹表现伤害 12、有效命中 1。"
+CODEX_ENEMY_ENM_ABR_NRM_HAR_001_MECHANICANDWARNING,"Lock line 0.70 s, turn 300°/s, life 2.2 s, cool down 2.80 s; control resistance 0%.","锁定线 0.70 s，转向 300°/s，寿命 2.2 s，冷却 2.80 s；控制抗性 0%。"
+CODEX_ENEMY_ENM_ABR_NRM_HAR_001_SPAWNRULE,"Single wave 2–7, field 30, weight 1.0.","单波 2–7，场上 30，权重 1.0。"
+CODEX_ENEMY_ENM_ABR_NRM_HAR_001_DROPSUMMARY,"2 particles; 3% shield power (+1 when shared shield is not full).","2 微粒；3% 护盾能量（共享护盾未满时 +1）。"
+CODEX_ENEMY_ENM_ABR_NRM_JAM_001_DISPLAYNAME,"arc disruptor","电弧干扰器"
+CODEX_ENEMY_ENM_ABR_NRM_JAM_001_TARGETANDATTACK,"Priority will be given to ships near the activated bond, otherwise the closest ship; single projectile cooldown is 7.0 s.","优先已激活羁绊附近的舰，否则最近舰；单体投射物冷却 7.0 s。"
+CODEX_ENEMY_ENM_ABR_NRM_JAM_001_MECHANICANDWARNING,"Uses only single-target projectiles, no AoE interference; Resistance 15%.","仅使用单体投射物，不使用范围干扰；抗性 15%。"
+CODEX_ENEMY_ENM_ABR_NRM_JAM_001_SPAWNRULE,"Maximum 1 in a single wave, 3 on the field, weight 1.4.","单波最多 1，场上 3，权重 1.4。"
+CODEX_ENEMY_ENM_ABR_NRM_JAM_001_DROPSUMMARY,"3 particles; 8% character beacon fragments (3 synthesized to increase character weight once).","3 微粒；8% 角色信标碎片（3 个合成一次角色权重提升）。"
+CODEX_ENEMY_ENM_ABR_NRM_RAM_001_DISPLAYNAME,"Meteor Charge Beast","陨铁冲锋兽"
+CODEX_ENEMY_ENM_ABR_NRM_RAM_001_TARGETANDATTACK,"Nearest forward side ship, otherwise closest ship; use single projectile within 32 px, effective hit 1.","最近前侧舰，否则最近舰；32 px 内使用单体投射物，有效命中 1。"
+CODEX_ENEMY_ENM_ABR_NRM_RAM_001_MECHANICANDWARNING,"Cooldown 6.0 s, control resistance 20%.","冷却 6.0 s，控制抗性 20%。"
+CODEX_ENEMY_ENM_ABR_NRM_RAM_001_SPAWNRULE,"Single wave 2–8, field 36, weight 1.2.","单波 2–8，场上 36，权重 1.2。"
+CODEX_ENEMY_ENM_ABR_NRM_RAM_001_DROPSUMMARY,"2 Motes; 6% Large Experience Shards (+3).","2 微粒；6% 大型经验碎片（+3）。"
+CODEX_ENEMY_ENM_ABR_NRM_SHD_001_DISPLAYNAME,"Scrap Barrier","废舰壁垒"
+CODEX_ENEMY_ENM_ABR_NRM_SHD_001_TARGETANDATTACK,"Nearest ship; contact 44 px; apparent damage 16, effective hit 1, cooldown 2.20 s.","最近舰；接触 44 px；表现伤害 16、有效命中 1，冷却 2.20 s。"
+CODEX_ENEMY_ENM_ABR_NRM_SHD_001_MECHANICANDWARNING,"Grants 2 enemy shields every 7 s to up to 6 enemies within 220 px; roll forward 0.75 s; Control Resistance 35%.","每 7 s 为 220 px 内最多 6 名敌人授予 2 层敌方护盾；前摇 0.75 s；控制抗性 35%。"
+CODEX_ENEMY_ENM_ABR_NRM_SHD_001_SPAWNRULE,"Single wave 1–4, field 18, weight 1.5.","单波 1–4，场上 18，权重 1.5。"
+CODEX_ENEMY_ENM_ABR_NRM_SHD_001_DROPSUMMARY,"3 particles; 8% Shield Fragment (+2 particles).","3 微粒；8% 护盾残片（+2 微粒）。"
+CODEX_ENEMY_ENM_ABR_NRM_SUM_001_DISPLAYNAME,"Eclipse group aircraft","蚀群载机"
+CODEX_ENEMY_ENM_ABR_NRM_SUM_001_TARGETANDATTACK,"Maintain 520–650 px with fleet; no body attack.","与舰队保持 520–650 px；无本体攻击。"
+CODEX_ENEMY_ENM_ABR_NRM_SUM_001_MECHANICANDWARNING,"Summons 3 drones every 6.0 s; swings forward for 0.65 s to interrupt; control resistance 25%.","每 6.0 s 召唤 3 架子机；开舱前摇 0.65 s 可打断；控制抗性 25%。"
+CODEX_ENEMY_ENM_ABR_NRM_SUM_001_SPAWNRULE,"Maximum 1 in a single wave, 4 on the field, weight 1.6.","单波最多 1，场上 4，权重 1.6。"
+CODEX_ENEMY_ENM_ABR_NRM_SUM_001_DROPSUMMARY,"4 particles; 12% swarm fragments (Drone damage +15%, 12 s).","4 微粒；12% 蜂群残片（无人机伤害 +15%，12 s）。"
+CODEX_ENEMY_ENM_ABR_NRM_SUP_001_DISPLAYNAME,"parasitic spores","寄生孢体"
+CODEX_ENEMY_ENM_ABR_NRM_SUP_001_TARGETANDATTACK,"Prioritizes enemies with the lowest health; attachment distance 72 px; no direct attacks.","优先生命最低的敌人；附着距离 72 px；无直接攻击。"
+CODEX_ENEMY_ENM_ABR_NRM_SUP_001_MECHANICANDWARNING,"Repairs 10 HP per second, up to 5 s; disengages when controlled or the target dies; control resistance 0%.","每秒修复 10 HP，最长 5 s；受控或目标死亡即脱离；控制抗性 0%。"
+CODEX_ENEMY_ENM_ABR_NRM_SUP_001_SPAWNRULE,"Single wave 1–5, field 20, weight 1.3.","单波 1–5，场上 20，权重 1.3。"
+CODEX_ENEMY_ENM_ABR_NRM_SUP_001_DROPSUMMARY,"3 motes; 10% Large Experience Shards (+3).","3 微粒；10% 大型经验碎片（+3）。"
+CODEX_ENEMY_ENM_ABR_NRM_ZON_001_DISPLAYNAME,"fixed point projector","定点投射器"
+CODEX_ENEMY_ENM_ABR_NRM_ZON_001_TARGETANDATTACK,"Priority is given to the outermost ship; single-target projectiles are used, with a cooldown of 7.0 s.","优先最外侧舰；使用单体投射物，冷却 7.0 s。"
+CODEX_ENEMY_ENM_ABR_NRM_ZON_001_MECHANICANDWARNING,"Uses single-target projectiles only; Resistance 100%.","仅使用单体投射物；抗性 100%。"
+CODEX_ENEMY_ENM_ABR_NRM_ZON_001_SPAWNRULE,"Maximum of 2 in a single wave, 6 on the field, weight 0.8.","单波最多 2，场上 6，权重 0.8。"
+CODEX_ENEMY_ENM_ABR_NRM_ZON_001_DROPSUMMARY,"2 particles; 15% pulling debris (+1 particle, +10% experience adsorption range, 10 s).","2 微粒；15% 牵引碎片（+1 微粒、经验吸附范围 +10%，10 s）。"
+CODEX_ENEMY_ENM_ABR_SUM_CHS_001_DISPLAYNAME,"Eclipse group machine","蚀群子机"
+CODEX_ENEMY_ENM_ABR_SUM_CHS_001_TARGETANDATTACK,"Nearest ship; contact 24 px; apparent damage 5, effective hit 1, cooldown 1.30 s.","最近舰；接触 24 px；表现伤害 5、有效命中 1、冷却 1.30 s。"
+CODEX_ENEMY_ENM_ABR_SUM_CHS_001_MECHANICANDWARNING,"Lifespan 12 s; control resistance 0%.","寿命 12 s；控制抗性 0%。"
+CODEX_ENEMY_ENM_ABR_SUM_CHS_001_SPAWNRULE,"The maximum number of aircraft per carrier is 6, and the total number of aircraft is 48, not included in the wave quota.","每载机最多 6 架，全场 48，不计入波次配额。"
+CODEX_ENEMY_ENM_ABR_SUM_CHS_001_DROPSUMMARY,"There is no independent drop to avoid unlimited experience gain.","无独立掉落，避免无限刷经验。"
+CODEX_BOND_BND_PAI_001_DISPLAYNAME,"corona detonation","日冕引爆"
+CODEX_BOND_BND_PAI_001_MEMBERCONDITION,"ART_001 is adjacent to CTL_001.","ART_001 与 CTL_001 相邻。"
+CODEX_BOND_BND_PAI_001_EFFECTDESCRIPTION,"Enemies within the tidal pull zone trigger an explosion the first time they are hit by the corona.","潮汐牵引区内的敌人首次受到日冕命中时触发爆炸。"
+CODEX_BOND_BND_PAI_001_COUNTERPLAY,"Scattering the enemy group, pushing back the tide, or destroying any member will break the bond.","分散敌群、击退潮汐或击毁任一成员会断开羁绊。"
+CODEX_BOND_BND_PAI_002_DISPLAYNAME,"life barrier","生命壁垒"
+CODEX_BOND_BND_PAI_002_MEMBERCONDITION,"GRD_001 is adjacent to SUP_001, with at least one vessel on the front side.","GRD_001 与 SUP_001 相邻，且至少一艘位于前侧。"
+CODEX_BOND_BND_PAI_002_EFFECTDESCRIPTION,"Support ships grant 1 level of shield to the adjacent deployed ship with the lowest shield.","支援舰为护盾最低的相邻已部署舰授予 1 层护盾。"
+CODEX_BOND_BND_PAI_002_COUNTERPLAY,"Don't allow members to fall off the front side or get knocked out.","不要让成员脱离前侧或被击毁。"
+CODEX_BOND_BND_PAI_003_DISPLAYNAME,"swarm loop","蜂群回路"
+CODEX_BOND_BND_PAI_003_MEMBERCONDITION,"CAR_001 is adjacent to CTL_002.","CAR_001 与 CTL_002 相邻。"
+CODEX_BOND_BND_PAI_003_EFFECTDESCRIPTION,"The drone fires 1 additional attack when it hits a controlled target.","无人机命中受控目标时额外发射 1 次攻击。"
+CODEX_BOND_BND_PAI_003_COUNTERPLAY,"Killing Magnetic Storm or making the target immune to CC will reduce the benefits.","击杀磁暴或让目标免疫控制会降低收益。"
+CODEX_BOND_BND_PAI_004_DISPLAYNAME,"Breaking partner","破阵搭档"
+CODEX_BOND_BND_PAI_004_MEMBERCONDITION,"ASS_001 is adjacent to GRD_002, both on the front side.","ASS_001 与 GRD_002 相邻，且均位于前侧。"
+CODEX_BOND_BND_PAI_004_EFFECTDESCRIPTION,"Gain 1 level of personal shield after a close hit; while the shield is present, the next close attack will deal an additional 35% damage to the main gun.","近距命中后获得 1 层个人护盾；护盾存在时下一次近距攻击额外造成主炮 35% 伤害。"
+CODEX_BOND_BND_PAI_004_COUNTERPLAY,"Seize the space on the front side or disconnect the adjacent side.","抢占前侧格位或断开相邻边。"
+CODEX_BOND_BND_PAI_005_DISPLAYNAME,"refraction echo","折光回响"
+CODEX_BOND_BND_PAI_005_MEMBERCONDITION,"FLG_001 is adjacent to SUP_002.","FLG_001 与 SUP_002 相邻。"
+CODEX_BOND_BND_PAI_005_EFFECTDESCRIPTION,"The flagship gains 1 personal shield after every 3rd main battery hit.","旗舰每第 3 次主炮命中后获得 1 层个人护盾。"
+CODEX_BOND_BND_PAI_005_COUNTERPLAY,"Only affects adjacent members, and the shield layer does not overflow.","只作用于相邻成员，护盾层数不溢出。"
+CODEX_BOND_BND_TRI_001_DISPLAYNAME,"Gravitational corona","引力日冕"
+CODEX_BOND_BND_TRI_001_MEMBERCONDITION,"ART_001, FLG_001, CTL_001 form two adjacent edges.","ART_001、FLG_001、CTL_001 形成两条相邻边。"
+CODEX_BOND_BND_TRI_001_EFFECTDESCRIPTION,"After the corona detonates, it will pull nearby enemies to the explosion point and cool down for 3 seconds.","日冕引爆后将附近敌人牵引至爆点，冷却 3 秒。"
+CODEX_BOND_BND_TRI_001_COUNTERPLAY,"The three ships must be connected by real adjacent edges and cannot cross spaces.","三舰必须通过真实相邻边连接，不能跨越空格。"
+CODEX_BOND_BND_TRI_002_DISPLAYNAME,"electromagnetic honeycomb","电磁蜂巢"
+CODEX_BOND_BND_TRI_002_MEMBERCONDITION,"ASS_001, CAR_001, and CTL_002 satisfy two adjacent edges.","ASS_001、CAR_001、CTL_002 满足两条相邻边。"
+CODEX_BOND_BND_TRI_002_EFFECTDESCRIPTION,"Strengthens the drone when a geomagnetic storm is triggered and grants 1 layer of shield to the aircraft carrier.","磁暴触发时强化无人机，并为航母授予 1 层护盾。"
+CODEX_BOND_BND_TRI_002_COUNTERPLAY,"A tight front-row position is required, as movement of members will invalidate the bond.","需要紧凑前排站位，成员移动会使羁绊失效。"
+CODEX_BOND_BND_TRI_003_DISPLAYNAME,"Kinetic Habitat","动能栖所"
+CODEX_BOND_BND_TRI_003_MEMBERCONDITION,"GRD_001, GRD_002, ASS_001 are located on the front side and adjacent.","GRD_001、GRD_002、ASS_001 位于前侧并相邻。"
+CODEX_BOND_BND_TRI_003_EFFECTDESCRIPTION,"When the elite appears, each of the three members will gain 1 layer of shield, and weapon damage will be increased by 20% while the elite is alive.","精英出现时三名成员各获得 1 层护盾，精英存活期间武器伤害提高 20%。"
+CODEX_BOND_BND_TRI_003_COUNTERPLAY,"Only front members are protected.","只保护前侧成员。"
+CODEX_CARD_FLT_002_DISPLAYNAME,"rear fire control","后排火控"
+CODEX_CARD_FLT_002_EFFECTDESCRIPTION,"Back row ship damage +12%.","后排舰伤害 +12%。"
+CODEX_CARD_FLT_002_SYNERGYDESCRIPTION,"Corona, nest mother.","日冕、巢母。"
+CODEX_CARD_FLT_003_DISPLAYNAME,"relay matrix","中继矩阵"
+CODEX_CARD_FLT_003_EFFECTDESCRIPTION,"Mid-row ship adjacent link effect increased from +5% to +9%.","中排舰相邻链路效果从 +5% 提高至 +9%。"
+CODEX_CARD_FLT_003_SYNERGYDESCRIPTION,"Support/control hub.","支援/控制枢纽。"
+CODEX_CARD_FLT_004_DISPLAYNAME,"ring escort","环形护航"
+CODEX_CARD_FLT_004_EFFECTDESCRIPTION,"When the first ring reaches 6 ships, the entire team will receive 1 layer of shield.","第一环满 6 艘时，全队获得 1 层护盾。"
+CODEX_CARD_FLT_004_SYNERGYDESCRIPTION,"Expanded, compact formation.","扩编、紧凑阵型。"
+CODEX_CARD_FLT_005_DISPLAYNAME,"outer ring gun positions","外环炮位"
+CODEX_CARD_FLT_005_EFFECTDESCRIPTION,"Second ring ship range +15%.","第二环舰船射程 +15%。"
+CODEX_CARD_FLT_005_SYNERGYDESCRIPTION,"Bombardment, mothership.","炮击、母舰。"
+CODEX_CARD_FLT_006_DISPLAYNAME,"Crisis Calculation","危机演算"
+CODEX_CARD_FLT_006_EFFECTDESCRIPTION,"During the crisis wave, team damage +15%.","危机波期间全队伤害 +15%。"
+CODEX_CARD_FLT_006_SYNERGYDESCRIPTION,"45 second wave.","45 秒波次。"
+CODEX_CARD_FLT_010_DISPLAYNAME,"target sharing","目标共享"
+CODEX_CARD_FLT_010_EFFECTDESCRIPTION,"After any ship causes damage to an elite, the entire team will deal +6% damage to that elite for 3 seconds.","任一舰对精英造成伤害后，全队对该精英伤害 +6%，持续 3 秒。"
+CODEX_CARD_FLT_010_SYNERGYDESCRIPTION,"Set fire, Boss.","集火、Boss。"
+CODEX_CARD_FLT_011_DISPLAYNAME,"experience traction","经验牵引"
+CODEX_CARD_FLT_011_EFFECTDESCRIPTION,"Experience particle adsorption range +25%.","经验微粒吸附范围 +25%。"
+CODEX_CARD_FLT_011_SYNERGYDESCRIPTION,"Singularity is passive and expanded.","奇点被动、扩编。"
+CODEX_CARD_FLT_012_DISPLAYNAME,"bounty agreement","赏金协议"
+CODEX_CARD_FLT_012_EFFECTDESCRIPTION,"The number of large experience cores dropped by elites is +1, and the experience of ordinary monsters is -5%.","精英掉落大型经验核心数量 +1，普通怪经验 -5%。"
+CODEX_CARD_FLT_012_SYNERGYDESCRIPTION,"Elite Build.","精英 Build。"
+CODEX_CARD_FLT_013_DISPLAYNAME,"emergency dispatch","紧急调度"
+CODEX_CARD_FLT_013_EFFECTDESCRIPTION,"When any ship is destroyed, its adjacent ships immediately gain 1 layer of shields.","任一舰被击毁时，其相邻舰立即获得 1 层护盾。"
+CODEX_CARD_FLT_013_SYNERGYDESCRIPTION,"Destroy, shield.","击毁、护盾。"
+CODEX_CARD_FLT_014_DISPLAYNAME,"The remaining warmth of bondage","羁绊余温"
+CODEX_CARD_FLT_014_EFFECTDESCRIPTION,"After the bonded member is destroyed, the bonding effect remains for 2 seconds.","羁绊成员被击毁后，羁绊效果保留 2 秒。"
+CODEX_CARD_FLT_014_SYNERGYDESCRIPTION,"Signal Reaper counters.","信号收割者反制。"
+CODEX_CARD_FLT_015_DISPLAYNAME,"double resonance","双重共鸣"
+CODEX_CARD_FLT_015_EFFECTDESCRIPTION,"When 2 bonds are activated at the same time, the effect of all bonds is +15%.","同时激活 2 条羁绊时，所有羁绊效果 +15%。"
+CODEX_CARD_FLT_015_SYNERGYDESCRIPTION,"Combo Build.","组合 Build。"
+CODEX_CARD_FLT_016_DISPLAYNAME,"United Fire Network","联合火网"
+CODEX_CARD_FLT_016_EFFECTDESCRIPTION,"When 3 adjacent ships with different roles all attack the same target, the third ship's hit will cause an additional 30% damage.","3 艘相邻不同角色舰船均攻击同一目标时，第三艘命中额外造成 30% 伤害。"
+CODEX_CARD_FLT_016_SYNERGYDESCRIPTION,"Multi-role formation.","多角色编队。"
+CODEX_CARD_FLT_018_DISPLAYNAME,"Drone supply","无人机补给"
+CODEX_CARD_FLT_018_EFFECTDESCRIPTION,"At the end of each wave, all drone carriers are immediately replenished with drones.","每波结束时，所有无人机母舰立即补满无人机。"
+CODEX_CARD_FLT_018_SYNERGYDESCRIPTION,"Aircraft combat, replica cabin.","载机战、复制舱。"
+CODEX_CARD_FLT_019_DISPLAYNAME,"decisive battle clause","决战条款"
+CODEX_CARD_FLT_019_EFFECTDESCRIPTION,"The team's fire rate +25% for 5 seconds after the boss phase transition.","Boss 阶段转换后 5 秒内全队射速 +25%。"
+CODEX_CARD_FLT_019_SYNERGYDESCRIPTION,"The boss explodes.","Boss 爆发。"
+CODEX_CARD_SIG_001_DISPLAYNAME,"corona beacon","日冕信标"
+CODEX_CARD_SIG_001_EFFECTDESCRIPTION,"Recruit coronas; if you already have coronas, you will still get coronas to be deployed, which can be filled in or fused.","招募日冕；已有日冕时仍获得待部署日冕，可补位或融合。"
+CODEX_CARD_SIG_001_SYNERGYDESCRIPTION,"Tides, thermal energy.","潮汐、热能。"
+CODEX_CARD_FLT_016_EFFECTDESCRIPTION,"When 3 adjacent ships with different roles all attack the same target, the third ship's hit will cause an additional 30% damage.","3 艘相邻不同角色舰船均攻击同一目标时，第三艘命中额外造成 30% 伤害。"
+CODEX_CARD_SIG_002_DISPLAYNAME,"tide beacon","潮汐信标"
+CODEX_CARD_SIG_002_EFFECTDESCRIPTION,"Recruit tides; if there are already tides, you will still get tides to be deployed, which can be filled or merged.","招募潮汐；已有潮汐时仍获得待部署潮汐，可补位或融合。"
+CODEX_CARD_SIG_002_SYNERGYDESCRIPTION,"Corona, gravity.","日冕、引力。"
+CODEX_CARD_FLT_016_SYNERGYDESCRIPTION,"Multi-role formation.","多角色编队。"
+CODEX_CARD_SIG_003_DISPLAYNAME,"Barrier Beacon","壁垒信标"
+CODEX_CARD_FLT_018_DISPLAYNAME,"Drone supply","无人机补给"
+CODEX_CARD_SIG_003_EFFECTDESCRIPTION,"Recruit barriers; if there are already barriers, you will still get barriers to be deployed, which can be filled or integrated.","招募壁垒；已有壁垒时仍获得待部署壁垒，可补位或融合。"
+CODEX_CARD_FLT_018_EFFECTDESCRIPTION,"At the end of each wave, all drone carriers are immediately replenished with drones.","每波结束时，所有无人机母舰立即补满无人机。"
+CODEX_CARD_SIG_003_SYNERGYDESCRIPTION,"Bud cabin, front row.","芽舱、前排。"
+CODEX_CARD_FLT_018_SYNERGYDESCRIPTION,"Aircraft combat, replica cabin.","载机战、复制舱。"
+CODEX_CARD_SIG_004_DISPLAYNAME,"pod beacon","芽舱信标"
+CODEX_CARD_SIG_004_EFFECTDESCRIPTION,"Recruit bud pods; if there are already bud pods, you will still get bud pods to be deployed, which can be filled or merged.","招募芽舱；已有芽舱时仍获得待部署芽舱，可补位或融合。"
+CODEX_CARD_FLT_019_DISPLAYNAME,"decisive battle clause","决战条款"
+CODEX_CARD_SIG_004_SYNERGYDESCRIPTION,"Barrier, shield.","壁垒、护盾。"
+CODEX_CARD_SIG_005_DISPLAYNAME,"Nest Mother Beacon","巢母信标"
+CODEX_CARD_FLT_019_EFFECTDESCRIPTION,"The team's fire rate +25% for 5 seconds after the boss phase transition.","Boss 阶段转换后 5 秒内全队射速 +25%。"
+CODEX_CARD_SIG_005_EFFECTDESCRIPTION,"Recruit the Hive Mother; if there is already a Hive Mother, you will still get the Hive Mother to be deployed, which can fill the position or fuse with it.","招募巢母；已有巢母时仍获得待部署巢母，可补位或融合。"
+CODEX_CARD_SIG_005_SYNERGYDESCRIPTION,"Magnetic storms, drones.","磁暴、无人机。"
+CODEX_CARD_FLT_019_SYNERGYDESCRIPTION,"The boss explodes.","Boss 爆发。"
+CODEX_CARD_SIG_006_DISPLAYNAME,"Magnetic storm beacon","磁暴信标"
+CODEX_CARD_SIG_001_DISPLAYNAME,"corona beacon","日冕信标"
+CODEX_CARD_SIG_006_EFFECTDESCRIPTION,"Recruit Magnetic Storm; when there is already a Magnetic Storm, you will still get a Magnetic Storm to be deployed, which can be filled or fused.","招募磁暴；已有磁暴时仍获得待部署磁暴，可补位或融合。"
+CODEX_CARD_SIG_001_EFFECTDESCRIPTION,"Recruit coronas; if you already have coronas, you will still get coronas to be deployed, which can be filled in or fused.","招募日冕；已有日冕时仍获得待部署日冕，可补位或融合。"
+CODEX_CARD_SIG_001_SYNERGYDESCRIPTION,"Tides, thermal energy.","潮汐、热能。"
+CODEX_CARD_SIG_006_SYNERGYDESCRIPTION,"Nest mother, electromagnetism.","巢母、电磁。"
+CODEX_CARD_SIG_002_DISPLAYNAME,"tide beacon","潮汐信标"
+CODEX_CARD_SIG_007_DISPLAYNAME,"Breaking Formation Beacon","破阵信标"
+CODEX_CARD_SIG_002_EFFECTDESCRIPTION,"Recruit tides; if there are already tides, you will still get tides to be deployed, which can be filled or merged.","招募潮汐；已有潮汐时仍获得待部署潮汐，可补位或融合。"
+CODEX_CARD_SIG_007_EFFECTDESCRIPTION,"Recruit broken formations; if there are already broken formations, you will still get broken formations to be deployed, which can be filled or fused.","招募破阵；已有破阵时仍获得待部署破阵，可补位或融合。"
+CODEX_CARD_SIG_002_SYNERGYDESCRIPTION,"Corona, gravity.","日冕、引力。"
+CODEX_CARD_SIG_007_SYNERGYDESCRIPTION,"Iron Curtain, Kinetic Energy.","铁幕、动能。"
+CODEX_CARD_SIG_008_DISPLAYNAME,"iron curtain beacon","铁幕信标"
+CODEX_CARD_SIG_008_EFFECTDESCRIPTION,"Recruit the Iron Curtain; if there is already an Iron Curtain, you will still get the Iron Curtain to be deployed, which can be filled or fused.","招募铁幕；已有铁幕时仍获得待部署铁幕，可补位或融合。"
+CODEX_CARD_SIG_008_SYNERGYDESCRIPTION,"Break formation, front row.","破阵、前排。"
+CODEX_CARD_SIG_003_DISPLAYNAME,"Barrier Beacon","壁垒信标"
+CODEX_CARD_SIG_003_EFFECTDESCRIPTION,"Recruit barriers; if there are already barriers, you will still get barriers to be deployed, which can be filled or integrated.","招募壁垒；已有壁垒时仍获得待部署壁垒，可补位或融合。"
+CODEX_CARD_SIG_003_SYNERGYDESCRIPTION,"Bud cabin, front row.","芽舱、前排。"
+CODEX_CARD_SIG_009_DISPLAYNAME,"Quantum warship beacon","量子僚舰信标"
+CODEX_CARD_SIG_004_DISPLAYNAME,"pod beacon","芽舱信标"
+CODEX_CARD_SIG_004_EFFECTDESCRIPTION,"Recruit bud pods; if there are already bud pods, you will still get bud pods to be deployed, which can be filled or merged.","招募芽舱；已有芽舱时仍获得待部署芽舱，可补位或融合。"
+CODEX_CARD_SIG_004_SYNERGYDESCRIPTION,"Barrier, shield.","壁垒、护盾。"
+CODEX_CARD_SIG_009_EFFECTDESCRIPTION,"Recruit ""Refraction"" Quantum Support Ship: Adjacent ships gain 1 shield after every 3 completed attacks.","招募“折光”量子支援舰：相邻舰每完成 3 次攻击后获得 1 层护盾。"
+CODEX_CARD_SIG_005_DISPLAYNAME,"Nest Mother Beacon","巢母信标"
+CODEX_CARD_SIG_009_SYNERGYDESCRIPTION,"Singularity, shared battery.","奇点、共享电池。"
+CODEX_CARD_SIG_010_DISPLAYNAME,"Thermal role beacon","热能角色信标"
+CODEX_CARD_SIG_005_EFFECTDESCRIPTION,"Recruit the Hive Mother; if there is already a Hive Mother, you will still get the Hive Mother to be deployed, which can fill the position or fuse with it.","招募巢母；已有巢母时仍获得待部署巢母，可补位或融合。"
+CODEX_CARD_SIG_010_EFFECTDESCRIPTION,"A thermal random ship recruitment option will appear during the next upgrade.","下一次升级必出现 1 张热能随机舰船招募选项。"
+CODEX_CARD_SIG_005_SYNERGYDESCRIPTION,"Magnetic storms, drones.","磁暴、无人机。"
+CODEX_CARD_SIG_010_SYNERGYDESCRIPTION,"Corona, melt.","日冕、热熔。"
+CODEX_CARD_SIG_011_DISPLAYNAME,"electromagnetic role beacon","电磁角色信标"
+CODEX_CARD_SIG_011_EFFECTDESCRIPTION,"An electromagnetic random ship recruitment option will appear during the next upgrade.","下一次升级必出现 1 张电磁随机舰船招募选项。"
+CODEX_CARD_SIG_011_SYNERGYDESCRIPTION,"Magnetic storm, hive mother.","磁暴、巢母。"
+CODEX_CARD_SIG_006_DISPLAYNAME,"Magnetic storm beacon","磁暴信标"
+CODEX_CARD_SIG_012_DISPLAYNAME,"Kinetic Character Beacon","动能角色信标"
+CODEX_CARD_SIG_006_EFFECTDESCRIPTION,"Recruit Magnetic Storm; when there is already a Magnetic Storm, you will still get a Magnetic Storm to be deployed, which can be filled or fused.","招募磁暴；已有磁暴时仍获得待部署磁暴，可补位或融合。"
+CODEX_CARD_SIG_012_EFFECTDESCRIPTION,"The next upgrade will have a kinetic random ship recruitment option.","下一次升级必出现 1 张动能随机舰船招募选项。"
+CODEX_CARD_SIG_012_SYNERGYDESCRIPTION,"Breaking the formation, the Iron Curtain.","破阵、铁幕。"
+CODEX_CARD_SIG_006_SYNERGYDESCRIPTION,"Nest mother, electromagnetism.","巢母、电磁。"
+CODEX_CARD_SIG_013_DISPLAYNAME,"gravity role beacon","引力角色信标"
+CODEX_CARD_SIG_007_DISPLAYNAME,"Breaking Formation Beacon","破阵信标"
+CODEX_CARD_SIG_013_EFFECTDESCRIPTION,"A random ship recruitment option with gravity will appear in the next upgrade.","下一次升级必出现 1 张引力随机舰船招募选项。"
+CODEX_CARD_SIG_007_EFFECTDESCRIPTION,"Recruit broken formations; if there are already broken formations, you will still get broken formations to be deployed, which can be filled or fused.","招募破阵；已有破阵时仍获得待部署破阵，可补位或融合。"
+CODEX_CARD_SIG_013_SYNERGYDESCRIPTION,"Tides, gathering monsters.","潮汐、聚怪。"
+CODEX_CARD_SIG_007_SYNERGYDESCRIPTION,"Iron Curtain, Kinetic Energy.","铁幕、动能。"
+CODEX_CARD_SIG_008_DISPLAYNAME,"iron curtain beacon","铁幕信标"
+CODEX_CARD_SIG_014_DISPLAYNAME,"creature character beacon","生物角色信标"
+CODEX_CARD_SIG_008_EFFECTDESCRIPTION,"Recruit the Iron Curtain; if there is already an Iron Curtain, you will still get the Iron Curtain to be deployed, which can be filled or fused.","招募铁幕；已有铁幕时仍获得待部署铁幕，可补位或融合。"
+CODEX_CARD_SIG_014_EFFECTDESCRIPTION,"The next upgrade will have 1 creature as a random ship recruitment option.","下一次升级必出现 1 张生物随机舰船招募选项。"
+CODEX_CARD_SIG_014_SYNERGYDESCRIPTION,"Bud cabin, shield.","芽舱、护盾。"
+CODEX_CARD_SIG_008_SYNERGYDESCRIPTION,"Break formation, front row.","破阵、前排。"
+CODEX_CARD_SIG_015_DISPLAYNAME,"drone character beacon","无人机角色信标"
+CODEX_CARD_SIG_009_DISPLAYNAME,"Quantum warship beacon","量子僚舰信标"
+CODEX_CARD_SIG_015_EFFECTDESCRIPTION,"There will be a random recruitment option for the drone mothership in the next upgrade.","下一次升级必出现 1 张无人机母舰随机招募选项。"
+CODEX_CARD_SIG_009_EFFECTDESCRIPTION,"Recruit ""Refraction"" Quantum Support Ship: Adjacent ships gain 1 shield after every 3 completed attacks.","招募“折光”量子支援舰：相邻舰每完成 3 次攻击后获得 1 层护盾。"
+CODEX_CARD_SIG_015_SYNERGYDESCRIPTION,"Nest mother, replication cabin.","巢母、复制舱。"
+CODEX_CARD_SIG_009_SYNERGYDESCRIPTION,"Singularity, shared battery.","奇点、共享电池。"
+CODEX_CARD_SIG_010_DISPLAYNAME,"Thermal role beacon","热能角色信标"
+CODEX_CARD_SIG_010_EFFECTDESCRIPTION,"A thermal random ship recruitment option will appear during the next upgrade.","下一次升级必出现 1 张热能随机舰船招募选项。"
+CODEX_CARD_SIG_018_DISPLAYNAME,"Bond navigation","羁绊导航"
+CODEX_CARD_SIG_010_SYNERGYDESCRIPTION,"Corona, melt.","日冕、热熔。"
+CODEX_CARD_SIG_018_EFFECTDESCRIPTION,"Choose 1 bond from which a member is missing; the next ship beacon must contain its missing member.","从缺少成员的羁绊中选择 1 条；下一次舰船信标必含其缺失成员。"
+CODEX_CARD_SIG_011_DISPLAYNAME,"electromagnetic role beacon","电磁角色信标"
+CODEX_CARD_SIG_018_SYNERGYDESCRIPTION,"Pursue designated bonds.","追求指定羁绊。"
+CODEX_CARD_SIG_011_EFFECTDESCRIPTION,"An electromagnetic random ship recruitment option will appear during the next upgrade.","下一次升级必出现 1 张电磁随机舰船招募选项。"
+CODEX_CARD_SIG_019_DISPLAYNAME,"battlefield modification","战地改装"
+CODEX_CARD_SIG_011_SYNERGYDESCRIPTION,"Magnetic storm, hive mother.","磁暴、巢母。"
+CODEX_CARD_SIG_019_EFFECTDESCRIPTION,"Select an already owned ship: Get a random rare single ship modification, and its bond relationship will be immediately displayed.","选择已拥有舰船：获得 1 个随机稀有单舰改造，并立刻显示其羁绊关联。"
+CODEX_CARD_SIG_019_SYNERGYDESCRIPTION,"Ace ship and single ship modification.","王牌舰、单舰改造。"
+CODEX_CARD_SIG_012_DISPLAYNAME,"Kinetic Character Beacon","动能角色信标"
+CODEX_CARD_SYS_001_DISPLAYNAME,"composite shield","复合护盾"
+CODEX_CARD_SIG_012_EFFECTDESCRIPTION,"The next upgrade will have a kinetic random ship recruitment option.","下一次升级必出现 1 张动能随机舰船招募选项。"
+CODEX_CARD_SIG_012_SYNERGYDESCRIPTION,"Breaking the formation, the Iron Curtain.","破阵、铁幕。"
+CODEX_CARD_SYS_001_EFFECTDESCRIPTION,"Designated ship: Gain 1 layer of shields.","指定舰：获得 1 层护盾。"
+CODEX_CARD_SYS_001_SYNERGYDESCRIPTION,"Front row, shield construction.","前排、护盾构筑。"
+CODEX_CARD_SIG_013_DISPLAYNAME,"gravity role beacon","引力角色信标"
+CODEX_CARD_SYS_002_DISPLAYNAME,"Reinforcement skeleton","加固骨架"
+CODEX_CARD_SYS_002_EFFECTDESCRIPTION,"Designated ship: Gain 1 layer of shields.","指定舰：获得 1 层护盾。"
+CODEX_CARD_SIG_013_EFFECTDESCRIPTION,"A random ship recruitment option with gravity will appear in the next upgrade.","下一次升级必出现 1 张引力随机舰船招募选项。"
+CODEX_CARD_SIG_013_SYNERGYDESCRIPTION,"Tides, gathering monsters.","潮汐、聚怪。"
+CODEX_CARD_SYS_002_SYNERGYDESCRIPTION,"Share, shield.","分担、护盾。"
+CODEX_CARD_SIG_014_DISPLAYNAME,"creature character beacon","生物角色信标"
+CODEX_CARD_SYS_003_DISPLAYNAME,"pulse shield","脉冲护盾"
+CODEX_CARD_SYS_003_EFFECTDESCRIPTION,"Designated ship: Gain 1 shield every 8 seconds.","指定舰：每 8 秒获得 1 层护盾。"
+CODEX_CARD_SIG_014_EFFECTDESCRIPTION,"The next upgrade will have 1 creature as a random ship recruitment option.","下一次升级必出现 1 张生物随机舰船招募选项。"
+CODEX_CARD_SYS_003_SYNERGYDESCRIPTION,"Break formation, front row.","破阵、前排。"
+CODEX_CARD_SIG_014_SYNERGYDESCRIPTION,"Bud cabin, shield.","芽舱、护盾。"
+CODEX_CARD_SYS_004_DISPLAYNAME,"emergency jump","应急跃迁"
+CODEX_CARD_SIG_015_DISPLAYNAME,"drone character beacon","无人机角色信标"
+CODEX_CARD_SYS_004_EFFECTDESCRIPTION,"Designated rear row ship: When locked by a remote enemy for the first time, it will move a short distance to the fleet anchor point, with a cooldown of 20 seconds.","指定后排舰：首次被远程敌锁定时向舰队锚点短距位移，冷却 20 秒。"
+CODEX_CARD_SIG_015_EFFECTDESCRIPTION,"There will be a random recruitment option for the drone mothership in the next upgrade.","下一次升级必出现 1 张无人机母舰随机招募选项。"
+CODEX_CARD_SYS_004_SYNERGYDESCRIPTION,"Needle boats counterattack and defend.","针刺艇反制、守卫。"
+CODEX_CARD_SIG_015_SYNERGYDESCRIPTION,"Nest mother, replication cabin.","巢母、复制舱。"
+CODEX_CARD_SYS_005_DISPLAYNAME,"recoil thruster","反冲推进器"
+CODEX_CARD_SIG_018_DISPLAYNAME,"Bond navigation","羁绊导航"
+CODEX_CARD_SYS_005_EFFECTDESCRIPTION,"Designated ship: Movement speed +15%.","指定舰：移速 +15%。"
+CODEX_CARD_SIG_018_EFFECTDESCRIPTION,"Choose 1 bond from which a member is missing; the next ship beacon must contain its missing member.","从缺少成员的羁绊中选择 1 条；下一次舰船信标必含其缺失成员。"
+CODEX_CARD_SYS_005_SYNERGYDESCRIPTION,"Gravity mine, stable formation.","引力雷、阵型稳定。"
+CODEX_CARD_SIG_018_SYNERGYDESCRIPTION,"Pursue designated bonds.","追求指定羁绊。"
+CODEX_CARD_SIG_019_DISPLAYNAME,"battlefield modification","战地改装"
+CODEX_CARD_SIG_019_EFFECTDESCRIPTION,"Select an already owned ship: Get a random rare single ship modification, and its bond relationship will be immediately displayed.","选择已拥有舰船：获得 1 个随机稀有单舰改造，并立刻显示其羁绊关联。"
+CODEX_CARD_SYS_006_DISPLAYNAME,"sacrificial shield","牺牲护盾"
+CODEX_CARD_SIG_019_SYNERGYDESCRIPTION,"Ace ship and single ship modification.","王牌舰、单舰改造。"
+CODEX_CARD_SYS_006_EFFECTDESCRIPTION,"Designated guard ship: Gain 2 layers of shields and deal -12% damage to itself.","指定守卫舰：获得 2 层护盾，自身造成伤害 -12%。"
+CODEX_CARD_SYS_001_DISPLAYNAME,"composite shield","复合护盾"
+CODEX_CARD_SYS_006_SYNERGYDESCRIPTION,"Share, shield pulse.","分担、护盾脉冲。"
+CODEX_CARD_SYS_007_DISPLAYNAME,"Nano protective film","纳米护膜"
+CODEX_CARD_SYS_001_EFFECTDESCRIPTION,"Designated ship: Gain 1 layer of shields.","指定舰：获得 1 层护盾。"
+CODEX_CARD_SYS_007_EFFECTDESCRIPTION,"Designated ship: Gain 1 layer of shield after not being hit for 4 seconds.","指定舰：连续 4 秒未被命中后获得 1 层护盾。"
+CODEX_CARD_SYS_001_SYNERGYDESCRIPTION,"Front row, shield construction.","前排、护盾构筑。"
+CODEX_CARD_SYS_007_SYNERGYDESCRIPTION,"Back row, shield.","后排、护盾。"
+CODEX_CARD_SYS_002_DISPLAYNAME,"Reinforcement skeleton","加固骨架"
+CODEX_CARD_SYS_008_DISPLAYNAME,"Desperate Calibration","绝境校准"
+CODEX_CARD_SYS_008_EFFECTDESCRIPTION,"Designated ship: Damage +35% when shield is 0.","指定舰：护盾为 0 时伤害 +35%。"
+CODEX_CARD_SYS_002_EFFECTDESCRIPTION,"Designated ship: Gain 1 layer of shields.","指定舰：获得 1 层护盾。"
+CODEX_CARD_SYS_008_SYNERGYDESCRIPTION,"Barrier, shield.","壁垒、护盾。"
+CODEX_CARD_SYS_002_SYNERGYDESCRIPTION,"Share, shield.","分担、护盾。"
+CODEX_CARD_SYS_009_DISPLAYNAME,"silent shell","静默外壳"
+CODEX_CARD_SYS_009_EFFECTDESCRIPTION,"Designated rear row ship: the time required to be locked by a remote enemy +0.5 seconds.","指定后排舰：被远程敌人锁定所需时间 +0.5 秒。"
+CODEX_CARD_SYS_003_DISPLAYNAME,"pulse shield","脉冲护盾"
+CODEX_CARD_SYS_009_SYNERGYDESCRIPTION,"Acupuncture boat, transposition.","针刺艇、换位。"
+CODEX_CARD_SYS_003_EFFECTDESCRIPTION,"Designated ship: Gain 1 shield every 8 seconds.","指定舰：每 8 秒获得 1 层护盾。"
+CODEX_CARD_SYS_010_DISPLAYNAME,"Shield interface","护盾接口"
+CODEX_CARD_SYS_003_SYNERGYDESCRIPTION,"Break formation, front row.","破阵、前排。"
+CODEX_CARD_SYS_010_EFFECTDESCRIPTION,"Designated ship: 25% chance to gain 1 additional layer when gaining shield; once every 8 seconds.","指定舰：获得护盾时有 25% 概率额外获得 1 层；每 8 秒一次。"
+CODEX_CARD_SYS_004_DISPLAYNAME,"emergency jump","应急跃迁"
+CODEX_CARD_SYS_010_SYNERGYDESCRIPTION,"Bud cabin, life barrier.","芽舱、生命壁垒。"
+CODEX_CARD_SYS_012_DISPLAYNAME,"Shared battery","共享电池"
+CODEX_CARD_SYS_004_EFFECTDESCRIPTION,"Designated rear row ship: When locked by a remote enemy for the first time, it will move a short distance to the fleet anchor point, with a cooldown of 20 seconds.","指定后排舰：首次被远程敌锁定时向舰队锚点短距位移，冷却 20 秒。"
+CODEX_CARD_SYS_012_EFFECTDESCRIPTION,"Designated mid-row ship: After an adjacent ship triggers control, shield or close counterattack, its next hit will deal +25% damage.","指定中排舰：相邻舰触发控制、护盾或近距反击后，自身下一击伤害 +25%。"
+CODEX_CARD_SYS_012_SYNERGYDESCRIPTION,"Command ship, control.","指挥舰、控制。"
+CODEX_CARD_SYS_004_SYNERGYDESCRIPTION,"Needle boats counterattack and defend.","针刺艇反制、守卫。"
+CODEX_CARD_SYS_015_DISPLAYNAME,"reactive shield","反应护盾"
+CODEX_CARD_SYS_005_DISPLAYNAME,"recoil thruster","反冲推进器"
+CODEX_CARD_SYS_015_EFFECTDESCRIPTION,"When the designated ship's shield is broken, 1 layer of shield will be replenished immediately; once every 8 seconds.","指定舰护盾被击破时，立即补充 1 层护盾；每 8 秒一次。"
+CODEX_CARD_SYS_015_SYNERGYDESCRIPTION,"Boss, front row.","Boss、前排。"
+CODEX_CARD_SYS_016_DISPLAYNAME,"Energy skimming core","掠能核心"
+CODEX_CARD_SYS_005_EFFECTDESCRIPTION,"Designated ship: Movement speed +15%.","指定舰：移速 +15%。"
+CODEX_CARD_SYS_005_SYNERGYDESCRIPTION,"Gravity mine, stable formation.","引力雷、阵型稳定。"
+CODEX_CARD_SYS_016_EFFECTDESCRIPTION,"When the designated ship kills an elite sub-machine, it will gain 1 layer of shield.","指定舰击杀精英子机时获得 1 层护盾。"
+CODEX_CARD_SYS_006_DISPLAYNAME,"sacrificial shield","牺牲护盾"
+CODEX_CARD_SYS_016_SYNERGYDESCRIPTION,"Carrying aircraft and clearing debris.","载机、清杂。"
+CODEX_CARD_SYS_006_EFFECTDESCRIPTION,"Designated guard ship: Gain 2 layers of shields and deal -12% damage to itself.","指定守卫舰：获得 2 层护盾，自身造成伤害 -12%。"
+CODEX_CARD_SYS_017_DISPLAYNAME,"connecting catheter","联结导管"
+CODEX_CARD_SYS_006_SYNERGYDESCRIPTION,"Share, shield pulse.","分担、护盾脉冲。"
+CODEX_CARD_SYS_017_EFFECTDESCRIPTION,"The designated ship obtains characteristics: 20% of the shields obtained by adjacent ships are copied to itself.","指定舰获得特性：相邻舰获得的护盾有 20% 复制给自身。"
+CODEX_CARD_SYS_017_SYNERGYDESCRIPTION,"Shield Flow, Iron Curtain.","护盾流、铁幕。"
+CODEX_CARD_SYS_007_DISPLAYNAME,"Nano protective film","纳米护膜"
+CODEX_CARD_SYS_018_DISPLAYNAME,"emergency beacon","紧急信标"
+CODEX_CARD_SYS_018_EFFECTDESCRIPTION,"When the designated ship is destroyed for the first time, the hit will be offset and 1 layer of shield will be gained, once in a single round.","指定舰首次将被击毁时，抵消该次命中并获得 1 层护盾，单局一次。"
+CODEX_CARD_SYS_018_SYNERGYDESCRIPTION,"High risk front row, shield.","高风险前排、护盾。"
+CODEX_CARD_SYS_007_EFFECTDESCRIPTION,"Designated ship: Gain 1 layer of shield after not being hit for 4 seconds.","指定舰：连续 4 秒未被命中后获得 1 层护盾。"
+CODEX_CARD_SYS_019_DISPLAYNAME,"decoy drone","诱饵无人机"
+CODEX_CARD_SYS_007_SYNERGYDESCRIPTION,"Back row, shield.","后排、护盾。"
+CODEX_CARD_SYS_008_DISPLAYNAME,"Desperate Calibration","绝境校准"
+CODEX_CARD_SYS_008_EFFECTDESCRIPTION,"Designated ship: Damage +35% when shield is 0.","指定舰：护盾为 0 时伤害 +35%。"
+CODEX_CARD_SYS_019_EFFECTDESCRIPTION,"Designated back-row ships gain the characteristic: release a decoy every 12 seconds, attracting remote locks for 2 seconds.","指定后排舰获得特性：每 12 秒放出诱饵，吸引远程锁定 2 秒。"
+CODEX_CARD_SYS_019_SYNERGYDESCRIPTION,"Bombardment/Mothership Protection.","炮击/母舰保护。"
+CODEX_CARD_SYS_020_DISPLAYNAME,"Overloaded furnace","超载熔炉"
+CODEX_CARD_SYS_020_EFFECTDESCRIPTION,"The designated ship obtains characteristics: each attack adds 1% damage, and after reaching 12 layers, it will be cleared and consume 1 layer of shield; this round of liquidation will not be triggered when there is no shield.","指定舰获得特性：每次攻击叠加 1% 伤害，至 12 层后清空并消耗 1 层护盾；无护盾时不触发本轮清算。"
+CODEX_CARD_SYS_008_SYNERGYDESCRIPTION,"Barrier, shield.","壁垒、护盾。"
+CODEX_CARD_SYS_020_SYNERGYDESCRIPTION,"Attack speed, shield.","攻速、护盾。"
+CODEX_CARD_TRT_001_DISPLAYNAME,"gunnery calibration","炮击校准"
+CODEX_CARD_SYS_009_DISPLAYNAME,"silent shell","静默外壳"
+CODEX_CARD_TRT_001_EFFECTDESCRIPTION,"All gunnery ships: +12% range.","全部炮击舰：射程 +12%。"
+CODEX_CARD_SYS_009_EFFECTDESCRIPTION,"Designated rear row ship: the time required to be locked by a remote enemy +0.5 seconds.","指定后排舰：被远程敌人锁定所需时间 +0.5 秒。"
+CODEX_CARD_TRT_001_SYNERGYDESCRIPTION,"Rear grid, focusing prism.","后排格位、聚焦棱镜。"
+CODEX_CARD_TRT_002_DISPLAYNAME,"defensive front","守卫阵线"
+CODEX_CARD_SYS_009_SYNERGYDESCRIPTION,"Acupuncture boat, transposition.","针刺艇、换位。"
+CODEX_CARD_SYS_010_DISPLAYNAME,"Shield interface","护盾接口"
+CODEX_CARD_SYS_010_EFFECTDESCRIPTION,"Designated ship: 25% chance to gain 1 additional layer when gaining shield; once every 8 seconds.","指定舰：获得护盾时有 25% 概率额外获得 1 层；每 8 秒一次。"
+CODEX_CARD_TRT_002_EFFECTDESCRIPTION,"All guard ships gain 1 layer of shields; the front row receives an additional +1 layer of shields.","全部守卫舰获得 1 层护盾；前排额外 +1 层。"
+CODEX_CARD_SYS_010_SYNERGYDESCRIPTION,"Bud cabin, life barrier.","芽舱、生命壁垒。"
+CODEX_CARD_TRT_002_SYNERGYDESCRIPTION,"Double guard, shield barrier.","双守卫、护盾壁垒。"
+CODEX_CARD_TRT_003_DISPLAYNAME,"Assault inertia","突击惯性"
+CODEX_CARD_SYS_012_DISPLAYNAME,"Shared battery","共享电池"
+CODEX_CARD_TRT_003_EFFECTDESCRIPTION,"All Assault Ships: +20% damage for 1 second after swapping positions.","全部突击舰：交换位置后 1 秒内伤害 +20%。"
+CODEX_CARD_SYS_012_EFFECTDESCRIPTION,"Designated mid-row ship: After an adjacent ship triggers control, shield or close counterattack, its next hit will deal +25% damage.","指定中排舰：相邻舰触发控制、护盾或近距反击后，自身下一击伤害 +25%。"
+CODEX_CARD_TRT_003_SYNERGYDESCRIPTION,"Angle of attack is supercharged and positions are swapped.","冲角增压、位置交换。"
+CODEX_CARD_SYS_012_SYNERGYDESCRIPTION,"Command ship, control.","指挥舰、控制。"
+CODEX_CARD_TRT_004_DISPLAYNAME,"Control the aftermath","控制余波"
+CODEX_CARD_SYS_015_DISPLAYNAME,"reactive shield","反应护盾"
+CODEX_CARD_TRT_004_EFFECTDESCRIPTION,"All control ships: When control ends, the target is slowed down by 35% for 1 second.","全部控制舰：控制结束时目标减速 35%，持续 1 秒。"
+CODEX_CARD_TRT_004_SYNERGYDESCRIPTION,"Magnetic storm, hive mother.","磁暴、巢母。"
+CODEX_CARD_SYS_015_EFFECTDESCRIPTION,"When the designated ship's shield is broken, 1 layer of shield will be replenished immediately; once every 8 seconds.","指定舰护盾被击破时，立即补充 1 层护盾；每 8 秒一次。"
+CODEX_CARD_TRT_005_DISPLAYNAME,"Support network","支援网络"
+CODEX_CARD_TRT_005_EFFECTDESCRIPTION,"All support ships: Shield grant range +1 hex.","全部支援舰：护盾授予范围 +1 格。"
+CODEX_CARD_TRT_005_SYNERGYDESCRIPTION,"Bud cabin, middle row.","芽舱、中排。"
+CODEX_CARD_SYS_015_SYNERGYDESCRIPTION,"Boss, front row.","Boss、前排。"
+CODEX_CARD_SYS_016_DISPLAYNAME,"Energy skimming core","掠能核心"
+CODEX_CARD_TRT_006_DISPLAYNAME,"mothership chain of command","母舰指挥链"
+CODEX_CARD_TRT_006_EFFECTDESCRIPTION,"All Motherships: Drone damage +25% when attacking controlled targets.","全部母舰：无人机攻击受控目标时伤害 +25%。"
+CODEX_CARD_TRT_006_SYNERGYDESCRIPTION,"Magnetic storms, tides.","磁暴、潮汐。"
+CODEX_CARD_SYS_016_EFFECTDESCRIPTION,"When the designated ship kills an elite sub-machine, it will gain 1 layer of shield.","指定舰击杀精英子机时获得 1 层护盾。"
+CODEX_CARD_TRT_007_DISPLAYNAME,"thermal resonance","热能共鸣"
+CODEX_CARD_SYS_016_SYNERGYDESCRIPTION,"Carrying aircraft and clearing debris.","载机、清杂。"
+CODEX_CARD_TRT_007_EFFECTDESCRIPTION,"For every 2 Thermal Ships, the entire fleet burns damage +20%.","每有 2 艘热能舰，全队燃烧伤害 +20%。"
+CODEX_CARD_TRT_007_SYNERGYDESCRIPTION,"Corona, melta warhead.","日冕、热熔弹头。"
+CODEX_CARD_TRT_008_DISPLAYNAME,"electromagnetic response","电磁回响"
+CODEX_CARD_TRT_008_EFFECTDESCRIPTION,"When electromagnetic control hits, the nearest drone gains 15% attack speed for 3 seconds.","电磁控制命中时，最近无人机获得 15% 攻速，持续 3 秒。"
+CODEX_CARD_SYS_017_DISPLAYNAME,"connecting catheter","联结导管"
+CODEX_CARD_TRT_008_SYNERGYDESCRIPTION,"Swarm loop.","蜂群回路。"
+CODEX_CARD_TRT_010_DISPLAYNAME,"gravitational tides","引力潮汐"
+CODEX_CARD_SYS_017_EFFECTDESCRIPTION,"The designated ship obtains characteristics: 20% of the shields obtained by adjacent ships are copied to itself.","指定舰获得特性：相邻舰获得的护盾有 20% 复制给自身。"
+CODEX_CARD_TRT_010_EFFECTDESCRIPTION,"Enemies within the gravity field take 12% damage from the gravity ship's main gun every second.","引力场内敌人每秒受到 12% 引力舰主炮伤害。"
+CODEX_CARD_SYS_017_SYNERGYDESCRIPTION,"Shield Flow, Iron Curtain.","护盾流、铁幕。"
+CODEX_CARD_TRT_010_SYNERGYDESCRIPTION,"Gather monsters and explode.","聚怪、爆炸。"
+CODEX_CARD_SYS_018_DISPLAYNAME,"emergency beacon","紧急信标"
+CODEX_CARD_TRT_011_DISPLAYNAME,"Quantum synchronization","量子同步"
+CODEX_CARD_SYS_018_EFFECTDESCRIPTION,"When the designated ship is destroyed for the first time, the hit will be offset and 1 layer of shield will be gained, once in a single round.","指定舰首次将被击毁时，抵消该次命中并获得 1 层护盾，单局一次。"
+CODEX_CARD_SYS_018_SYNERGYDESCRIPTION,"High risk front row, shield.","高风险前排、护盾。"
+CODEX_CARD_SYS_019_DISPLAYNAME,"decoy drone","诱饵无人机"
+CODEX_CARD_TRT_011_EFFECTDESCRIPTION,"Every time Singularity completes its third main gun hit, the next attack of the adjacent quantum ship will be a critical hit.","奇点每完成第 3 次主炮命中，相邻量子舰下一次攻击必暴击。"
+CODEX_CARD_SYS_019_EFFECTDESCRIPTION,"Designated back-row ships gain the characteristic: release a decoy every 12 seconds, attracting remote locks for 2 seconds.","指定后排舰获得特性：每 12 秒放出诱饵，吸引远程锁定 2 秒。"
+CODEX_CARD_SYS_019_SYNERGYDESCRIPTION,"Bombardment/Mothership Protection.","炮击/母舰保护。"
+CODEX_CARD_SYS_020_DISPLAYNAME,"Overloaded furnace","超载熔炉"
+CODEX_CARD_TRT_011_SYNERGYDESCRIPTION,"Singularity, quantum expansion.","奇点、量子扩展。"
+CODEX_CARD_SYS_020_EFFECTDESCRIPTION,"The designated ship obtains characteristics: each attack adds 1% damage, and after reaching 12 layers, it will be cleared and consume 1 layer of shield; this round of liquidation will not be triggered when there is no shield.","指定舰获得特性：每次攻击叠加 1% 伤害，至 12 层后清空并消耗 1 层护盾；无护盾时不触发本轮清算。"
+CODEX_CARD_TRT_012_DISPLAYNAME,"biological shield chain","生物护盾链"
+CODEX_CARD_SYS_020_SYNERGYDESCRIPTION,"Attack speed, shield.","攻速、护盾。"
+CODEX_CARD_TRT_001_DISPLAYNAME,"gunnery calibration","炮击校准"
+CODEX_CARD_TRT_012_EFFECTDESCRIPTION,"When bio-support is triggered, the target is granted an additional layer of shield.","生物支援触发时额外给予目标 1 层护盾。"
+CODEX_CARD_TRT_012_SYNERGYDESCRIPTION,"Bud cabin, front row.","芽舱、前排。"
+CODEX_CARD_TRT_001_EFFECTDESCRIPTION,"All gunnery ships: +12% range.","全部炮击舰：射程 +12%。"
+CODEX_CARD_TRT_001_SYNERGYDESCRIPTION,"Rear grid, focusing prism.","后排格位、聚焦棱镜。"
+CODEX_CARD_TRT_002_DISPLAYNAME,"defensive front","守卫阵线"
+CODEX_CARD_TRT_002_EFFECTDESCRIPTION,"All guard ships gain 1 layer of shields; the front row receives an additional +1 layer of shields.","全部守卫舰获得 1 层护盾；前排额外 +1 层。"
+CODEX_CARD_TRT_013_DISPLAYNAME,"UAV formation","无人机编队"
+CODEX_CARD_TRT_002_SYNERGYDESCRIPTION,"Double guard, shield barrier.","双守卫、护盾壁垒。"
+CODEX_CARD_TRT_013_EFFECTDESCRIPTION,"For every 3 drones, the mothership's damage +8%.","每有 3 架无人机，母舰本体伤害 +8%。"
+CODEX_CARD_TRT_003_DISPLAYNAME,"Assault inertia","突击惯性"
+CODEX_CARD_TRT_003_EFFECTDESCRIPTION,"All Assault Ships: +20% damage for 1 second after swapping positions.","全部突击舰：交换位置后 1 秒内伤害 +20%。"
+CODEX_CARD_TRT_013_SYNERGYDESCRIPTION,"Replication cabin, nest mother.","复制舱、巢母。"
+CODEX_CARD_TRT_003_SYNERGYDESCRIPTION,"Angle of attack is supercharged and positions are swapped.","冲角增压、位置交换。"
+CODEX_CARD_TRT_014_DISPLAYNAME,"forward instinct","前锋本能"
+CODEX_CARD_TRT_004_DISPLAYNAME,"Control the aftermath","控制余波"
+CODEX_CARD_TRT_004_EFFECTDESCRIPTION,"All control ships: When control ends, the target is slowed down by 35% for 1 second.","全部控制舰：控制结束时目标减速 35%，持续 1 秒。"
+CODEX_CARD_TRT_004_SYNERGYDESCRIPTION,"Magnetic storm, hive mother.","磁暴、巢母。"
+CODEX_CARD_TRT_014_EFFECTDESCRIPTION,"The first time a frontline ship hits an elite, it will take +10% damage for 4 seconds.","前排舰首次命中精英时，使其受伤害 +10%，持续 4 秒。"
+CODEX_CARD_TRT_005_DISPLAYNAME,"Support network","支援网络"
+CODEX_CARD_TRT_005_EFFECTDESCRIPTION,"All support ships: Shield grant range +1 hex.","全部支援舰：护盾授予范围 +1 格。"
+CODEX_CARD_TRT_005_SYNERGYDESCRIPTION,"Bud cabin, middle row.","芽舱、中排。"
+CODEX_CARD_TRT_014_SYNERGYDESCRIPTION,"Break the formation and the whole team explodes.","破阵、全队爆发。"
+CODEX_CARD_TRT_006_DISPLAYNAME,"mothership chain of command","母舰指挥链"
+CODEX_CARD_TRT_006_EFFECTDESCRIPTION,"All Motherships: Drone damage +25% when attacking controlled targets.","全部母舰：无人机攻击受控目标时伤害 +25%。"
+CODEX_CARD_TRT_006_SYNERGYDESCRIPTION,"Magnetic storms, tides.","磁暴、潮汐。"
+CODEX_CARD_TRT_007_DISPLAYNAME,"thermal resonance","热能共鸣"
+CODEX_CARD_TRT_015_DISPLAYNAME,"logistics mark","后勤标记"
+CODEX_CARD_TRT_007_EFFECTDESCRIPTION,"For every 2 Thermal Ships, the entire fleet burns damage +20%.","每有 2 艘热能舰，全队燃烧伤害 +20%。"
+CODEX_CARD_TRT_007_SYNERGYDESCRIPTION,"Corona, melta warhead.","日冕、热熔弹头。"
+CODEX_CARD_TRT_008_DISPLAYNAME,"electromagnetic response","电磁回响"
+CODEX_CARD_TRT_015_EFFECTDESCRIPTION,"When the middle row support/control ships are adjacent, the interval between both sides automatically triggering the effect is -8%.","中排支援/控制舰相邻时，双方自动触发效果的间隔 -8%。"
+CODEX_CARD_TRT_008_EFFECTDESCRIPTION,"When electromagnetic control hits, the nearest drone gains 15% attack speed for 3 seconds.","电磁控制命中时，最近无人机获得 15% 攻速，持续 3 秒。"
+CODEX_CARD_TRT_008_SYNERGYDESCRIPTION,"Swarm loop.","蜂群回路。"
+CODEX_CARD_TRT_010_DISPLAYNAME,"gravitational tides","引力潮汐"
+CODEX_CARD_TRT_010_EFFECTDESCRIPTION,"Enemies within the gravity field take 12% damage from the gravity ship's main gun every second.","引力场内敌人每秒受到 12% 引力舰主炮伤害。"
+CODEX_CARD_TRT_015_SYNERGYDESCRIPTION,"Tides, bud cabins, magnetic storms.","潮汐、芽舱、磁暴。"
+CODEX_CARD_TRT_010_SYNERGYDESCRIPTION,"Gather monsters and explode.","聚怪、爆炸。"
+CODEX_CARD_TRT_017_DISPLAYNAME,"hunting algorithm","追猎算法"
+CODEX_CARD_TRT_011_DISPLAYNAME,"Quantum synchronization","量子同步"
+CODEX_CARD_TRT_011_EFFECTDESCRIPTION,"Every time Singularity completes its third main gun hit, the next attack of the adjacent quantum ship will be a critical hit.","奇点每完成第 3 次主炮命中，相邻量子舰下一次攻击必暴击。"
+CODEX_CARD_TRT_017_EFFECTDESCRIPTION,"+12% critical hit chance when attacking controlled or burning enemies.","炮击舰攻击被控制或燃烧的敌人时暴击率 +12%。"
+CODEX_CARD_TRT_011_SYNERGYDESCRIPTION,"Singularity, quantum expansion.","奇点、量子扩展。"
+CODEX_CARD_TRT_012_DISPLAYNAME,"biological shield chain","生物护盾链"
+CODEX_CARD_TRT_012_EFFECTDESCRIPTION,"When bio-support is triggered, the target is granted an additional layer of shield.","生物支援触发时额外给予目标 1 层护盾。"
+CODEX_CARD_TRT_012_SYNERGYDESCRIPTION,"Bud cabin, front row.","芽舱、前排。"
+CODEX_CARD_TRT_017_SYNERGYDESCRIPTION,"Corona, tides, magnetic storms.","日冕、潮汐、磁暴。"
+CODEX_CARD_TRT_013_DISPLAYNAME,"UAV formation","无人机编队"
+CODEX_CARD_TRT_018_DISPLAYNAME,"resilient spores","韧性孢群"
+CODEX_CARD_TRT_013_EFFECTDESCRIPTION,"For every 3 drones, the mothership's damage +8%.","每有 3 架无人机，母舰本体伤害 +8%。"
+CODEX_CARD_TRT_018_EFFECTDESCRIPTION,"When the biological ship's adjacent guard ship is destroyed, other adjacent ships will immediately gain 1 layer of shield, once in a single round.","生物舰相邻守卫舰被击毁时，其他相邻舰立即获得 1 层护盾，单局一次。"
+CODEX_CARD_TRT_013_SYNERGYDESCRIPTION,"Replication cabin, nest mother.","复制舱、巢母。"
+CODEX_CARD_TRT_018_SYNERGYDESCRIPTION,"Life barrier.","生命壁垒。"
+CODEX_CARD_TRT_014_DISPLAYNAME,"forward instinct","前锋本能"
+CODEX_CARD_TRT_019_DISPLAYNAME,"resonance slot","共振插槽"
+CODEX_CARD_TRT_014_EFFECTDESCRIPTION,"The first time a frontline ship hits an elite, it will take +10% damage for 4 seconds.","前排舰首次命中精英时，使其受伤害 +10%，持续 4 秒。"
+CODEX_CARD_TRT_019_EFFECTDESCRIPTION,"The designated ship acquires the characteristic: it is also considered the first tag of its neighboring ships.","指定舰获得特性：同时视为其相邻舰的第一个标签。"
+CODEX_CARD_TRT_014_SYNERGYDESCRIPTION,"Break the formation and the whole team explodes.","破阵、全队爆发。"
+CODEX_CARD_TRT_019_SYNERGYDESCRIPTION,"Label resonance, bond preparation.","标签共鸣、羁绊预备。"
+CODEX_CARD_TRT_015_DISPLAYNAME,"logistics mark","后勤标记"
+CODEX_CARD_TRT_015_EFFECTDESCRIPTION,"When the middle row support/control ships are adjacent, the interval between both sides automatically triggering the effect is -8%.","中排支援/控制舰相邻时，双方自动触发效果的间隔 -8%。"
+CODEX_CARD_TRT_015_SYNERGYDESCRIPTION,"Tides, bud cabins, magnetic storms.","潮汐、芽舱、磁暴。"
+CODEX_CARD_TRT_017_DISPLAYNAME,"hunting algorithm","追猎算法"
+CODEX_CARD_TRT_020_DISPLAYNAME,"Commander's intuition","指挥官直觉"
+CODEX_CARD_TRT_020_EFFECTDESCRIPTION,"When there is 1 ship of each different character, the team's damage +18%.","每种不同角色各有 1 艘时，全队伤害 +18%。"
+CODEX_CARD_TRT_017_EFFECTDESCRIPTION,"+12% critical hit chance when attacking controlled or burning enemies.","炮击舰攻击被控制或燃烧的敌人时暴击率 +12%。"
+CODEX_CARD_TRT_020_SYNERGYDESCRIPTION,"Multi-role formation.","多角色编队。"
+CODEX_CARD_TRT_017_SYNERGYDESCRIPTION,"Corona, tides, magnetic storms.","日冕、潮汐、磁暴。"
+CODEX_CARD_TRT_018_DISPLAYNAME,"resilient spores","韧性孢群"
+CODEX_CARD_WPN_001_DISPLAYNAME,"penetrating lens","穿透透镜"
+CODEX_CARD_WPN_001_EFFECTDESCRIPTION,"Designated artillery/command ship: Main battery penetration +1.","指定炮击/指挥舰：主炮穿透 +1。"
+CODEX_CARD_TRT_018_EFFECTDESCRIPTION,"When the biological ship's adjacent guard ship is destroyed, other adjacent ships will immediately gain 1 layer of shield, once in a single round.","生物舰相邻守卫舰被击毁时，其他相邻舰立即获得 1 层护盾，单局一次。"
+CODEX_CARD_TRT_018_SYNERGYDESCRIPTION,"Life barrier.","生命壁垒。"
+CODEX_CARD_TRT_020_DISPLAYNAME,"Commander's intuition","指挥官直觉"
+CODEX_CARD_TRT_019_DISPLAYNAME,"resonance slot","共振插槽"
+CODEX_CARD_TRT_020_EFFECTDESCRIPTION,"When there is 1 ship of each different character, the team's damage +18%.","每种不同角色各有 1 艘时，全队伤害 +18%。"
+CODEX_CARD_TRT_019_EFFECTDESCRIPTION,"The designated ship acquires the characteristic: it is also considered the first tag of its neighboring ships.","指定舰获得特性：同时视为其相邻舰的第一个标签。"
+CODEX_CARD_WPN_001_SYNERGYDESCRIPTION,"The corona burns and gathers monsters.","日冕燃烧、聚怪。"
+CODEX_CARD_TRT_020_SYNERGYDESCRIPTION,"Multi-role formation.","多角色编队。"
+CODEX_CARD_TRT_019_SYNERGYDESCRIPTION,"Label resonance, bond preparation.","标签共鸣、羁绊预备。"
+CODEX_CARD_WPN_001_DISPLAYNAME,"penetrating lens","穿透透镜"
+CODEX_CARD_WPN_001_EFFECTDESCRIPTION,"Designated artillery/command ship: Main battery penetration +1.","指定炮击/指挥舰：主炮穿透 +1。"
+CODEX_CARD_TRT_020_DISPLAYNAME,"Commander's intuition","指挥官直觉"
+CODEX_CARD_WPN_001_SYNERGYDESCRIPTION,"The corona burns and gathers monsters.","日冕燃烧、聚怪。"
+CODEX_CARD_TRT_020_EFFECTDESCRIPTION,"When there is 1 ship of each different character, the team's damage +18%.","每种不同角色各有 1 艘时，全队伤害 +18%。"
+CODEX_CARD_WPN_002_DISPLAYNAME,"high frequency feed","高频供弹"
+CODEX_CARD_TRT_020_SYNERGYDESCRIPTION,"Multi-role formation.","多角色编队。"
+CODEX_CARD_WPN_002_DISPLAYNAME,"high frequency feed","高频供弹"
+CODEX_CARD_WPN_001_DISPLAYNAME,"penetrating lens","穿透透镜"
+CODEX_CARD_WPN_002_EFFECTDESCRIPTION,"Designated ship: firing interval -10%.","指定舰：射击间隔 -10%。"
+CODEX_CARD_WPN_001_EFFECTDESCRIPTION,"Designated artillery/command ship: Main battery penetration +1.","指定炮击/指挥舰：主炮穿透 +1。"
+CODEX_CARD_WPN_001_SYNERGYDESCRIPTION,"The corona burns and gathers monsters.","日冕燃烧、聚怪。"
+CODEX_CARD_WPN_002_EFFECTDESCRIPTION,"Designated ship: firing interval -10%.","指定舰：射击间隔 -10%。"
+CODEX_CARD_WPN_002_SYNERGYDESCRIPTION,"Hit trigger, drone.","命中触发、无人机。"
+CODEX_CARD_WPN_002_DISPLAYNAME,"high frequency feed","高频供弹"
+CODEX_CARD_WPN_003_DISPLAYNAME,"focusing prism","聚焦棱镜"
+CODEX_CARD_WPN_002_EFFECTDESCRIPTION,"Designated ship: firing interval -10%.","指定舰：射击间隔 -10%。"
+CODEX_CARD_WPN_002_SYNERGYDESCRIPTION,"Hit trigger, drone.","命中触发、无人机。"
+CODEX_CARD_WPN_003_DISPLAYNAME,"focusing prism","聚焦棱镜"
+CODEX_CARD_WPN_002_SYNERGYDESCRIPTION,"Hit trigger, drone.","命中触发、无人机。"
+CODEX_CARD_WPN_003_EFFECTDESCRIPTION,"Designated ship: main gun damage +18%, range -8%.","指定舰：主炮伤害 +18%，射程 -8%。"
+CODEX_CARD_WPN_003_DISPLAYNAME,"focusing prism","聚焦棱镜"
+CODEX_CARD_WPN_003_SYNERGYDESCRIPTION,"The front row assaults, the back row increases the range.","前排突击、后排加射程。"
+CODEX_CARD_WPN_003_EFFECTDESCRIPTION,"Designated ship: main gun damage +18%, range -8%.","指定舰：主炮伤害 +18%，射程 -8%。"
+CODEX_CARD_WPN_004_DISPLAYNAME,"scattering array","散射阵列"
+CODEX_CARD_WPN_003_SYNERGYDESCRIPTION,"The front row assaults, the back row increases the range.","前排突击、后排加射程。"
+CODEX_CARD_WPN_004_DISPLAYNAME,"scattering array","散射阵列"
+CODEX_CARD_WPN_003_EFFECTDESCRIPTION,"Designated ship: main gun damage +18%, range -8%.","指定舰：主炮伤害 +18%，射程 -8%。"
+CODEX_CARD_WPN_004_EFFECTDESCRIPTION,"Designated Bombardment Ship: Fires 2 additional 45% damage shells per attack.","指定炮击舰：每次攻击额外发射 2 枚 45% 伤害弹。"
+CODEX_CARD_WPN_003_SYNERGYDESCRIPTION,"The front row assaults, the back row increases the range.","前排突击、后排加射程。"
+CODEX_CARD_WPN_004_EFFECTDESCRIPTION,"Designated Bombardment Ship: Fires 2 additional 45% damage shells per attack.","指定炮击舰：每次攻击额外发射 2 枚 45% 伤害弹。"
+CODEX_CARD_WPN_004_DISPLAYNAME,"scattering array","散射阵列"
+CODEX_CARD_WPN_004_SYNERGYDESCRIPTION,"Coronal, range burning.","日冕、范围燃烧。"
+CODEX_CARD_WPN_004_EFFECTDESCRIPTION,"Designated Bombardment Ship: Fires 2 additional 45% damage shells per attack.","指定炮击舰：每次攻击额外发射 2 枚 45% 伤害弹。"
+CODEX_CARD_WPN_005_DISPLAYNAME,"","热熔弹头"
+CODEX_CARD_WPN_005_EFFECTDESCRIPTION,"","热能舰：燃烧层数上限 +3；满层时爆炸 35% 主炮伤害。"
+CODEX_CARD_WPN_005_SYNERGYDESCRIPTION,"","潮汐、日冕引爆。"
+CODEX_CARD_WPN_006_DISPLAYNAME,"","电弧电容"
+CODEX_CARD_WPN_006_EFFECTDESCRIPTION,"","电磁舰：瘫痪目标时 30% 概率电弧至另一目标。"
+CODEX_CARD_WPN_006_SYNERGYDESCRIPTION,"","磁暴、巢母。"
+CODEX_CARD_WPN_007_DISPLAYNAME,"","动能尖锥"
+CODEX_CARD_WPN_007_EFFECTDESCRIPTION,"","动能舰：对满生命敌人伤害 +25%。"
+CODEX_CARD_WPN_007_SYNERGYDESCRIPTION,"","破阵首撞、精英战。"
+CODEX_CARD_WPN_008_DISPLAYNAME,"","追踪协议"
+CODEX_CARD_WPN_008_EFFECTDESCRIPTION,"","指定舰：投射物转向 +35%，对移动目标伤害 +12%。"
+CODEX_CARD_WPN_008_SYNERGYDESCRIPTION,"","针刺艇、突进怪。"
+CODEX_CARD_WPN_009_DISPLAYNAME,"","破盾标记"
+CODEX_CARD_WPN_009_EFFECTDESCRIPTION,"","指定舰：连续命中同一目标 4 次，移除其 1 层护盾。"
+CODEX_CARD_WPN_009_SYNERGYDESCRIPTION,"","高射速、Boss。"
+CODEX_CARD_WPN_010_DISPLAYNAME,"","余烬回收"
+CODEX_CARD_WPN_010_EFFECTDESCRIPTION,"","热能舰：燃烧敌人死亡时向最近敌人转移 2 层燃烧。"
+CODEX_CARD_WPN_010_SYNERGYDESCRIPTION,"","聚怪、散射。"
+CODEX_CARD_WPN_011_DISPLAYNAME,"","引力压缩"
+CODEX_CARD_WPN_011_EFFECTDESCRIPTION,"","引力舰：牵引范围 +25%，牵引内敌人受范围伤害 +15%。"
+CODEX_CARD_WPN_011_SYNERGYDESCRIPTION,"","日冕、爆炸卡。"
+CODEX_CARD_WPN_012_DISPLAYNAME,"","量子折射"
+CODEX_CARD_WPN_012_EFFECTDESCRIPTION,"","奇点：每第 3 发主炮分裂为 3 枚 55% 伤害弹。"
+CODEX_CARD_WPN_012_SYNERGYDESCRIPTION,"","穿透、射速。"
+CODEX_CARD_WPN_013_DISPLAYNAME,"","蜂群校准"
+CODEX_CARD_WPN_013_EFFECTDESCRIPTION,"","无人机母舰：每架无人机伤害 +15%。"
+CODEX_CARD_WPN_013_SYNERGYDESCRIPTION,"","巢母、弹射。"
+CODEX_CARD_WPN_014_DISPLAYNAME,"","无人机复制舱"
+CODEX_CARD_WPN_014_EFFECTDESCRIPTION,"","无人机母舰：无人机数量 +1，单机伤害 -15%。"
+CODEX_CARD_WPN_014_SYNERGYDESCRIPTION,"","蜂群回路、控制。"
+CODEX_CARD_WPN_015_DISPLAYNAME,"","近防弹幕"
+CODEX_CARD_WPN_015_EFFECTDESCRIPTION,"","守卫舰：每 3 秒对距离自身 160 内最近敌人追加一次 40% 伤害射击。"
+CODEX_CARD_WPN_015_SYNERGYDESCRIPTION,"","铁幕、后排保护。"
+CODEX_CARD_WPN_017_DISPLAYNAME,"","弱点演算"
+CODEX_CARD_WPN_017_EFFECTDESCRIPTION,"","指定舰：攻击精英/Boss 时暴击率 +25%、暴击伤害 +60%。"
+CODEX_CARD_WPN_017_SYNERGYDESCRIPTION,"","破甲、攻速。"
+CODEX_CARD_WPN_018_DISPLAYNAME,"","连锁炮膛"
+CODEX_CARD_WPN_018_EFFECTDESCRIPTION,"","指定舰：击杀后下一次攻击额外弹射 2 次，冷却 1 秒。"
+CODEX_CARD_WPN_018_SYNERGYDESCRIPTION,"","清杂、燃烧。"
+CODEX_CARD_WPN_019_DISPLAYNAME,"","护盾光束"
+CODEX_CARD_WPN_019_EFFECTDESCRIPTION,"","支援舰：每次授予护盾时同时对目标周围敌人造成 30% 主炮伤害。"
+CODEX_CARD_WPN_019_SYNERGYDESCRIPTION,"","芽舱、生命壁垒。"
+CODEX_CARD_SIG_009_EFFECTDESCRIPTION,"Recruit ""Refractor"" Quantum Support ships: Adjacent ships gain 1 shield for every 3 attacks they complete.","招募“折光”量子支援舰：相邻舰每完成 3 次攻击后获得 1 层护盾。"
+CODEX_CARD_WPN_005_DISPLAYNAME,"Hot Molten Warhead","热熔弹头"
+CODEX_CARD_WPN_005_EFFECTDESCRIPTION,"Heat Ship: Burns up to +3 stacks; explodes 35% of main gun damage when full.","热能舰：燃烧层数上限 +3；满层时爆炸 35% 主炮伤害。"
+CODEX_CARD_WPN_005_SYNERGYDESCRIPTION,"The tide and corona detonated.","潮汐、日冕引爆。"
+CODEX_CARD_WPN_006_DISPLAYNAME,"Arc capacitance","电弧电容"
+CODEX_CARD_WPN_006_EFFECTDESCRIPTION,"Electromagnetic ship: 30% probability of arcing to another target when paralyzing the target.","电磁舰：瘫痪目标时 30% 概率电弧至另一目标。"
+CODEX_CARD_WPN_006_SYNERGYDESCRIPTION,"Magnetic Storm, Nest Mother.","磁暴、巢母。"
+CODEX_CARD_WPN_007_DISPLAYNAME,"Kinetic taper","动能尖锥"
+CODEX_CARD_WPN_007_EFFECTDESCRIPTION,"Kinetic ship: +25% damage against enemies with full HP.","动能舰：对满生命敌人伤害 +25%。"
+CODEX_CARD_WPN_007_SYNERGYDESCRIPTION,"First collision of a broken formation, elite battles.","破阵首撞、精英战。"
+CODEX_CARD_WPN_008_DISPLAYNAME,"Tracking Protocol","追踪协议"
+CODEX_CARD_WPN_008_EFFECTDESCRIPTION,"Designated ship: Projectile steering +35%, damage to moving targets +12%.","指定舰：投射物转向 +35%，对移动目标伤害 +12%。"
+CODEX_CARD_WPN_008_SYNERGYDESCRIPTION,"Needle-punched boats, Charging Monsters.","针刺艇、突进怪。"
+CODEX_CARD_WPN_009_DISPLAYNAME,"Broken Shield Mark","破盾标记"
+CODEX_CARD_WPN_009_EFFECTDESCRIPTION,"Designated ship: Hit the same target 4 times in a row, removing 1 of its shields.","指定舰：连续命中同一目标 4 次，移除其 1 层护盾。"
+CODEX_CARD_WPN_009_SYNERGYDESCRIPTION,"High velocity, boss.","高射速、Boss。"
+CODEX_CARD_WPN_010_DISPLAYNAME,"Embers Recycling","余烬回收"
+CODEX_CARD_WPN_010_EFFECTDESCRIPTION,"Heat Ship: Burn When an enemy dies, transfer 2 Burns to the nearest enemy.","热能舰：燃烧敌人死亡时向最近敌人转移 2 层燃烧。"
+CODEX_CARD_WPN_010_SYNERGYDESCRIPTION,"Monster gathering, scattering.","聚怪、散射。"
+CODEX_CARD_WPN_011_DISPLAYNAME,"Gravitational compression","引力压缩"
+CODEX_CARD_WPN_011_EFFECTDESCRIPTION,"Gravity ship: Traction range +25%. Enemies in traction take +15% damage in range.","引力舰：牵引范围 +25%，牵引内敌人受范围伤害 +15%。"
+CODEX_CARD_WPN_011_SYNERGYDESCRIPTION,"Corona, Explosion Card.","日冕、爆炸卡。"
+CODEX_CARD_WPN_012_DISPLAYNAME,"Quantum refraction","量子折射"
+CODEX_CARD_WPN_012_EFFECTDESCRIPTION,"Singularity: Every 3rd main gun splits into 3 55% damage rounds.","奇点：每第 3 发主炮分裂为 3 枚 55% 伤害弹。"
+CODEX_CARD_WPN_012_SYNERGYDESCRIPTION,"Penetration, rate of fire.","穿透、射速。"
+CODEX_CARD_WPN_013_DISPLAYNAME,"Swarm calibration","蜂群校准"
+CODEX_CARD_WPN_013_EFFECTDESCRIPTION,"Droneship: +15% damage per drone.","无人机母舰：每架无人机伤害 +15%。"
+CODEX_CARD_WPN_013_SYNERGYDESCRIPTION,"Nest mother, ejection.","巢母、弹射。"
+CODEX_CARD_WPN_014_DISPLAYNAME,"Drone replication pod","无人机复制舱"
+CODEX_CARD_WPN_014_EFFECTDESCRIPTION,"Droneship: number of drones +1, single aircraft damage -15%.","无人机母舰：无人机数量 +1，单机伤害 -15%。"
+CODEX_CARD_WPN_014_SYNERGYDESCRIPTION,"Bee colony loop, control.","蜂群回路、控制。"
+CODEX_CARD_WPN_015_DISPLAYNAME,"Near bulletproof screen","近防弹幕"
+CODEX_CARD_WPN_015_EFFECTDESCRIPTION,"Guardian: Every 3 seconds, an extra 40% damage shot is dealt to the nearest enemy within 160 seconds.","守卫舰：每 3 秒对距离自身 160 内最近敌人追加一次 40% 伤害射击。"
+CODEX_CARD_WPN_015_SYNERGYDESCRIPTION,"Iron curtain, rear protection.","铁幕、后排保护。"
+CODEX_CARD_WPN_017_DISPLAYNAME,"Weakness calculus","弱点演算"
+CODEX_CARD_WPN_017_EFFECTDESCRIPTION,"Selected ships: Crit Rate +25% and Crit Damage +60% when attacking Elites/Bosses.","指定舰：攻击精英/Boss 时暴击率 +25%、暴击伤害 +60%。"
+CODEX_CARD_WPN_017_SYNERGYDESCRIPTION,"Armor break, attack speed.","破甲、攻速。"
+CODEX_CARD_WPN_018_DISPLAYNAME,"Chain gun bore","连锁炮膛"
+CODEX_CARD_WPN_018_EFFECTDESCRIPTION,"Designated ship: After killing, the next attack will be ejected 2 times, with a cooldown of 1 second.","指定舰：击杀后下一次攻击额外弹射 2 次，冷却 1 秒。"
+CODEX_CARD_WPN_018_SYNERGYDESCRIPTION,"Cleaning and burning.","清杂、燃烧。"
+CODEX_CARD_WPN_019_DISPLAYNAME,"Shield Beam","护盾光束"
+CODEX_CARD_WPN_019_EFFECTDESCRIPTION,"Support ship: Deals 30% main gun damage to enemies around the target each time a shield is granted.","支援舰：每次授予护盾时同时对目标周围敌人造成 30% 主炮伤害。"
+CODEX_CARD_WPN_019_SYNERGYDESCRIPTION,"Bud capsules, barriers to life.","芽舱、生命壁垒。"
+CODEX_SHIP_SHP_PLY_ART_001_DISPLAYNAME,"Coronal Gunship","日冕炮舰"
+CODEX_SHIP_SHP_PLY_ART_001_CENTERRINGEFFECT,"Scorch zone radius +15%.","灼烧区半径 +15%。"
+CODEX_SHIP_SHP_PLY_ART_001_BRANCHONEDESCRIPTION,"Core embers` ULK_UPG_Sol_FUR_001–003 `| Explosion adds 3 second burn, 20% base DMG per second. | Sputter 25% of the nearest 2 enemies when the burn target is detonated again. | Burn 3 layers of burst, 80% area damage; once every 5 seconds with the target.","炉心余烬 `ULK_UPG_SOL_FUR_001–003` | 爆炸附加 3 秒灼烧，每秒 20% 基础伤害。 | 灼烧目标再受爆炸时向最近 2 敌人溅射 25%。 | 灼烧 3 层爆裂，80% 范围伤害；同目标 5 秒一次。"
+CODEX_SHIP_SHP_PLY_ART_001_BRANCHTWODESCRIPTION,"Sunspot Ejection `ulk_UPG_Sol_FLR_001–003` | 2 sunspots are left on the edge of the explosion, each dealing 30% damage after 0.6 seconds. | Decelerate by 20% for 1.5 seconds when Sunspot hits a Burn target. | Every 6 seconds, the next explosion generates a 5-day blob, reducing the damage of a single blast to 22%.","日斑抛射 `ULK_UPG_SOL_FLR_001–003` | 爆炸边缘留下 2 枚日斑，0.6 秒后各 30% 伤害。 | 日斑命中灼烧目标时减速 20% 1.5 秒。 | 每 6 秒下次爆炸生成 5 日斑，单枚伤害降为 22%。"
+CODEX_SHIP_SHP_PLY_ART_001_BRANCHTHREEDESCRIPTION,"Position Fire Control `ulk_UPG_Sol_Sie_001–003` | +20% damage from targets 380 away. | Ultra Accuracy Slow by 25% for 2 seconds. | After 3 consecutive attacks on the same area, the next radius +45%, damage +40%.","阵地火控 `ULK_UPG_SOL_SIE_001–003` | 距目标 380 外伤害 +20%。 | 超远命中减速 25% 2 秒。 | 连续 3 次攻击同一区域后，下次半径 +45%、伤害 +40%。"
+CODEX_SHIP_SHP_PLY_ART_002_DISPLAYNAME,"Frost Nuclear Missile Ship","霜核导弹舰"
+CODEX_SHIP_SHP_PLY_ART_002_CENTERRINGEFFECT,"Deceleration field lasts +1 second.","减速场持续 +1 秒。"
+CODEX_SHIP_SHP_PLY_ART_002_BRANCHONEDESCRIPTION,"Extreme cold warhead `ulk_UPG_FRS_Col_001–003` | Heart blast deceleration +15 percentage points. | Slow targets take +15% damage from missiles. | Slow down and freeze the same target 3 times in a row for 0.6 seconds. Elite/Boss controlled resistance is reduced.","极寒弹头 `ULK_UPG_FRS_COL_001–003` | 爆心减速 +15 个百分点。 | 减速目标受导弹伤害 +15%。 | 同目标连续 3 次减速冻结 0.6 秒，精英/Boss受控制抗性缩短。"
+CODEX_SHIP_SHP_PLY_ART_002_BRANCHTWODESCRIPTION,"Ice Crushing Guide `ulk_UPG_FRS_SHR_001–003` | Shoot 2 pieces of ice when the explosion hits 2 or more enemies, each dealing 30% damage. | Reflects once when an Ice Breaker hits a Slow target. | The next main missile splits 3 times every 7 seconds, with a single radius of -25%.","碎冰制导 `ULK_UPG_FRS_SHR_001–003` | 爆炸命中 2 敌人以上时发射 2 枚碎冰，各 30% 伤害。 | 碎冰命中减速目标时反弹一次。 | 每 7 秒下一枚主导弹分裂 3 枚，单枚半径 -25%。"
+CODEX_SHIP_SHP_PLY_ART_002_BRANCHTHREEDESCRIPTION,"Freeze zone `ULK_UPG_FRS_ZON_001–003` | Deceleration field lasts +1.5 seconds. | Normal enemies on the field have a +20% attack interval. | The two overlapping zones deal 30% control damage every second.","冻结区划 `ULK_UPG_FRS_ZON_001–003` | 减速场持续 +1.5 秒。 | 场内普通敌人攻击间隔 +20%。 | 两场交叠区每秒造成 30% 控制伤害。"
+CODEX_SHIP_SHP_PLY_ASS_001_DISPLAYNAME,"Orbital Strike Ship","轨道强袭舰"
+CODEX_SHIP_SHP_PLY_ASS_001_CENTERRINGEFFECT,"Maximum number of impact layers +2.","冲击层数上限 +2。"
+CODEX_SHIP_SHP_PLY_ASS_001_BRANCHONEDESCRIPTION,"Impact Increase `ulk_UPG_ass_IMP_001–003` | Damage +25% when below 180. | After 4 consecutive hits, the 5th hit is knocked back for 0.35 seconds. | Knockback Elites/Bosses instead deal +60% damage and gain 1 shield, every 8 seconds.","撞击增幅 `ULK_UPG_ASS_IMP_001–003` | 距目标小于 180 时伤害 +25%。 | 连续命中 4 次后，第 5 次击退 0.35 秒。 | 击退精英/Boss改为 +60% 伤害并获 1 层护盾，每 8 秒一次。"
+CODEX_SHIP_SHP_PLY_ASS_001_BRANCHTWODESCRIPTION,"Pursuit Protocol `ULK_UPG_ass_HNT_001–003` | Deals +18% damage to targets with the lowest HP. | There is no waiting interval for the next send after defeating the marked target. | 3 consecutive kills enter the 3-second pursuit: -20% interval, not less than 0.5 seconds.","追猎协议 `ULK_UPG_ASS_HNT_001–003` | 对生命比例最低目标伤害 +18%。 | 击败标记目标后下一发无需等待间隔。 | 连杀 3 目标进入 3 秒追猎：间隔 -20%，不低于 0.5 秒。"
+CODEX_SHIP_SHP_PLY_ASS_001_BRANCHTHREEDESCRIPTION,"Concussive warhead `ULK_UPG_ass_SHK_001–003` | A close-range hit produces a 45, 35% damage concussion. | When Concussion hits more than 3 enemies, the next hit will deal +15% damage. | Every 6th melee hit increases the oscillation to a radius of 95 and slows it down by 35% for 1 second.","震荡弹头 `ULK_UPG_ASS_SHK_001–003` | 近距命中产生半径45、35%伤害震荡。 | 震荡命中 3 敌人以上时，下一发伤害 +15%。 | 每第 6 次近距命中将震荡提高至半径95，并减速35% 1秒。"
+CODEX_SHIP_SHP_PLY_CAR_001_DISPLAYNAME,"Swarm Carrier","蜂群航母"
+CODEX_SHIP_SHP_PLY_CAR_001_CENTERRINGEFFECT,"The drone's next attack after returning home will deal +8% damage.","无人机返航后下次攻击 +8% 伤害。"
+CODEX_SHIP_SHP_PLY_CAR_001_BRANCHONEDESCRIPTION,"Colony Algorithm `ULK_UPG_HIV_SWM_001–003` | UAV cap +1. | +70% damage for the 4th time after 3 consecutive attacks with the same target. | Defeating a common enemy has a 25% chance of deploying a temporary drone for 5 seconds, subject to the total cap.","蜂群算法 `ULK_UPG_HIV_SWM_001–003` | 无人机上限 +1。 | 3 架连续攻击同目标后，第 4 次 +70% 伤害。 | 击败普通敌人有 25% 概率部署临时无人机 5 秒，受总上限限制。"
+CODEX_SHIP_SHP_PLY_CAR_001_BRANCHTWODESCRIPTION,"Hunting marker `ULK_UPG_HIV_HNT_001–003` | First hit additional hunting marker for 3 seconds. | Marking targets takes +20% damage from drones. | Immediately after marking dead, turn to the nearest marked target and gain 35% ASPD for 2 seconds.","猎杀标记 `ULK_UPG_HIV_HNT_001–003` | 首命中附加猎杀标记 3 秒。 | 标记目标受无人机伤害 +20%。 | 标记死后立即转向最近标记目标并获 35% 攻速 2 秒。"
+CODEX_SHIP_SHP_PLY_CAR_001_BRANCHTHREEDESCRIPTION,"Melee Hangar `ULK_UPG_HIV_GRD_001–003` | Preferred attack to enemies within 150 of the carrier. | Defeat 5 melee enemies and the aircraft carrier gains 1 shield. | When the aircraft carrier or an adjacent ship is hit by a melee, the whole aircraft counterattacks the attacker by 120%, once every 5 seconds.","近防机库 `ULK_UPG_HIV_GRD_001–003` | 优先攻击距航母 150 内敌人。 | 击败 5 近身敌人，航母获 1 层护盾。 | 航母或相邻舰被近身命中时，全机对攻击者 120% 反击，每目标 5 秒一次。"
+CODEX_SHIP_SHP_PLY_CTL_001_DISPLAYNAME,"Tidal Jammer","潮汐干扰舰"
+CODEX_SHIP_SHP_PLY_CTL_001_CENTERRINGEFFECT,"The traction center lasts +0.35 seconds.","牵引中心持续 +0.35 秒。"
+CODEX_SHIP_SHP_PLY_CTL_001_BRANCHONEDESCRIPTION,"Tidal gravity `ulk_UPG_TID_GRV_001–003` | Extra pull 12%. | The target is pulled to move -20% for 2 seconds. | Hit the same position 3 times to form a 1.5-second gravity well, pulling every 0.5 seconds; once every 6 seconds.","引潮重力 `ULK_UPG_TID_GRV_001–003` | 额外拉拽 12%。 | 被拉拽目标移速 -20% 2 秒。 | 同位置命中 3 次形成 1.5 秒重力井，每 0.5 秒拉拽；每区 6 秒一次。"
+CODEX_SHIP_SHP_PLY_CTL_001_BRANCHTWODESCRIPTION,"Tidal Rewind `ULK_UPG_TID_WAV_001–003` | End of traction deals 25% control damage. | When the target is pulled within 120, nearby enemies slow down by 15% for 1 second. | Every 5th traction forms a reel-bomb, dragging the nearest 3 enemies in turn, with a strength of 55%.","潮汐回卷 `ULK_UPG_TID_WAV_001–003` | 牵引结束造成 25% 控制伤害。 | 目标被拉入 120 内时，附近敌人减速 15% 1 秒。 | 每第 5 次牵引形成回卷弹，依次拉拽最近 3 敌人，强度 55%。"
+CODEX_SHIP_SHP_PLY_CTL_001_BRANCHTHREEDESCRIPTION,"Weakness Translation `ulk_UPG_TID_RLY_001–003` | Controlled enemy next damage +12%. | Different `ShipId` can be triggered once each, up to 3 times. | Releases a surge when hit by 3 different ships within 4 seconds, passing 50% control damage once.","弱点转译 `ULK_UPG_TID_RLY_001–003` | 受控敌人下次受伤 +12%。 | 不同 `ShipId` 可各触发一次，最多 3 次。 | 4 秒内被 3 艘不同舰命中时释放电涌，传递一次 50% 控制伤害。"
+CODEX_SHIP_SHP_PLY_CTL_002_DISPLAYNAME,"Storm Link Ship","风暴链路舰"
+CODEX_SHIP_SHP_PLY_CTL_002_CENTERRINGEFFECT,"The last hop of the full link is paralyzed for 0.3 seconds.","完整链路最后一跳麻痹 0.3 秒。"
+CODEX_SHIP_SHP_PLY_CTL_002_BRANCHONEDESCRIPTION,"Storm conduction `ULK_UPG_STM_CHN_001–003` | Arc jumps 1 extra time, billed as attenuation. | Each jump increases the target's attack interval by 8% for 2 seconds. | When hitting 4 different enemies in a row, the final target is paralyzed for 0.5 seconds, once every 5 seconds.","风暴传导 `ULK_UPG_STM_CHN_001–003` | 电弧额外跳跃 1 次，按衰减结算。 | 每次跳跃使目标攻击间隔 +8% 2秒。 | 连续命中 4 名不同敌人时，最后目标麻痹0.5秒，每5秒一次。"
+CODEX_SHIP_SHP_PLY_CTL_002_BRANCHTWODESCRIPTION,"Overload capacitor `ULK_UPG_STM_OVR_001–003` | Overload for 3 seconds after 3 arcs to the same target. | The overloaded target bursts the next time it receives non-arc damage, dealing 50% range damage. | Each burst overloads the nearest enemy with 1 layer, passing up to 2 times.","过载电容 `ULK_UPG_STM_OVR_001–003` | 同目标受 3 次电弧后过载3秒。 | 过载目标受下一次非电弧伤害时爆裂，50%范围伤害。 | 每次爆裂使最近敌人获1层过载，最多传递2次。"
+CODEX_SHIP_SHP_PLY_CTL_002_BRANCHTHREEDESCRIPTION,"Intercept the power grid `ULK_UPG_STM_NET_001–003` | Prefer to hit enemies from adjacent ships. | Projectile unit hit by an arc moves -25%. | Form a power grid every 9 seconds for 2 seconds. Normal enemies in the grid move -35%, once per target.","拦截电网 `ULK_UPG_STM_NET_001–003` | 优先命中攻击相邻舰的敌人。 | 被电弧命中的投射单位移速 -25%。 | 每9秒形成电网2秒，网内普通敌人移速 -35%，每目标一次。"
+CODEX_SHIP_SHP_PLY_FLG_001_DISPLAYNAME,"Singularity Command Ship","奇点指挥舰"
+CODEX_SHIP_SHP_PLY_FLG_001_CENTERRINGEFFECT,"Every 3 hits, the next hit of an adjacent ship deals +12% damage.","每 3 次命中使一名相邻舰下一发 +12% 伤害。"
+CODEX_SHIP_SHP_PLY_FLG_001_BRANCHONEDESCRIPTION,"Penetration calibration `ULK_UPG_FLG_PRC_001–003` | +1 penetration per third shot. | The third first hit causes a 35% sputter of radius 55. | Adds a singularity marker for 4 seconds; takes an additional 30% damage on the next adjacent ship hit.","穿透校准 `ULK_UPG_FLG_PRC_001–003` | 每第三发 +1 穿透。 | 第三发首命中造成半径 55 的 35% 溅射。 | 附加奇点标记 4 秒；下一次相邻舰命中额外承受 30% 伤害。"
+CODEX_SHIP_SHP_PLY_FLG_001_BRANCHTWODESCRIPTION,"Formation Directive `ULK_UPG_FLG_FRM_002-003` | When the adjacent ship loses its shield for the first time, the next shot of damage +25%, once every 8 seconds. | Each 8 hits will deal +25% damage to the next adjacent ship.","编队指令 `ULK_UPG_FLG_FRM_002–003` | 相邻舰首次失盾时，下一发伤害 +25%，每舰 8 秒一次。 | 每命中 8 次，使相邻舰下一发 +25% 伤害。"
+CODEX_SHIP_SHP_PLY_FLG_001_BRANCHTHREEDESCRIPTION,"Star Map Acquisition `ulk_UPG_FLG_exp_001–003` | Adsorption range +20%. | Participate in killing an elite to get 1 extra exp. | For every 12 exp items collected, you and the adjacent ship get 1 layer of mapping: Range +12, up to 5 layers.","星图采集 `ULK_UPG_FLG_EXP_001–003` | 吸附范围 +20%。 | 参与击杀精英额外掉 1 经验物。 | 每收集 12 经验物，自身与相邻舰获 1 层测绘：射程 +12，最多 5 层。"
+CODEX_SHIP_SHP_PLY_GRD_001_DISPLAYNAME,"Prismatic Guardian","棱镜守卫舰"
+CODEX_SHIP_SHP_PLY_GRD_001_CENTERRINGEFFECT,"When an adjacent ship loses its shield for the first time, the next shot of damage +15%, once every 8 seconds.","相邻舰首次失盾时，下一发伤害 +15%，每舰 8 秒一次。"
+CODEX_SHIP_SHP_PLY_GRD_001_BRANCHONEDESCRIPTION,"Melee Defense Matrix `ulk_UPG_PRM_Gua_001–003` | +25% Damage to enemies within 180. | Defeat 6 melee enemies to gain 1 personal shield. | Deal +80% damage every 4 seconds to yourself or an adjacent ship after taking a melee hit.","近防矩阵 `ULK_UPG_PRM_GUA_001–003` | 180 内敌人受伤 +25%。 | 击败 6 近身敌人获 1 层个人护盾。 | 自身或相邻舰受近身命中后，下发伤害 +80%，每 4 秒一次。"
+CODEX_SHIP_SHP_PLY_GRD_001_BRANCHTWODESCRIPTION,"Refractive Cannon Screen `ulk_UPG_PRM_Ray_001–003` | After receiving the shield, the next two bundles split, each dealing 60% damage. | Lost shield releases a pulse, slowing enemies within 140 by 30% for 1 second. | Each personal shield deals +8% damage to Elites/Bosses and is limited by the shield cap.","折光炮幕 `ULK_UPG_PRM_RAY_001–003` | 获盾后下一发分裂两束，各 60% 伤害。 | 失盾释放脉冲，使 140 内敌人减速 30% 1 秒。 | 每层个人护盾对精英/Boss伤害 +8%，受护盾上限限制。"
+CODEX_SHIP_SHP_PLY_GRD_001_BRANCHTHREEDESCRIPTION,"Pointed Bulwark `ULK_UPG_PRM_BST_001–003` | When not transposed for 2 seconds, the attack range is +15%. | Range of adjacent ships +10% at fixed points. | Fixed-point 6 seconds Expand the barrier zone for 3 seconds, and normal enemies will slow down by 45%.","定点壁垒 `ULK_UPG_PRM_BST_001–003` | 2 秒未换位时，攻击范围 +15%。 | 定点时相邻舰攻击范围 +10%。 | 定点 6 秒展开壁垒区 3 秒，普通敌人减速 45%。"
+CODEX_SHIP_SHP_PLY_GRD_002_DISPLAYNAME,"Iron Curtain Frigate","铁幕护卫舰"
+CODEX_SHIP_SHP_PLY_GRD_002_CENTERRINGEFFECT,"When the shield is lost, give an adjacent ship 0.5 seconds of invincibility, once every 10 seconds.","失盾时给予一名相邻舰 0.5 秒无敌，每舰 10 秒一次。"
+CODEX_SHIP_SHP_PLY_GRD_002_BRANCHONEDESCRIPTION,"Frontline Iron Curtain `ULK_UPG_IRN_FRN_001–003` | +20% Fan Cannon damage when in front grid. | Adjacent ships on the front have +10% attack range. | +5% damage to self for each adjacent ship on the front, up to 3 stacks.","前线铁幕 `ULK_UPG_IRN_FRN_001–003` | 位于前侧格位时扇面炮伤害 +20%。 | 前侧相邻舰攻击范围 +10%。 | 前侧每有1艘相邻舰，自身伤害 +5%，最多3层。"
+CODEX_SHIP_SHP_PLY_GRD_002_BRANCHTWODESCRIPTION,"Counter Armor `ULK_UPG_IRN_CNT_001–003` | Deals +70% damage when losing shield. | This cannon hits 3 enemies and gains 1 shield, up to 1 shield for 8 seconds. | After counterattack triggers, normal enemies within 140 knock back 70.","反击装甲 `ULK_UPG_IRN_CNT_001–003` | 自身失盾时下发扇面炮 +70%伤害。 | 该炮命中3敌人获1层护盾，8秒内最多1层。 | 反击触发后，140内普通敌人击退70。"
+CODEX_SHIP_SHP_PLY_GRD_002_BRANCHTHREEDESCRIPTION,"Cover sector `ULK_UPG_IRN_COV_001–003` | Enemy movement speed in sector -12%. | When the sector hits the elite, it deals -15% damage to non-iron curtain targets for 2 seconds. | After 4 consecutive sector hits, the next angle +35°, range +20%, every 6 seconds.","掩护扇面 `ULK_UPG_IRN_COV_001–003` | 扇面内敌人移速 -12%。 | 扇面命中精英时，其对非铁幕目标伤害 -15% 2秒。 | 连续4次扇面命中后，下次角度 +35°、射程 +20%，每6秒一次。"
+CODEX_SHIP_SHP_PLY_SUP_001_DISPLAYNAME,"Refractor Support Ship","折光支援舰"
+CODEX_SHIP_SHP_PLY_SUP_001_CENTERRINGEFFECT,"The next shot of damage from the shield target +15%.","补盾目标下一发伤害 +15%。"
+CODEX_SHIP_SHP_PLY_SUP_001_BRANCHONEDESCRIPTION,"Refractive Screen `ULK_UPG_FLD_SHD_001–003` | Refills 1 deck per 9 seconds for self or minimal shield adjacent ships. | The next shot of damage from the shield target +20%. | When there are 2 adjacent ships, the additional shield is ejected by the other ship.","折光护幕 `ULK_UPG_FLD_SHD_001–003` | 每 9 秒为自身或最低盾相邻舰补 1 层。 | 被补盾目标下一发伤害 +20%。 | 有 2 相邻舰时补盾额外弹射另一舰。"
+CODEX_SHIP_SHP_PLY_SUP_001_BRANCHTWODESCRIPTION,"Frequency Resonance `ULK_UPG_FLD_RES_001–003` | Adjacent ships gain 1 resonance per 5 attacks, up to 4 stacks. | +12% Pulse Damage and +10% Range per floor. | Spend at least 4 stacks to deal +35% damage to adjacent ships.","频率共振 `ULK_UPG_FLD_RES_001–003` | 相邻舰每攻击 5 次获 1 共振，最多 4 层。 | 每层使脉冲伤害 +12%、射程 +10%。 | 满 4 层消耗，使相邻舰下发 +35% 伤害。"
+CODEX_SHIP_SHP_PLY_SUP_001_BRANCHTHREEDESCRIPTION,"Emergency transfer `ULK_UPG_FLD_RLY_001–003` | Adjacent ships lose their final shield and become invincible for 0.8 seconds, once every 10 seconds. | After triggering, gain a shield. | When two adjacent ships trigger within 5 seconds, the pulse knocks back normal enemies within 120 seconds.","应急转接 `ULK_UPG_FLD_RLY_001–003` | 相邻舰失去最后护盾获 0.8 秒无敌，每舰 10 秒一次。 | 触发后自身获 1 层护盾。 | 5 秒内两名相邻舰触发时，脉冲击退 120 内普通敌人。"

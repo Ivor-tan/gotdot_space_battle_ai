@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="BondDefinitionData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/BondDefinitionData.cs" id="1_bond"]
+
+[resource]
+script = ExtResource("1_bond")
+BondId = &"BND_TRI_003"
+DisplayName = "动能栖所"
+DisplayNameKey = &"CODEX_BOND_BND_TRI_003_DISPLAYNAME"
+MemberCondition = "GRD_001、GRD_002、ASS_001 位于前侧并相邻。"
+MemberConditionKey = &"CODEX_BOND_BND_TRI_003_MEMBERCONDITION"
+EffectDescription = "精英出现时三名成员各获得 1 层护盾，精英存活期间武器伤害提高 20%。"
+EffectDescriptionKey = &"CODEX_BOND_BND_TRI_003_EFFECTDESCRIPTION"
+Counterplay = "只保护前侧成员。"
+CounterplayKey = &"CODEX_BOND_BND_TRI_003_COUNTERPLAY"
+RequiredMemberCount = 3
+

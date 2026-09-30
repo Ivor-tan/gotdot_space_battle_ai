@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="BondDefinitionData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/BondDefinitionData.cs" id="1_bond"]
+
+[resource]
+script = ExtResource("1_bond")
+BondId = &"BND_PAI_001"
+DisplayName = "日冕引爆"
+DisplayNameKey = &"CODEX_BOND_BND_PAI_001_DISPLAYNAME"
+MemberCondition = "ART_001 与 CTL_001 相邻。"
+MemberConditionKey = &"CODEX_BOND_BND_PAI_001_MEMBERCONDITION"
+EffectDescription = "潮汐牵引区内的敌人首次受到日冕命中时触发爆炸。"
+EffectDescriptionKey = &"CODEX_BOND_BND_PAI_001_EFFECTDESCRIPTION"
+Counterplay = "分散敌群、击退潮汐或击毁任一成员会断开羁绊。"
+CounterplayKey = &"CODEX_BOND_BND_PAI_001_COUNTERPLAY"
+RequiredMemberCount = 2
+

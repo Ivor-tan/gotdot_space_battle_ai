@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="CardBenefitData" format=3 uid="uid://be63no8kfavjf"]
+
+[ext_resource type="Script" uid="uid://4xau2yynf0di" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"SIG_001"
+CategoryId = &"sig"
+RarityId = &"rare"
+DisplayName = "日冕信标"
+DisplayNameKey = &"CODEX_CARD_SIG_001_DISPLAYNAME"
+EffectDescription = "招募日冕；已有日冕时仍获得待部署日冕，可补位或融合。"
+EffectDescriptionKey = &"CODEX_CARD_SIG_001_EFFECTDESCRIPTION"
+SynergyDescription = "潮汐、热能。"
+SynergyDescriptionKey = &"CODEX_CARD_SIG_001_SYNERGYDESCRIPTION"
+TargetScopeId = &"recruitment"
+IsImplementedInRuntime = true
+

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="BondDefinitionData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/BondDefinitionData.cs" id="1_bond"]
+
+[resource]
+script = ExtResource("1_bond")
+BondId = &"BND_PAI_004"
+DisplayName = "破阵搭档"
+DisplayNameKey = &"CODEX_BOND_BND_PAI_004_DISPLAYNAME"
+MemberCondition = "ASS_001 与 GRD_002 相邻，且均位于前侧。"
+MemberConditionKey = &"CODEX_BOND_BND_PAI_004_MEMBERCONDITION"
+EffectDescription = "近距命中后获得 1 层个人护盾；护盾存在时下一次近距攻击额外造成主炮 35% 伤害。"
+EffectDescriptionKey = &"CODEX_BOND_BND_PAI_004_EFFECTDESCRIPTION"
+Counterplay = "抢占前侧格位或断开相邻边。"
+CounterplayKey = &"CODEX_BOND_BND_PAI_004_COUNTERPLAY"
+RequiredMemberCount = 2
+

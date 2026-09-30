@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_FLD_RLY_001"
+ShipId = &"SHP_PLY_SUP_001"
+BranchId = &"ULK_UPG_FLD_RLY"
+Tier = 1
+PreviousNodeId = &""
+BranchName = "应急转接"
+EffectDescription = "相邻舰失去最后护盾获 0.8 秒无敌，每舰 10 秒一次。"
+IsImplementedInRuntime = false
+

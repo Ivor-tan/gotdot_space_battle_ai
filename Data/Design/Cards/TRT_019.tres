@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="CardBenefitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"TRT_019"
+CategoryId = &"trt"
+RarityId = &"epic"
+DisplayName = "共振插槽"
+DisplayNameKey = &"CODEX_CARD_TRT_019_DISPLAYNAME"
+EffectDescription = "指定舰获得特性：同时视为其相邻舰的第一个标签。"
+EffectDescriptionKey = &"CODEX_CARD_TRT_019_EFFECTDESCRIPTION"
+SynergyDescription = "标签共鸣、羁绊预备。"
+SynergyDescriptionKey = &"CODEX_CARD_TRT_019_SYNERGYDESCRIPTION"
+TargetScopeId = &"ship"
+RequiresTargetSelection = true
+IsImplementedInRuntime = false
+

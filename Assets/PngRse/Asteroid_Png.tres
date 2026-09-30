@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ResourceGroup" format=3 uid="uid://buqwuncjxqxsc"]
+
+[ext_resource type="Script" uid="uid://klv8tuveaql4" path="res://addons/godot_resource_groups/resource_group.gd" id="1_qk6ne"]
+
+[resource]
+script = ExtResource("1_qk6ne")
+base_folder = "res://Resource/GraysSpaceTiles/Asteroids/"
+includes = Array[String](["*.png"])
+paths = Array[String](["res://Resource/GraysSpaceTiles/Asteroids/Asteroid1.png", "res://Resource/GraysSpaceTiles/Asteroids/Asteroid2.png", "res://Resource/GraysSpaceTiles/Asteroids/Asteroid3.png", "res://Resource/GraysSpaceTiles/Asteroids/Asteroid4.png", "res://Resource/GraysSpaceTiles/Asteroids/Asteroid5.png", "res://Resource/GraysSpaceTiles/Asteroids/Asteroid6.png", "res://Resource/GraysSpaceTiles/Asteroids/Asteroid7.png", "res://Resource/GraysSpaceTiles/Asteroids/Asteroid8.png", "res://Resource/GraysSpaceTiles/Asteroids/Asteroid9.png", "res://Resource/GraysSpaceTiles/Asteroids/Asteroid10.png"])
+metadata/_custom_type_script = "uid://klv8tuveaql4"

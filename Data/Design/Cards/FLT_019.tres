@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="CardBenefitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"FLT_019"
+CategoryId = &"flt"
+RarityId = &"epic"
+DisplayName = "决战条款"
+DisplayNameKey = &"CODEX_CARD_FLT_019_DISPLAYNAME"
+EffectDescription = "Boss 阶段转换后 5 秒内全队射速 +25%。"
+EffectDescriptionKey = &"CODEX_CARD_FLT_019_EFFECTDESCRIPTION"
+SynergyDescription = "Boss 爆发。"
+SynergyDescriptionKey = &"CODEX_CARD_FLT_019_SYNERGYDESCRIPTION"
+TargetScopeId = &"fleet"
+RequiresTargetSelection = false
+IsImplementedInRuntime = false
+

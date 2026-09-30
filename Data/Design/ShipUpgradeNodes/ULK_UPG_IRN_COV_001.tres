@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_IRN_COV_001"
+ShipId = &"SHP_PLY_GRD_002"
+BranchId = &"ULK_UPG_IRN_COV"
+Tier = 1
+PreviousNodeId = &""
+BranchName = "掩护扇面"
+EffectDescription = "扇面内敌人移速 -12%。"
+IsImplementedInRuntime = false
+

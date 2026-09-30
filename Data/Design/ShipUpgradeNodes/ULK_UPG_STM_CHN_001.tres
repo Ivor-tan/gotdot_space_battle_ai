@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_STM_CHN_001"
+ShipId = &"SHP_PLY_CTL_002"
+BranchId = &"ULK_UPG_STM_CHN"
+Tier = 1
+PreviousNodeId = &""
+BranchName = "风暴传导"
+EffectDescription = "电弧额外跳跃 1 次，按衰减结算。"
+IsImplementedInRuntime = false
+

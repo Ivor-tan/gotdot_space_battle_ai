@@ -1,0 +1,70 @@
+[gd_scene format=3 uid="uid://xduqnugimo02"]
+
+[ext_resource type="Texture2D" uid="uid://6ap0dwtil3m7" path="res://Resource/Animation/explode_02.png" id="1_6y2ds"]
+[ext_resource type="Script" uid="uid://3giqyxvhvsls" path="res://Scripts/Bullets/RocketExplode01.cs" id="2_s8m54"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1ggbh"]
+atlas = ExtResource("1_6y2ds")
+region = Rect2(0, 0, 90, 87)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ke7ow"]
+atlas = ExtResource("1_6y2ds")
+region = Rect2(95, 0, 90, 87)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ym40y"]
+atlas = ExtResource("1_6y2ds")
+region = Rect2(190, 0, 90, 87)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1rxtl"]
+atlas = ExtResource("1_6y2ds")
+region = Rect2(285, 0, 90, 87)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ao0eo"]
+atlas = ExtResource("1_6y2ds")
+region = Rect2(380, 0, 90, 87)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_agg47"]
+atlas = ExtResource("1_6y2ds")
+region = Rect2(475, 0, 90, 87)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hnv8r"]
+atlas = ExtResource("1_6y2ds")
+region = Rect2(570, 0, 90, 87)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_n7022"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1ggbh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ke7ow")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ym40y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1rxtl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ao0eo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_agg47")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hnv8r")
+}],
+"loop": true,
+"name": &"Explode",
+"speed": 14.0
+}]
+
+[node name="Explode01" type="AnimatedSprite2D" unique_id=751498198]
+z_index = 2
+sprite_frames = SubResource("SpriteFrames_n7022")
+animation = &"Explode"
+autoplay = "Explode"
+frame = 6
+frame_progress = 1.0
+script = ExtResource("2_s8m54")

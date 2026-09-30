@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AddShieldCharges" format=3]
+
+[ext_resource type="Texture2D" path="res://icon.svg" id="1_icon"]
+[ext_resource type="Script" path="res://Data/DataCS/Enhance/AddShieldCharges.cs" id="2_script"]
+
+[resource]
+script = ExtResource("2_script")
+NameKey = &"GAMEPLAY_ENHANCE_STAT_SHIELD_NAME"
+DescriptionKey = &"GAMEPLAY_ENHANCE_STAT_SHIELD_DESCRIPTION"
+Name = "应急护盾阵列"
+Description = "全舰队获得 1 层护盾；每层护盾抵挡一次伤害。后续招募的飞船同样继承该护盾层数。"
+Icon = ExtResource("1_icon")
+FunctionType = 1
+ShieldChargeIncrease = 1

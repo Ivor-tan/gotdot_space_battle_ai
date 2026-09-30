@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_FLG_EXP_001"
+ShipId = &"SHP_PLY_FLG_001"
+BranchId = &"ULK_UPG_FLG_EXP"
+Tier = 1
+PreviousNodeId = &""
+BranchName = "星图采集"
+EffectDescription = "吸附范围 +20%。"
+IsImplementedInRuntime = false
+

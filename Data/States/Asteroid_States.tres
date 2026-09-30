@@ -1,0 +1,6 @@
+[gd_resource type="Resource" script_class="Asteroid_States" format=3 uid="uid://dy82bli7y4tcm"]
+
+[ext_resource type="Script" uid="uid://14dx5gbvf4ul" path="res://Data/DataCS/AsteroidStatus.cs" id="1_g7fej"]
+
+[resource]
+script = ExtResource("1_g7fej")

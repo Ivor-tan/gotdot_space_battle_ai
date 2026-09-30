@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_FLD_RES_003"
+ShipId = &"SHP_PLY_SUP_001"
+BranchId = &"ULK_UPG_FLD_RES"
+Tier = 3
+PreviousNodeId = &"ULK_UPG_FLD_RES_002"
+BranchName = "频率共振"
+EffectDescription = "满 4 层消耗，使相邻舰下发 +35% 伤害。"
+IsImplementedInRuntime = false
+

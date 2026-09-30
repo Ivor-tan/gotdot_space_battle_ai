@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="EnemyDesignData" format=3 uid="uid://df6av78jlvpak"]
+
+[ext_resource type="Script" uid="uid://u651y3gitnya" path="res://Data/DataCS/EnemyDesignData.cs" id="1_enemy"]
+[ext_resource type="Texture2D" uid="uid://m56s4u8l5cd5" path="res://Resource/Sprites/Alien/alien_11.png" id="1_ht10v"]
+[ext_resource type="PackedScene" path="res://Scene/Map/Enemies/ENM_ABR_BOS_ZON_001.tscn" id="2_scene"]
+
+[resource]
+script = ExtResource("1_enemy")
+EnemyId = &"ENM_ABR_BOS_ZON_001"
+DisplayName = "潮汐吞噬者"
+DisplayNameKey = &"CODEX_ENEMY_ENM_ABR_BOS_ZON_001_DISPLAYNAME"
+TierId = &"BOS"
+RoleId = &"ZON"
+Icon = ExtResource("1_ht10v")
+EnemyScene = ExtResource("2_scene")
+DropTableId = &"DROP_ENM_ABR_BOS_ZON_001"
+DropSummary = "32 微粒、3 大型经验核心；舰船招募三选一，100%。"
+DropSummaryKey = &"CODEX_ENEMY_ENM_ABR_BOS_ZON_001_DROPSUMMARY"
+TargetAndAttack = "11,500 HP / 5 层 / 88 px"
+TargetAndAttackKey = &"CODEX_ENEMY_ENM_ABR_BOS_ZON_001_TARGETANDATTACK"
+MechanicAndWarning = "优先最外侧已部署舰；仅使用单体投射物。"
+MechanicAndWarningKey = &"CODEX_ENEMY_ENM_ABR_BOS_ZON_001_MECHANICANDWARNING"
+SpawnRule = "70%、35%"
+SpawnRuleKey = &"CODEX_ENEMY_ENM_ABR_BOS_ZON_001_SPAWNRULE"
+PhaseOne = "阶段1：使用稳定的单体投射物。"
+PhaseTwo = "阶段2：使用稳定的单体投射物。"
+PhaseThree = "阶段3：使用单体投射物；核心暴露 4 秒，承受伤害 +50%。"
+

@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://donp18hgngk2x"]
+
+[ext_resource type="Texture2D" uid="uid://gj66ky50cu00" path="res://Resource/Sprites/Projectiles/Bulltet_1.png" id="1_c2h42"]
+[ext_resource type="Script" uid="uid://c0kcofddjs7qp" path="res://Scripts/Bullets/BulletController.cs" id="1_kka88"]
+[ext_resource type="Script" uid="uid://cep68ha3ptfxm" path="res://Data/DataCS/BulletStatus.cs" id="2_c3jol"]
+[ext_resource type="Script" uid="uid://b0wgh2xavvkbm" path="res://Scripts/Bullets/BulletLine.cs" id="4_104gy"]
+
+[sub_resource type="Resource" id="Resource_104gy"]
+script = ExtResource("2_c3jol")
+RotateSpeed = 2.5
+metadata/_custom_type_script = "uid://cep68ha3ptfxm"
+
+[sub_resource type="Curve" id="Curve_104gy"]
+_data = [Vector2(0.0050000027, 0.46067423), 0.0, 0.0, 0, 0, Vector2(0.905, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Gradient" id="Gradient_rxadn"]
+offsets = PackedFloat32Array(0, 0.60493827, 1)
+colors = PackedColorArray(0.08235294, 0.08235294, 0.18039216, 0.3647059, 0.45746517, 0.7097669, 0.5358051, 0.5019608, 0.36159235, 0.56368107, 0.95452374, 0.8039216)
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_c3jol"]
+radius = 6.0
+height = 56.0
+
+[node name="Bullet" type="Node2D" unique_id=1415036495 node_paths=PackedStringArray("DetectionArea", "TrailLine", "Sprite", "LifeTimer")]
+script = ExtResource("1_kka88")
+BulletStates = SubResource("Resource_104gy")
+DetectionArea = NodePath("Area2D")
+TrailLine = NodePath("TrailLine")
+Sprite = NodePath("Sprite2D")
+LifeTimer = NodePath("LifeTimer")
+
+[node name="TrailLine" type="Line2D" parent="." unique_id=670961197 node_paths=PackedStringArray("pointPosition")]
+top_level = true
+z_index = -1
+width_curve = SubResource("Curve_104gy")
+default_color = Color(0.0845015, 0.7341047, 0.915316, 1)
+gradient = SubResource("Gradient_rxadn")
+texture_mode = 1
+joint_mode = 1
+script = ExtResource("4_104gy")
+pointPosition = NodePath("..")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=485344315]
+texture = ExtResource("1_c2h42")
+
+[node name="LifeTimer" type="Timer" parent="." unique_id=1054097564]
+
+[node name="Area2D" type="Area2D" parent="." unique_id=881762064]
+collision_layer = 8
+collision_mask = 5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=663172268]
+rotation = 1.5707964
+shape = SubResource("CapsuleShape2D_c3jol")

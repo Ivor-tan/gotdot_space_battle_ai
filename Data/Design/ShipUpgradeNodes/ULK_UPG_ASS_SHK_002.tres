@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_ASS_SHK_002"
+ShipId = &"SHP_PLY_ASS_001"
+BranchId = &"ULK_UPG_ASS_SHK"
+Tier = 2
+PreviousNodeId = &"ULK_UPG_ASS_SHK_001"
+BranchName = "震荡弹头"
+EffectDescription = "震荡命中 3 敌人以上时，下一发伤害 +15%。"
+IsImplementedInRuntime = false

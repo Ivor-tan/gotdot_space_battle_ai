@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="CardBenefitData" format=3 uid="uid://xfgq10kedmhk"]
+
+[ext_resource type="Script" uid="uid://4xau2yynf0di" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"SYS_016"
+CategoryId = &"sys"
+RarityId = &"rare"
+DisplayName = "掠能核心"
+DisplayNameKey = &"CODEX_CARD_SYS_016_DISPLAYNAME"
+EffectDescription = "指定舰击杀精英子机时获得 1 层护盾。"
+EffectDescriptionKey = &"CODEX_CARD_SYS_016_EFFECTDESCRIPTION"
+SynergyDescription = "载机、清杂。"
+SynergyDescriptionKey = &"CODEX_CARD_SYS_016_SYNERGYDESCRIPTION"
+TargetScopeId = &"ship"
+RequiresTargetSelection = true
+IsImplementedInRuntime = true
+

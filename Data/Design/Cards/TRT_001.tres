@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="CardBenefitData" format=3 uid="uid://bpxtdvuufc70t"]
+
+[ext_resource type="Script" uid="uid://4xau2yynf0di" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"TRT_001"
+CategoryId = &"trt"
+RarityId = &"common"
+DisplayName = "炮击校准"
+DisplayNameKey = &"CODEX_CARD_TRT_001_DISPLAYNAME"
+EffectDescription = "全部炮击舰：射程 +12%。"
+EffectDescriptionKey = &"CODEX_CARD_TRT_001_EFFECTDESCRIPTION"
+SynergyDescription = "后排格位、聚焦棱镜。"
+SynergyDescriptionKey = &"CODEX_CARD_TRT_001_SYNERGYDESCRIPTION"
+TargetScopeId = &"fleet"
+IsImplementedInRuntime = true
+

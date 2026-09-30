@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="CardBenefitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"SIG_018"
+CategoryId = &"sig"
+RarityId = &"epic"
+DisplayName = "羁绊导航"
+DisplayNameKey = &"CODEX_CARD_SIG_018_DISPLAYNAME"
+EffectDescription = "从缺少成员的羁绊中选择 1 条；下一次舰船信标必含其缺失成员。"
+EffectDescriptionKey = &"CODEX_CARD_SIG_018_EFFECTDESCRIPTION"
+SynergyDescription = "追求指定羁绊。"
+SynergyDescriptionKey = &"CODEX_CARD_SIG_018_SYNERGYDESCRIPTION"
+TargetScopeId = &"run"
+RequiresTargetSelection = false
+IsImplementedInRuntime = false
+

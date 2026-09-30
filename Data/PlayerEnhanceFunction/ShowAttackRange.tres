@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ShowAttackRangeFunction" format=3 uid="uid://ut41l7j3si32"]
+
+[ext_resource type="Texture2D" uid="uid://i4jmuirlogqh" path="res://icon.svg" id="1_16fau"]
+[ext_resource type="PackedScene" uid="uid://bm5bircwo06gp" path="res://Scene/Player/EnhanceFunction/ShowAttackRangeFunction.tscn" id="1_kfsup"]
+[ext_resource type="Script" uid="uid://c5425xs3427ab" path="res://Data/DataCS/Enhance/ShowAttackRangeFunction.cs" id="3_kfsup"]
+
+[resource]
+script = ExtResource("3_kfsup")
+FunctionScene = ExtResource("1_kfsup")
+Name = "战术射界"
+Description = "显示旗舰当前攻击范围。"
+NameKey = &"GAMEPLAY_ENHANCE_SPECIAL_ATTACK_RANGE_NAME"
+DescriptionKey = &"GAMEPLAY_ENHANCE_SPECIAL_ATTACK_RANGE_DESCRIPTION"
+Icon = ExtResource("1_16fau")
+FunctionType = 2
+CanRepeat = false
+TargetShipId = null
+metadata/_custom_type_script = "uid://c5425xs3427ab"

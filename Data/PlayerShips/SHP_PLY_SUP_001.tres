@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="PlayerShipData" format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/PlayerShipData.cs" id="1_script"]
+[ext_resource type="Texture2D" path="res://Resource/PlayerSpaceCraft/SpaceCraft_Green.png" id="2_icon"]
+[ext_resource type="PackedScene" path="res://Scene/Player/Ships/BudPod.tscn" id="3_scene"]
+
+[resource]
+script = ExtResource("1_script")
+ShipId = &"SHP_PLY_SUP_001"
+ShipTypeId = &"support"
+FactionId = &"bio"
+RoleId = &"repair"
+RarityId = &"basic"
+DisplayName = "芽舱"
+Description = "相邻护盾支援舰。每 2 秒为护盾层数最低的相邻舰船补充 1 层护盾。"
+Icon = ExtResource("2_icon")
+ShipScene = ExtResource("3_scene")
+RecommendedPositionId = &"middle"
+RotateSpeed = 5.0
+AttackRange = 300.0
+AttackInterval = 1.5
+AttackPower = 10
+WeaponId = &"WPN_SPORE_NEEDLE"
+PassiveAbilityId = &"PAS_ADJACENT_REPAIR"
+UnlockSourceId = &"UNLOCK_START"
+UnlockLevel = 1
+DeployCost = 1
+DeployCost = 1
+TagIds = [&"bio", &"repair"]
+TraitIds = [&"heal", &"adjacent"]
+BondIds = [&"BND_PAI_002"]

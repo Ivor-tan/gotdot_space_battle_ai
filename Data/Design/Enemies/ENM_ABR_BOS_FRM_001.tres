@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="EnemyDesignData" format=3 uid="uid://6oqf0gdlehys"]
+
+[ext_resource type="Texture2D" uid="uid://rp6jpvjxb6y1" path="res://Resource/Sprites/Alien/alien_13.png" id="1_akgga"]
+[ext_resource type="Script" uid="uid://u651y3gitnya" path="res://Data/DataCS/EnemyDesignData.cs" id="1_enemy"]
+[ext_resource type="PackedScene" path="res://Scene/Map/Enemies/ENM_ABR_BOS_FRM_001.tscn" id="2_scene"]
+
+[resource]
+script = ExtResource("1_enemy")
+EnemyId = &"ENM_ABR_BOS_FRM_001"
+DisplayName = "裂环母舰"
+DisplayNameKey = &"CODEX_ENEMY_ENM_ABR_BOS_FRM_001_DISPLAYNAME"
+TierId = &"BOS"
+RoleId = &"FRM"
+Icon = ExtResource("1_akgga")
+EnemyScene = ExtResource("2_scene")
+DropTableId = &"DROP_ENM_ABR_BOS_FRM_001"
+DropSummary = "24 微粒、2 大型经验核心；三选一：稀有舰船招募 45% / 角色定向信标 55%。"
+DropSummaryKey = &"CODEX_ENEMY_ENM_ABR_BOS_FRM_001_DROPSUMMARY"
+TargetAndAttack = "7,200 HP / 3 层 / 72 px"
+TargetAndAttackKey = &"CODEX_ENEMY_ENM_ABR_BOS_FRM_001_TARGETANDATTACK"
+MechanicAndWarning = "优先前侧密集格位；若无，攻击最近舰。"
+MechanicAndWarningKey = &"CODEX_ENEMY_ENM_ABR_BOS_FRM_001_MECHANICANDWARNING"
+SpawnRule = "70%、35%"
+SpawnRuleKey = &"CODEX_ENEMY_ENM_ABR_BOS_FRM_001_SPAWNRULE"
+PhaseOne = "阶段1：使用单体投射物。"
+PhaseTwo = "阶段2：使用单体投射物。"
+PhaseThree = "阶段3 核心暴露：使用单体投射物，Boss 承受伤害 +35%。"
+

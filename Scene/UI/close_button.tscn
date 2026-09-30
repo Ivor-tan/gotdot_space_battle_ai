@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cvprn4c3axa4v"]
+
+[ext_resource type="Script" uid="uid://pc0yehdod6l0" path="res://Scripts/CloseButton.cs" id="2_mwjul"]
+
+[node name="CloseButton" type="Button" unique_id=588253072]
+custom_minimum_size = Vector2(0, 40)
+text = "UI_COMMON_CLOSE"
+script = ExtResource("2_mwjul")

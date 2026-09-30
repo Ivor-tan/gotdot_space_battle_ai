@@ -1,0 +1,47 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://xnf7ssmhva76" path="res://Scripts/Debug/DebugInfoPanel.cs" id="1_panel"]
+
+[node name="DebugInfoPanel" type="CanvasLayer"]
+process_mode = 3
+layer = 20
+visible = false
+script = ExtResource("1_panel")
+
+[node name="Panel" type="PanelContainer" parent="."]
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 380.0
+offset_bottom = 240.0
+
+[node name="VBox" type="VBoxContainer" parent="Panel"]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="Title" type="Label" parent="Panel/VBox"]
+layout_mode = 2
+text = "Debug - 玩家属性"
+
+[node name="HpLabel" type="Label" parent="Panel/VBox"]
+layout_mode = 2
+text = "生命值: -"
+
+[node name="MoveLabel" type="Label" parent="Panel/VBox"]
+layout_mode = 2
+text = "最大速度: -"
+
+[node name="RotateLabel" type="Label" parent="Panel/VBox"]
+layout_mode = 2
+text = "转向速度: -"
+
+[node name="AttackLabel" type="Label" parent="Panel/VBox"]
+layout_mode = 2
+text = "攻击范围: -"
+
+[node name="DamageLabel" type="Label" parent="Panel/VBox"]
+layout_mode = 2
+text = "子弹伤害: -"
+
+[node name="CountLabel" type="Label" parent="Panel/VBox"]
+layout_mode = 2
+text = "飞船数量: -"

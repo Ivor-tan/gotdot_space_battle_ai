@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="CardBenefitData" format=3 uid="uid://bgwpadcrvteij"]
+
+[ext_resource type="Script" uid="uid://4xau2yynf0di" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"SIG_009"
+CategoryId = &"sig"
+RarityId = &"epic"
+DisplayName = "量子僚舰信标"
+DisplayNameKey = &"CODEX_CARD_SIG_009_DISPLAYNAME"
+EffectDescription = "招募“折光”量子支援舰：相邻舰每完成 3 次攻击后获得 1 层护盾。"
+EffectDescriptionKey = &"CODEX_CARD_SIG_009_EFFECTDESCRIPTION"
+SynergyDescription = "奇点、共享电池。"
+SynergyDescriptionKey = &"CODEX_CARD_SIG_009_SYNERGYDESCRIPTION"
+TargetScopeId = &"recruitment"
+IsImplementedInRuntime = true
+

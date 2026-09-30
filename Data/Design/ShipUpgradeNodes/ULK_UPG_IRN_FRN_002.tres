@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_IRN_FRN_002"
+ShipId = &"SHP_PLY_GRD_002"
+BranchId = &"ULK_UPG_IRN_FRN"
+Tier = 2
+PreviousNodeId = &"ULK_UPG_IRN_FRN_001"
+BranchName = "前线铁幕"
+EffectDescription = "前侧相邻舰攻击范围 +10%。"
+IsImplementedInRuntime = false

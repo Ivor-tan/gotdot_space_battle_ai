@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dnsbspp0hc6dr"]
+
+[ext_resource type="Texture2D" uid="uid://cnkfpyfyhqquu" path="res://Resource/Animation/exp_100_points.png" id="1_nkacb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1d3hi"]
+atlas = ExtResource("1_nkacb")
+region = Rect2(0, 0, 94, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p8bvo"]
+atlas = ExtResource("1_nkacb")
+region = Rect2(94, 0, 94, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mmapl"]
+atlas = ExtResource("1_nkacb")
+region = Rect2(188, 0, 94, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eqmxl"]
+atlas = ExtResource("1_nkacb")
+region = Rect2(282, 0, 94, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dnh8u"]
+atlas = ExtResource("1_nkacb")
+region = Rect2(376, 0, 94, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b20fg"]
+atlas = ExtResource("1_nkacb")
+region = Rect2(470, 0, 94, 100)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1d3hi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p8bvo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mmapl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eqmxl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dnh8u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b20fg")
+}],
+"loop": false,
+"name": &"exp_ball_100",
+"speed": 5.0
+}]

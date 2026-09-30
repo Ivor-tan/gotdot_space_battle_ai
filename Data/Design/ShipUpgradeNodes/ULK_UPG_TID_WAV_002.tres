@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_TID_WAV_002"
+ShipId = &"SHP_PLY_CTL_001"
+BranchId = &"ULK_UPG_TID_WAV"
+Tier = 2
+PreviousNodeId = &"ULK_UPG_TID_WAV_001"
+BranchName = "潮汐回卷"
+EffectDescription = "目标被拉入 120 内时，附近敌人减速 15% 1 秒。"
+IsImplementedInRuntime = false
+

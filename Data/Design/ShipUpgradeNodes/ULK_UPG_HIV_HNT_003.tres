@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_HIV_HNT_003"
+ShipId = &"SHP_PLY_CAR_001"
+BranchId = &"ULK_UPG_HIV_HNT"
+Tier = 3
+PreviousNodeId = &"ULK_UPG_HIV_HNT_002"
+BranchName = "猎杀标记"
+EffectDescription = "标记死后立即转向最近标记目标并获 35% 攻速 2 秒。"
+IsImplementedInRuntime = false
+

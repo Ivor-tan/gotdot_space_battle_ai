@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_PRM_RAY_001"
+ShipId = &"SHP_PLY_GRD_001"
+BranchId = &"ULK_UPG_PRM_RAY"
+Tier = 1
+PreviousNodeId = &""
+BranchName = "折光炮幕"
+EffectDescription = "获盾后下一发分裂两束，各 60% 伤害。"
+IsImplementedInRuntime = false
+

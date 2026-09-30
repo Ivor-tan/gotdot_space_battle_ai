@@ -1,0 +1,85 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Scripts/UI/CodexDetailsPopup.cs" id="1"]
+
+[node name="CodexDetailsPopup" type="Control" node_paths=PackedStringArray("Icon", "TitleLabel", "DetailsLabel", "CloseButton", "DialogPanel")]
+visible = false
+z_index = 100
+groups = ["codex_details_popup"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 0
+script = ExtResource("1")
+Icon = NodePath("Center/Dialog/Contents/Header/Icon")
+TitleLabel = NodePath("Center/Dialog/Contents/Header/Title")
+DetailsLabel = NodePath("Center/Dialog/Contents/Details")
+CloseButton = NodePath("Center/Dialog/Contents/Close")
+DialogPanel = NodePath("Center/Dialog")
+
+[node name="Backdrop" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 0
+color = Color(0, 0, 0, 0.55)
+
+[node name="Center" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Dialog" type="PanelContainer" parent="Center"]
+custom_minimum_size = Vector2(620, 520)
+layout_mode = 2
+
+[node name="Contents" type="VBoxContainer" parent="Center/Dialog"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 24.0
+offset_top = 20.0
+offset_right = -24.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 14
+
+[node name="Header" type="HBoxContainer" parent="Center/Dialog/Contents"]
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="Icon" type="TextureRect" parent="Center/Dialog/Contents/Header"]
+custom_minimum_size = Vector2(72, 72)
+layout_mode = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Title" type="Label" parent="Center/Dialog/Contents/Header"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 26
+text = "UI_CODEX_DETAILS_TITLE"
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Details" type="Label" parent="Center/Dialog/Contents"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "UI_CODEX_DETAILS_CONTENT"
+autowrap_mode = 2
+
+[node name="Close" type="Button" parent="Center/Dialog/Contents"]
+layout_mode = 2
+text = "UI_ARCHIVE_CLOSE"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ResourceGroup" format=3 uid="uid://bdgw5vtn63txw"]
+
+[ext_resource type="Script" uid="uid://klv8tuveaql4" path="res://addons/godot_resource_groups/resource_group.gd" id="1_1p74u"]
+
+[resource]
+script = ExtResource("1_1p74u")
+base_folder = "res://Data/ExpBalls"
+includes = Array[String](["*.tres"])
+paths = Array[String](["res://Data/ExpBalls/Exp1Points.tres", "res://Data/ExpBalls/Exp5Points.tres", "res://Data/ExpBalls/Exp10Points.tres", "res://Data/ExpBalls/Exp20Points.tres", "res://Data/ExpBalls/Exp50Points.tres", "res://Data/ExpBalls/Exp100Points.tres"])
+metadata/_custom_type_script = "uid://klv8tuveaql4"

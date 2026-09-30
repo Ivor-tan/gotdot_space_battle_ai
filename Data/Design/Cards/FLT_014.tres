@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="CardBenefitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/CardBenefitData.cs" id="1_card"]
+
+[resource]
+script = ExtResource("1_card")
+CardId = &"FLT_014"
+CategoryId = &"flt"
+RarityId = &"rare"
+DisplayName = "羁绊余温"
+DisplayNameKey = &"CODEX_CARD_FLT_014_DISPLAYNAME"
+EffectDescription = "羁绊成员被击毁后，羁绊效果保留 2 秒。"
+EffectDescriptionKey = &"CODEX_CARD_FLT_014_EFFECTDESCRIPTION"
+SynergyDescription = "信号收割者反制。"
+SynergyDescriptionKey = &"CODEX_CARD_FLT_014_SYNERGYDESCRIPTION"
+TargetScopeId = &"run"
+RequiresTargetSelection = false
+IsImplementedInRuntime = false
+

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ShipUpgradeNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Data/DataCS/ShipUpgradeNodeData.cs" id="1_node"]
+
+[resource]
+script = ExtResource("1_node")
+NodeId = &"ULK_UPG_TID_WAV_001"
+ShipId = &"SHP_PLY_CTL_001"
+BranchId = &"ULK_UPG_TID_WAV"
+Tier = 1
+PreviousNodeId = &""
+BranchName = "潮汐回卷"
+EffectDescription = "牵引结束造成 25% 控制伤害。"
+IsImplementedInRuntime = false
+

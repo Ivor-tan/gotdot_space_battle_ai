@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="PlayerShipData" format=3 uid="uid://cak5tqb7l0pdk"]
+
+[ext_resource type="Script" uid="uid://chfm6671qx1of" path="res://Data/DataCS/PlayerShipData.cs" id="1_script"]
+[ext_resource type="Texture2D" uid="uid://ooi7w0w4deyp" path="res://Resource/PlayerSpaceCraft/SpaceCraft_Ice.png" id="2_icon"]
+[ext_resource type="PackedScene" path="res://Scene/Player/Ships/MagneticStorm.tscn" id="3_scene"]
+
+[resource]
+script = ExtResource("1_script")
+ShipId = &"SHP_PLY_CTL_002"
+ShipTypeId = &"control"
+FactionId = &"electromagnetic"
+RoleId = &"control"
+RarityId = &"rare"
+DisplayName = "磁暴"
+Description = "电磁控制舰。命中有 18% 概率瘫痪目标 0.8 秒，5 层过载后释放小范围电弧。"
+DisplayNameKey = null
+DescriptionKey = null
+Icon = ExtResource("2_icon")
+ShipScene = ExtResource("3_scene")
+RotateSpeed = 5.2
+AttackRange = 390.0
+AttackInterval = 1.5
+AttackPower = 16
+WeaponId = &"WPN_EM_PULSE"
+ActiveAbilityId = null
+PassiveAbilityId = &"PAS_OVERLOAD_ARC"
+UnlockSourceId = &"UNLOCK_EM_BEACON"
+UnlockLevel = 4
+DeployCost = 2
+TagIds = Array[StringName]([&"electromagnetic", &"control"])
+TraitIds = Array[StringName]([&"paralyze", &"overload"])
+BondIds = Array[StringName]([&"BND_PAI_003"])
