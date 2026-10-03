@@ -37,9 +37,8 @@ public partial class PlayerManager : Singleton<PlayerManager>
 	// 每个玩家当前持有的增益（playerIndex -> list of BaseEnhanceFunction）
 	public Godot.Collections.Dictionary<int, Array<BaseEnhanceFunction>> PlayerEnhances = new();
 
-	public override void _Ready()
+	protected override void onSingletonReady()
 	{
-		base._Ready();
 		if (GlobalMessengerManager.Instance != null)
 		{
 			GlobalMessengerManager.Instance.Connect(
@@ -78,9 +77,8 @@ public partial class PlayerManager : Singleton<PlayerManager>
 			Player.CurrentPlayerStates.MaxSpeed = FleetMoveSpeed;
 		}
 	}
-	public override void _ExitTree()
+	protected override void onSingletonExitTree()
 	{
-		base._ExitTree();
 		if (GlobalMessengerManager.Instance != null)
 		{
 			GlobalMessengerManager.Instance.OnPlayerLoss -= OnLoss;

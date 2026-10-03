@@ -1,6 +1,7 @@
 # Godot 4+ specific ignores
 .godot/
 /android/*
+/android/record_app_log.bat
 !/android/build/
 /android/build/*
 !/android/build/build.gradle
@@ -14,6 +15,7 @@
 /android/build/src/main/java/com/godot/game/GodotApp.java
 .nomedia
 .tan/task_log.md
+*.log
 
 # Godot-specific ignores
 .import/

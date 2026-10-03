@@ -12,8 +12,13 @@ public partial class MapResources : Singleton<MapResources>
 	private Array<ExpBallPointsData> ExpBalls = new();
 	// private Dictionary<ExpBallPointsType, ExpBallPointsData> ExpBalls = new();
 
-	public override void _EnterTree()
+	protected override void onSingletonEnterTree()
 	{
+		AsteroidTextureList.Clear();
+		PlanetsTexture.Clear();
+		MechanicalTexture.Clear();
+		EnemiesScenes.Clear();
+		ExpBalls.Clear();
 		ResourceGroup.Of(Assets.Asteroid_Png).LoadAllInto(AsteroidTextureList);
 		ResourceGroup.Of(Assets.Planet_Png).LoadAllInto(PlanetsTexture);
 		ResourceGroup.Of(Assets.Mechanical_Png).LoadAllInto(MechanicalTexture);

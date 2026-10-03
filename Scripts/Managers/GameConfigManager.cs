@@ -12,9 +12,8 @@ public partial class GameConfigManager : Singleton<GameConfigManager>
 
 	public bool IsProgressionDebugEnabled => GameConfig != null && GameConfig.EnableProgressionDebug;
 
-	public override void _Ready()
+	protected override void onSingletonReady()
 	{
-		base._Ready();
 		InitConfig();
 	}
 

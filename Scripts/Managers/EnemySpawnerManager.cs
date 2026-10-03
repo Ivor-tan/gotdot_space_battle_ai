@@ -35,9 +35,8 @@ public partial class EnemySpawnerManager : Singleton<EnemySpawnerManager>
 	public event Action<int> WaveChanged;
 	public event Action<int> WaveCompleted;
 	public event Action<int, EncounterRouteType, EncounterRouteType> RouteSelectionRequested;
-	public override void _Ready()
+	protected override void onSingletonReady()
 	{
-		base._Ready();
 		RunShipUpgradeState.Reset();
 		GlobalMessengerManager.Instance?.ResetRunStats();
 		SetProcess(true);

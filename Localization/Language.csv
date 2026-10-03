@@ -1,10 +1,38 @@
 id,en,zh
+UI_AD_TEST_WATCH,Watch Ad (Test),看广告（测试）
+UI_AD_TEST_HINT,Tap to consent to TapADN processing device and network data for this ad test.,点击即同意 TapADN 为广告测试处理设备及网络信息
+UI_AD_TEST_PRIVACY_NOTICE,"TapADN by Shanghai ADN Digital Technology Co. Ltd. may process OAID/IP/device/network/ad events. Optional collection and personalized ads are disabled. Policy: https://ssp.dirichlet.cn/docs/agreement/","TapADN（上海艾得蒽数字科技有限公司）可能处理 OAID、IP、设备及网络信息和广告事件。可选采集与个性化广告默认关闭。隐私政策：https://ssp.dirichlet.cn/docs/agreement/"
+UI_AD_TEST_LOADING,Loading ad…,正在加载广告…
+UI_AD_TEST_PLAYING,Ad is playing,广告播放中
+UI_AD_TEST_TIMEOUT,Loading timed out. Try again.,加载超时，请重试
+UI_AD_TEST_UNAVAILABLE,Ad testing is unavailable.,广告测试暂不可用
+UI_AD_TEST_FAILED,Ad failed. Check logs and try again.,广告失败，请查看日志并重试
+UI_AD_TEST_VERIFIED,Reward verified (test only),奖励验证成功（仅测试）
+UI_AD_TEST_NOT_VERIFIED,Reward was not verified,奖励验证未通过
+UI_AD_TEST_CLOSED,Ad closed without verified reward,广告已关闭，未获得验证奖励
+UI_AD_TEST_SKIPPED,Ad skipped,广告已跳过
 APP_NAME,Singularity of Star Ocean,星海奇点
 UI_PRIVACY_TITLE,Privacy Policy and Minor Protection,隐私政策与未成年人保护
 UI_PRIVACY_CONTENT,"Before using this game, please read and agree to the Privacy Policy.\n\nThis game stores progress and settings locally. To meet real-name verification and minor anti-addiction requirements, the game integrates TapSDK from XD (Shanghai) Network Technology Co., Ltd. TapSDK may process your TapTap account identifier, authentication status, age range, AndroidID, device model, system version, network type and network status. If manual real-name verification is selected, TapTap may process your real name and identity document number. The game operator does not locally retain your complete identity document number.\n\nTapSDK Privacy Policy: [url=https://developer.taptap.cn/docs/sdk/start/agreement/]View official policy[/url]","使用本游戏前，请阅读并同意隐私政策。\n\n本游戏在设备本地保存游戏进度和设置。为履行实名认证与未成年人防沉迷要求，本游戏接入易玩（上海）网络科技有限公司提供的 TapSDK。TapSDK 可能处理您的 TapTap 账号标识、认证状态、年龄段、AndroidID、设备型号、系统版本、网络类型及网络状态。选择手动实名认证时，TapTap 还可能处理您的真实姓名和身份证件号码；游戏运营方不会在本地保存您的完整身份证件号码。\n\nTapSDK 隐私政策：[url=https://developer.taptap.cn/docs/sdk/start/agreement/]查看官方政策[/url]"
 UI_PRIVACY_HINT,TapSDK will be initialized only after you agree. If you disagree the game will exit.,同意后才会初始化 TapSDK；若不同意，游戏将退出。
 UI_PRIVACY_REJECT,Disagree and Exit,不同意并退出
 UI_PRIVACY_ACCEPT,Agree and Continue,同意并继续
+UI_COMPLIANCE_TITLE,Game Health Reminder,游戏健康提醒
+UI_COMPLIANCE_SUBTITLE,Minor Anti-addiction Notice,未成年人防沉迷提示
+UI_COMPLIANCE_CODE,TapTap compliance code: {0},TapTap 合规状态码：{0}
+UI_COMPLIANCE_LOGIN_FAILED,TapTap login failed. Log in again and complete verification before entering the game.,TapTap 登录失败。请重新登录并完成认证后再进入游戏。
+UI_COMPLIANCE_LOGIN_CANCELLED,TapTap login was cancelled. You must log in and complete verification before entering the game.,您已取消 TapTap 登录。登录并完成认证后才能进入游戏。
+UI_COMPLIANCE_SESSION_EXITED,The compliance session ended or the authentication credential is invalid. Log in and verify again.,合规认证已退出或认证凭证失效，请重新登录并完成认证。
+UI_COMPLIANCE_ACCOUNT_SWITCHED,The TapTap account has changed. Complete verification with the new account before entering the game.,TapTap 账号已切换，请使用新账号完成认证后再进入游戏。
+UI_COMPLIANCE_PERIOD_RESTRICTED,"This account belongs to a minor and is protected by the anti-addiction system. Under national online-game anti-addiction requirements, times outside 20:00–21:00 on Fridays, Saturdays, Sundays and statutory holidays are protected periods. Gameplay is unavailable now. Please manage your time responsibly.","您当前为未成年账号，已被纳入防沉迷系统。根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》《关于进一步严格管理 切实防止未成年人沉迷网络游戏的通知》，周五、周六、周日及法定节假日20点至21点之外为健康保护时段。当前时间段无法游玩，请合理安排时间。"
+UI_COMPLIANCE_DURATION_LIMITED,"This account belongs to a minor and is protected by the anti-addiction system. The available play time has been used up under national online-game anti-addiction requirements. Gameplay is unavailable now. Please manage your time responsibly.","您当前为未成年账号，已被纳入防沉迷系统。根据国家网络游戏防沉迷相关规定，当前账号的可玩时长已用完。当前时间段无法游玩，请合理安排时间。"
+UI_COMPLIANCE_AGE_LIMITED,"This account belongs to a minor and is protected by the anti-addiction system. The account does not meet this game's configured age requirement and cannot enter gameplay.","您当前为未成年账号，已被纳入防沉迷系统。根据本游戏适龄设置，当前账号未达到允许进入游戏的年龄要求，暂时无法游玩。"
+UI_COMPLIANCE_NETWORK_ERROR,"Compliance verification failed. Check the network and try again. If the problem continues, verify the game configuration.",合规认证请求失败，请检查网络后重试；如果持续失败，请检查游戏配置。
+UI_COMPLIANCE_REAL_NAME_STOPPED,Real-name verification was not completed. Complete verification before entering the game.,实名认证尚未完成，完成认证后才能进入游戏。
+UI_COMPLIANCE_UNKNOWN_ERROR,Compliance verification did not pass. Complete verification before entering the game.,合规认证未通过，完成认证后才能进入游戏。
+UI_COMPLIANCE_RETRY,Retry Verification,重试认证
+UI_COMPLIANCE_REAUTHENTICATE,Log In and Verify Again,重新登录并认证
+UI_COMPLIANCE_EXIT,Exit Game,退出游戏
 UI_MAIN_PLAY,Play,开始游戏
 UI_MAIN_CONTINUE,Continue,继续游戏
 UI_MAIN_ARCHIVE,Blueprints / Ship Archive,蓝图库 / 飞船档案

@@ -14,9 +14,8 @@ public partial class EnhanceFunctionManager : Singleton<EnhanceFunctionManager>
     private StringName _pendingRecruitFactionId;
     private StringName _pendingRecruitRoleId;
 
-    public override void _Ready()
+    protected override void onSingletonReady()
     {
-        base._Ready();
         loadEnhanceFunctions();
         loadCardBenefits();
         ResourceGroup.Of(Assets.Ship_Upgrade_Nodes).LoadAllInto(_shipUpgradeNodes);

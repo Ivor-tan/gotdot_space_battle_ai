@@ -1,0 +1,1 @@
+-keep class com.ivortan.godot_taptap_ad.** { *; }

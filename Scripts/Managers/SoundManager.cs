@@ -15,9 +15,8 @@ public partial class SoundManager : Singleton<SoundManager>
 	private Dictionary<string, AudioStream> _sounds = new();
 	private List<AudioStream> SoundList = new();
 
-	public override void _Ready()
+	protected override void onSingletonReady()
 	{
-		base._Ready();
 
 		// 自动加载该路径下所有音频
 		ResourceGroup.Of(Assets.Sound_Rse).LoadAllInto(SoundList);

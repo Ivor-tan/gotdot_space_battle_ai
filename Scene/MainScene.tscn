@@ -26,6 +26,7 @@
 [ext_resource type="Script" uid="uid://dtbc47ttdgleu" path="res://Scripts/UI/MetaUpgradeCanvas.cs" id="39_meta_canvas"]
 [ext_resource type="PackedScene" path="res://Scene/UI/CodexListItem.tscn" id="40_codex_item"]
 [ext_resource type="PackedScene" path="res://Scene/UI/CodexDetailsPopup.tscn" id="41_codex_details"]
+[ext_resource type="PackedScene" path="res://Scene/UI/RewardAdTestControl.tscn" id="42_ad_test"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ly247"]
 shader = ExtResource("3_l7vlk")
@@ -528,6 +529,9 @@ text = "UI_MAIN_SETTINGS"
 layout_mode = 2
 theme_override_font_sizes/font_size = 32
 text = "UI_MAIN_QUIT"
+
+[node name="RewardAdTestControl" parent="MainBG_1/MainMenu/PanelContainer/Gruop" unique_id=1137914774 instance=ExtResource("42_ad_test")]
+layout_mode = 2
 
 [node name="Settings" type="MarginContainer" parent="MainBG_1" unique_id=2000401164]
 visible = false

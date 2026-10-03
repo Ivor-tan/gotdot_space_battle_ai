@@ -69,6 +69,7 @@ public partial class MainSceneUI : CanvasLayer
     private const float MediumViewportWidth = 960.0f;
     private ScrollContainer _codexScroll;
     private int _selectedInitialShipIndex;
+    private TapTapComplianceDialog _complianceDialog;
 
     public override void _Ready()
     {
@@ -91,8 +92,16 @@ public partial class MainSceneUI : CanvasLayer
             GameConfigManager.Instance.LanguageChanged += onLanguageChanged;
         }
 
+        if (TapTapComplianceManager.Instance != null && IsInstanceValid(TapTapComplianceManager.Instance))
+        {
+            TapTapComplianceManager.Instance.AuthenticationSucceeded += onComplianceAuthenticationSucceeded;
+            TapTapComplianceManager.Instance.AuthenticationBlocked += onComplianceAuthenticationBlocked;
+        }
+
+        updateComplianceAccessControls();
         refreshCodexTabTitles();
         CallDeferred(nameof(updateMainMenuPopupLayout));
+        CallDeferred(nameof(showLastComplianceBlockIfNeeded));
         SoundManager.Instance.PlayMusicFade("Main_BGM");
     }
 
@@ -113,6 +122,14 @@ public partial class MainSceneUI : CanvasLayer
         {
             GameConfigManager.Instance.LanguageChanged -= onLanguageChanged;
         }
+
+        if (TapTapComplianceManager.Instance != null && IsInstanceValid(TapTapComplianceManager.Instance))
+        {
+            TapTapComplianceManager.Instance.AuthenticationSucceeded -= onComplianceAuthenticationSucceeded;
+            TapTapComplianceManager.Instance.AuthenticationBlocked -= onComplianceAuthenticationBlocked;
+        }
+
+        disconnectComplianceDialog();
     }
 
     private void connectButtons()
@@ -191,6 +208,11 @@ public partial class MainSceneUI : CanvasLayer
 
     private void onGameContinue()
     {
+        if (!ensureComplianceAllowsGameplay())
+        {
+            return;
+        }
+
         if (!RunConfiguration.tryLoadLastConfiguration())
         {
             refreshContinueButton();
@@ -349,6 +371,12 @@ public partial class MainSceneUI : CanvasLayer
 
     private void onStart()
     {
+        if (!ensureComplianceAllowsGameplay())
+        {
+            showLastComplianceBlockIfNeeded();
+            return;
+        }
+
         setWindowVisible(runSetupWindow, true);
     }
 
@@ -1040,6 +1068,11 @@ public partial class MainSceneUI : CanvasLayer
 
     private void startConfiguredRun()
     {
+        if (!ensureComplianceAllowsGameplay())
+        {
+            return;
+        }
+
         if (_initialShipOptions.Count == 0 || initialShipSelector == null || difficultySelector == null || waveSelector == null)
         {
             LogUtil.Warning("Run setup cannot start because no initial ship is available.");
@@ -1067,6 +1100,151 @@ public partial class MainSceneUI : CanvasLayer
         _ = SceneManager.Instance.ChangeScene(Assets.MainGameScene);
     }
 
+    private bool ensureComplianceAllowsGameplay()
+    {
+        if (!OS.HasFeature("android"))
+        {
+            return true;
+        }
+
+        TapTapComplianceManager complianceManager = TapTapComplianceManager.Instance;
+        if (complianceManager != null && IsInstanceValid(complianceManager) && complianceManager.CanEnterGameplay)
+        {
+            return true;
+        }
+
+        LogUtil.Warning("Gameplay entry was blocked until TapTap real-name and anti-addiction verification succeeds.");
+        if (complianceManager != null && IsInstanceValid(complianceManager) && !complianceManager.IsVerificationPending)
+        {
+            complianceManager.BeginVerification();
+        }
+
+        return false;
+    }
+
+    private void onComplianceAuthenticationSucceeded()
+    {
+        dismissComplianceDialog();
+        updateComplianceAccessControls();
+        LogUtil.Success("Main menu gameplay entry is enabled by TapTap compliance.");
+    }
+
+    private void onComplianceAuthenticationBlocked(long code)
+    {
+        updateComplianceAccessControls();
+        showComplianceBlockedDialog(code);
+        LogUtil.Warning($"Main menu gameplay entry remains blocked by TapTap compliance code {code}.");
+    }
+
+    private void showLastComplianceBlockIfNeeded()
+    {
+        if (!OS.HasFeature("android"))
+        {
+            return;
+        }
+
+        TapTapComplianceManager complianceManager = TapTapComplianceManager.Instance;
+        if (complianceManager == null || !IsInstanceValid(complianceManager) ||
+            complianceManager.CanEnterGameplay || complianceManager.LastComplianceCode == 0)
+        {
+            return;
+        }
+
+        showComplianceBlockedDialog(complianceManager.LastComplianceCode);
+    }
+
+    private void showComplianceBlockedDialog(long code)
+    {
+        if (_complianceDialog != null && IsInstanceValid(_complianceDialog))
+        {
+            _complianceDialog.Configure(code);
+            return;
+        }
+
+        PackedScene dialogScene = GD.Load<PackedScene>(Assets.TapTapComplianceDialog);
+        _complianceDialog = dialogScene?.Instantiate<TapTapComplianceDialog>();
+        if (_complianceDialog == null)
+        {
+            LogUtil.Error("TapTap compliance dialog could not be loaded.");
+            return;
+        }
+
+        _complianceDialog.RetryRequested += onComplianceRetryRequested;
+        _complianceDialog.ExitRequested += onComplianceExitRequested;
+        AddChild(_complianceDialog);
+        _complianceDialog.Configure(code);
+    }
+
+    private void onComplianceRetryRequested()
+    {
+        dismissComplianceDialog();
+        updateComplianceAccessControls();
+
+        TapTapComplianceManager complianceManager = TapTapComplianceManager.Instance;
+        if (complianceManager == null || !IsInstanceValid(complianceManager))
+        {
+            LogUtil.Error("TapTap compliance verification cannot retry because the manager is unavailable.");
+            return;
+        }
+
+        complianceManager.BeginVerification();
+    }
+
+    private void onComplianceExitRequested()
+    {
+        GetTree().Quit();
+    }
+
+    private void updateComplianceAccessControls()
+    {
+        bool isBlocked = isComplianceBlockingGameplay();
+        if (gameStart != null && IsInstanceValid(gameStart))
+        {
+            gameStart.Disabled = isBlocked;
+        }
+
+        if (runSetupConfirm != null && IsInstanceValid(runSetupConfirm))
+        {
+            runSetupConfirm.Disabled = isBlocked;
+        }
+
+        refreshContinueButton();
+    }
+
+    private static bool isComplianceBlockingGameplay()
+    {
+        if (!OS.HasFeature("android"))
+        {
+            return false;
+        }
+
+        TapTapComplianceManager complianceManager = TapTapComplianceManager.Instance;
+        return complianceManager == null || !IsInstanceValid(complianceManager) || !complianceManager.CanEnterGameplay;
+    }
+
+    private void disconnectComplianceDialog()
+    {
+        if (_complianceDialog == null || !IsInstanceValid(_complianceDialog))
+        {
+            _complianceDialog = null;
+            return;
+        }
+
+        _complianceDialog.RetryRequested -= onComplianceRetryRequested;
+        _complianceDialog.ExitRequested -= onComplianceExitRequested;
+    }
+
+    private void dismissComplianceDialog()
+    {
+        disconnectComplianceDialog();
+        if (_complianceDialog != null && IsInstanceValid(_complianceDialog))
+        {
+            _complianceDialog.QueueFree();
+        }
+
+        _complianceDialog = null;
+    }
+
     private void refreshContinueButton()
     {
         if (gameContinue == null || !IsInstanceValid(gameContinue))
@@ -1075,7 +1253,7 @@ public partial class MainSceneUI : CanvasLayer
         }
 
         bool hasLastRun = RunConfiguration.hasLastConfiguration();
-        gameContinue.Disabled = !hasLastRun;
+        gameContinue.Disabled = !hasLastRun || isComplianceBlockingGameplay();
         gameContinue.TooltipText = hasLastRun
             ? "使用最近一次选择的初始舰船、难度和波次规则开始新一局。"
             : "完成一次开局配置后可继续使用最近的配置。";

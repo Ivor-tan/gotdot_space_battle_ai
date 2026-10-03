@@ -15,9 +15,8 @@ public partial class ObjectPoolManager : Singleton<ObjectPoolManager>
 	// 二级根节点：PoolType -> { SceneName -> Node }
 	private readonly Dictionary<PoolType, Dictionary<string, Node2D>> SubRoots = new();
 
-	public override void _Ready()
+	protected override void onSingletonReady()
 	{
-		base._Ready();
 		foreach (var entry in PoolConfigs)
 		{
 			if (entry == null || entry.Scene == null) continue;

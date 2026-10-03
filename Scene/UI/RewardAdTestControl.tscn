@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Scripts/UI/RewardAdTestControl.cs" id="1"]
+
+[node name="RewardAdTestControl" type="VBoxContainer" node_paths=PackedStringArray("WatchButton", "StatusLabel")]
+script = ExtResource("1")
+WatchButton = NodePath("WatchButton")
+StatusLabel = NodePath("Status")
+
+[node name="WatchButton" type="Button" parent="."]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "UI_AD_TEST_WATCH"
+
+[node name="Status" type="Label" parent="."]
+custom_minimum_size = Vector2(320, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+tooltip_text = "UI_AD_TEST_PRIVACY_NOTICE"
+text = "UI_AD_TEST_HINT"
+horizontal_alignment = 1
+autowrap_mode = 3

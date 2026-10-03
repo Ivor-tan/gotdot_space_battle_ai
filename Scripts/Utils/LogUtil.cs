@@ -20,6 +20,16 @@ public static class LogUtil
     }
 
     /// <summary>
+    /// Runtime diagnostics that must remain visible in exported builds, including Android logcat.
+    /// Do not include credentials, access tokens, or personally identifiable account data.
+    /// </summary>
+    public static void RuntimeInfo(object message, [CallerFilePath] string path = "")
+    {
+        if (!IsEnabled) return;
+        PrintFormatted("RUNTIME", message, "cyan", path);
+    }
+
+    /// <summary>
     /// 警告信息
     /// </summary>
     public static void Warning(object message, [CallerFilePath] string path = "")

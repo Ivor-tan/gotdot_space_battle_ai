@@ -28,4 +28,9 @@ public final class TapTapCredentialsPlugin extends GodotPlugin {
     private String getRegion() {
         return BuildConfig.TAPTAP_REGION;
     }
+
+    @UsedByGodot
+    private String getAdMediaKey() {
+        return BuildConfig.TAPTAP_AD_MEDIA_KEY;
+    }
 }

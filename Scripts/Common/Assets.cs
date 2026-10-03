@@ -1,6 +1,7 @@
 // Auto generated file
 public static class Assets
 {
+    public const string RewardAdTestControl = "res://Scene/UI/RewardAdTestControl.tscn";
     public const string EnemyBullet = "res://Scene/Common/EnemyBullet.tscn";
     public const string ExpBall = "res://Scene/Common/ExpBall.tscn";
     public const string PlayerBullet = "res://Scene/Common/PlayerBullet.tscn";
@@ -37,6 +38,7 @@ public static class Assets
     public const string CodexListItem = "res://Scene/UI/CodexListItem.tscn";
     public const string ShipArchiveItem = "res://Scene/UI/ShipArchiveItem.tscn";
     public const string ShipUpgradeShipSelector = "res://Scene/UI/ShipUpgradeShipSelector.tscn";
+    public const string TapTapComplianceDialog = "res://Scene/UI/TapTapComplianceDialog.tscn";
     public const string UI_Gaming = "res://Scene/UI/UI_Gaming.tscn";
     public const string Asteroid_Png = "res://Assets/PngRse/Asteroid_Png.tres";
     public const string Mechanical_Png = "res://Assets/PngRse/Mechanical_Png.tres";

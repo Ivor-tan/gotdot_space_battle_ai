@@ -39,6 +39,7 @@ def asBuildConfigString = { String value ->
 def tapTapClientId = readTapTapBuildValue('TAPTAP_CLIENT_ID', 'client_id')
 def tapTapClientToken = readTapTapBuildValue('TAPTAP_CLIENT_TOKEN', 'client_token')
 def tapTapRegion = readTapTapBuildValue('TAPTAP_REGION', 'region', 'CN')
+def tapTapAdMediaKey = readTapTapBuildValue('TAPTAP_AD_MEDIA_KEY', 'ad_media_key')
 
 if (tapTapClientId.isEmpty() || tapTapClientToken.isEmpty()) {
     throw new GradleException('TapTap build credentials are missing. Set TAPTAP_CLIENT_ID and TAPTAP_CLIENT_TOKEN, or provide Config/TapTapSecrets.local.cfg.')
@@ -99,6 +100,12 @@ dependencies {
     implementation 'com.taptap.sdk:tap-relation:4.10.7'
     implementation 'com.taptap.sdk:tap-leaderboard-androidx:4.10.7'
 
+    // Dirichlet / TapADN Godot bridge and official Android SDK 5.3.0.1.
+    debugImplementation files('../../addons/GodotTapTapAdSDK/bin/debug/GodotTapTapAdSDK-debug.aar')
+    releaseImplementation files('../../addons/GodotTapTapAdSDK/bin/release/GodotTapTapAdSDK-release.aar')
+    implementation files('../../addons/GodotTapTapAdSDK/libs/dirichlet_ad_5.3.0.1.aar')
+    implementation 'com.squareup.okhttp3:okhttp:3.12.1'
+
     if (rootProject.findProject(":lib")) {
         implementation project(":lib")
     } else if (rootProject.findProject(":godot:lib")) {
@@ -139,7 +146,18 @@ dependencies {
     // Godot user plugins local dependencies
     String[] pluginsBinaries = getGodotPluginsLocalBinaries()
     if (pluginsBinaries != null && pluginsBinaries.size() > 0) {
-        implementation files(pluginsBinaries)
+        // 打开的编辑器可能仍持有更名前的导出插件实例，兼容其旧 AAR 路径。
+        def resolvedPluginBinaries = pluginsBinaries.collect { String binary ->
+            String normalized = binary.replace('\\', '/')
+            String legacyRoot = '/addons/GodotDirichletSDK/'
+            if (normalized.contains(legacyRoot)) {
+                normalized = normalized.replace(legacyRoot, '/addons/GodotTapTapAdSDK/')
+                        .replace('GodotDirichletSDK-debug.aar', 'GodotTapTapAdSDK-debug.aar')
+                        .replace('GodotDirichletSDK-release.aar', 'GodotTapTapAdSDK-release.aar')
+            }
+            return normalized
+        }.unique()
+        implementation files(resolvedPluginBinaries)
     }
 
     // Automatically pick up local dependencies in res://addons
@@ -195,6 +213,7 @@ android {
         buildConfigField 'String', 'TAPTAP_CLIENT_ID', asBuildConfigString(tapTapClientId)
         buildConfigField 'String', 'TAPTAP_CLIENT_TOKEN', asBuildConfigString(tapTapClientToken)
         buildConfigField 'String', 'TAPTAP_REGION', asBuildConfigString(tapTapRegion)
+        buildConfigField 'String', 'TAPTAP_AD_MEDIA_KEY', asBuildConfigString(tapTapAdMediaKey)
 
         missingDimensionStrategy 'products', 'template'
 

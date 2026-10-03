@@ -56,6 +56,8 @@ GameConfigManager="*uid://b4tthuvmokei1"
 GodotTapTap="*uid://nv8rnb4xmifr"
 TapTapComplianceManager="*res://Scripts/Managers/TapTapComplianceManager.cs"
 _mcp_game_helper="*res://addons/godot_ai/runtime/game_helper.gd"
+GodotTapTapAd="*uid://dge0tvysnmv1k"
+TapTapAdManager="*res://Scripts/Managers/TapTapAdManager.cs"
 
 [display]
 
@@ -69,7 +71,7 @@ project/assembly_name="HexGame"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/GodotTapTapSDK/plugin.cfg", "res://addons/asset_path_maintenance/plugin.cfg", "res://addons/godot_ai/plugin.cfg", "res://addons/godot_resource_groups/plugin.cfg", "res://addons/phantom_camera/plugin.cfg", "res://addons/resources_spreadsheet_view/plugin.cfg")
+enabled=PackedStringArray("res://addons/GodotTapTapAdSDK/plugin.cfg", "res://addons/GodotTapTapSDK/plugin.cfg", "res://addons/asset_path_maintenance/plugin.cfg", "res://addons/godot_ai/plugin.cfg", "res://addons/godot_resource_groups/plugin.cfg", "res://addons/phantom_camera/plugin.cfg", "res://addons/resources_spreadsheet_view/plugin.cfg")
 
 [godot_resource_groups]
 
